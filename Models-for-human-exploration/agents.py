@@ -233,7 +233,7 @@ class fRL(baseAgent):
 
     def _init_W(self):
         self.W = np.zeros([self.nD*self.nF])
-        self.W = self.W.reshape(3,3)
+        self.W = self.W.reshape(self.nD,self.nF)
         self.Q_buffer = []
         self.Q_index = []
     # --------- decision --------- #
@@ -242,24 +242,18 @@ class fRL(baseAgent):
 
         # Softmax(βV(s_i)): V(s_i) = ∑_fW(f)
         Q_values = []
-        Q_index = []
-        #print(input_data.shape)
+        #print(input_data)
         for i in range(input_data.shape[0]):
             q_val = 0
             for j in range(input_data.shape[1]):
-                #print(input_data[i])
+                # print(input_data[i])
                 q_val += (self.W[j][input_data[i][j]-1]) 
-            
-            Q_index.append(np.array(input_data[i]))
             Q_values.append(q_val)
         
-        Q_index = np.array(Q_index)
         Q_values = np.array(Q_values)
-        #print(Q_values)
-        #exit()
-        self.Q_buffer = Q_values.reshape(3,3)
-        self.Q_index = Q_index.reshape(3,3,3)   ### in editing
-        print(Q_index)
+        self.Q_buffer = Q_values
+        # print(self.Q_buffer)
+        self.Q_index = input_data   ### in editing
         P_s = softmax(self.beta*Q_values)
         return np.argsort(P_s)[::-1]
     
@@ -268,47 +262,74 @@ class fRL(baseAgent):
     def update_V(self,r):
 
         # get data 
+        #print(self.Q_buffer)
         coefficient = [0.6, 0.3, 0.1]  ## can be free parameters
-        for i in range(self.Q_buffer.shape[0]):
-            for j in range(self.Q_buffer.shape[1]):
-                rpe = coefficient[i]*r - self.Q_buffer[i][j]
-                #print(action[i])
-                #print(j)
-                #print(Q_table[action[(0+j*3):(3+j*3)]])
-                index = self.Q_index[i][j]
-                for k in range(index.shape[0]):
-                    self.W[k][index[k]-1] += self.eta*rpe 
+        for i in range(self.Q_index.shape[0]):
+            for j in range(self.Q_index.shape[1]):
+                rpe = coefficient[int(i/3)]*r - self.Q_buffer[i]
+                self.W[j][self.Q_index[i][j]-1] += self.eta*rpe
+                #print(self.Q_index[i][j])
+                #print(self.W) 
+        #exit()
         return self.W
     
-class fRL_decay(fRL):
-    '''The feature RL with decay'''
+class fRL(baseAgent):
+    '''The feature RL'''
     name  = 'feature RL'
-    pname = ['η', 'd', 'β']
-    pval  = [.122, 0.466, 10.33]
+    pname = ['η', 'β']
+    pval  = [.047, 14.73]
 
     # ---------- init --------- #
 
     def __init__(self, nD, nF, params):
         super().__init__(nD, nF, params)
+        self._init_W()
 
     def _load_params(self, params):
         self.eta  = params[0]
-        self.d    = params[1]
-        self.beta = params[2]
+        self.beta = params[1]
 
-    def learn(self):
-        self.decay()
-        self.update_V()
+    def _init_W(self):
+        self.W = np.zeros([self.nD*self.nF])
+        self.W = self.W.reshape(self.nD,self.nF)
+        self.Q_buffer = []
+        self.Q_index = []
+    # --------- decision --------- #
+
+    def policy(self, input_data):
+
+        # Softmax(βV(s_i)): V(s_i) = ∑_fW(f)
+        Q_values = []
+        #print(input_data)
+        for i in range(input_data.shape[0]):
+            q_val = 0
+            for j in range(input_data.shape[1]):
+                # print(input_data[i])
+                q_val += (self.W[j][input_data[i][j]-1]) 
+            Q_values.append(q_val)
         
-    def decay(self):
+        Q_values = np.array(Q_values)
+        self.Q_buffer = Q_values
+        # print(self.Q_buffer)
+        self.Q_index = input_data   ### in editing
+        P_s = softmax(self.beta*Q_values)
+        return np.argsort(P_s)[::-1]
+    
+    # --------- learning --------- #
 
-        # retrieve memory 
-        stims, a = self.mem.sample('s', 'a')
-        f_chosen = self.s_embed(stims)[a]
+    def update_V(self,r):
 
-        # W(f) = (1-d)W(f)  ∀f is not chosen
-        f_unchosen = 1 - f_chosen
-        self.W -= self.d*self.W*f_unchosen
+        # get data 
+        #print(self.Q_buffer)
+        coefficient = [0.6, 0.3, 0.1]  ## can be free parameters
+        for i in range(self.Q_index.shape[0]):
+            for j in range(self.Q_index.shape[1]):
+                rpe = coefficient[int(i/3)]*r - self.Q_buffer[i]
+                self.W[j][self.Q_index[i][j]-1] += self.eta*rpe 
+                #print(self.Q_index[i][j])
+                #print(self.W) 
+        #exit()
+        return self.W
 
 class bayes(fRL):
     '''The bayesian learning model'''
