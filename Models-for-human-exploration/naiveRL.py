@@ -70,8 +70,8 @@ while(True):
         total_step +=1
         if reward == 100:
             print(f'total steps is {total_step}')
-            print(Q_table)
-            print(all_unique_values)
+            #print(Q_table)
+            #print(all_unique_values)
             exit()
 
 

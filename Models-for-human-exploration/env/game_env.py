@@ -99,6 +99,7 @@ class Env(object):
             #print(i)
             Main_dim_1_reward+=level_order_reward[str(i[self.reward_dim[0]])]
             Main_dim_2_reward += level_order_reward[str(i[self.reward_dim[1]])]
+            #print()
             block_reward.append(Main_dim_1_reward+Main_dim_2_reward)
             #print(Main_dim_1_reward+Main_dim_2_reward)    # reward of every line
         block_reward = np.array(block_reward)

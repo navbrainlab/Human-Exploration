@@ -21,7 +21,7 @@ args = parser.parse_args()
 
 env = Env()
 phase = args.phase
-phase = 'P2'
+phase = 'P1'
 #embed_model = SentenceTransformer('paraphrase-MiniLM-L6-v2')
 
 
@@ -38,15 +38,17 @@ print(pth)
 data = env.load_round_env(phase, pth)
 dim, steps = data.shape
 
-pval  = [0.1, 10]
+pval  = [10]
 np.random.seed(1)
-policy = agents.fRL(nD, nF, pval)
+
+policy = agents.bayes(nD, nF, pval)
 
 all_unique_values = pd.unique(data.values.ravel())
 num_q = all_unique_values.shape[0]
 Q_table = np.zeros(num_q)
 
 total_step = 0
+reward_all = []
 while(True):
     for i in range(steps):
         input_data = data[f'{i}'].values
@@ -63,16 +65,21 @@ while(True):
         act_index = indices[0][action]
         #print(act_index)
         reward = env.calc_reward(act_data)
+        reward_all.append(reward)
+        reward_mean = np.mean(reward)
+        real_reward = reward - 75
         print(reward)
         
         #print(Q_table)
-        W_val = policy.update_V(reward)
-        #print(f'W_val is {W_val}')
+        p_F = policy.update_Bel(real_reward)
+        print(f'p_F is {p_F}')
         #print(act_index)
         total_step +=1
         if reward == 100:
             print(f'total steps is {total_step}')
             #print(Q_table)
-            print(f'W_val is {W_val}')
-            #print(all_unique_values)
+            print(all_unique_values)
             exit()
+
+
+

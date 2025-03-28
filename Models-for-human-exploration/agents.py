@@ -215,6 +215,70 @@ class naiveRL(baseAgent):
             
         return Q_table
 
+class naiveRL_decay(baseAgent):
+    '''The naive RL'''
+    name  = 'naive RL'
+    pname = ['η', 'β']
+    pval  = [.431, 5.55, 0.1]
+    
+    # ---------- init --------- #
+
+    def __init__(self, nD, nF, params):
+        super().__init__(nD, nF, params)
+
+        
+    def _load_params(self, params):
+        self.eta  = params[0]
+        self.beta = params[1]
+        self.epsilon = params[2]
+
+    # --------- decision --------- #
+
+    def policy(self, stims):
+
+        
+        # Softmax(βV(s_i))
+        P_s = softmax(self.beta*stims)  # probability distribution
+        action = []
+        #print(P_s)
+        if random.uniform(0, 1) < self.epsilon:  # Exploration
+            action = np.random.choice(9, size=9, replace=False)
+            #print(action)
+            #print('stochastic')
+            return action
+        else:  # Exploitation (choose best known action)
+            #print('deterministic')
+            return np.argsort(P_s)[::-1]
+        
+    
+    # --------- learning --------- #
+
+    def learn(self, action, r, Q_table):
+        Q_table = self.update_V(action, r, Q_table)
+        return Q_table
+
+    def update_V(self, action, r, Q_table):
+
+        # update: V(s_chosen) = V(s_chosen) + η(r-V(s_chosen))
+        coefficient = [0.6, 0.3, 0.1]  ## can be free parameters
+        #print(Q_table)
+        #exit()
+        for i in range(action.shape[0]):
+            j = int(i/3)
+            rpe = coefficient[j]*r - Q_table[action[i]]
+            #print(action[i])
+            #print(j)
+            #print(Q_table[action[(0+j*3):(3+j*3)]])
+            Q_table[action[i]] += self.eta*rpe 
+        
+        all_index = np.arange(0, Q_table.shape[0])
+        decay_index = np.setdiff1d(all_index, action)
+        #print(decay_index)
+        #exit()
+        for i in range(decay_index.shape[0]):
+            Q_table[decay_index[i]] = Q_table[decay_index[i]]*0.9  # decay rate  
+        return Q_table
+
 class fRL(baseAgent):
     '''The feature RL'''
     name  = 'feature RL'
@@ -324,7 +388,7 @@ class fRL(baseAgent):
         coefficient = [0.6, 0.3, 0.1]  ## can be free parameters
         for i in range(self.Q_index.shape[0]):
             for j in range(self.Q_index.shape[1]):
-                rpe = coefficient[int(i/3)]*r - self.Q_buffer[i]
+                rpe = coefficient[int(i/3)]*r - self.Q_buffer[i]   # coefficient[int(i/3)]
                 self.W[j][self.Q_index[i][j]-1] += self.eta*rpe 
                 #print(self.Q_index[i][j])
                 #print(self.W) 
@@ -350,50 +414,55 @@ class bayes(fRL):
         # The probability of each feature being 
         # the target feature is initialized at 1/9 
         # at the beginning of a game 
-        n = self.nD*self.nF
-        self.p_F = np.ones([n, 1]) / n
+        
+        self.p_F = np.ones([self.nD*self.nF])/(self.nD*self.nF)
+       
+        self.p_F = self.p_F.reshape(self.nD,self.nF)
 
     # --------- decision --------- #
 
-    def policy(self, stims):
+    def policy(self, input_data):
         
-        # construct V(s_i)
-        ss_fea = self.s_embed(stims)
-        v_stims = [] 
-        for s_fea in ss_fea:
-            # Here p(R=1|f,S)=.75 for features f contained in S,
-            # and p(R=1|f,S)=.25 for those that are not part of 
-            # the evaluated stimulus.
-            p_r1FS = .25+.5*(np.eye(self.nD*self.nF
-                        )@s_fea.reshape([-1, 1])) # nDFxnDF @ nDFx1 = nDFx1
-            v_stims.append((p_r1FS.T@self.p_F).sum()) # 1xnDF @ nDFx1 = 1x1
-        v_stims = np.array(v_stims)
-
-        # Softmax(βV(s_i))
-        return softmax(self.beta*v_stims)
+        Q_values = []
+        #print(input_data)
+        for i in range(input_data.shape[0]):
+            q_val = 0
+            for j in range(input_data.shape[1]):
+                # print(input_data[i])
+                q_val += (self.p_F[j][input_data[i][j]-1]) 
+            Q_values.append(q_val)
+        
+        Q_values = np.array(Q_values)
+        self.Q_buffer = Q_values
+        # print(self.Q_buffer)
+        self.Q_index = input_data   
+        P_s = softmax(self.beta*Q_values)
+        return np.argsort(P_s)[::-1]
     
     # --------- learning --------- #
 
-    def learn(self):
-        self.update_Bel()
-
-    def update_Bel(self):
+    def update_Bel(self, r):
         
-        # Retrieve memory 
-        stims, a, r = self.mem.sample('s', 'a', 'r')
-        f_chosen = (self.s_embed(stims)[a]).reshape([-1, 1])
+        coefficient_1 = [0.6, 0.3, 0.1]  ## can be free parameters
+        if r > 0:
+            coefficient_2 = [1.5, 1.1, 0.9]
+        elif r < 0:
+            coefficient_2 = [0.8, 0.9, 1.1]
+        elif r == 0:
+            coefficient_2 = [1, 1, 1]
+        for i in range(self.Q_index.shape[0]):
+            for j in range(self.Q_index.shape[1]):
+                rpe = coefficient_2[int(i/3)]   # coefficient[int(i/3)]
+                #print(rpe)
+                self.p_F[j][self.Q_index[i][j]-1] = rpe*self.p_F[j][self.Q_index[i][j]-1]
+                #print(self.p_F)
+                #print(self.Q_index[i][j])
+                #print(self.W) 
         
-        # update the belief according to Bayes' rule
-        # p(f) ∝ p(R|f, c)p(f)
-        # the first term is p=.75 or p=.25
-        # depending on the reward on the current
-        # whether the current c included f
-        # p=.75 if R=1 given current c included in f
-        # p=.25 if R=0 given current c included in f
-        # p=0   else
-        p_R1FC = (.25+.5*r*np.eye(self.nD*self.nF)@f_chosen) # nDFxnF @ nDFx1 = nDFx1
-        f_F    = p_R1FC*self.p_F # nDFx1 * nDFx1 = nDFx1
-        self.p_F = f_F / f_F.sum() # normalize due to ∝
+        self.p_F = self.p_F / np.sum(self.p_F)
+        #print(self.p_F)
+        #exit()
+        return self.p_F
 
 class hybrid(bayes):
     '''Hybrid Bayesian-fRL model
