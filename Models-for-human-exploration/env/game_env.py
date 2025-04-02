@@ -50,8 +50,8 @@ class Env(object):
             self.dim_df = pd.read_csv(file_path)
             self.total_round = 30 if phase == 'P1' else 50
             self.init = True
-            # print('Main dim:', self.reward_dim)
-
+            
+        print('Main dim:', self.reward_dim)
         if self.round_num>self.total_round-1:
             return None
         random.seed(self.round_num)

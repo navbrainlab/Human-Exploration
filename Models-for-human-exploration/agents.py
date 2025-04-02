@@ -375,9 +375,9 @@ class fRL(baseAgent):
         Q_values = np.array(Q_values)
         self.Q_buffer = Q_values
         # print(self.Q_buffer)
-        self.Q_index = input_data   ### in editing
+        self.Q_index = input_data  
         P_s = softmax(self.beta*Q_values)
-        return np.argsort(P_s)[::-1]
+        return np.argsort(P_s)[::-1] # ,Q_values[np.argsort(P_s)[::-1]]
     
     # --------- learning --------- #
 
@@ -386,13 +386,16 @@ class fRL(baseAgent):
         # get data 
         #print(self.Q_buffer)
         coefficient = [0.6, 0.3, 0.1]  ## can be free parameters
+        # print(self.Q_index)
         for i in range(self.Q_index.shape[0]):
             for j in range(self.Q_index.shape[1]):
                 rpe = coefficient[int(i/3)]*r - self.Q_buffer[i]   # coefficient[int(i/3)]
                 self.W[j][self.Q_index[i][j]-1] += self.eta*rpe 
-                #print(self.Q_index[i][j])
-                #print(self.W) 
-        #exit()
+                
+                # print(self.Q_index[i][j]-1)
+                # print(self.Q_buffer)
+                # print(self.W) 
+        # exit()
         return self.W
 
 class bayes(fRL):
