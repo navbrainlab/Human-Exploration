@@ -204,14 +204,14 @@ class naiveRL(baseAgent):
     def update_V(self, action, r, Q_table):
 
         # update: V(s_chosen) = V(s_chosen) + η(r-V(s_chosen))
-        coefficient = [0.6, 0.3, 0.1]  ## can be free parameters
+        coefficient = [-0.5, 0, 0.5]  ## can be free parameters
         for i in range(action.shape[0]):
             j = int(i/3)
-            rpe = coefficient[j]*r - Q_table[action[i]]
+            rpe = r/9 - Q_table[action[i]]
             #print(action[i])
             #print(j)
             #print(Q_table[action[(0+j*3):(3+j*3)]])
-            Q_table[action[i]] += self.eta*rpe 
+            Q_table[action[i]] += coefficient[j]*self.eta*rpe 
             
         return Q_table
 
@@ -354,7 +354,7 @@ class fRL(baseAgent):
         self.beta = params[1]
 
     def _init_W(self):
-        self.W = np.zeros([self.nD*self.nF])
+        self.W = np.ones([self.nD*self.nF])*50/9
         self.W = self.W.reshape(self.nD,self.nF)
         self.Q_buffer = []
         self.Q_index = []
@@ -377,7 +377,8 @@ class fRL(baseAgent):
         # print(self.Q_buffer)
         self.Q_index = input_data  
         P_s = softmax(self.beta*Q_values)
-        return np.argsort(P_s)[::-1] # ,Q_values[np.argsort(P_s)[::-1]]
+        sequence = np.argsort(P_s)[::-1]
+        return sequence # ,Q_values[np.argsort(P_s)[::-1]]
     
     # --------- learning --------- #
 
@@ -385,16 +386,17 @@ class fRL(baseAgent):
 
         # get data 
         #print(self.Q_buffer)
-        coefficient = [0.6, 0.3, 0.1]  ## can be free parameters
-        # print(self.Q_index)
+        coefficient = [0.5, 0, -0.5]  ## can be free parameters
+        print(self.Q_index)
         for i in range(self.Q_index.shape[0]):
             for j in range(self.Q_index.shape[1]):
-                rpe = coefficient[int(i/3)]*r - self.Q_buffer[i]   # coefficient[int(i/3)]
-                self.W[j][self.Q_index[i][j]-1] += self.eta*rpe 
+                rpe = r/9 - self.Q_buffer[i]   # coefficient[int(i/3)]
+                self.W[j][self.Q_index[i][j]-1] += coefficient[int(i/3)]*self.eta*rpe 
                 
                 # print(self.Q_index[i][j]-1)
                 # print(self.Q_buffer)
-                # print(self.W) 
+                print(self.W) 
+        #print(self.W)
         # exit()
         return self.W
 

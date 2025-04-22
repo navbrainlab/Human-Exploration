@@ -23,7 +23,7 @@ args = parser.parse_args()
 
 env = Env()
 phase = args.phase
-phase = 'P2'
+phase = 'P1'
 #embed_model = SentenceTransformer('paraphrase-MiniLM-L6-v2')
 
 
@@ -37,12 +37,12 @@ if phase == 'P2':
 input_form = args.input_form
 input_form = '333'
 pretrained_steps = args.pretrained_steps
-pretrained_steps = 6
+pretrained_steps = 0
 print(pth)
 data = env.load_round_env(phase, pth)
 dim, steps = data.shape
 
-pval  = [0.01, 10]
+pval  = [0.05, 10]
 #np.random.seed(1)
 policy = agents.fRL(nD, nF, pval)
 
@@ -93,7 +93,8 @@ while(True):
 
         if total_step ==0:
             print('All actions:')
-        elif total_step > 30:
+        elif total_step > 0:
+            print(f'W_val: \n{W_val}')
             print(f'reward record: \n{reward_list}')
             exit()
         print(act_data.tolist())
@@ -103,6 +104,7 @@ while(True):
         W_val = policy.update_V(reward)
         #print(f'W_val is {W_val}')
         #print(act_index)
+        print(reward)
         total_step +=1
         if reward == 100:
             print(f'total steps: {total_step}')

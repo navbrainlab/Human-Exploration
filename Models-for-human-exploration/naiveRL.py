@@ -40,12 +40,14 @@ if phase == 'P1':
 if phase == 'P2':
     nD, nF = 4, 3
 
-pval  = [0.6, 1.0, 0.3]
+pval  = [0.05, 1.0, 0.3]
 policy = agents.naiveRL(nD, nF, pval)
 
 all_unique_values = pd.unique(data.values.ravel())
 num_q = all_unique_values.shape[0]
-Q_table = np.zeros(num_q)
+#Q_table = np.zeros(num_q)
+Q_table = np.ones(num_q)*50/9
+
 
 total_step = 0
 while(True):
@@ -70,7 +72,7 @@ while(True):
         total_step +=1
         if reward == 100:
             print(f'total steps is {total_step}')
-            #print(Q_table)
+            print(Q_table)
             #print(all_unique_values)
             exit()
 
