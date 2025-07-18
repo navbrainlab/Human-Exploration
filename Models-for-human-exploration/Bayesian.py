@@ -21,7 +21,7 @@ args = parser.parse_args()
 
 env = Env()
 phase = args.phase
-phase = 'P1'
+phase = 'P2'
 #embed_model = SentenceTransformer('paraphrase-MiniLM-L6-v2')
 
 
@@ -75,7 +75,7 @@ while(True):
         print(f'p_F is {p_F}')
         #print(act_index)
         total_step +=1
-        if reward == 100:
+        if reward == 100 or total_step == 50:
             print(f'total steps is {total_step}')
             #print(Q_table)
             print(all_unique_values)

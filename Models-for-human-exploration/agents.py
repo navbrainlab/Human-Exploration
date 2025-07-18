@@ -200,14 +200,37 @@ class naiveRL(baseAgent):
     def learn(self, action, r, Q_table):
         Q_table = self.update_V(action, r, Q_table)
         return Q_table
+    
+    # 假设 actions_this_round 是模型选的9个动作
+        Q_values = [Q[state, a] for a in actions_this_round]  # 拿到这9个动作对应的Q值
+
+        # 计算权重
+        weights = softmax(Q_values)  # 自适应权重，Q值高的动作得到高权重
+
+        # 分配reward并更新每个动作
+        for idx, action in enumerate(actions_this_round):
+            adjusted_reward = total_reward * weights[idx]
+            Q[state, action] += lr * (adjusted_reward + gamma * max(Q[next_state, :]) - Q[state, action])
+
+    def softmax(x):
+        e_x = np.exp(x - np.max(x))  # 避免数值爆炸
+        return e_x / e_x.sum()
+
+
 
     def update_V(self, action, r, Q_table):
 
         # update: V(s_chosen) = V(s_chosen) + η(r-V(s_chosen))
-        coefficient = [-0.5, 0, 0.5]  ## can be free parameters
-        for i in range(action.shape[0]):
-            j = int(i/3)
-            rpe = r/9 - Q_table[action[i]]
+        coefficient = [0.5, 0, -0.5]  ## can be free parameters
+
+        for i in range(action.shape[0]):#找到是第几个action
+            j = int(i/3)#第几行
+            
+            Q_values = Q_table[action] #这九个action的Q值
+            weights_chosen = softmax(Q_values)
+            w_chosen = weights_chosen[i] #该action的Q值
+
+            rpe = w_chosen*r - Q_table[action[i]]
             #print(action[i])
             #print(j)
             #print(Q_table[action[(0+j*3):(3+j*3)]])
@@ -279,64 +302,8 @@ class naiveRL_decay(baseAgent):
             Q_table[decay_index[i]] = Q_table[decay_index[i]]*0.9  # decay rate  
         return Q_table
 
-class fRL(baseAgent):
-    '''The feature RL'''
-    name  = 'feature RL'
-    pname = ['η', 'β']
-    pval  = [.047, 14.73]
 
-    # ---------- init --------- #
 
-    def __init__(self, nD, nF, params):
-        super().__init__(nD, nF, params)
-        self._init_W()
-
-    def _load_params(self, params):
-        self.eta  = params[0]
-        self.beta = params[1]
-
-    def _init_W(self):
-        self.W = np.zeros([self.nD*self.nF])
-        self.W = self.W.reshape(self.nD,self.nF)
-        self.Q_buffer = []
-        self.Q_index = []
-    # --------- decision --------- #
-
-    def policy(self, input_data):
-
-        # Softmax(βV(s_i)): V(s_i) = ∑_fW(f)
-        Q_values = []
-        #print(input_data)
-        for i in range(input_data.shape[0]):
-            q_val = 0
-            for j in range(input_data.shape[1]):
-                # print(input_data[i])
-                q_val += (self.W[j][input_data[i][j]-1]) 
-            Q_values.append(q_val)
-        
-        Q_values = np.array(Q_values)
-        self.Q_buffer = Q_values
-        # print(self.Q_buffer)
-        self.Q_index = input_data   ### in editing
-        P_s = softmax(self.beta*Q_values)
-        return np.argsort(P_s)[::-1]
-    
-    # --------- learning --------- #
-
-    def update_V(self,r):
-
-        # get data 
-        #print(self.Q_buffer)
-        coefficient = [0.6, 0.3, 0.1]  ## can be free parameters
-        for i in range(self.Q_index.shape[0]):
-            for j in range(self.Q_index.shape[1]):
-                rpe = coefficient[int(i/3)]*r - self.Q_buffer[i]
-                self.W[j][self.Q_index[i][j]-1] += self.eta*rpe
-                #print(self.Q_index[i][j])
-                #print(self.W) 
-        #exit()
-        return self.W
-    
 class fRL(baseAgent):
     '''The feature RL'''
     name  = 'feature RL'
@@ -381,6 +348,9 @@ class fRL(baseAgent):
         return sequence # ,Q_values[np.argsort(P_s)[::-1]]
     
     # --------- learning --------- #
+    def softmax(x):
+        e_x = np.exp(x - np.max(x))  # 避免数值爆炸
+        return e_x / e_x.sum()
 
     def update_V(self,r):
 
@@ -390,12 +360,15 @@ class fRL(baseAgent):
         print(self.Q_index)
         for i in range(self.Q_index.shape[0]):
             for j in range(self.Q_index.shape[1]):
-                rpe = r/9 - self.Q_buffer[i]   # coefficient[int(i/3)]
+                  # coefficient[int(i/3)]
+                food_weight = softmax(self.W)
+                this_food_w = food_weight[j][self.Q_index[i][j]-1]
+                
+                # this_food_w = 1
+                rpe = r/(9*self.nD) - self.Q_buffer[i]
                 self.W[j][self.Q_index[i][j]-1] += coefficient[int(i/3)]*self.eta*rpe 
                 
-                # print(self.Q_index[i][j]-1)
-                # print(self.Q_buffer)
-                print(self.W) 
+                # print(self.W) 
         #print(self.W)
         # exit()
         return self.W
@@ -422,7 +395,7 @@ class bayes(fRL):
         
         self.p_F = np.ones([self.nD*self.nF])/(self.nD*self.nF)
        
-        self.p_F = self.p_F.reshape(self.nD,self.nF)
+        self.p_F = self.p_F.reshape(self.nD,self.nF) #这是不同食物呀
 
     # --------- decision --------- #
 
@@ -449,15 +422,18 @@ class bayes(fRL):
     def update_Bel(self, r):
         
         coefficient_1 = [0.6, 0.3, 0.1]  ## can be free parameters
+        #似乎是对
         if r > 0:
-            coefficient_2 = [1.5, 1.1, 0.9]
+            coefficient_2 = [3.0, 1.1, 0.9]
         elif r < 0:
-            coefficient_2 = [0.8, 0.9, 1.1]
+            coefficient_2 = [0.8, 1.1, 3.0]
         elif r == 0:
             coefficient_2 = [1, 1, 1]
         for i in range(self.Q_index.shape[0]):
             for j in range(self.Q_index.shape[1]):
                 rpe = coefficient_2[int(i/3)]   # coefficient[int(i/3)]
+                #这个食物所在的行决定它这次改变的方向，等于说只要是在同一行内的食物，都会以相同的权重更新
+
                 #print(rpe)
                 self.p_F[j][self.Q_index[i][j]-1] = rpe*self.p_F[j][self.Q_index[i][j]-1]
                 #print(self.p_F)
