@@ -9,6 +9,11 @@ from tqdm import tqdm
 
 from scipy.special import softmax
 import random
+
+###
+from scipy.special import softmax 
+from scipy.stats import halfnorm, uniform
+from copy import deepcopy
 # self-defined visualization
 #from utils.viz import viz
 
@@ -204,7 +209,65 @@ class naiveRL(baseAgent):
     def update_V(self, action, r, Q_table):
 
         # update: V(s_chosen) = V(s_chosen) + η(r-V(s_chosen))
+        coefficient = [-0.5, 0, 0.5]  ## can be free parameters
+        for i in range(action.shape[0]):
+            j = int(i/3)
+            rpe = r/9 - Q_table[action[i]]
+            #print(action[i])
+            #print(j)
+            #print(Q_table[action[(0+j*3):(3+j*3)]])
+            Q_table[action[i]] += coefficient[j]*self.eta*rpe 
+            
+        return Q_table
+
+class naiveRL_decay(baseAgent):
+    '''The naive RL'''
+    name  = 'naive RL'
+    pname = ['η', 'β']
+    pval  = [.431, 5.55, 0.1]
+    
+    # ---------- init --------- #
+
+    def __init__(self, nD, nF, params):
+        super().__init__(nD, nF, params)
+
+        
+    def _load_params(self, params):
+        self.eta  = params[0]
+        self.beta = params[1]
+        self.epsilon = params[2]
+
+    # --------- decision --------- #
+
+    def policy(self, stims):
+
+        
+        # Softmax(βV(s_i))
+        P_s = softmax(self.beta*stims)  # probability distribution
+        action = []
+        #print(P_s)
+        if random.uniform(0, 1) < self.epsilon:  # Exploration
+            action = np.random.choice(9, size=9, replace=False)
+            #print(action)
+            #print('stochastic')
+            return action
+        else:  # Exploitation (choose best known action)
+            #print('deterministic')
+            return np.argsort(P_s)[::-1]
+        
+    
+    # --------- learning --------- #
+
+    def learn(self, action, r, Q_table):
+        Q_table = self.update_V(action, r, Q_table)
+        return Q_table
+
+    def update_V(self, action, r, Q_table):
+
+        # update: V(s_chosen) = V(s_chosen) + η(r-V(s_chosen))
         coefficient = [0.6, 0.3, 0.1]  ## can be free parameters
+        #print(Q_table)
+        #exit()
         for i in range(action.shape[0]):
             j = int(i/3)
             rpe = coefficient[j]*r - Q_table[action[i]]
@@ -212,7 +275,13 @@ class naiveRL(baseAgent):
             #print(j)
             #print(Q_table[action[(0+j*3):(3+j*3)]])
             Q_table[action[i]] += self.eta*rpe 
-            
+        
+        all_index = np.arange(0, Q_table.shape[0])
+        decay_index = np.setdiff1d(all_index, action)
+        #print(decay_index)
+        #exit()
+        for i in range(decay_index.shape[0]):
+            Q_table[decay_index[i]] = Q_table[decay_index[i]]*0.9  # decay rate  
         return Q_table
 
 class fRL(baseAgent):
@@ -233,7 +302,7 @@ class fRL(baseAgent):
 
     def _init_W(self):
         self.W = np.zeros([self.nD*self.nF])
-        self.W = self.W.reshape(3,3)
+        self.W = self.W.reshape(self.nD,self.nF)
         self.Q_buffer = []
         self.Q_index = []
     # --------- decision --------- #
@@ -242,23 +311,18 @@ class fRL(baseAgent):
 
         # Softmax(βV(s_i)): V(s_i) = ∑_fW(f)
         Q_values = []
-        Q_index = []
-        #print(input_data.shape)
+        #print(input_data)
         for i in range(input_data.shape[0]):
             q_val = 0
             for j in range(input_data.shape[1]):
-                #print(input_data[i])
+                # print(input_data[i])
                 q_val += (self.W[j][input_data[i][j]-1]) 
-            
-            Q_index.append(np.array(input_data[i]))
             Q_values.append(q_val)
         
-        Q_index = np.array(Q_index)
         Q_values = np.array(Q_values)
-        #print(Q_values)
-        #exit()
-        self.Q_buffer = Q_values.reshape(3,3)
-        self.Q_index = Q_index.reshape(9,3)   ### in editing
+        self.Q_buffer = Q_values
+        # print(self.Q_buffer)
+        self.Q_index = input_data   ### in editing
         P_s = softmax(self.beta*Q_values)
         return np.argsort(P_s)[::-1]
     
@@ -267,47 +331,79 @@ class fRL(baseAgent):
     def update_V(self,r):
 
         # get data 
+        #print(self.Q_buffer)
         coefficient = [0.6, 0.3, 0.1]  ## can be free parameters
-        for i in range(self.Q_buffer.shape[0]):
-            for j in range(self.Q_buffer.shape[1]):
-                rpe = coefficient[i]*r - self.Q_buffer[i][j]
-                #print(action[i])
-                #print(j)
-                #print(Q_table[action[(0+j*3):(3+j*3)]])
-                index = self.Q_index[i][j]
-                for k in range(index.shape[0]):
-                    self.W[k][index[k]-1] += self.eta*rpe 
+        for i in range(self.Q_index.shape[0]):
+            for j in range(self.Q_index.shape[1]):
+                rpe = coefficient[int(i/3)]*r - self.Q_buffer[i]
+                self.W[j][self.Q_index[i][j]-1] += self.eta*rpe
+                #print(self.Q_index[i][j])
+                #print(self.W) 
+        #exit()
         return self.W
     
-class fRL_decay(fRL):
-    '''The feature RL with decay'''
+class fRL(baseAgent):
+    '''The feature RL'''
     name  = 'feature RL'
-    pname = ['η', 'd', 'β']
-    pval  = [.122, 0.466, 10.33]
+    pname = ['η', 'β']
+    pval  = [.047, 14.73]
 
     # ---------- init --------- #
 
     def __init__(self, nD, nF, params):
         super().__init__(nD, nF, params)
+        self._init_W()
 
     def _load_params(self, params):
         self.eta  = params[0]
-        self.d    = params[1]
-        self.beta = params[2]
+        self.beta = params[1]
 
-    def learn(self):
-        self.decay()
-        self.update_V()
+    def _init_W(self):
+        self.W = np.ones([self.nD*self.nF])*50/9
+        self.W = self.W.reshape(self.nD,self.nF)
+        self.Q_buffer = []
+        self.Q_index = []
+    # --------- decision --------- #
+
+    def policy(self, input_data):
+
+        # Softmax(βV(s_i)): V(s_i) = ∑_fW(f)
+        Q_values = []
+        #print(input_data)
+        for i in range(input_data.shape[0]):
+            q_val = 0
+            for j in range(input_data.shape[1]):
+                # print(input_data[i])
+                q_val += (self.W[j][input_data[i][j]-1]) 
+            Q_values.append(q_val)
         
-    def decay(self):
+        Q_values = np.array(Q_values)
+        self.Q_buffer = Q_values
+        # print(self.Q_buffer)
+        self.Q_index = input_data  
+        P_s = softmax(self.beta*Q_values)
+        sequence = np.argsort(P_s)[::-1]
+        return sequence # ,Q_values[np.argsort(P_s)[::-1]]
+    
+    # --------- learning --------- #
 
-        # retrieve memory 
-        stims, a = self.mem.sample('s', 'a')
-        f_chosen = self.s_embed(stims)[a]
+    def update_V(self,r):
 
-        # W(f) = (1-d)W(f)  ∀f is not chosen
-        f_unchosen = 1 - f_chosen
-        self.W -= self.d*self.W*f_unchosen
+        # get data 
+        #print(self.Q_buffer)
+        coefficient = [0.5, 0, -0.5]  ## can be free parameters
+        print(self.Q_index)
+        for i in range(self.Q_index.shape[0]):
+            for j in range(self.Q_index.shape[1]):
+                rpe = r/9 - self.Q_buffer[i]   # coefficient[int(i/3)]
+                self.W[j][self.Q_index[i][j]-1] += coefficient[int(i/3)]*self.eta*rpe 
+                
+                # print(self.Q_index[i][j]-1)
+                # print(self.Q_buffer)
+                print(self.W) 
+        #print(self.W)
+        # exit()
+        return self.W
 
 class bayes(fRL):
     '''The bayesian learning model'''
@@ -328,50 +424,55 @@ class bayes(fRL):
         # The probability of each feature being 
         # the target feature is initialized at 1/9 
         # at the beginning of a game 
-        n = self.nD*self.nF
-        self.p_F = np.ones([n, 1]) / n
+        
+        self.p_F = np.ones([self.nD*self.nF])/(self.nD*self.nF)
+       
+        self.p_F = self.p_F.reshape(self.nD,self.nF)
 
     # --------- decision --------- #
 
-    def policy(self, stims):
+    def policy(self, input_data):
         
-        # construct V(s_i)
-        ss_fea = self.s_embed(stims)
-        v_stims = [] 
-        for s_fea in ss_fea:
-            # Here p(R=1|f,S)=.75 for features f contained in S,
-            # and p(R=1|f,S)=.25 for those that are not part of 
-            # the evaluated stimulus.
-            p_r1FS = .25+.5*(np.eye(self.nD*self.nF
-                        )@s_fea.reshape([-1, 1])) # nDFxnDF @ nDFx1 = nDFx1
-            v_stims.append((p_r1FS.T@self.p_F).sum()) # 1xnDF @ nDFx1 = 1x1
-        v_stims = np.array(v_stims)
-
-        # Softmax(βV(s_i))
-        return softmax(self.beta*v_stims)
+        Q_values = []
+        #print(input_data)
+        for i in range(input_data.shape[0]):
+            q_val = 0
+            for j in range(input_data.shape[1]):
+                # print(input_data[i])
+                q_val += (self.p_F[j][input_data[i][j]-1]) 
+            Q_values.append(q_val)
+        
+        Q_values = np.array(Q_values)
+        self.Q_buffer = Q_values
+        # print(self.Q_buffer)
+        self.Q_index = input_data   
+        P_s = softmax(self.beta*Q_values)
+        return np.argsort(P_s)[::-1]
     
     # --------- learning --------- #
 
-    def learn(self):
-        self.update_Bel()
-
-    def update_Bel(self):
+    def update_Bel(self, r):
         
-        # Retrieve memory 
-        stims, a, r = self.mem.sample('s', 'a', 'r')
-        f_chosen = (self.s_embed(stims)[a]).reshape([-1, 1])
+        coefficient_1 = [0.6, 0.3, 0.1]  ## can be free parameters
+        if r > 0:
+            coefficient_2 = [1.5, 1.1, 0.9]
+        elif r < 0:
+            coefficient_2 = [0.8, 0.9, 1.1]
+        elif r == 0:
+            coefficient_2 = [1, 1, 1]
+        for i in range(self.Q_index.shape[0]):
+            for j in range(self.Q_index.shape[1]):
+                rpe = coefficient_2[int(i/3)]   # coefficient[int(i/3)]
+                #print(rpe)
+                self.p_F[j][self.Q_index[i][j]-1] = rpe*self.p_F[j][self.Q_index[i][j]-1]
+                #print(self.p_F)
+                #print(self.Q_index[i][j])
+                #print(self.W) 
         
-        # update the belief according to Bayes' rule
-        # p(f) ∝ p(R|f, c)p(f)
-        # the first term is p=.75 or p=.25
-        # depending on the reward on the current
-        # whether the current c included f
-        # p=.75 if R=1 given current c included in f
-        # p=.25 if R=0 given current c included in f
-        # p=0   else
-        p_R1FC = (.25+.5*r*np.eye(self.nD*self.nF)@f_chosen) # nDFxnF @ nDFx1 = nDFx1
-        f_F    = p_R1FC*self.p_F # nDFx1 * nDFx1 = nDFx1
-        self.p_F = f_F / f_F.sum() # normalize due to ∝
+        self.p_F = self.p_F / np.sum(self.p_F)
+        #print(self.p_F)
+        #exit()
+        return self.p_F
 
 class hybrid(bayes):
     '''Hybrid Bayesian-fRL model
@@ -685,6 +786,244 @@ def show_likelihood(agent_names = ['naiveRL', 'fRL', 'fRL_decay', 'bayes', 'hybr
     ax.set_ylabel('')
     fig.tight_layout()
     plt.savefig(f'{pth}/figures/likelihood.png', dpi=300)
+
+
+
+# ------------------------------#
+#          Axuilliary           #
+# ------------------------------#
+eps_ = 1e-13
+max_ = 1e+13
+
+def mask_fn(nA, a_ava):
+    return (np.eye(nA)[a_ava, :]).sum(0, keepdims=True)
+
+def MI(p_X, p_Y1X, p_Y):
+    return (p_X*p_Y1X*(np.log(p_Y1X+eps_)-np.log(p_Y.T+eps_))).sum()
+
+def clip_exp(x):
+    x = np.clip(x, a_min=-max_, a_max=50)
+    return np.exp(x) 
+
+def step(w, lr):
+    w.data -= lr*w.grad.data
+    w.grad.data.zero_()
+    
+class ecpg_base_agent:
+    '''Base Agent'''
+    name     = 'base'
+    p_bnds   = None
+    p_pbnds  = []
+    p_names  = []  
+    p_priors = []
+    p_trans  = []
+    p_links  = []
+    n_params = 0 
+    # value of interest, used for output
+    # the interesting variable in simulation
+    voi      = []
+    insights = ['pol']
+    
+    def __init__(self, nS, nA, params):
+        self.nS  = nS
+        self.nA  = nA 
+        self.load_params(params)
+        self._init_embed()
+        self._init_buffer()
+        self._init_agent()
+        
+    def load_params(self, params): 
+        return NotImplementedError
+    
+    def _init_embed(self):
+
+        return NotImplementedError
+
+    def _init_buffer(self):
+        self.mem = simpleBuffer()
+    
+    def _init_agent(self):
+        return NotImplementedError
+    
+    def learn(self): 
+        return NotImplementedError
+
+    def policy(self, s, **kwargs): 
+        return NotImplementedError
+
+    # --------- Insights -------- #
+
+    def get_pol(self):
+        acts = [[0, 1], [2, 3]]
+        pi = np.zeros([self.nS, self.nA])
+        for s in range(self.nS):
+            for act in acts:
+                a1, a2 = act
+                pi[s, :] += self.policy(self.s2f(s), a_ava=[a1, a2])   
+        return pi
+    
+class ECPG(ecpg_base_agent):
+    '''Efficient coding policy gradient (analytical)
+
+    We create two mathematical equivalent versions for ECPG, each
+    aim at tackling different numerical problems. 
+    The only difference exist in calculating sTheta.
+
+    The analytical version, we do:
+        sTheta = (u*p_a1Z.T - self.lmbda*log_dif)
+    and in the fitting version, we do:
+        sTheta = (u*p_a1Z.T/(self.lmdba+eps_) - log_dif)
+
+    The analytical version is more consistent with the objective function.
+    It is easy to illustrate the model behaviors with varying
+    λ, because it will not divided by 0. 
+
+    However, this implementation causes high correlation
+    between parameters α_ψ and λ，bring difficulties in parameter
+    estimation. 
+
+    The same logics applied to fECPG.
+    '''
+    name     = 'ECPG'
+    p_names  = ['alpha_psi', 'alpha_rho', 'lmbda']  
+    p_bnds   = [(-1000, 1000)]*len(p_names)
+    p_pbnds  = [(-2, 3), (-2, 3), (-6, 1.5)]
+    p_poi    = p_names
+    p_priors = [halfnorm(0, 40)]*len(p_names)
+    p_trans  = [lambda x: clip_exp(x)]*len(p_names)
+    p_links  = [lambda x: np.log(x+eps_)]*len(p_names)
+    n_params = len(p_names)
+    voi      = ['i_SZ']
+    insights = ['enc', 'dec', 'pol']
+    # color    = viz.Red
+    marker   = '^'
+    size     = 125
+    alpha    = 1
+
+    def load_params(self, params):
+        self.alpha_psi  = params[0]
+        self.alpha_rho  = params[1]
+        self.lmbda      = params[2]
+        self.b          = 60
+
+    def _init_agent(self):
+        self.nZ = self.nA
+        # Initialization of theta, may have some problems
+        # theta = np.zeros([self.nS, self.nZ])  
+        theta = np.eye(self.nS)
+        # theta = np.random.rand(self.nS,self.nZ)
+        self.theta = deepcopy(theta)
+        self.phi   = np.zeros([self.nZ, self.nA]) 
+        self._learn_pZ()
+
+    def _learn_pZ(self):
+        self.F = np.eye(self.nA)  ###
+        self.p_Z1S = softmax(self.F@self.theta, axis=1)
+        self.p_S   = np.ones([self.nS, 1]) / self.nS  # nSx1 
+        self.p_Z   = self.p_Z1S.T @ self.p_S
+
+
+    def policy(self, f, index, **kwargs):
+        p_Z1s = softmax(f@self.theta)
+        p_A1Z = softmax(self.phi, axis=1)
+        # renormalize to avoid numeric problem
+        pi = p_Z1s@p_A1Z
+        # for i, _ in enumerate(pi):
+        #     if f[i] !=1:
+        #         pi[i] = 0
+        indices = np.array(index) - 1
+        new_pi = np.zeros_like(pi)
+        new_pi[indices] = pi[indices]
+        sequence_index = (np.argsort(new_pi)[::-1]+1)[:9]
+        a_index_map = {val: idx for idx, val in enumerate(index)}
+        final_sequence = [a_index_map[val] for val in sequence_index]
+
+        return final_sequence, self.theta
+        
+    def learn(self, f, reward):
+        self._learn_enc_dec(f, reward)
+        self._learn_pZ()
+
+    def _learn_enc_dec(self, f, reward):
+    
+        p_Z1s = softmax(f@self.theta)
+        p_A1Z = softmax(self.phi, axis=1)
+        p_a1Z = softmax(p_Z1s@p_A1Z).reshape([-1])
+        u = np.array([reward - self.b])[:, np.newaxis] 
+
+        # note: in derviation we wrote 
+        #          log_dif = log p(Z|S) - log p(Z) - 1
+        # However, substracting the constant 1 will not affect the 
+        # numerical value of gradeint, due to the normalization 
+        # term in calculating gTheta.
+        log_dif = np.log(p_Z1s+eps_)-np.log(self.p_Z.T+eps_) 
+        # print(log_dif.shape) 
+        sTheta = (u*p_a1Z.T - self.lmbda*log_dif)
+        # gTheta = -f.T@(p_Z1s*(np.ones([1, self.nZ])*sTheta - p_Z1s@sTheta.T))
+        gTheta = -sTheta*p_Z1s*(1-p_Z1s)
+        
+        sPhi = u*p_Z1s.T
+        # gPhi = -p_a1Z*(np.eye(self.nA)[[a]] - p_A1Z)*sPhi
+        gPhi = -p_a1Z*(np.eye(self.nA) - p_a1Z)*sPhi
+
+        self.theta -= self.alpha_psi * gTheta
+        self.phi   -= self.alpha_rho * gPhi
+    
+    # --------- some predictions ----------- #
+        
+    def get_i_SZ(self):
+        psi_Z1S = softmax(self.F@self.theta, axis=1)
+        return MI(self.p_S, psi_Z1S, self.p_Z)
+    
+    def get_i_ZA(self):
+        rho_A1Z = softmax(self.phi, axis=1)
+        p_A = (self.p_Z.T @ rho_A1Z).T
+        return MI(self.p_Z, rho_A1Z, p_A)
+        
+    def get_enc(self):
+        return softmax(self.F@self.theta, axis=1)
+    
+    def get_dec(self):
+        acts = [[0, 1], [2, 3]]
+        rho  = 0
+        for act in acts:
+            m_A   = mask_fn(self.nA, act)
+            p_A1Z = softmax(self.phi-(1-m_A)*max_, axis=1)
+            p_A1Z  /= p_A1Z.sum(1, keepdims=True)
+            rho += p_A1Z
+        return rho 
+    
+class fECPG(ECPG):
+
+    def __init__(self, nf, nS, nA, F, params):
+        self.nf = nf
+        self.nS  = nS
+        self.nA  = nA 
+        self.F = F
+        self.load_params(params)
+        self._init_embed()
+        self._init_buffer()
+        self._init_agent()
+
+    def _init_agent(self):
+        self.nZ = self.nA
+        # Initialization of theta, may have some problems
+        # theta = np.zeros([self.nf, self.nZ])  
+        theta = np.random.rand(self.nf, self.nZ)  
+        # theta = np.eye(self.nS)
+        self.theta = deepcopy(theta)
+        self.phi   = np.zeros([self.nZ, self.nA]) 
+        self._learn_pZ()
+
+    def _learn_pZ(self):
+        # self.F = np.eye(self.nS)  ###
+        self.p_Z1S = softmax(self.F@self.theta, axis=1)
+        # print(self.F.shape)
+        # print(self.p_Z1S.shape)
+        self.p_S   = np.ones([self.nS, 1]) / self.nS  # nSx1 
+        # print(self.p_S.shape)
+        self.p_Z   = self.p_Z1S.T @ self.p_S
+        # print(self.p_Z.shape)
 
 
 if __name__ == '__main__':

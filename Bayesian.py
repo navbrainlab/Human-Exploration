@@ -1,4 +1,3 @@
-
 import os 
 import pandas as pd 
 import numpy as np
@@ -22,58 +21,65 @@ args = parser.parse_args()
 
 env = Env()
 phase = args.phase
-phase = 'P2'
+phase = 'P1'
 #embed_model = SentenceTransformer('paraphrase-MiniLM-L6-v2')
 
-game_dim = args.game_dim
-game_dim = 4
-if game_dim==3:
+
+
+
+if phase == 'P1':
     pth = args.env_path + '3_Dimension.csv'
-elif game_dim==4:
+    nD, nF = 3, 3
+if phase == 'P2':
     pth = args.env_path + '4_Dimension.csv'
+    nD, nF = 4, 3
 
 print(pth)
 data = env.load_round_env(phase, pth)
 dim, steps = data.shape
-if phase == 'P1':
-    nD, nF = 3, 3
-if phase == 'P2':
-    nD, nF = 4, 3
 
-pval  = [0.05, 1.0, 0.3]
-policy = agents.naiveRL(nD, nF, pval)
+pval  = [10]
+np.random.seed(1)
+
+policy = agents.bayes(nD, nF, pval)
 
 all_unique_values = pd.unique(data.values.ravel())
 num_q = all_unique_values.shape[0]
-#Q_table = np.zeros(num_q)
-Q_table = np.ones(num_q)*50/9
-
+Q_table = np.zeros(num_q)
 
 total_step = 0
+reward_all = []
 while(True):
     for i in range(steps):
         input_data = data[f'{i}'].values
+        np.random.shuffle(input_data)
+        #print(input_data)
         indices = np.where(np.isin(all_unique_values, input_data))
         converted = np.array([ast.literal_eval(item) for item in input_data])
-        Q_table_small = Q_table[indices]
-        #print(Q_table_small)
-        action = policy.policy(Q_table_small)
+        #Q_table_small = Q_table[indices]
+        #print(converted)
+        action = policy.policy(converted)
         #print(action)
         #action = np.argsort(action)
         act_data = converted[action]
         act_index = indices[0][action]
         #print(act_index)
         reward = env.calc_reward(act_data)
+        reward_all.append(reward)
+        reward_mean = np.mean(reward)
+        real_reward = reward - 75
+        print(reward)
+        
         #print(Q_table)
-        Q_table = policy.learn(act_index, reward, Q_table)
+        p_F = policy.update_Bel(real_reward)
+        print(f'p_F is {p_F}')
         #print(act_index)
-        #print(reward)
-        #print(Q_table)
         total_step +=1
         if reward == 100:
             print(f'total steps is {total_step}')
-            print(Q_table)
-            #print(all_unique_values)
+            #print(Q_table)
+            print(all_unique_values)
             exit()
+
 
 
