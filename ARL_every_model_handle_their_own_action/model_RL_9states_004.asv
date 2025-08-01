@@ -1,0 +1,139 @@
+function [action,state_of_all_model, q_of_model,p_of_model,all_RPE_of_model,all_RPE_uncertainty_of_model,which_model_was_choosen,lamda_of_model_all] = model_RL_9states_004(trial,dim,last_action,state_of_all_model,p_of_model,q_of_model,lamda_of_model_all,alpha_of_model, all_RPE_of_model,all_RPE_uncertainty_of_model,last_score)
+
+
+this_trial_action_list = zeros(3);
+this_trial_q_list = zeros(3);
+
+
+% 感觉action可以参照我们的hypothesis，设置为认为哪个维度的哪个食物重要
+% 否则没完没了了，
+% 但是如果局限于1个维度里有1个重要，像我们贝叶斯那样的话，这也是不太严谨的
+% 现在试试每轮action
+
+% 计算当前轮的RPE
+
+
+if dim ==3
+    model_num = 3;
+    num_action = 9;
+    all_num_action = 27;
+else
+    model_num = 6;
+    num_action = 9;
+    all_num_action =54;
+    % num_state = 9
+end
+num_state = 9;
+
+
+% for model = 1:model_num
+%     state_of_this_model = state_of_all_model(model);
+%     q_of_this_model_last_trial = q_of_model{model};
+%     this_state_this_action_q = q_of_this_model_last_trial(state_of_this_model,last_action);
+%     BPE = last_score - this_state_this_action_q; %计算RPE
+%     if trial == 1 %第一轮
+%         last_trial_this_state_this_action_q = 0;
+%         %计算uncertainty
+%     end
+% 
+%     uncertainty_RPE = ()
+
+
+        
+
+
+
+
+for model = 1:length(q_of_model)
+    nd_alpha    = alpha_of_model{model}; % normally-distributed alpha
+
+    % alpha = nd_alpha;
+    alpha       = 1/(1+exp(-nd_alpha)); % alpha (transformed to be between zero and one)s
+    
+    % 将action和state对比
+    % 并计算Q值
+    state = state_of_all_model(model);
+    last_state = state;
+
+    q = q_of_model(model);
+    q = q{1};
+    q_convert = q;
+    delta1  = last_score/100 - q_convert(state, last_action); % prediction error
+    q_convert(state, last_action) = q_convert(state, last_action) + (alpha*delta1); 
+    
+    for a = 1:num_action
+        if a ~= last_action  % 对未被选择的动作
+            delta = (1 - last_score/100) - q_convert(state, a);  % 或者其他形式，比如 -reward - q(...)
+            all_RPE_of_model(model,trial) = delta;
+            q_convert(state, a) = q_convert(state, a) + alpha * delta;
+        end
+    end
+
+    
+    q_of_model{model} = q_convert;
+    % state_q_of_model{model} = state_q_convert;
+
+    qvals = q_convert(:, last_action);            % 取当前action下所有state的 Q 值
+    % qvals = beta * qvals;           % 按照 beta 缩放
+    % qvals = qvals - max(qvals);     % 防止溢出（数值稳定）
+    
+    p = exp(qvals) / sum(exp(qvals));  % Softmax 转换，得到动作概率分布
+    p_this = p;
+    p_of_model{model} = p_this;
+
+    % [max_val, action] = max(p_this);
+    action = randsample(length(p_this),1,true,p_this);
+    % action = randi([1,9]);
+    this_trial_action_list(model) = action; 
+    this_trial_q_list(model) = qvals(action);
+    state = action;
+    
+    % state = randsample(length(state_p_this),1,true,state_p_this);
+    state_of_all_model(model) = state;
+
+    
+end
+
+% 选择action
+% action_id = randi([1,3]);
+% action = this_trial_action_list(action_id);
+
+% 选择一个action,通过比较(?)
+
+gama = 0.1; %遗忘率
+v = 0.3;
+% all_uncertainty_RPE = zeros(length(q_of_model));
+
+for model = 1:length(q_of_model)
+    if trial ==1
+        last_trial_RPE_uncertainty
+        last_trial_RPE_uncertainty = all_RPE_uncertainty_of_model(model,trial-1);
+    this_trial_RPE = all_RPE_of_model{model,trial};
+    this_model_uncertainty_RPE = gama*last_trial_RPE_uncertainty + (1-gama)*((this_trial_RPE)^2);
+
+    all_RPE_uncertainty_of_model(model,trial) = this_model_uncertainty_RPE;
+    last_trial_RPE_uncertainty_all_model = all_RPE_uncertainty_of_model(:,trial-1);
+
+    lamda = exp(-(last_trial_RPE_uncertainty/v))/sum(exp(-last_trial_RPE_uncertainty_all_model/v));
+    lamda_of_model_all{model,trial} = lamda;
+end
+lamda_of_all_model_this_trial = lamda_of_model_all{:,trial};
+lamda_of_all_model_this_trial = lamda_of_all_model_this_trial/sum(lamda_of_all_model_this_trial);
+r = rand();
+cum_p = cumsum(lamda_of_all_model_this_trial);
+index = find(r<=cum_p,1);
+
+action = state_of_all_model(index)*index;
+which_model_was_choosen = index;
+
+% for m = 1:length(q_of_model)
+%     if m == which_model_was_choosen
+%         lamda_of_model_all{m,trial} = lamda_of_model_all{m,trial}*1.1;
+%     else
+%         lamda_of_model{m,trial} = lamda_of_model{m,trial}*0.9;
+%     end
+% end
+% 
+% action = chose_action*which_model_was_choosen;
+
+end
