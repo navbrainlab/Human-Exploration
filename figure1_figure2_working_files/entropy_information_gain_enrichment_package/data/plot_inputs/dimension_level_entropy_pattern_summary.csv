@@ -1,0 +1,6 @@
+pattern_definition,pattern_label,n_dim_trials,n_relevant_dim_trials,n_irrelevant_dim_trials,mean_correct_confirmation_bits,mean_correct_exclusion_bits,balanced_correct_evidence_bits,mean_evidence_strength_bits,correct_evidence_ratio,correct_confirmation_share,correct_exclusion_share,mean_dimension_information_gain_bits,mean_correct_evidence_bits,mean_misleading_evidence_bits
+dimension_level,4-0,1837,904,933,0.11453,0.101066,0.107798,0.177314,0.607349,0.523353,0.476647,0.040046,0.107692,0.069623
+dimension_level,3-1,1283,866,417,0.082655,0.080984,0.081819,0.181485,0.452443,0.679444,0.320556,0.024473,0.082112,0.099373
+dimension_level,2-2,1793,915,878,0.100311,0.060408,0.080359,0.176742,0.457,0.633771,0.366229,0.016838,0.080771,0.095971
+dimension_level,2-1-1,5849,2048,3801,0.068062,0.052534,0.060298,0.148391,0.390664,0.411098,0.588902,0.014953,0.057971,0.09042
+dimension_level,1-1-1-1,9493,3369,6124,0.037025,0.033409,0.035217,0.064521,0.537682,0.378758,0.621242,0.006114,0.034692,0.029829

@@ -1,0 +1,5 @@
+{
+  "learning_rate": 0.001,
+  "epsilon": 1e-08,
+  "sigma": 9.09032446229153
+}
