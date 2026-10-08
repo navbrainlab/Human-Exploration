@@ -1,0 +1,25 @@
+{
+  "file_errors": [],
+  "dpi": [
+    599.9988,
+    599.9988
+  ],
+  "shape_equal": true,
+  "pixel_equal": true,
+  "changed_pixels": 0,
+  "max_channel_difference": 0,
+  "png_sha256_equal": true,
+  "text_collisions": [],
+  "clipped_text": [],
+  "alignment": "PASS",
+  "status": "PASS",
+  "updated_at_utc": "2026-10-08T13:18:04.391848+00:00",
+  "reference_png": "reference/fig5_nhb_evidence_layout.png",
+  "png_sha256": "bcb6ca1b2bc846f5b2fb4b8605f7c9c65c2bb1d13442c322ae776a0624d84759",
+  "font_sizes_pt": [
+    5.0,
+    6.0,
+    8.0
+  ],
+  "scope": "Isolated Python -I invocation from /tmp; no mini_DG or Codex imports at runtime."
+}

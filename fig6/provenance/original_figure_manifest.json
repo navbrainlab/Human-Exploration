@@ -1,0 +1,755 @@
+{
+  "created_at_utc": "2026-10-08T11:47:10.784384+00:00",
+  "figure": {
+    "path": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/main_figure/fig6_full_joint90_free_beta_performance_first.png",
+    "sha256": "bdaea7cc319d4565f28247884ab123be9893bb88fbea23e22a26461c26504495",
+    "format": "PNG only",
+    "size_inches": [
+      7.086614173228347,
+      7.09251968503937
+    ],
+    "pixels": [
+      4251,
+      4255
+    ],
+    "dpi": [
+      599.9988,
+      599.9988
+    ],
+    "color_mode": "RGB",
+    "font_family": "DejaVu Sans",
+    "axis_and_tick_style": "All panels are re-rendered from committed source tables with 5-7 pt sans-serif text, 0.55-0.70 pt axes, regular labels, and bold 8 pt panel letters"
+  },
+  "edition_audit": {
+    "typography": {
+      "ordinary_labels": "6 pt labels, ticks and legends; 7 pt panel-a body; 8 pt panel letters",
+      "schematic_text": "a: 7 pt body, 8 pt operators; h: 6 pt body; panel letters 8 pt",
+      "lines": "0.70 pt axes; 0.75 pt error bars; 1.10 pt primary curves; 1.0 pt arrows",
+      "preserved": "Significance weight, dense scatter opacity, SEM/CI fills, all scientific values",
+      "font_sizes_pt": [
+        6.0,
+        7.0,
+        8.0
+      ]
+    },
+    "font_floor_pt": 6.0,
+    "qa_status": "PASS",
+    "alignment_status": "PASS",
+    "horizontal_spacing_qa": {
+      "status": "PASS",
+      "before": {
+        "areas": {
+          "b1": {
+            "plot_mm": [
+              13.139999999999999,
+              92.41000000000001,
+              40.5,
+              120.36000000000003
+            ],
+            "content_mm": [
+              1.104986111111109,
+              88.8257777777778,
+              41.849374999999995,
+              123.37977777777782
+            ]
+          },
+          "b2": {
+            "plot_mm": [
+              49.14,
+              92.41000000000001,
+              78.30000000000001,
+              120.36000000000003
+            ],
+            "content_mm": [
+              43.51848611111111,
+              88.8257777777778,
+              78.30000000000001,
+              123.37977777777782
+            ]
+          },
+          "c": {
+            "plot_mm": [
+              89.1,
+              92.41000000000001,
+              123.30000000000001,
+              120.36000000000003
+            ],
+            "content_mm": [
+              79.3845,
+              85.38266666666668,
+              123.97468750000002,
+              121.16433333333336
+            ]
+          },
+          "d_upper": {
+            "plot_mm": [
+              136.8,
+              102.81000000000002,
+              175.5,
+              120.36000000000003
+            ],
+            "content_mm": [
+              125.74570833333334,
+              101.58233333333335,
+              175.5,
+              121.16433333333336
+            ]
+          },
+          "d_lower": {
+            "plot_mm": [
+              136.8,
+              92.41000000000001,
+              175.5,
+              101.12000000000002
+            ],
+            "content_mm": [
+              126.6752777777778,
+              85.38266666666668,
+              175.50000000000003,
+              101.12000000000002
+            ]
+          },
+          "e1": {
+            "plot_mm": [
+              13.139999999999999,
+              46.00000000000001,
+              40.5,
+              73.95
+            ],
+            "content_mm": [
+              4.773874999999997,
+              42.41577777777778,
+              42.185395833333324,
+              73.95
+            ]
+          },
+          "e2": {
+            "plot_mm": [
+              49.14,
+              46.00000000000001,
+              78.30000000000001,
+              73.95
+            ],
+            "content_mm": [
+              49.14,
+              42.41577777777778,
+              79.98539583333334,
+              73.95
+            ]
+          },
+          "g_upper": {
+            "plot_mm": [
+              136.8,
+              54.45000000000001,
+              175.5,
+              73.95000000000002
+            ],
+            "content_mm": [
+              128.433875,
+              53.22233333333334,
+              175.5,
+              74.75433333333335
+            ]
+          },
+          "g_lower": {
+            "plot_mm": [
+              136.8,
+              46.00000000000001,
+              175.5,
+              51.2
+            ],
+            "content_mm": [
+              131.16084722222223,
+              39.678222222222225,
+              176.538531626506,
+              52.00433333333334
+            ]
+          },
+          "f": {
+            "plot_mm": [
+              89.1,
+              46.00000000000001,
+              127.8,
+              73.95
+            ],
+            "content_mm": [
+              79.3845,
+              38.97266666666667,
+              127.8,
+              74.5286
+            ]
+          },
+          "h": {
+            "plot_mm": [
+              4.5,
+              1.99375,
+              116.1,
+              34.075
+            ],
+            "content_mm": [
+              4.5,
+              2.977827930174564,
+              104.40857142857142,
+              32.82645487323359
+            ]
+          },
+          "i": {
+            "plot_mm": [
+              126.0,
+              7.250000000000001,
+              174.6,
+              29.90625
+            ],
+            "content_mm": [
+              114.28354444444446,
+              1.714211111111113,
+              174.6,
+              34.25561111111111
+            ]
+          }
+        },
+        "content_gaps_mm": {
+          "b1-b2": 1.669111111111114,
+          "b-c": 1.0844999999999914,
+          "c-d": 1.7710208333333242,
+          "e1-e2": 6.954604166666677,
+          "e-f": -0.6008958333333396,
+          "f-g": 0.6338750000000033,
+          "h-i": 9.874973015873039
+        }
+      },
+      "after": {
+        "areas": {
+          "b1": {
+            "plot_mm": [
+              13.14,
+              92.41000000000001,
+              39.34,
+              120.36000000000003
+            ],
+            "content_mm": [
+              1.1049861111111114,
+              88.8257777777778,
+              40.689375000000005,
+              123.37977777777782
+            ]
+          },
+          "b2": {
+            "plot_mm": [
+              49.70000000000001,
+              92.41000000000001,
+              77.7,
+              120.36000000000003
+            ],
+            "content_mm": [
+              44.07848611111112,
+              88.8257777777778,
+              77.7,
+              123.37977777777782
+            ]
+          },
+          "c": {
+            "plot_mm": [
+              91.39999999999999,
+              92.41000000000001,
+              123.30000000000001,
+              120.36000000000003
+            ],
+            "content_mm": [
+              81.6845,
+              85.38266666666668,
+              123.97468750000002,
+              121.16433333333336
+            ]
+          },
+          "d_upper": {
+            "plot_mm": [
+              138.6,
+              102.81000000000002,
+              175.5,
+              120.36000000000003
+            ],
+            "content_mm": [
+              127.54570833333334,
+              101.58233333333335,
+              175.5,
+              121.16433333333336
+            ]
+          },
+          "d_lower": {
+            "plot_mm": [
+              138.6,
+              92.41000000000001,
+              175.5,
+              101.12000000000002
+            ],
+            "content_mm": [
+              128.4752777777778,
+              85.38266666666668,
+              175.5,
+              101.12000000000002
+            ]
+          },
+          "e1": {
+            "plot_mm": [
+              13.14,
+              46.00000000000001,
+              39.34,
+              73.95
+            ],
+            "content_mm": [
+              4.773874999999999,
+              42.41577777777778,
+              41.025395833333334,
+              73.95
+            ]
+          },
+          "e2": {
+            "plot_mm": [
+              49.70000000000001,
+              46.00000000000001,
+              77.7,
+              73.95
+            ],
+            "content_mm": [
+              49.70000000000001,
+              42.41577777777778,
+              79.38539583333333,
+              73.95
+            ]
+          },
+          "g_upper": {
+            "plot_mm": [
+              138.6,
+              54.45000000000001,
+              175.5,
+              73.95000000000002
+            ],
+            "content_mm": [
+              130.233875,
+              53.22233333333334,
+              175.5,
+              74.75433333333335
+            ]
+          },
+          "g_lower": {
+            "plot_mm": [
+              138.6,
+              46.00000000000001,
+              175.5,
+              51.2
+            ],
+            "content_mm": [
+              132.96084722222224,
+              39.678222222222225,
+              176.5529894578313,
+              52.00433333333334
+            ]
+          },
+          "f": {
+            "plot_mm": [
+              91.39999999999999,
+              46.00000000000001,
+              123.30000000000001,
+              73.95
+            ],
+            "content_mm": [
+              81.6845,
+              38.97266666666667,
+              123.30000000000001,
+              74.5286
+            ]
+          },
+          "h": {
+            "plot_mm": [
+              4.5,
+              1.99375,
+              116.1,
+              34.075
+            ],
+            "content_mm": [
+              4.5,
+              2.977827930174564,
+              104.40857142857142,
+              32.82645487323359
+            ]
+          },
+          "i": {
+            "plot_mm": [
+              126.80000000000001,
+              7.250000000000001,
+              174.6,
+              29.90625
+            ],
+            "content_mm": [
+              115.08354444444446,
+              1.714211111111113,
+              174.6,
+              34.25561111111111
+            ]
+          }
+        },
+        "content_gaps_mm": {
+          "b1-b2": 3.389111111111113,
+          "b-c": 3.984499999999997,
+          "c-d": 3.5710208333333213,
+          "e1-e2": 8.674604166666676,
+          "e-f": 2.299104166666666,
+          "f-g": 6.9338750000000005,
+          "h-i": 10.674973015873036
+        }
+      },
+      "gap_increments_mm": {
+        "b1-b2": 1.7199999999999989,
+        "b-c": 2.9000000000000057,
+        "c-d": 1.7999999999999972,
+        "e1-e2": 1.7199999999999989,
+        "e-f": 2.9000000000000057,
+        "f-g": 6.299999999999997,
+        "h-i": 0.7999999999999972
+      },
+      "minimum_content_gap_mm": 2.0,
+      "canvas_width_mm": 180,
+      "font_sizes_changed": false,
+      "vertical_geometry_preserved": true,
+      "method": "Final rendered bounds include ticks, axis titles, legends and schematic labels. All same-row content gaps increase by at least 0.65 mm."
+    },
+    "panel_a_qa": {
+      "status": "PASS",
+      "text_collisions": [],
+      "labels_outside_boxes": [],
+      "arrow_text_intersections": [],
+      "bar_text_intersections": [],
+      "nominal_font_sizes_pt": [
+        7.0,
+        8.0
+      ],
+      "physical_size_mm": [
+        180.0,
+        49.0
+      ],
+      "illustrative_weights_are_data": false,
+      "illustrative_weight_vector": [
+        0.72,
+        0.18,
+        0.1
+      ],
+      "illustrative_action_order": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "illustrative_action_is_dis": true,
+      "illustrative_stimulus_order": [
+        0,
+        4,
+        8,
+        5,
+        6,
+        1,
+        7,
+        2,
+        3
+      ],
+      "illustrative_stimulus_is_dis": false,
+      "action_row_color_counts": [
+        1,
+        1,
+        1
+      ],
+      "stimulus_row_color_counts": [
+        3,
+        3,
+        3
+      ],
+      "illustrative_tile_features": [
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          2,
+          2
+        ],
+        [
+          1,
+          3,
+          3
+        ],
+        [
+          2,
+          1,
+          2
+        ],
+        [
+          2,
+          2,
+          3
+        ],
+        [
+          2,
+          3,
+          1
+        ],
+        [
+          3,
+          1,
+          3
+        ],
+        [
+          3,
+          2,
+          1
+        ],
+        [
+          3,
+          3,
+          2
+        ]
+      ],
+      "illustrative_action_is_data": false,
+      "scope": "Native Matplotlib geometry and PNG visual QA; no PDF audit."
+    },
+    "panel_h_qa": {
+      "status": "PASS",
+      "text_collisions": [],
+      "labels_outside_boxes": [],
+      "arrow_text_intersections": [],
+      "clipped_text": [],
+      "neighboring_labels_intersecting_boxes": [],
+      "nominal_font_sizes_pt": [
+        6.0
+      ],
+      "physical_size_mm": [
+        111.6,
+        32.081250000000004
+      ],
+      "reward_node_or_feedback_arrows": false,
+      "movie_examples_are_data": false,
+      "action_box_displayed": false,
+      "selected_candidate": "Movie B",
+      "selected_candidate_matches_feature_fill_and_edge": true,
+      "other_tags_block_matches_other_clusters": true,
+      "source": "Task_dimension_guided_exploration_NeurIPS_2026 (19).pdf",
+      "source_pages": [
+        5,
+        6,
+        16,
+        17,
+        18
+      ],
+      "scope": "Native Matplotlib text, box and arrow geometry plus PNG visual inspection."
+    },
+    "header_added_height_mm": 13.899999999999999,
+    "scientific_scope": {
+      "b_Task1_c_d_g": "DGEM with individually fitted beta_init and six other parameters",
+      "b_Task2": "unchanged original fixed-beta reference; not re-fitted",
+      "e": "unchanged full-DGEM best-performance 5000-agent results, beta_init fixed20",
+      "f": "original no-bonus fitted slopes and tests, without paired visual lines"
+    },
+    "fitting_attention_height_qa": {
+      "status": "PASS",
+      "plot_heights_mm": {
+        "b1": 27.950000000000017,
+        "b2": 27.950000000000017,
+        "c": 27.950000000000017
+      },
+      "top_spread_mm": 0.0,
+      "bottom_spread_mm": 0.0
+    },
+    "third_row_edges_aligned": true,
+    "slope_panel": {
+      "source_counts": [
+        51,
+        51,
+        54
+      ],
+      "displayed_point_counts": [],
+      "box_count": 3,
+      "connecting_subject_lines": 0,
+      "statistics_unchanged": true,
+      "display": "boxes only; individual points and fliers hidden",
+      "significance_annotation_collisions": 0,
+      "adjacent_comparison_brackets_same_height": true
+    },
+    "h_schematic": {
+      "display": "selected Movie B within candidates; no separate Action box",
+      "boxes": 12,
+      "arrows": 3,
+      "selected_movie": "Movie B",
+      "action_box": false,
+      "other_tags_muted_block": true,
+      "text_labels": 18,
+      "details_in_methods": true
+    },
+    "public_panel_order": [
+      "e: performance tasks",
+      "f: slope distributions",
+      "g: DIS and temp."
+    ]
+  },
+  "panel_mapping": {
+    "a": "DGEM feature-to-action computational flow (vector artwork)",
+    "b": "Task1 seven-parameter DGEM free-beta fit; Task2 original fixed-beta reference",
+    "c": "Free-beta fitted-data replay: effective attention temperature and dimension weight",
+    "d": "Free-beta fitted-data replay: maximum attention and observed DIS",
+    "e": "Original independently validated full-DGEM best performance, Task1 and Task2",
+    "f": "No-bonus fitted temperature slopes: 3D, 4D-E, 4D-NE; boxes only, without individual points or paired lines",
+    "g": "Free-beta fitted-parameter simulations: DIS; lower trace is fitted-data replay temperature",
+    "h": "Dimension-guided movie recommendation: semantic tag clusters, selected tags and candidates; Movie B highlighted as selected",
+    "i": "Digitized TDGE reference comparison across contextual-bandit baselines"
+  },
+  "documentation": {
+    "caption": {
+      "path": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/main_figure/fig6_full_joint90_free_beta_performance_first/caption.md",
+      "sha256": "cedd53797a3dc1c9b7ec3ada50ab3743b672f1c9e4e62ef47434c4a8a201c7cf"
+    },
+    "panel_h_methods": {
+      "path": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/main_figure/fig6_full_joint90_free_beta_performance_first/methods.md",
+      "sha256": "9321f37533d8fbb112cdc68948cfdd78c0839a813f71a2a485decdf7b589f176"
+    },
+    "results_and_caption.md": {
+      "path": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/main_figure/fig6_full_joint90_free_beta_performance_first/results_and_caption.md",
+      "sha256": "509f09cbe536bfc4dceb6d9f934ff940bcc45c6a538d693e79903bfea01b66c4"
+    }
+  },
+  "vector_panel_a": {
+    "bounds": "Full-width180 x49 mm native header",
+    "primary_color": "#6F55A5",
+    "line_width_pt": "0.70-0.90",
+    "structure": "Original full-DGEM stimulus-to-action architecture; beta initial strength is fitted for b/c/d/g",
+    "standalone_image_dependency": false
+  },
+  "source_provenance": {
+    "path": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/main_figure/fig6_full_joint90_free_beta_performance_first/source_provenance.json",
+    "sha256": "964ea2b4250622f9c54e0431488ae95e13453ae435e818d5ea9d0a92fc2cf681"
+  },
+  "data_sources": {
+    "fit_summary": {
+      "path": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/main_figure/fig6_full_joint90_free_beta_performance_first/csv/fit_task1.csv",
+      "sha256": "8813cb11272099fae93753d18574ef21246546a9569a387d10fea36e18c86891"
+    },
+    "fit_significance": {
+      "path": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/main_figure/fig6_full_joint90_free_beta_performance_first/csv/fit_task1_significance.csv",
+      "sha256": "724fb7a8325520a50b3b221075ad1904faa3a5d3310fb25778b6d6e0ad5f3597"
+    },
+    "attention_bins": {
+      "path": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/main_figure/fig6_full_joint90_free_beta_performance_first/csv/attention_bins.csv",
+      "sha256": "3fd48fe3ec5115f2961a872781a21fc9011b22cb82857bb95ae587a35d11ff83"
+    },
+    "attention_points": {
+      "path": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/main_figure/fig6_full_joint90_free_beta_performance_first/csv/attention_trial_coordinates.csv",
+      "sha256": "e0ec8e441a3b30ce7fa745ecac35dbae35212c8f53c23b299f0e58cb3a782831"
+    },
+    "attention_curve": {
+      "path": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/main_figure/fig6_full_joint90_free_beta_performance_first/csv/attention_dis_logit_curve.csv",
+      "sha256": "4a0470d96400cab6cae9b2bde9bf2da1d0574b802caae83047a26bcc4cbc7729"
+    },
+    "attention_distribution_shape": {
+      "path": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/main_figure/fig6_full_joint90_free_beta_performance_first/csv/attention_dis_distribution_shape.csv",
+      "sha256": "e849c93eeea2b7c49a06a601dcabfbb34ffe1556e6f356ae9c39f84f6465ef27"
+    },
+    "attention_distribution_summary": {
+      "path": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/main_figure/fig6_full_joint90_free_beta_performance_first/csv/attention_dis_distribution_summary.csv",
+      "sha256": "efeec0ae7ab809fe73394a183c94a140994ba1001567845b8d6836737fc9f16c"
+    },
+    "best_performance": {
+      "path": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/main_figure/fig6_full_joint90_free_beta_performance_first/csv/performance_task1.csv",
+      "sha256": "8eae7f26ba3e9d0c6e51a15c2504483181cdc102adf8bfc650052fd388e3eb8c"
+    },
+    "dis_by_round": {
+      "path": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/main_figure/fig6_full_joint90_free_beta_performance_first/csv/dis_by_round.csv",
+      "sha256": "6fe374bcd6b13dc763ea0f5d1a13b2f2489d9b345e5b4b345bd47c8951cb55cc"
+    },
+    "simulation_temperature": {
+      "path": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/main_figure/fig6_full_joint90_free_beta_performance_first/csv/temperature_by_round.csv",
+      "sha256": "7d5f209b7f42d3b4f288dd550450f79cc1e1c1bdd6f33e7f527cb63e837a9c8d"
+    },
+    "panel_i_reference": {
+      "path": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/main_figure/fig6_full_joint90_free_beta_performance_first/csv/tdge_digitized_reference.csv",
+      "sha256": "9bcdcf922a00ffb1ba572c0d3301e506cd25144ba9337f961135e43d4acb727f"
+    },
+    "task2_fit": {
+      "path": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/main_figure/fig6_full_joint90_free_beta_performance_first/csv/fit_task2.csv",
+      "sha256": "58c0e6d843c6de386e61dcaabafc37d15cc514a5cb7b65b59b190c149b59e824"
+    },
+    "task2_performance": {
+      "path": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/main_figure/fig6_full_joint90_free_beta_performance_first/csv/performance_task2.csv",
+      "sha256": "25432296421e7609a6d9aa1075617bae7a5ccc0788a9df902aba6df1472c4b99"
+    },
+    "panel_statistics": {
+      "path": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/main_figure/fig6_full_joint90_free_beta_performance_first/csv/panel_statistics.csv",
+      "sha256": "48c7f81492b8d16998c59c3277da4a15695068a6de4df410972b664116c5182f"
+    },
+    "participant_parameters": {
+      "path": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/main_figure/fig6_full_joint90_free_beta_performance_first/csv/participant_fitted_parameters.csv",
+      "sha256": "9349aded2ed872b8bde726c608d9328da2485a77c0aa59ab5f00f73f0131a706"
+    },
+    "slope_participants": {
+      "path": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/main_figure/fig6_full_joint90_free_beta_performance_first/csv/participant_temperature_slope.csv",
+      "sha256": "facac70b7a35378d6987d98e9c0d466a84a864c7159bbc41a233f3ec8eb7475d"
+    },
+    "slope_tests": {
+      "path": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/main_figure/fig6_full_joint90_free_beta_performance_first/csv/slope_phase_tests.csv",
+      "sha256": "0dbdfe482312587bbd63c539558e85df6eec8cb6082534ce04a69ac5cf683fe8"
+    }
+  },
+  "panel_statistics": {
+    "path": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/main_figure/fig6_full_joint90_free_beta_performance_first/csv/panel_statistics.csv",
+    "sha256": "48c7f81492b8d16998c59c3277da4a15695068a6de4df410972b664116c5182f",
+    "comparisons": 1,
+    "methods": [
+      "d: participant-paired two-sided Wilcoxon",
+      "f: original no-bonus phase comparisons, Wilcoxon/Mann-Whitney with Holm(3)"
+    ],
+    "f_tests": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/main_figure/fig6_full_joint90_free_beta_performance_first/csv/slope_phase_tests.csv"
+  },
+  "notes": [
+    "Only the packaged plot-facing CSV files are required to redraw this figure.",
+    "Panels b-g are re-rendered from the packaged plotting values with text sizes specified in points; final width is recorded in figure.size_inches.",
+    "Panel h is a vector redraw of the user-supplied hierarchical-selection reference diagram.",
+    "Panel i values were digitized from the user-supplied reference image because no source table or plotting code was found; they are not newly simulated mini_DG results.",
+    "No PDF is generated.",
+    "Panel f boxes use all156 no-bonus participant-phase slopes; individual points/fliers and paired visual lines are hidden; tests retain participant pairing.",
+    "Panel h highlights selected Movie B within the candidate list using the feature accent; no separate Action box. Learning details remain in Methods."
+  ],
+  "documentation_updated_at_utc": "2026-10-08T12:56:59.382064+00:00",
+  "prose_revision": {
+    "notes_path": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/main_figure/fig5_fig6_prose_revision_notes.md",
+    "notes_sha256": "46392a0039ee69e5b128bc33d4ec0c413a1b22da3c1093f04487b3a417937b0d",
+    "figure_and_data_unchanged": true,
+    "word_counts": {
+      "results_before": 352,
+      "results_after": 392,
+      "caption_after": 341,
+      "results_paragraphs": 6
+    }
+  },
+  "main_text_equation_revision": {
+    "status": "PASS",
+    "updated_at_utc": "2026-10-08T12:56:59.382064+00:00",
+    "path": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/main_figure/fig6_full_joint90_free_beta_performance_first/results_and_caption.md",
+    "sha256_before": "5b667ba8fa22a5c0b604b4a6361f4f41ffabc628a85e6a7340b767320ef09201",
+    "sha256_after": "509f09cbe536bfc4dceb6d9f934ff940bcc45c6a538d693e79903bfea01b66c4",
+    "display_equation_blocks": 2,
+    "inline_attention_dependent_item_noise_relation": true,
+    "source_equations_match": true,
+    "equation_source": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/main_figure/fig6_full_joint90/model_main_text_draft.tex",
+    "notation_mapping": "w_{d,t} in Results and Fig. 6a corresponds to a_{d,t} in the complete TeX Methods",
+    "existing_empirical_results_and_caption_unchanged": true,
+    "empirical_results_and_caption_sha256": "baaf5bc2c8d10f36ec7974b9f420689f9241e5b971e112048ecc878586449082",
+    "caption_copies_identical": true,
+    "prose_word_count_excluding_math": 552,
+    "protected_files_unchanged": 28,
+    "new_fitting": false,
+    "new_simulation": false
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "file_errors": [],
+  "dpi": [
+    599.9988,
+    599.9988
+  ],
+  "shape_equal": true,
+  "pixel_equal": true,
+  "changed_pixels": 0,
+  "max_channel_difference": 0,
+  "png_sha256_equal": true,
+  "text_collisions": [],
+  "clipped_text": [],
+  "alignment": "PASS",
+  "status": "PASS",
+  "updated_at_utc": "2026-10-08T13:18:04.391848+00:00",
+  "reference_png": "reference/fig6_full_joint90_free_beta_performance_first.png",
+  "png_sha256": "bdaea7cc319d4565f28247884ab123be9893bb88fbea23e22a26461c26504495",
+  "font_sizes_pt": [
+    6.0,
+    7.0,
+    8.0
+  ],
+  "scope": "Isolated Python -I invocation from /tmp; no mini_DG or Codex imports at runtime."
+}

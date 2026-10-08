@@ -1,0 +1,206 @@
+{
+  "schema_version": 1,
+  "applicable": true,
+  "auditable": true,
+  "verdict": "PASS",
+  "backend": "python-matplotlib",
+  "summary": {
+    "fail": 0,
+    "warn": 0,
+    "comparisons": 8,
+    "exemptions": 2
+  },
+  "tolerances": {
+    "alignment_pt": 1.5,
+    "gutter_pt": 1.5
+  },
+  "layout": {
+    "schema_version": 1,
+    "backend": "python-matplotlib",
+    "figure": {
+      "width_pt": 510.236220472441,
+      "height_pt": 510.66141732283467
+    },
+    "panels": [
+      {
+        "id": "b1",
+        "bbox_pt": [
+          37.247244094488195,
+          199.2963530010451,
+          111.51496062992128,
+          298.4831953511023
+        ]
+      },
+      {
+        "id": "b2",
+        "bbox_pt": [
+          140.88188976377955,
+          199.2963530010451,
+          220.25196850393704,
+          298.4831953511023
+        ]
+      },
+      {
+        "id": "c",
+        "bbox_pt": [
+          259.0866141732284,
+          199.2963530010451,
+          349.5118110236221,
+          298.4831953511023
+        ]
+      },
+      {
+        "id": "d_upper",
+        "bbox_pt": [
+          392.88188976377955,
+          236.20308503827573,
+          497.48031496063,
+          298.4831953511023
+        ]
+      },
+      {
+        "id": "d_lower",
+        "bbox_pt": [
+          392.88188976377955,
+          199.2963530010451,
+          497.48031496063,
+          230.20574108222573
+        ]
+      },
+      {
+        "id": "e1",
+        "bbox_pt": [
+          37.247244094488195,
+          34.60006128490367,
+          111.51496062992128,
+          133.78690363496082
+        ]
+      },
+      {
+        "id": "e2",
+        "bbox_pt": [
+          140.88188976377955,
+          34.60006128490367,
+          220.25196850393704,
+          133.78690363496082
+        ]
+      },
+      {
+        "id": "f",
+        "bbox_pt": [
+          259.0866141732284,
+          34.60006128490367,
+          349.5118110236221,
+          133.78690363496082
+        ]
+      },
+      {
+        "id": "g_upper",
+        "bbox_pt": [
+          392.88188976377955,
+          64.58678106515352,
+          497.48031496063,
+          133.78690363496088
+        ]
+      },
+      {
+        "id": "g_lower",
+        "bbox_pt": [
+          392.88188976377955,
+          34.60006128490367,
+          497.48031496063,
+          53.05342730351895
+        ]
+      }
+    ],
+    "row_groups": [
+      {
+        "id": "fit-tasks",
+        "panels": [
+          "b1",
+          "b2"
+        ]
+      },
+      {
+        "id": "fit-and-attention-height",
+        "panels": [
+          "b1",
+          "b2",
+          "c"
+        ]
+      },
+      {
+        "id": "third-row-performance-and-slopes",
+        "panels": [
+          "e1",
+          "e2",
+          "f"
+        ]
+      }
+    ],
+    "column_groups": [
+      {
+        "id": "dis-association",
+        "panels": [
+          "d_upper",
+          "d_lower"
+        ]
+      },
+      {
+        "id": "round-trajectories",
+        "panels": [
+          "g_upper",
+          "g_lower"
+        ]
+      },
+      {
+        "id": "task1-column",
+        "panels": [
+          "b1",
+          "e1"
+        ]
+      },
+      {
+        "id": "task2-column",
+        "panels": [
+          "b2",
+          "e2"
+        ]
+      },
+      {
+        "id": "attention-and-parameter-column",
+        "panels": [
+          "c",
+          "f"
+        ]
+      }
+    ],
+    "boundary_groups": [],
+    "exemptions": [
+      {
+        "panels": [
+          "e2",
+          "f"
+        ],
+        "checks": [
+          "panel-width",
+          "horizontal-gutter"
+        ],
+        "reason": "Two-task performance comparison and single phase-distribution panel have intentionally different spans"
+      },
+      {
+        "panels": [
+          "b1",
+          "b2",
+          "c"
+        ],
+        "checks": [
+          "panel-width",
+          "horizontal-gutter"
+        ],
+        "reason": "Two task-specific fitting plots and one attention panel retain distinct widths; only top, bottom and height are matched"
+      }
+    ]
+  },
+  "findings": []
+}

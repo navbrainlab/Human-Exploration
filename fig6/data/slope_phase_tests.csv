@@ -1,0 +1,4 @@
+phase_a,phase_b,test,statistic,p_raw,n_a,n_b,n_pairs,p_holm3,significance
+P1,P2,paired Wilcoxon,208,1.9996719051092221e-05,51,51,51,5.9990157153276666e-05,***
+P1,P2-only,independent Mann-Whitney,1317,0.7028457796781612,51,54,0,0.7028457796781612,ns
+P2,P2-only,independent Mann-Whitney,1867.5,0.0016801427948791743,51,54,0,0.0033602855897583487,**
