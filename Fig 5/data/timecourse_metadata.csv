@@ -1,0 +1,4 @@
+﻿plot_id,ylabel,stars,star_stages
+03_obs_vs_nobs_score_relevance,"Score-relevant
+dimensions count",,
+05_obs_vs_disd_noticed_dimensions,Noticed Dimensions count,**,3|4

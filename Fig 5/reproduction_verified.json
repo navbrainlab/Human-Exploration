@@ -1,0 +1,24 @@
+{
+  "file_errors": [],
+  "dpi": [
+    599.9988,
+    599.9988
+  ],
+  "shape_equal": true,
+  "pixel_equal": true,
+  "changed_pixels": 0,
+  "max_channel_difference": 0,
+  "png_sha256_equal": true,
+  "text_collisions": [],
+  "clipped_text": [],
+  "alignment": "PASS",
+  "verified_manifest_files_before_adding_this_record": 32,
+  "verification_context": {
+    "zip_extracted_outside_project": true,
+    "isolated_python_flag": "-I",
+    "changed_home": true,
+    "working_directory": "/tmp",
+    "path_contains_spaces": true,
+    "original_png_unchanged": true
+  }
+}

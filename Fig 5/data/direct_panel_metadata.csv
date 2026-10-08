@@ -1,0 +1,32 @@
+﻿panel_id,collection,order,title,ylabel,p_value,left_label,right_label,left_color,right_color
+01_obs_vs_disd_01,01_obs_vs_disd,1,Dimensions Viewed,"Gaze-covered
+dimensions count",0.0252294700158939,Obs,DIS-D,#E67E28,#8657BE
+01_obs_vs_disd_02,01_obs_vs_disd,2,Images Seen,Gaze-covered images count,0.0219060054005532,Obs,DIS-D,#E67E28,#8657BE
+01_obs_vs_disd_03,01_obs_vs_disd,3,Revisit Rate,Gaze revisit rate,0.0478860370415669,Obs,DIS-D,#E67E28,#8657BE
+01_obs_vs_disd_04,01_obs_vs_disd,4,Revisited-Region Share,Revisited-region ratio,0.0478860370415669,Obs,DIS-D,#E67E28,#8657BE
+01_obs_vs_disd_05,01_obs_vs_disd,5,Fixation coverage area,Gaze-coverage area (deg²),0.0073380379109083,Obs,DIS-D,#E67E28,#8657BE
+01_obs_vs_disd_06,01_obs_vs_disd,6,Fixation-centre shift speed,Gaze-shift speed (deg/s),0.0010540048195805,Obs,DIS-D,#E67E28,#8657BE
+02_dis_vs_ndis_01,02_dis_vs_ndis,1,Scanned Task Dim Count,"Gaze-covered task
+dimensions count",7.798116091385847e-12,DIS,NDIS,#8657BE,#8657BE
+02_dis_vs_ndis_02,02_dis_vs_ndis,2,Raw Gaze Path Length,Gaze path length (px),5.327194971840871e-11,DIS,NDIS,#8657BE,#8657BE
+02_dis_vs_ndis_03,02_dis_vs_ndis,3,Gaze-shift speed,Gaze-shift speed (deg/s),8.594793108021836e-11,DIS,NDIS,#8657BE,#8657BE
+02_dis_vs_ndis_04,02_dis_vs_ndis,4,Scanpath Length,Gaze scanpath length (px),1.284707341300621e-11,DIS,NDIS,#8657BE,#8657BE
+02_dis_vs_ndis_05,02_dis_vs_ndis,5,Scanpath Length per Second,Gaze scanpath speed (px/s),0.000169992952328,DIS,NDIS,#8657BE,#8657BE
+02_dis_vs_ndis_06,02_dis_vs_ndis,6,Inter-Dim Switch Frequency,Inter-dimensional gaze-switch rate (per s),7.067777290955303e-11,DIS,NDIS,#8657BE,#8657BE
+02_dis_vs_ndis_07,02_dis_vs_ndis,7,Scanned Image Count,Gaze-covered images count,8.222637227841012e-13,DIS,NDIS,#8657BE,#8657BE
+02_dis_vs_ndis_08,02_dis_vs_ndis,8,Mean Dwell per Scanned Image,Mean gaze duration per covered image (ms),3.722699923097399e-12,DIS,NDIS,#8657BE,#8657BE
+02_dis_vs_ndis_09,02_dis_vs_ndis,9,Mean Single Fixation Duration,Mean fixation duration (ms),2.1507031385164645e-05,DIS,NDIS,#8657BE,#8657BE
+02_dis_vs_ndis_10,02_dis_vs_ndis,10,Mean Dwell Share — Top1 Dim,Gaze dwell share: top-1 dimension,6.507037827363011e-07,DIS,NDIS,#8657BE,#8657BE
+02_dis_vs_ndis_11,02_dis_vs_ndis,11,Mean Dwell Share — Other Dims,Gaze dwell share: other dimensions,6.507037827363011e-07,DIS,NDIS,#8657BE,#8657BE
+02_dis_vs_ndis_12,02_dis_vs_ndis,12,Mean Fixation Count Share — Top1 Dim,"Gaze fixation-count share:
+top-1 dimension",1.5141109948931055e-06,DIS,NDIS,#8657BE,#8657BE
+02_dis_vs_ndis_13,02_dis_vs_ndis,13,Mean Fixation Count Share — Other Dims,"Gaze fixation-count share:
+other dimensions",1.5141109948931055e-06,DIS,NDIS,#8657BE,#8657BE
+02_dis_vs_ndis_14,02_dis_vs_ndis,14,Corrected switch rate (per min),Corrected gaze-switch rate (per min),4.564891378436456e-08,DIS,NDIS,#8657BE,#8657BE
+02_dis_vs_ndis_15,02_dis_vs_ndis,15,noise to noise (corrected),Corrected noise-to-noise gaze-switch share,0.0038343103306214,DIS,NDIS,#8657BE,#8657BE
+02_dis_vs_ndis_16,02_dis_vs_ndis,16,E: painting,Gaze-switch share: E (painting),0.0277613191372981,DIS,NDIS,#8657BE,#8657BE
+02_dis_vs_ndis_17,02_dis_vs_ndis,17,noise: other,Gaze-switch share: other noise,0.0071611649772245,DIS,NDIS,#8657BE,#8657BE
+02_dis_vs_ndis_18,02_dis_vs_ndis,18,Corrected normalized destination entropy,Corrected gaze-switch destination entropy,7.588330913048527e-14,DIS,NDIS,#8657BE,#8657BE
+02_dis_vs_ndis_19,02_dis_vs_ndis,19,Gaze-coverage area,Gaze-coverage area (deg²),1.496162807368512e-13,DIS,NDIS,#8657BE,#8657BE
+03_obs_vs_nobs_01,03_obs_vs_nobs,1,Pre-experiment dimensions viewed,Pre-experiment gaze-covered dimensions count,0.012134626951794,Obs,NObs,#E67E28,#F7BA00
+03_obs_vs_nobs_02,03_obs_vs_nobs,2,Initially noticed dimensions,Early-Phase Noticed Dimensions count,6.175071243360478e-06,Obs,NObs,#E67E28,#F7BA00

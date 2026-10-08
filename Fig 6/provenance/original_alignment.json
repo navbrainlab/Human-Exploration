@@ -1,0 +1,179 @@
+{
+  "schema_version": 1,
+  "applicable": true,
+  "auditable": true,
+  "verdict": "PASS",
+  "backend": "python-matplotlib",
+  "summary": {
+    "fail": 0,
+    "warn": 0,
+    "comparisons": 6,
+    "exemptions": 1
+  },
+  "tolerances": {
+    "alignment_pt": 1.5,
+    "gutter_pt": 1.5
+  },
+  "layout": {
+    "schema_version": 1,
+    "backend": "python-matplotlib",
+    "figure": {
+      "width_pt": 510.236220472441,
+      "height_pt": 471.2598425196851
+    },
+    "panels": [
+      {
+        "id": "b1",
+        "bbox_pt": [
+          37.24724409448819,
+          209.71062992125988,
+          114.80314960629921,
+          299.25000000000006
+        ]
+      },
+      {
+        "id": "b2",
+        "bbox_pt": [
+          139.2944881889764,
+          209.71062992125988,
+          221.95275590551185,
+          299.25000000000006
+        ]
+      },
+      {
+        "id": "c",
+        "bbox_pt": [
+          252.5669291338583,
+          203.58425196850396,
+          349.5118110236221,
+          304.9051181102363
+        ]
+      },
+      {
+        "id": "d_upper",
+        "bbox_pt": [
+          387.77952755905517,
+          241.28503937007878,
+          497.48031496063,
+          304.9051181102363
+        ]
+      },
+      {
+        "id": "d_lower",
+        "bbox_pt": [
+          387.77952755905517,
+          203.58425196850396,
+          497.48031496063,
+          235.15866141732286
+        ]
+      },
+      {
+        "id": "e1",
+        "bbox_pt": [
+          37.24724409448819,
+          35.34448818897638,
+          114.80314960629921,
+          136.66535433070868
+        ]
+      },
+      {
+        "id": "e2",
+        "bbox_pt": [
+          139.2944881889764,
+          35.34448818897638,
+          221.95275590551185,
+          136.66535433070868
+        ]
+      },
+      {
+        "id": "f",
+        "bbox_pt": [
+          252.5669291338583,
+          35.34448818897638,
+          362.2677165354331,
+          136.66535433070868
+        ]
+      },
+      {
+        "id": "g_upper",
+        "bbox_pt": [
+          387.77952755905517,
+          65.97637795275593,
+          497.48031496063,
+          136.66535433070868
+        ]
+      },
+      {
+        "id": "g_lower",
+        "bbox_pt": [
+          387.77952755905517,
+          35.34448818897638,
+          497.48031496063,
+          54.194881889763785
+        ]
+      }
+    ],
+    "row_groups": [
+      {
+        "id": "fit-tasks",
+        "panels": [
+          "b1",
+          "b2"
+        ]
+      },
+      {
+        "id": "performance-and-temperature",
+        "panels": [
+          "e1",
+          "e2",
+          "f"
+        ]
+      }
+    ],
+    "column_groups": [
+      {
+        "id": "task1",
+        "panels": [
+          "b1",
+          "e1"
+        ]
+      },
+      {
+        "id": "task2",
+        "panels": [
+          "b2",
+          "e2"
+        ]
+      },
+      {
+        "id": "dis-association",
+        "panels": [
+          "d_upper",
+          "d_lower"
+        ]
+      },
+      {
+        "id": "round-trajectories",
+        "panels": [
+          "g_upper",
+          "g_lower"
+        ]
+      }
+    ],
+    "boundary_groups": [],
+    "exemptions": [
+      {
+        "panels": [
+          "e2",
+          "f"
+        ],
+        "checks": [
+          "panel-width",
+          "horizontal-gutter"
+        ],
+        "reason": "Established unequal task-specific and parameter-panel spans"
+      }
+    ]
+  },
+  "findings": []
+}

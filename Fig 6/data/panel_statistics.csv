@@ -1,0 +1,4 @@
+panel_comparison,group_1,group_2,n_group_1,n_group_2,n_pairs,test,statistic,p_value,estimand,significance
+d_DIS_vs_Non-DIS,DIS,Non-DIS,105,105,105,paired two-sided Wilcoxon,98,9.3370561361076718e-18,Within-participant mean maximum dimension attention weight by observed action class,***
+f_3D_simulation_vs_fitting,Simulation,Fitting replay,100,51,,two-sided Mann-Whitney U,156,4.63719366676312e-21,Per-agent or per-participant mean effective attention temperature,***
+f_4D_simulation_vs_fitting,Simulation,Fitting replay,100,51,,two-sided Mann-Whitney U,640,5.7863856318370559e-14,Per-agent or per-participant mean effective attention temperature,***

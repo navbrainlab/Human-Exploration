@@ -1,0 +1,32 @@
+{
+  "rules": {
+    "checked_date": "2026-09-30",
+    "sources": [
+      "https://www.nature.com/nathumbehav/content",
+      "https://www.nature.com/nathumbehav/submission-guidelines/aip-and-formatting",
+      "https://research-figure-guide.nature.com/figures/preparing-figures-our-specifications/"
+    ],
+    "official": "Readable accessible colours; standard sans-serif labels 5\u20137 pt; >=300 dpi; <=180 mm wide.",
+    "scope": "Final typography and contrast, not certification of a complete submission package.",
+    "output_override": "User requires PNG only; no PDF/SVG. Editable plotting source is retained.",
+    "palette": {
+      "#6F55A5": "#60458F",
+      "#F3C316": "#B68F00",
+      "#D8B938": "#B68F00",
+      "#E67E28": "#D57224",
+      "#F57C00": "#D87300",
+      "#D88A42": "#D87300",
+      "#2A9DB5": "#20879C"
+    }
+  },
+  "size_mm": [
+    180.0,
+    141.0
+  ],
+  "dpi": 600,
+  "font_floor_pt": 5.0,
+  "text_collisions": [],
+  "clipped_text": [],
+  "rotated_tick_bbox_visual_review": [],
+  "audit_scope": "Matplotlib text rectangles and geometry; no PDF collision audit."
+}

@@ -1,0 +1,3 @@
+﻿heatmap_id,colorbar_label,symmetric
+baseline_corrected,Change in Gaze Dwell-Time Proportion from Baseline,True
+no_baseline,Gaze Dwell-Time Proportion,False

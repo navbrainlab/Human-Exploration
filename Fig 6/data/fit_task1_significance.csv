@@ -1,0 +1,4 @@
+target,comparator,significance
+DGEM,fRL-decay,***
+DGEM,naiveRL,***
+DGEM,Bayesian,***

@@ -1,0 +1,155 @@
+{
+  "created_at_utc": "2026-10-08T07:25:27.198719+00:00",
+  "figure": {
+    "path": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/main_figure/fig6_full_joint90.png",
+    "sha256": "64350d972636a1bf6f8aefbd65ebf8a7efff11d50cb5049676fc2e8ed8a9a782",
+    "format": "PNG only",
+    "size_inches": [
+      7.086614173228347,
+      6.5452755905511815
+    ],
+    "pixels": [
+      4251,
+      3927
+    ],
+    "dpi": [
+      599.9988,
+      599.9988
+    ],
+    "color_mode": "RGB",
+    "font_family": "DejaVu Sans",
+    "axis_and_tick_style": "All panels are re-rendered from committed source tables with 5-7 pt sans-serif text, 0.55-0.70 pt axes, regular labels, and bold 8 pt panel letters"
+  },
+  "edition_audit": {
+    "typography": {
+      "ordinary_labels": "6 pt main text; 5 pt compact labels, ticks and legends",
+      "schematic_text": "5 or 6 pt; panel letters 8 pt",
+      "lines": "0.70 pt axes; 0.75 pt error bars; 1.10 pt primary curves; 1.0 pt arrows",
+      "preserved": "Significance weight, dense scatter opacity, SEM/CI fills, all scientific values",
+      "font_sizes_pt": [
+        5.0,
+        6.0,
+        8.0
+      ]
+    },
+    "font_floor_pt": 5.0,
+    "qa_status": "PASS",
+    "alignment_status": "PASS",
+    "full_dgem_90both": "Only e-panel DGEM data are newly simulated; all other plot data match primary full Fig. 6."
+  },
+  "panel_mapping": {
+    "a": "DGEM feature-to-action computational flow (vector artwork)",
+    "b": "Grouped-PL likelihood comparison, Task 1 and Task 2",
+    "c": "Effective attention temperature versus maximum dimension attention weight",
+    "d": "Maximum dimension attention weight versus DIS ratio, with group distributions",
+    "e": "Independent 5,000-agent full-DGEM best-performance validation: both DIS and full score exceed 90%",
+    "f": "Entity-level simulation-versus-fitting attention-temperature distributions and significance tests",
+    "g": "Fitted-parameter simulation DIS ratio and DGEM temperature by round",
+    "h": "Two-stage dimension and feature selection with direct candidate-item scoring and reward propagation",
+    "i": "Digitized TDGE reference comparison across contextual-bandit baselines"
+  },
+  "documentation": {
+    "caption": {
+      "path": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/main_figure/fig6_full_joint90/caption.md",
+      "sha256": "080ec3027ddf172556f11b2433d22ffdea23c862a6ef74e36ee2b4696cd61cea"
+    },
+    "panel_h_methods": {
+      "path": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/main_figure/fig6_full_joint90/methods.md",
+      "sha256": "812af67b318f66f3a90174a45d55a3be0b0e4374152e897fb9cba3c85267d976"
+    }
+  },
+  "vector_panel_a": {
+    "bounds": [
+      0.025,
+      0.705,
+      0.95,
+      0.27
+    ],
+    "primary_color": "#6F55A5",
+    "line_width_pt": "0.70-0.90",
+    "structure": "Fixed reference layout with nine sharp rectangular nodes, two circular operators, and orthogonal attention routes"
+  },
+  "source_provenance": {
+    "path": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/main_figure/fig6_full_joint90/source_provenance.json",
+    "sha256": "cd801adf86be36c4351a6d68196d82af57261f9bbb91f3528dc06cf085fb9373"
+  },
+  "data_sources": {
+    "fit_summary": {
+      "path": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/main_figure/fig6_full_joint90/csv/fit_task1.csv",
+      "sha256": "9bfcdacb0e9505b19bb1802f199ffe75f38cf4c7e613fad18b938a20375ef338"
+    },
+    "fit_significance": {
+      "path": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/main_figure/fig6_full_joint90/csv/fit_task1_significance.csv",
+      "sha256": "724fb7a8325520a50b3b221075ad1904faa3a5d3310fb25778b6d6e0ad5f3597"
+    },
+    "attention_bins": {
+      "path": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/main_figure/fig6_full_joint90/csv/attention_bins.csv",
+      "sha256": "033ad672589d5f9168a35c9288aa84c1c2988d36e2878151e6f56c295d66250c"
+    },
+    "attention_points": {
+      "path": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/main_figure/fig6_full_joint90/csv/attention_trial_coordinates.csv",
+      "sha256": "531fbce99a77ebac590464862162155c6a164ad1b0605813e19a34dced558fb1"
+    },
+    "attention_curve": {
+      "path": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/main_figure/fig6_full_joint90/csv/attention_dis_logit_curve.csv",
+      "sha256": "edef99e4b04167dffa721fdaa29faced3fdeb1e12a38cc1c0b201bfad37b6a58"
+    },
+    "attention_distribution_shape": {
+      "path": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/main_figure/fig6_full_joint90/csv/attention_dis_distribution_shape.csv",
+      "sha256": "8fb3e67f8297f94d0570e724c90e52bbdc1ab8025c92f10da1b1b31e73d65a67"
+    },
+    "attention_distribution_summary": {
+      "path": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/main_figure/fig6_full_joint90/csv/attention_dis_distribution_summary.csv",
+      "sha256": "96a12dddfe12d264185e0db81985113bb6b03d8fd0ca5aa9e6d836318eeb1f88"
+    },
+    "best_performance": {
+      "path": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/main_figure/fig6_full_joint90/csv/performance_task1.csv",
+      "sha256": "8eae7f26ba3e9d0c6e51a15c2504483181cdc102adf8bfc650052fd388e3eb8c"
+    },
+    "dis_by_round": {
+      "path": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/main_figure/fig6_full_joint90/csv/dis_by_round.csv",
+      "sha256": "02d7cd808ca4be7ba1527d61bb96776e918428496294438984df3ed18371429b"
+    },
+    "simulation_temperature": {
+      "path": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/main_figure/fig6_full_joint90/csv/temperature_by_round.csv",
+      "sha256": "0f1235ad5763c494d663e85d8e270583f6cedb414d6f1fd07d1fa5f095d07bc0"
+    },
+    "temperature_entities": {
+      "path": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/main_figure/fig6_full_joint90/csv/temperature_entity_means.csv",
+      "sha256": "08f6fd001d85977d564166db0ac45b929918e5d57134650f83edfbeb97740491"
+    },
+    "panel_i_reference": {
+      "path": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/main_figure/fig6_full_joint90/csv/tdge_digitized_reference.csv",
+      "sha256": "9bcdcf922a00ffb1ba572c0d3301e506cd25144ba9337f961135e43d4acb727f"
+    },
+    "task2_fit": {
+      "path": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/main_figure/fig6_full_joint90/csv/fit_task2.csv",
+      "sha256": "58c0e6d843c6de386e61dcaabafc37d15cc514a5cb7b65b59b190c149b59e824"
+    },
+    "task2_performance": {
+      "path": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/main_figure/fig6_full_joint90/csv/performance_task2.csv",
+      "sha256": "25432296421e7609a6d9aa1075617bae7a5ccc0788a9df902aba6df1472c4b99"
+    },
+    "panel_statistics": {
+      "path": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/main_figure/fig6_full_joint90/csv/panel_statistics.csv",
+      "sha256": "fed4b1c3a475a953928ea492cff1d076017cf839b13ca18bf183c83aa0d4e67e"
+    }
+  },
+  "panel_statistics": {
+    "path": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/main_figure/fig6_full_joint90/csv/panel_statistics.csv",
+    "sha256": "fed4b1c3a475a953928ea492cff1d076017cf839b13ca18bf183c83aa0d4e67e",
+    "comparisons": 3,
+    "methods": [
+      "paired two-sided Wilcoxon for panel d",
+      "two-sided Mann-Whitney U for panel f"
+    ]
+  },
+  "notes": [
+    "Only the packaged plot-facing CSV files are required to redraw this figure.",
+    "Panels b-g are re-rendered from the packaged plotting values with text sizes specified in points; final width is recorded in figure.size_inches.",
+    "Panel f shows log-domain violin densities, box summaries, and significance brackets.",
+    "Panel h is a vector redraw of the user-supplied hierarchical-selection reference diagram.",
+    "Panel i values were digitized from the user-supplied reference image because no source table or plotting code was found; they are not newly simulated mini_DG results.",
+    "No PDF is generated."
+  ]
+}
