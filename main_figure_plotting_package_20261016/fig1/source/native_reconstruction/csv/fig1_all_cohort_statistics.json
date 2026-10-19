@@ -1,0 +1,116 @@
+{
+  "status": "all_cohort_outcomes",
+  "bootstrap_draws": 100000,
+  "seed": 20261008,
+  "confidence_intervals": "Wilson 95% for proportions; participant-bootstrap percentile 95% for risk differences; pointwise, not simultaneous",
+  "inference": "Exact binary tests and nonparametric log-rank; Holm across 3 Task 1 and 2 Task 2 contrasts",
+  "paired_bootstrap": "Multinomial resampling of the four paired binary states, equivalent to participant-pair bootstrap",
+  "censored_event_handling": "Missing event times retained; follow-up at the fixed trial limit, not a completion event",
+  "cumulative_estimator": "Empirical full-score proportion equals 1-Kaplan–Meier because only fixed-horizon administrative censoring occurs",
+  "survival_task1_3d": "Descriptive reference, stops at 30; only independent 4D groups receive a log-rank comparison",
+  "learning_uncertainty": "SEM across individually five-trial-smoothed participant trajectories",
+  "cohorts": {
+    "1": {
+      "P1": {
+        "n": 51,
+        "events": 17,
+        "right_censored": 34,
+        "horizon": 30
+      },
+      "P2": {
+        "n": 51,
+        "events": 32,
+        "right_censored": 19,
+        "horizon": 50
+      },
+      "P2-only": {
+        "n": 54,
+        "events": 22,
+        "right_censored": 32,
+        "horizon": 50
+      }
+    },
+    "2": {
+      "FDS-Obs": {
+        "n": 40,
+        "events": 18,
+        "right_censored": 22,
+        "horizon": 60
+      },
+      "FDS-NoObs": {
+        "n": 40,
+        "events": 12,
+        "right_censored": 28,
+        "horizon": 60
+      }
+    }
+  },
+  "tests": [
+    {
+      "task": 1,
+      "id": "rate_P2_P1",
+      "test": "exact paired McNemar",
+      "n_pairs": 51,
+      "gained": 20,
+      "lost": 5,
+      "p_raw": 0.004077315330505371,
+      "p_holm": 0.012231945991516113
+    },
+    {
+      "task": 1,
+      "id": "rate_P2_P2_only",
+      "test": "two-sided Fisher exact",
+      "n_a": 51,
+      "n_b": 54,
+      "odds_ratio": 2.449760765550239,
+      "p_raw": 0.031850093365493055,
+      "p_holm": 0.031850093365493055
+    },
+    {
+      "task": 1,
+      "id": "survival_task1",
+      "test": "nonparametric log-rank (two-sided)",
+      "group_a": "P2",
+      "group_b": "P2-only",
+      "n_a": 51,
+      "n_b": 54,
+      "events_a": 32,
+      "events_b": 22,
+      "statistic": 6.377051448378459,
+      "df": 1,
+      "p_raw": 0.01156053335564522,
+      "p_holm": 0.02312106671129044
+    },
+    {
+      "task": 2,
+      "id": "rate_Obs_NObs",
+      "test": "two-sided Fisher exact",
+      "n_a": 40,
+      "n_b": 40,
+      "odds_ratio": 1.9090909090909092,
+      "p_raw": 0.24806112140557737,
+      "p_holm": 0.25738382959314965
+    },
+    {
+      "task": 2,
+      "id": "survival_task2",
+      "test": "nonparametric log-rank (two-sided)",
+      "group_a": "FDS-Obs",
+      "group_b": "FDS-NoObs",
+      "n_a": 40,
+      "n_b": 40,
+      "events_a": 18,
+      "events_b": 12,
+      "statistic": 2.308213130877249,
+      "df": 1,
+      "p_raw": 0.12869191479657482,
+      "p_holm": 0.25738382959314965
+    }
+  ],
+  "versions": {
+    "numpy": "1.24.3",
+    "pandas": "2.0.3",
+    "scipy": "1.11.1",
+    "statsmodels": "0.14.0"
+  }
+}

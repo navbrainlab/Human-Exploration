@@ -1,0 +1,22 @@
+{
+  "display_panel": "d",
+  "source_analysis_id": "e",
+  "window_trials": 5,
+  "centered": true,
+  "edge_rule": "Use available trials; min_periods=1",
+  "summary": "Across-participant mean and sample SD/sqrt(n), after individual smoothing",
+  "source_rows": 4800,
+  "participants": 80,
+  "participants_per_condition": 40,
+  "source_sha256": {
+    "csv/04_06_extended_learning_data.csv": "457fb08e6599ab013f3d36286ba32be3c0d7413c71425d0d3a86451046551e2f"
+  },
+  "display_sha256": {
+    "analysis/d_learning_display_5trial.csv": "47be7fa6a7e12625b9374a33fbdba6f4f5ac0340329eab5c8d9bfaf5bb4fb2d8"
+  },
+  "interpolation": "PCHIP to400 trial-grid nodes, without extrapolation",
+  "reference": "Fig1e, fig1_fig2_reconstruction/code/build_outcome_panels.py",
+  "tests_changed": false,
+  "fits_changed": false,
+  "source_assumption": "Original100-score carry-forward after stopping, through trial60"
+}

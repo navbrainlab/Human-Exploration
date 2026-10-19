@@ -1,0 +1,2114 @@
+{
+  "canvas_mm": [
+    180.0,
+    149.0
+  ],
+  "dpi": 600,
+  "display_panel_map": {
+    "a": "a",
+    "b": "a",
+    "c": "b",
+    "d": "c",
+    "e": "d",
+    "f": "e",
+    "g": "f",
+    "h": "g",
+    "i": "h"
+  },
+  "display_panel_letters": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e",
+    "f",
+    "g",
+    "h"
+  ],
+  "y_axis_breaks": {
+    "a": {
+      "panel": "a",
+      "ylim": [
+        30.0,
+        103.0
+      ],
+      "scale": "linear",
+      "version": "fig5f-double-slash-20261012",
+      "marked": true,
+      "slash_count": 2,
+      "width_mm": 1.2276,
+      "slash_height_mm": 0.6,
+      "centers_mm": [
+        -1.95,
+        -1.11
+      ],
+      "extension_mm": 2.7,
+      "x_tick_pad_pt": 7.0,
+      "meaning": "Zero-to-lower-bound interval omitted below first displayed y value",
+      "left_spine_outward_pt": 5.0,
+      "x_tick_text_collisions": [],
+      "rendered_strokes": [
+        {
+          "width_mm": 1.2275999999999991,
+          "height_mm": 0.6000000000000175,
+          "center_mm": -1.9499999999999993
+        },
+        {
+          "width_mm": 1.2275999999999991,
+          "height_mm": 0.5999999999999983,
+          "center_mm": -1.1099999999999977
+        }
+      ],
+      "geometry_verdict": "PASS"
+    },
+    "e": {
+      "panel": "e",
+      "ylim": [
+        45.0,
+        90.0
+      ],
+      "scale": "linear",
+      "version": "fig5f-double-slash-20261012",
+      "marked": true,
+      "slash_count": 2,
+      "width_mm": 1.2276,
+      "slash_height_mm": 0.6,
+      "centers_mm": [
+        -1.95,
+        -1.11
+      ],
+      "extension_mm": 2.7,
+      "x_tick_pad_pt": 7.0,
+      "meaning": "Zero-to-lower-bound interval omitted below first displayed y value",
+      "left_spine_outward_pt": 5.0,
+      "x_tick_text_collisions": [],
+      "rendered_strokes": [
+        {
+          "width_mm": 1.227599999999998,
+          "height_mm": 0.5999999999999983,
+          "center_mm": -1.9499999999999993
+        },
+        {
+          "width_mm": 1.227599999999998,
+          "height_mm": 0.5999999999999983,
+          "center_mm": -1.1099999999999977
+        }
+      ],
+      "geometry_verdict": "PASS"
+    },
+    "g": {
+      "panel": "g",
+      "ylim": [
+        45.0,
+        90.0
+      ],
+      "scale": "linear",
+      "version": "fig5f-double-slash-20261012",
+      "marked": true,
+      "slash_count": 2,
+      "width_mm": 1.2276,
+      "slash_height_mm": 0.6,
+      "centers_mm": [
+        -1.95,
+        -1.11
+      ],
+      "extension_mm": 2.7,
+      "x_tick_pad_pt": 7.0,
+      "meaning": "Zero-to-lower-bound interval omitted below first displayed y value",
+      "left_spine_outward_pt": 5.0,
+      "x_tick_text_collisions": [],
+      "rendered_strokes": [
+        {
+          "width_mm": 1.2275999999999991,
+          "height_mm": 0.6000000000000006,
+          "center_mm": -1.9500000000000004
+        },
+        {
+          "width_mm": 1.2275999999999991,
+          "height_mm": 0.5999999999999995,
+          "center_mm": -1.11
+        }
+      ],
+      "geometry_verdict": "PASS"
+    },
+    "h": {
+      "panel": "h",
+      "ylim": [
+        4.0,
+        12.0
+      ],
+      "scale": "linear",
+      "version": "fig5f-double-slash-20261012",
+      "marked": true,
+      "slash_count": 2,
+      "width_mm": 1.2276,
+      "slash_height_mm": 0.6,
+      "centers_mm": [
+        -1.95,
+        -1.11
+      ],
+      "extension_mm": 2.7,
+      "x_tick_pad_pt": 7.0,
+      "meaning": "Zero-to-lower-bound interval omitted below first displayed y value",
+      "left_spine_outward_pt": 5.0,
+      "x_tick_text_collisions": [],
+      "rendered_strokes": [
+        {
+          "width_mm": 1.227599999999998,
+          "height_mm": 0.6000000000000006,
+          "center_mm": -1.9500000000000004
+        },
+        {
+          "width_mm": 1.227599999999998,
+          "height_mm": 0.5999999999999995,
+          "center_mm": -1.11
+        }
+      ],
+      "geometry_verdict": "PASS"
+    }
+  },
+  "mark_proportions": {
+    "reference": "Fig5 g/h independent-group .29-wide boxes, xlim(-.43,1.43), axes27.9x30mm",
+    "bar_width_mm": 4.35,
+    "category_centre_gap_mm": 15.0,
+    "category_xlim": [
+      -0.43,
+      1.43
+    ],
+    "public_h_bottom_spine_outward_pt": 7.299999999999998,
+    "public_g_h_x_tick_baseline_difference_pt": 0.0,
+    "public_c_f_g_display": "Conceptual diagram / GEE curve / mean-SEM curve; no quantitative box shapes replaced"
+  },
+  "middle_row_spacing": {
+    "public_d_right_shift_mm": 4.6,
+    "c_d_visible_body_gap_mm": 6.702944444444455,
+    "d_e_visible_body_gap_mm": 6.66943333333333,
+    "public_d_body_bounds_mm": [
+      70.70294444444444,
+      49.947722222222225,
+      119.72183333333332,
+      89.65616666666666
+    ],
+    "public_e_body_bounds_mm": [
+      126.39126666666665,
+      54.555,
+      164.9,
+      89.65616666666666
+    ],
+    "measurement": "Plot, ticks, axis labels and legend; header anchors stay on the column grid",
+    "column_exception": "Only public d's plot shifts within the wider schematic row; d/g header anchors remain aligned"
+  },
+  "detached_axes": {
+    "a": {
+      "display_panel": "a",
+      "left_spine_outward_pt": 5.0,
+      "bottom_spine_outward_pt": 3.0,
+      "corner_endpoint_distance_mm": 2.057030251792648,
+      "omission_stroke_to_x_endpoint_clearance_mm": 0.9031444444444454,
+      "omission_stroke_to_first_x_tick_clearance_mm": 1.8371067085953876,
+      "omission_marks_aligned_to_actual_y_spine": true
+    },
+    "c": {
+      "display_panel": "b",
+      "left_spine_outward_pt": 5.0,
+      "bottom_spine_outward_pt": 3.0,
+      "corner_endpoint_distance_mm": 2.0570302517926424
+    },
+    "e": {
+      "display_panel": "d",
+      "left_spine_outward_pt": 5.0,
+      "bottom_spine_outward_pt": 3.0,
+      "corner_endpoint_distance_mm": 2.0570302517926504,
+      "omission_stroke_to_x_endpoint_clearance_mm": 0.9031444444444454,
+      "omission_stroke_to_first_x_tick_clearance_mm": 0.9031444444444454,
+      "omission_marks_aligned_to_actual_y_spine": true
+    },
+    "g": {
+      "display_panel": "f",
+      "left_spine_outward_pt": 5.0,
+      "bottom_spine_outward_pt": 3.0,
+      "corner_endpoint_distance_mm": 2.057030251792651,
+      "omission_stroke_to_x_endpoint_clearance_mm": 0.9031444444444454,
+      "omission_stroke_to_first_x_tick_clearance_mm": 0.9031444444444454,
+      "omission_marks_aligned_to_actual_y_spine": true
+    },
+    "h": {
+      "display_panel": "g",
+      "left_spine_outward_pt": 5.0,
+      "bottom_spine_outward_pt": 3.0,
+      "corner_endpoint_distance_mm": 2.0570302517926504,
+      "omission_stroke_to_x_endpoint_clearance_mm": 0.9031444444444454,
+      "omission_stroke_to_first_x_tick_clearance_mm": 3.688858730158733,
+      "omission_marks_aligned_to_actual_y_spine": true
+    }
+  },
+  "header_positions": {
+    "a": {
+      "letter_anchor_mm": [
+        4.000000000000003,
+        142.89799999999997
+      ],
+      "letter_to_icon_left_mm": 3.8,
+      "letter_icon_top_difference_mm": 0.0,
+      "header_above_plot_mm": 5.898000000000007
+    },
+    "b": {
+      "letter_anchor_mm": [
+        98.6,
+        142.89799999999997
+      ],
+      "letter_to_icon_left_mm": 3.7999999999999825,
+      "letter_icon_top_difference_mm": 0.0,
+      "header_above_plot_mm": 5.898000000000007
+    },
+    "c": {
+      "letter_anchor_mm": [
+        4.0,
+        94.898
+      ],
+      "letter_to_icon_left_mm": 3.8000000000000025,
+      "letter_icon_top_difference_mm": -1.925097118752698e-14,
+      "header_above_plot_mm": 5.898000000000007
+    },
+    "d": {
+      "letter_anchor_mm": [
+        66.0,
+        94.898
+      ],
+      "letter_to_icon_left_mm": 3.8000000000000025,
+      "letter_icon_top_difference_mm": -1.925097118752698e-14,
+      "header_above_plot_mm": 5.898000000000007
+    },
+    "e": {
+      "letter_anchor_mm": [
+        128.0,
+        94.898
+      ],
+      "letter_to_icon_left_mm": 3.800000000000021,
+      "letter_icon_top_difference_mm": -1.925097118752698e-14,
+      "header_above_plot_mm": 5.898000000000007
+    },
+    "f": {
+      "letter_anchor_mm": [
+        4.0,
+        46.897999999999996
+      ],
+      "letter_to_icon_left_mm": 3.8000000000000025,
+      "letter_icon_top_difference_mm": 0.0,
+      "header_above_plot_mm": 5.8980000000000015
+    },
+    "g": {
+      "letter_anchor_mm": [
+        66.0,
+        46.897999999999996
+      ],
+      "letter_to_icon_left_mm": 3.7999999999999923,
+      "letter_icon_top_difference_mm": 0.0,
+      "header_above_plot_mm": 5.8980000000000015
+    },
+    "h": {
+      "letter_anchor_mm": [
+        128.0,
+        46.897999999999996
+      ],
+      "letter_to_icon_left_mm": 3.800000000000021,
+      "letter_icon_top_difference_mm": 0.0,
+      "header_above_plot_mm": 5.8980000000000015
+    }
+  },
+  "header_reference": {
+    "figure": "fig5_nhb_evidence_layout",
+    "panels": [
+      "g",
+      "h",
+      "i"
+    ],
+    "letter_to_icon_left_mm": 3.8,
+    "header_above_plot_mm": 5.898,
+    "letter_left_of_logical_column_mm": 9.0,
+    "horizontal_margin_exception": "Retain9mm rather than13.5mm to keep first header inside existing canvas"
+  },
+  "merged_panel_a": {
+    "source_ids": [
+      "a",
+      "b"
+    ],
+    "task_labels": [
+      "Task 1",
+      "Task 2"
+    ],
+    "plot_lefts_mm": [
+      13.0,
+      51.0
+    ],
+    "plot_widths_mm": [
+      33.0,
+      33.0
+    ],
+    "inner_plot_gap_mm": 5.0,
+    "shared_ylabel": true,
+    "shared_y_axis": {
+      "live_joined": true,
+      "shared_major_locator": true,
+      "ylim": [
+        30.0,
+        103.0
+      ],
+      "yticks": [
+        40,
+        60,
+        80,
+        100
+      ],
+      "decoration_source": "a",
+      "right_y_tick_labels": [],
+      "right_y_ticks_visible": false,
+      "right_y_spines_visible": false,
+      "right_y_break_artists": false
+    },
+    "task_plot_visible_content_clearance_mm": 4.063341194968569,
+    "shared_x_label": {
+      "text": "First-half DIS proportion",
+      "font_size_pt": 6,
+      "anchor_mm": [
+        48.5,
+        100.23805555555556
+      ],
+      "bbox_mm": [
+        35.905833333333334,
+        98.20605555555555,
+        61.094166666666666,
+        100.23805555555556
+      ],
+      "x_tick_text_clearance_mm": 0.7999999999999913
+    }
+  },
+  "font_audit": {
+    "method": "Matplotlib rendered native-text bounding boxes at export dpi",
+    "font_sizes_pt": [
+      5.0,
+      6.0,
+      8.0
+    ],
+    "native_text_count": 94,
+    "visible_text": [
+      "c",
+      "First-half DIS proportion",
+      "a",
+      "Task 1",
+      "***",
+      "Mean score\n(final 5% of trials)",
+      "0.0",
+      "0.5",
+      "1.0",
+      "40",
+      "60",
+      "80",
+      "100",
+      "Task 2",
+      "*",
+      "0.0",
+      "0.5",
+      "1.0",
+      "b",
+      "***",
+      "3D-NE DIS proportion",
+      "DIS proportion\n(early 4D-E trials)",
+      "0.0",
+      "0.5",
+      "1.0",
+      "0.0",
+      "0.5",
+      "1.0",
+      "d",
+      "Trial",
+      "Mean score",
+      "0",
+      "20",
+      "40",
+      "60",
+      "45",
+      "60",
+      "75",
+      "90",
+      "Obs",
+      "DIS-D",
+      "e",
+      "*",
+      "Participants reaching\nfull score (%)",
+      "Obs",
+      "DIS-D",
+      "0",
+      "25",
+      "50",
+      "75",
+      "100",
+      "f",
+      "*",
+      "Trial progress",
+      "Estimated mean score",
+      "0.0",
+      "0.5",
+      "1.0",
+      "45",
+      "60",
+      "75",
+      "90",
+      "Obs",
+      "DIS-D",
+      "g",
+      "*",
+      "*",
+      "Elements noticed\n(count)",
+      "Post-obs.",
+      "Early",
+      "Mid",
+      "Late",
+      "4",
+      "6",
+      "8",
+      "10",
+      "12",
+      "Obs",
+      "DIS-D",
+      "h",
+      "***",
+      "Dimensions correctly\nclassified (%)",
+      "Obs",
+      "DIS-D",
+      "0",
+      "25",
+      "50",
+      "75",
+      "100",
+      "Prior observation",
+      "Obs",
+      "Standard rule",
+      "DIS-D",
+      "DIS blocked"
+    ],
+    "text_text_collisions": [],
+    "page_clipping": [],
+    "unexpected_bold_text": [],
+    "embedded_raster_text": "none; all diagram text redrawn natively",
+    "pdf_collision_audit": "not run: publication PNG-only output policy"
+  },
+  "analytical_axes": {
+    "a": {
+      "left_mm": 12.999999999999998,
+      "top_mm": 12.000000000000028,
+      "width_mm": 32.99999999999999,
+      "height_mm": 29.99999999999997,
+      "outer_content_bbox_mm": [
+        0.6273777777777757,
+        101.03805555555554,
+        46.468329402515714,
+        142.898
+      ],
+      "xlabel": "",
+      "ylabel": "Mean score\n(final 5% of trials)",
+      "xlim": [
+        -0.03,
+        1.03
+      ],
+      "ylim": [
+        30.0,
+        103.0
+      ],
+      "yticks": [
+        40.0,
+        60.0,
+        80.0,
+        100.0
+      ],
+      "ytick_labels": [
+        "40",
+        "60",
+        "80",
+        "100"
+      ]
+    },
+    "b": {
+      "left_mm": 51.0,
+      "top_mm": 12.000000000000028,
+      "width_mm": 32.99999999999999,
+      "height_mm": 29.99999999999997,
+      "outer_content_bbox_mm": [
+        50.53167059748428,
+        101.03805555555554,
+        84.4683294025157,
+        141.6933333333333
+      ],
+      "xlabel": "",
+      "ylabel": "",
+      "xlim": [
+        -0.03,
+        1.03
+      ],
+      "ylim": [
+        30.0,
+        103.0
+      ],
+      "yticks": [
+        40.0,
+        60.0,
+        80.0,
+        100.0
+      ],
+      "ytick_labels": []
+    },
+    "c": {
+      "left_mm": 107.60000000000001,
+      "top_mm": 12.000000000000028,
+      "width_mm": 38.999999999999986,
+      "height_mm": 29.99999999999997,
+      "outer_content_bbox_mm": [
+        95.78829444444445,
+        99.71161111111113,
+        146.89851808176098,
+        142.898
+      ],
+      "xlabel": "3D-NE DIS proportion",
+      "ylabel": "DIS proportion\n(early 4D-E trials)",
+      "xlim": [
+        -0.03,
+        1.03
+      ],
+      "ylim": [
+        0.0,
+        1.0
+      ],
+      "yticks": [
+        0.0,
+        0.5,
+        1.0
+      ],
+      "ytick_labels": [
+        "0.0",
+        "0.5",
+        "1.0"
+      ]
+    },
+    "e": {
+      "left_mm": 79.6,
+      "top_mm": 60.0,
+      "width_mm": 39.00000000000001,
+      "height_mm": 29.99999999999999,
+      "outer_content_bbox_mm": [
+        65.99999999999999,
+        49.947722222222225,
+        119.72183333333334,
+        94.898
+      ],
+      "xlabel": "Trial",
+      "ylabel": "Mean score",
+      "xlim": [
+        0.0,
+        60.0
+      ],
+      "ylim": [
+        45.0,
+        90.0
+      ],
+      "yticks": [
+        45.0,
+        60.0,
+        75.0,
+        90.0
+      ],
+      "ytick_labels": [
+        "45",
+        "60",
+        "75",
+        "90"
+      ]
+    },
+    "f": {
+      "left_mm": 137.0,
+      "top_mm": 60.0,
+      "width_mm": 27.900000000000006,
+      "height_mm": 29.99999999999999,
+      "outer_content_bbox_mm": [
+        126.39126666666667,
+        54.555,
+        164.89999999999998,
+        94.898
+      ],
+      "xlabel": "",
+      "ylabel": "Participants reaching\nfull score (%)",
+      "xlim": [
+        -0.43,
+        1.43
+      ],
+      "ylim": [
+        0.0,
+        100.0
+      ],
+      "yticks": [
+        0.0,
+        25.0,
+        50.0,
+        75.0,
+        100.0
+      ],
+      "ytick_labels": [
+        "0",
+        "25",
+        "50",
+        "75",
+        "100"
+      ]
+    },
+    "g": {
+      "left_mm": 12.999999999999998,
+      "top_mm": 108.0,
+      "width_mm": 38.99999999999999,
+      "height_mm": 29.999999999999996,
+      "outer_content_bbox_mm": [
+        3.9999999999999996,
+        1.9477222222222244,
+        53.40229166666666,
+        46.898
+      ],
+      "xlabel": "Trial progress",
+      "ylabel": "Estimated mean score",
+      "xlim": [
+        0.0,
+        1.0
+      ],
+      "ylim": [
+        45.0,
+        90.0
+      ],
+      "yticks": [
+        45.0,
+        60.0,
+        75.0,
+        90.0
+      ],
+      "ytick_labels": [
+        "45",
+        "60",
+        "75",
+        "90"
+      ]
+    },
+    "h": {
+      "left_mm": 75.0,
+      "top_mm": 108.0,
+      "width_mm": 38.999999999999986,
+      "height_mm": 29.999999999999996,
+      "outer_content_bbox_mm": [
+        63.74921111111111,
+        5.038055555555558,
+        114.0,
+        46.898
+      ],
+      "xlabel": "",
+      "ylabel": "Elements noticed\n(count)",
+      "xlim": [
+        -0.25,
+        3.25
+      ],
+      "ylim": [
+        4.0,
+        12.0
+      ],
+      "yticks": [
+        4.0,
+        6.0,
+        8.0,
+        10.0,
+        12.0
+      ],
+      "ytick_labels": [
+        "4",
+        "6",
+        "8",
+        "10",
+        "12"
+      ]
+    },
+    "i": {
+      "left_mm": 137.0,
+      "top_mm": 108.0,
+      "width_mm": 27.900000000000006,
+      "height_mm": 29.999999999999996,
+      "outer_content_bbox_mm": [
+        126.39126666666667,
+        5.038055555555558,
+        164.89999999999998,
+        46.898
+      ],
+      "xlabel": "",
+      "ylabel": "Dimensions correctly\nclassified (%)",
+      "xlim": [
+        -0.43,
+        1.43
+      ],
+      "ylim": [
+        0.0,
+        1.0
+      ],
+      "yticks": [
+        0.0,
+        0.25,
+        0.5,
+        0.75,
+        1.0
+      ],
+      "ytick_labels": [
+        "0",
+        "25",
+        "50",
+        "75",
+        "100"
+      ]
+    }
+  },
+  "statistical_bar_widths_mm": [
+    4.3499999999999925,
+    4.3499999999999925,
+    4.3499999999999925,
+    4.3499999999999925
+  ],
+  "panels": {
+    "a": {
+      "rows_plotted": 105,
+      "uncertainty": "HC3 OLS mean 95% CI",
+      "native_artist_count": 2,
+      "source_icon": {
+        "version": "user-approved-20261010-grayscale",
+        "canonical_code": "../../assets/data_source_icons/code/draw_data_source_icons.py",
+        "portable_code": "assets/approved_source_icons.py",
+        "code_sha256": "d950202531ce5e35ff356274fdc8e961125d994cb18a76aa8569ae756c7ab68d",
+        "canonical_manifest": "../../assets/data_source_icons/manifest.json",
+        "figure_size_mm": 4.8,
+        "kinds": [
+          "task_behavior",
+          "survey"
+        ],
+        "canonical_png_sha256_by_kind": {
+          "task_behavior": "4c09b0bbedf11bf217192df29247e2c7b384b41c321b3722c962056c01dd469f",
+          "survey": "69fcf99041d35ca11b02ed653e69266151cf9425239d57d8a10473a50d00eb4d"
+        },
+        "panel_map": {
+          "a": "task_behavior",
+          "b": "task_behavior",
+          "c": "task_behavior",
+          "d": "task_behavior",
+          "e": "task_behavior",
+          "f": "task_behavior",
+          "g": "task_behavior",
+          "h": "survey",
+          "i": "survey"
+        },
+        "kind": "task_behavior",
+        "panel": "a",
+        "evidence_role": "measured evidence",
+        "visual_identity": "grayscale selection tiles and hand",
+        "source_loaded": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/assets/data_source_icons/code/draw_data_source_icons.py",
+        "bounds_fraction": [
+          0.04333333333333335,
+          0.9268322147651006,
+          0.026666666666666644,
+          0.03221476510067112
+        ],
+        "native_render": true,
+        "embedded_raster_images": 0
+      }
+    },
+    "b": {
+      "rows_plotted": 80,
+      "uncertainty": "HC3 OLS mean 95% CI",
+      "native_artist_count": 2,
+      "shared_header_with": "a"
+    },
+    "c": {
+      "rows_plotted": 51,
+      "uncertainty": "HC3 OLS mean 95% CI",
+      "native_artist_count": 2,
+      "display_ylim": [
+        0,
+        1
+      ],
+      "ols_ci_clipped_to_viewport": true,
+      "source_icon": {
+        "version": "user-approved-20261010-grayscale",
+        "canonical_code": "../../assets/data_source_icons/code/draw_data_source_icons.py",
+        "portable_code": "assets/approved_source_icons.py",
+        "code_sha256": "d950202531ce5e35ff356274fdc8e961125d994cb18a76aa8569ae756c7ab68d",
+        "canonical_manifest": "../../assets/data_source_icons/manifest.json",
+        "figure_size_mm": 4.8,
+        "kinds": [
+          "task_behavior",
+          "survey"
+        ],
+        "canonical_png_sha256_by_kind": {
+          "task_behavior": "4c09b0bbedf11bf217192df29247e2c7b384b41c321b3722c962056c01dd469f",
+          "survey": "69fcf99041d35ca11b02ed653e69266151cf9425239d57d8a10473a50d00eb4d"
+        },
+        "panel_map": {
+          "a": "task_behavior",
+          "b": "task_behavior",
+          "c": "task_behavior",
+          "d": "task_behavior",
+          "e": "task_behavior",
+          "f": "task_behavior",
+          "g": "task_behavior",
+          "h": "survey",
+          "i": "survey"
+        },
+        "kind": "task_behavior",
+        "panel": "c",
+        "evidence_role": "measured evidence",
+        "visual_identity": "grayscale selection tiles and hand",
+        "source_loaded": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/assets/data_source_icons/code/draw_data_source_icons.py",
+        "bounds_fraction": [
+          0.5688888888888889,
+          0.9268322147651006,
+          0.026666666666666616,
+          0.03221476510067112
+        ],
+        "native_render": true,
+        "embedded_raster_images": 0
+      }
+    },
+    "d": {
+      "source_asset_sha256": "112958d00da4ae0b9b3b1055291437f7e9f2d66dcf3ffc72f661b5b669b70497",
+      "display": "Native reconstruction of the same manipulation",
+      "native_size_mm": [
+        51.0,
+        30
+      ],
+      "sofa_icons": 8,
+      "left_mm": 13.0,
+      "left_edge_matches_public_a_task1": true,
+      "rendered_bounds_fraction": [
+        0.07222222222222222,
+        0.3959731543624161,
+        0.2833333333333333,
+        0.20134228187919456
+      ],
+      "right_mm": 64.0,
+      "condition_card_style": {
+        "Obs": {
+          "body": "#FCF1E8",
+          "edge": "#8E4414",
+          "header": "#AF5F23"
+        },
+        "DIS-D": {
+          "body": "#F2EDF8",
+          "edge": "#4A326D",
+          "header": "#745B9E"
+        }
+      },
+      "shared_observation_branches": 2,
+      "blocked_example": "DIS-D",
+      "embedded_raster_images": 0,
+      "font_sizes_pt": [
+        5,
+        6
+      ],
+      "alignment_exclusion": "Conceptual schematic; not a statistical plot",
+      "source_icon": {
+        "version": "user-approved-20261010-grayscale",
+        "canonical_code": "../../assets/data_source_icons/code/draw_data_source_icons.py",
+        "portable_code": "assets/approved_source_icons.py",
+        "code_sha256": "d950202531ce5e35ff356274fdc8e961125d994cb18a76aa8569ae756c7ab68d",
+        "canonical_manifest": "../../assets/data_source_icons/manifest.json",
+        "figure_size_mm": 4.8,
+        "kinds": [
+          "task_behavior",
+          "survey"
+        ],
+        "canonical_png_sha256_by_kind": {
+          "task_behavior": "4c09b0bbedf11bf217192df29247e2c7b384b41c321b3722c962056c01dd469f",
+          "survey": "69fcf99041d35ca11b02ed653e69266151cf9425239d57d8a10473a50d00eb4d"
+        },
+        "panel_map": {
+          "a": "task_behavior",
+          "b": "task_behavior",
+          "c": "task_behavior",
+          "d": "task_behavior",
+          "e": "task_behavior",
+          "f": "task_behavior",
+          "g": "task_behavior",
+          "h": "survey",
+          "i": "survey"
+        },
+        "kind": "task_behavior",
+        "panel": "d",
+        "evidence_role": "task design",
+        "visual_identity": "grayscale selection tiles and hand",
+        "source_loaded": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/assets/data_source_icons/code/draw_data_source_icons.py",
+        "bounds_fraction": [
+          0.04333333333333335,
+          0.6046845637583892,
+          0.026666666666666644,
+          0.03221476510067112
+        ],
+        "native_render": true,
+        "embedded_raster_images": 0
+      }
+    },
+    "e": {
+      "summary_rows": 120,
+      "participant_trial_rows": 4800,
+      "uncertainty": "Mean \u00b11 SEM across5-trial-smoothed participant scores; PCHIP display",
+      "display_analysis": {
+        "display_panel": "d",
+        "source_analysis_id": "e",
+        "window_trials": 5,
+        "centered": true,
+        "edge_rule": "Use available trials; min_periods=1",
+        "summary": "Across-participant mean and sample SD/sqrt(n), after individual smoothing",
+        "source_rows": 4800,
+        "participants": 80,
+        "participants_per_condition": 40,
+        "source_sha256": {
+          "csv/04_06_extended_learning_data.csv": "457fb08e6599ab013f3d36286ba32be3c0d7413c71425d0d3a86451046551e2f"
+        },
+        "display_sha256": {
+          "analysis/d_learning_display_5trial.csv": "47be7fa6a7e12625b9374a33fbdba6f4f5ac0340329eab5c8d9bfaf5bb4fb2d8"
+        },
+        "interpolation": "PCHIP to400 trial-grid nodes, without extrapolation",
+        "reference": "Fig1e, fig1_fig2_reconstruction/code/build_outcome_panels.py",
+        "tests_changed": false,
+        "fits_changed": false,
+        "source_assumption": "Original100-score carry-forward after stopping, through trial60"
+      },
+      "source_icon": {
+        "version": "user-approved-20261010-grayscale",
+        "canonical_code": "../../assets/data_source_icons/code/draw_data_source_icons.py",
+        "portable_code": "assets/approved_source_icons.py",
+        "code_sha256": "d950202531ce5e35ff356274fdc8e961125d994cb18a76aa8569ae756c7ab68d",
+        "canonical_manifest": "../../assets/data_source_icons/manifest.json",
+        "figure_size_mm": 4.8,
+        "kinds": [
+          "task_behavior",
+          "survey"
+        ],
+        "canonical_png_sha256_by_kind": {
+          "task_behavior": "4c09b0bbedf11bf217192df29247e2c7b384b41c321b3722c962056c01dd469f",
+          "survey": "69fcf99041d35ca11b02ed653e69266151cf9425239d57d8a10473a50d00eb4d"
+        },
+        "panel_map": {
+          "a": "task_behavior",
+          "b": "task_behavior",
+          "c": "task_behavior",
+          "d": "task_behavior",
+          "e": "task_behavior",
+          "f": "task_behavior",
+          "g": "task_behavior",
+          "h": "survey",
+          "i": "survey"
+        },
+        "kind": "task_behavior",
+        "panel": "e",
+        "evidence_role": "measured evidence",
+        "visual_identity": "grayscale selection tiles and hand",
+        "source_loaded": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/assets/data_source_icons/code/draw_data_source_icons.py",
+        "bounds_fraction": [
+          0.3877777777777778,
+          0.6046845637583892,
+          0.026666666666666672,
+          0.03221476510067112
+        ],
+        "native_render": true,
+        "embedded_raster_images": 0
+      }
+    },
+    "f": {
+      "participants": 80,
+      "events_by_group": [
+        18,
+        9
+      ],
+      "uncertainty": "Wilson 95% CI",
+      "source_icon": {
+        "version": "user-approved-20261010-grayscale",
+        "canonical_code": "../../assets/data_source_icons/code/draw_data_source_icons.py",
+        "portable_code": "assets/approved_source_icons.py",
+        "code_sha256": "d950202531ce5e35ff356274fdc8e961125d994cb18a76aa8569ae756c7ab68d",
+        "canonical_manifest": "../../assets/data_source_icons/manifest.json",
+        "figure_size_mm": 4.8,
+        "kinds": [
+          "task_behavior",
+          "survey"
+        ],
+        "canonical_png_sha256_by_kind": {
+          "task_behavior": "4c09b0bbedf11bf217192df29247e2c7b384b41c321b3722c962056c01dd469f",
+          "survey": "69fcf99041d35ca11b02ed653e69266151cf9425239d57d8a10473a50d00eb4d"
+        },
+        "panel_map": {
+          "a": "task_behavior",
+          "b": "task_behavior",
+          "c": "task_behavior",
+          "d": "task_behavior",
+          "e": "task_behavior",
+          "f": "task_behavior",
+          "g": "task_behavior",
+          "h": "survey",
+          "i": "survey"
+        },
+        "kind": "task_behavior",
+        "panel": "f",
+        "evidence_role": "measured evidence",
+        "visual_identity": "grayscale selection tiles and hand",
+        "source_loaded": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/assets/data_source_icons/code/draw_data_source_icons.py",
+        "bounds_fraction": [
+          0.7322222222222223,
+          0.6046845637583892,
+          0.026666666666666616,
+          0.03221476510067112
+        ],
+        "native_render": true,
+        "embedded_raster_images": 0
+      }
+    },
+    "g": {
+      "prediction_rows": 360,
+      "participant_clusters": 80,
+      "uncertainty": "frozen GEE population mean pointwise 95% CI",
+      "source_icon": {
+        "version": "user-approved-20261010-grayscale",
+        "canonical_code": "../../assets/data_source_icons/code/draw_data_source_icons.py",
+        "portable_code": "assets/approved_source_icons.py",
+        "code_sha256": "d950202531ce5e35ff356274fdc8e961125d994cb18a76aa8569ae756c7ab68d",
+        "canonical_manifest": "../../assets/data_source_icons/manifest.json",
+        "figure_size_mm": 4.8,
+        "kinds": [
+          "task_behavior",
+          "survey"
+        ],
+        "canonical_png_sha256_by_kind": {
+          "task_behavior": "4c09b0bbedf11bf217192df29247e2c7b384b41c321b3722c962056c01dd469f",
+          "survey": "69fcf99041d35ca11b02ed653e69266151cf9425239d57d8a10473a50d00eb4d"
+        },
+        "panel_map": {
+          "a": "task_behavior",
+          "b": "task_behavior",
+          "c": "task_behavior",
+          "d": "task_behavior",
+          "e": "task_behavior",
+          "f": "task_behavior",
+          "g": "task_behavior",
+          "h": "survey",
+          "i": "survey"
+        },
+        "kind": "task_behavior",
+        "panel": "g",
+        "evidence_role": "measured evidence",
+        "visual_identity": "grayscale selection tiles and hand",
+        "source_loaded": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/assets/data_source_icons/code/draw_data_source_icons.py",
+        "bounds_fraction": [
+          0.04333333333333335,
+          0.28253691275167786,
+          0.026666666666666644,
+          0.03221476510067112
+        ],
+        "native_render": true,
+        "embedded_raster_images": 0
+      }
+    },
+    "i": {
+      "input_rows": 79,
+      "individual_points_plotted": 0,
+      "group_n": [
+        40,
+        39
+      ],
+      "uncertainty": "frozen bootstrap mean 95% CI",
+      "summary_style": "bar +95% CI",
+      "source_panel_before_swap": "h",
+      "data_unit": "proportion",
+      "tick_unit": "percent",
+      "source_icon": {
+        "version": "user-approved-20261010-grayscale",
+        "canonical_code": "../../assets/data_source_icons/code/draw_data_source_icons.py",
+        "portable_code": "assets/approved_source_icons.py",
+        "code_sha256": "d950202531ce5e35ff356274fdc8e961125d994cb18a76aa8569ae756c7ab68d",
+        "canonical_manifest": "../../assets/data_source_icons/manifest.json",
+        "figure_size_mm": 4.8,
+        "kinds": [
+          "task_behavior",
+          "survey"
+        ],
+        "canonical_png_sha256_by_kind": {
+          "task_behavior": "4c09b0bbedf11bf217192df29247e2c7b384b41c321b3722c962056c01dd469f",
+          "survey": "69fcf99041d35ca11b02ed653e69266151cf9425239d57d8a10473a50d00eb4d"
+        },
+        "panel_map": {
+          "a": "task_behavior",
+          "b": "task_behavior",
+          "c": "task_behavior",
+          "d": "task_behavior",
+          "e": "task_behavior",
+          "f": "task_behavior",
+          "g": "task_behavior",
+          "h": "survey",
+          "i": "survey"
+        },
+        "kind": "survey",
+        "panel": "i",
+        "evidence_role": "measured evidence",
+        "visual_identity": "grayscale checklist plus three-dot speech bubble",
+        "source_loaded": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/assets/data_source_icons/code/draw_data_source_icons.py",
+        "bounds_fraction": [
+          0.7322222222222223,
+          0.2825369127516779,
+          0.026666666666666616,
+          0.03221476510067106
+        ],
+        "native_render": true,
+        "embedded_raster_images": 0
+      }
+    },
+    "h": {
+      "input_rows": 320,
+      "individual_points_plotted": 0,
+      "summary_rows": 8,
+      "participants": 80,
+      "uncertainty": "observed group mean \u00b11 SEM",
+      "stage_comparisons": [
+        {
+          "phase": "Post-observation",
+          "stage_order": 1,
+          "n_obs": 40,
+          "n_disd": 40,
+          "u_obs": 700.5,
+          "p_raw": 0.3368663705178248,
+          "obs_minus_disd_mean": -0.625,
+          "rank_biserial_obs_minus_disd": -0.124375,
+          "p_holm4": 0.4817271743190612,
+          "stars": ""
+        },
+        {
+          "phase": "Early",
+          "stage_order": 2,
+          "n_obs": 40,
+          "n_disd": 40,
+          "u_obs": 678.0,
+          "p_raw": 0.2408635871595306,
+          "obs_minus_disd_mean": -1.1500000000000004,
+          "rank_biserial_obs_minus_disd": -0.1524999999999999,
+          "p_holm4": 0.4817271743190612,
+          "stars": ""
+        },
+        {
+          "phase": "Mid",
+          "stage_order": 3,
+          "n_obs": 40,
+          "n_disd": 40,
+          "u_obs": 510.0,
+          "p_raw": 0.005172232198298,
+          "obs_minus_disd_mean": -3.1,
+          "rank_biserial_obs_minus_disd": -0.3625,
+          "p_holm4": 0.0206889287931921,
+          "stars": "*"
+        },
+        {
+          "phase": "Late",
+          "stage_order": 4,
+          "n_obs": 40,
+          "n_disd": 40,
+          "u_obs": 521.0,
+          "p_raw": 0.0069861482623077,
+          "obs_minus_disd_mean": -3.725000000000001,
+          "rank_biserial_obs_minus_disd": -0.34875,
+          "p_holm4": 0.0209584447869232,
+          "stars": "*"
+        }
+      ],
+      "analysis": {
+        "scope": "Exploratory user-requested four-stage independent-group contrasts; not an interaction test",
+        "stage_fields": {
+          "Post-observation": "previously exported coded observation counts",
+          "Early": "q2_1",
+          "Mid": "q2_2",
+          "Late": "q2_3"
+        },
+        "excluded_endpoint": "q2_4 union of reward-related/unrelated elements",
+        "experimental_unit": "participant; 40 per group, same 80 people at each stage",
+        "summary": "observed arithmetic mean \u00b11 SEM",
+        "test": "two-sided Mann\u2013Whitney U; asymptotic, tie-corrected, continuity correction",
+        "multiplicity": "Holm correction across all four stage comparisons",
+        "source_discrepancies": 2,
+        "post_observation_coding": "Reused existing participant export; original coder/protocol not supplied, no new NLP coding",
+        "source_inputs_sha256": {
+          "source/i_reference_subject_values.csv": "4666816ca91e913b58709db56049b40f32db8b1d93435fd0127d7ee9f8dd0b06",
+          "source/i_questionnaire_lists.csv": "db9a85ba6bfe07875217cb749cea15e06ecd2147fa91d3cbe89bf687c7d1241c"
+        },
+        "derived_files_sha256": {
+          "analysis/i_noticed_subjects.csv": "4a482525833bc8b804b1528633d9ff6994ec9770a030f9d24fb538c3fac0f181",
+          "analysis/i_noticed_summary.csv": "3f16684fffdd5348ac0fb0915400bdc58437c1ea2ff66c214cf6240116abefef",
+          "analysis/i_stage_contrasts.csv": "6a64ad5db9c84513457af4917d6ace51cd0f006ab9685f6970ab0488aa422a43",
+          "analysis/i_source_discrepancies.csv": "a3ecb5b7015ddad043d201d3ec234b2d1a34598c2900b19e088f93c5f244fbe5"
+        },
+        "historical_interaction": "P=.1411 concerns the previous differently mapped endpoint; not used here"
+      },
+      "display_ylim": [
+        4,
+        12
+      ],
+      "subplot_titles": "none",
+      "source_panel_before_swap": "i",
+      "source_icon": {
+        "version": "user-approved-20261010-grayscale",
+        "canonical_code": "../../assets/data_source_icons/code/draw_data_source_icons.py",
+        "portable_code": "assets/approved_source_icons.py",
+        "code_sha256": "d950202531ce5e35ff356274fdc8e961125d994cb18a76aa8569ae756c7ab68d",
+        "canonical_manifest": "../../assets/data_source_icons/manifest.json",
+        "figure_size_mm": 4.8,
+        "kinds": [
+          "task_behavior",
+          "survey"
+        ],
+        "canonical_png_sha256_by_kind": {
+          "task_behavior": "4c09b0bbedf11bf217192df29247e2c7b384b41c321b3722c962056c01dd469f",
+          "survey": "69fcf99041d35ca11b02ed653e69266151cf9425239d57d8a10473a50d00eb4d"
+        },
+        "panel_map": {
+          "a": "task_behavior",
+          "b": "task_behavior",
+          "c": "task_behavior",
+          "d": "task_behavior",
+          "e": "task_behavior",
+          "f": "task_behavior",
+          "g": "task_behavior",
+          "h": "survey",
+          "i": "survey"
+        },
+        "kind": "survey",
+        "panel": "h",
+        "evidence_role": "measured evidence",
+        "visual_identity": "grayscale checklist plus three-dot speech bubble",
+        "source_loaded": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/assets/data_source_icons/code/draw_data_source_icons.py",
+        "bounds_fraction": [
+          0.3877777777777778,
+          0.28253691275167786,
+          0.026666666666666672,
+          0.03221476510067112
+        ],
+        "native_render": true,
+        "embedded_raster_images": 0
+      }
+    }
+  },
+  "alignment_verdict": "PASS",
+  "input_sha256": {
+    "csv/01a_plot_data.csv": "1ce41363dfedb8ba5cdcebb0efb0aea5b4b4e76cf7720e173c63d0dd36699ad0",
+    "csv/01b_plot_data.csv": "6c4838b64ff0830a823969cedaaede688a5058653bf02f9c0e5235b4f9569e71",
+    "csv/02_plot_data.csv": "4f58c57241aed669cda3cfe0b6cff209dcf5b4001ee1c0157386df349be58457",
+    "csv/04_06_extended_learning_data.csv": "457fb08e6599ab013f3d36286ba32be3c0d7413c71425d0d3a86451046551e2f",
+    "csv/04_plot_data.csv": "72dd436e1eedb99368a6e2f312095ad7681b34b597d44d7c7b454ca5aa55b34a",
+    "csv/05_plot_data.csv": "71d115d8d47e0da90d40f673283610cbc5e780aad416523e6f03c2c13bb57add",
+    "csv/06_model_predictions.csv": "b5b975936a865deb2c3c1cb04aa4a1d82cef615268a0c893d6b21b72da7f1be2",
+    "csv/07_plot_data.csv": "49d50c798a53dd9ad57cf96d37d38fb7e8367f9ec86cbe7849a9cc9e617476f2",
+    "csv/08_model_predictions.csv": "99378cd84a35fdf542060271a4f468b5c0283b936598ab01cb1564892d492047",
+    "csv/08_plot_data.csv": "cbe3af56027ce7ac0ec88756c673a25db685970c5d041893fbea25da15251a9b",
+    "csv/a_ols_predictions.csv": "c0d0c4a1101b2c33c85e0739e138ca3d901cefc6a3ec67e9e4a2f2c44e8884a5",
+    "csv/b_ols_predictions.csv": "2d57576ac3a59d4c44516aea285350d6613721fda3ec04408330cb33f108fb20",
+    "csv/c_ols_predictions.csv": "0b602ecab41a93d45d9475ce856cd7320d5832bb83250bf6aa0cd631b4db4452",
+    "csv/panel_statistics.csv": "4426e091436c0d69d1df24dbebba1e135c3be563cf57586fb171663e40335e1e",
+    "assets/condition_schematic_source.png": "112958d00da4ae0b9b3b1055291437f7e9f2d66dcf3ffc72f661b5b669b70497"
+  },
+  "unchanged_panel_coordinates_match_original": [
+    "a",
+    "b",
+    "c",
+    "f",
+    "g"
+  ],
+  "classification_summary_values_match_original": true,
+  "panel_content_map": {
+    "h": "previous i: noticed-element trajectory",
+    "i": "previous h: classification accuracy"
+  },
+  "source_icons": {
+    "a": {
+      "version": "user-approved-20261010-grayscale",
+      "canonical_code": "../../assets/data_source_icons/code/draw_data_source_icons.py",
+      "portable_code": "assets/approved_source_icons.py",
+      "code_sha256": "d950202531ce5e35ff356274fdc8e961125d994cb18a76aa8569ae756c7ab68d",
+      "canonical_manifest": "../../assets/data_source_icons/manifest.json",
+      "figure_size_mm": 4.8,
+      "kinds": [
+        "task_behavior",
+        "survey"
+      ],
+      "canonical_png_sha256_by_kind": {
+        "task_behavior": "4c09b0bbedf11bf217192df29247e2c7b384b41c321b3722c962056c01dd469f",
+        "survey": "69fcf99041d35ca11b02ed653e69266151cf9425239d57d8a10473a50d00eb4d"
+      },
+      "panel_map": {
+        "a": "task_behavior",
+        "b": "task_behavior",
+        "c": "task_behavior",
+        "d": "task_behavior",
+        "e": "task_behavior",
+        "f": "task_behavior",
+        "g": "task_behavior",
+        "h": "survey",
+        "i": "survey"
+      },
+      "kind": "task_behavior",
+      "panel": "a",
+      "evidence_role": "measured evidence",
+      "visual_identity": "grayscale selection tiles and hand",
+      "source_loaded": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/assets/data_source_icons/code/draw_data_source_icons.py",
+      "bounds_fraction": [
+        0.04333333333333335,
+        0.9268322147651006,
+        0.026666666666666644,
+        0.03221476510067112
+      ],
+      "native_render": true,
+      "embedded_raster_images": 0
+    },
+    "c": {
+      "version": "user-approved-20261010-grayscale",
+      "canonical_code": "../../assets/data_source_icons/code/draw_data_source_icons.py",
+      "portable_code": "assets/approved_source_icons.py",
+      "code_sha256": "d950202531ce5e35ff356274fdc8e961125d994cb18a76aa8569ae756c7ab68d",
+      "canonical_manifest": "../../assets/data_source_icons/manifest.json",
+      "figure_size_mm": 4.8,
+      "kinds": [
+        "task_behavior",
+        "survey"
+      ],
+      "canonical_png_sha256_by_kind": {
+        "task_behavior": "4c09b0bbedf11bf217192df29247e2c7b384b41c321b3722c962056c01dd469f",
+        "survey": "69fcf99041d35ca11b02ed653e69266151cf9425239d57d8a10473a50d00eb4d"
+      },
+      "panel_map": {
+        "a": "task_behavior",
+        "b": "task_behavior",
+        "c": "task_behavior",
+        "d": "task_behavior",
+        "e": "task_behavior",
+        "f": "task_behavior",
+        "g": "task_behavior",
+        "h": "survey",
+        "i": "survey"
+      },
+      "kind": "task_behavior",
+      "panel": "c",
+      "evidence_role": "measured evidence",
+      "visual_identity": "grayscale selection tiles and hand",
+      "source_loaded": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/assets/data_source_icons/code/draw_data_source_icons.py",
+      "bounds_fraction": [
+        0.5688888888888889,
+        0.9268322147651006,
+        0.026666666666666616,
+        0.03221476510067112
+      ],
+      "native_render": true,
+      "embedded_raster_images": 0
+    },
+    "d": {
+      "version": "user-approved-20261010-grayscale",
+      "canonical_code": "../../assets/data_source_icons/code/draw_data_source_icons.py",
+      "portable_code": "assets/approved_source_icons.py",
+      "code_sha256": "d950202531ce5e35ff356274fdc8e961125d994cb18a76aa8569ae756c7ab68d",
+      "canonical_manifest": "../../assets/data_source_icons/manifest.json",
+      "figure_size_mm": 4.8,
+      "kinds": [
+        "task_behavior",
+        "survey"
+      ],
+      "canonical_png_sha256_by_kind": {
+        "task_behavior": "4c09b0bbedf11bf217192df29247e2c7b384b41c321b3722c962056c01dd469f",
+        "survey": "69fcf99041d35ca11b02ed653e69266151cf9425239d57d8a10473a50d00eb4d"
+      },
+      "panel_map": {
+        "a": "task_behavior",
+        "b": "task_behavior",
+        "c": "task_behavior",
+        "d": "task_behavior",
+        "e": "task_behavior",
+        "f": "task_behavior",
+        "g": "task_behavior",
+        "h": "survey",
+        "i": "survey"
+      },
+      "kind": "task_behavior",
+      "panel": "d",
+      "evidence_role": "task design",
+      "visual_identity": "grayscale selection tiles and hand",
+      "source_loaded": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/assets/data_source_icons/code/draw_data_source_icons.py",
+      "bounds_fraction": [
+        0.04333333333333335,
+        0.6046845637583892,
+        0.026666666666666644,
+        0.03221476510067112
+      ],
+      "native_render": true,
+      "embedded_raster_images": 0
+    },
+    "e": {
+      "version": "user-approved-20261010-grayscale",
+      "canonical_code": "../../assets/data_source_icons/code/draw_data_source_icons.py",
+      "portable_code": "assets/approved_source_icons.py",
+      "code_sha256": "d950202531ce5e35ff356274fdc8e961125d994cb18a76aa8569ae756c7ab68d",
+      "canonical_manifest": "../../assets/data_source_icons/manifest.json",
+      "figure_size_mm": 4.8,
+      "kinds": [
+        "task_behavior",
+        "survey"
+      ],
+      "canonical_png_sha256_by_kind": {
+        "task_behavior": "4c09b0bbedf11bf217192df29247e2c7b384b41c321b3722c962056c01dd469f",
+        "survey": "69fcf99041d35ca11b02ed653e69266151cf9425239d57d8a10473a50d00eb4d"
+      },
+      "panel_map": {
+        "a": "task_behavior",
+        "b": "task_behavior",
+        "c": "task_behavior",
+        "d": "task_behavior",
+        "e": "task_behavior",
+        "f": "task_behavior",
+        "g": "task_behavior",
+        "h": "survey",
+        "i": "survey"
+      },
+      "kind": "task_behavior",
+      "panel": "e",
+      "evidence_role": "measured evidence",
+      "visual_identity": "grayscale selection tiles and hand",
+      "source_loaded": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/assets/data_source_icons/code/draw_data_source_icons.py",
+      "bounds_fraction": [
+        0.3877777777777778,
+        0.6046845637583892,
+        0.026666666666666672,
+        0.03221476510067112
+      ],
+      "native_render": true,
+      "embedded_raster_images": 0
+    },
+    "f": {
+      "version": "user-approved-20261010-grayscale",
+      "canonical_code": "../../assets/data_source_icons/code/draw_data_source_icons.py",
+      "portable_code": "assets/approved_source_icons.py",
+      "code_sha256": "d950202531ce5e35ff356274fdc8e961125d994cb18a76aa8569ae756c7ab68d",
+      "canonical_manifest": "../../assets/data_source_icons/manifest.json",
+      "figure_size_mm": 4.8,
+      "kinds": [
+        "task_behavior",
+        "survey"
+      ],
+      "canonical_png_sha256_by_kind": {
+        "task_behavior": "4c09b0bbedf11bf217192df29247e2c7b384b41c321b3722c962056c01dd469f",
+        "survey": "69fcf99041d35ca11b02ed653e69266151cf9425239d57d8a10473a50d00eb4d"
+      },
+      "panel_map": {
+        "a": "task_behavior",
+        "b": "task_behavior",
+        "c": "task_behavior",
+        "d": "task_behavior",
+        "e": "task_behavior",
+        "f": "task_behavior",
+        "g": "task_behavior",
+        "h": "survey",
+        "i": "survey"
+      },
+      "kind": "task_behavior",
+      "panel": "f",
+      "evidence_role": "measured evidence",
+      "visual_identity": "grayscale selection tiles and hand",
+      "source_loaded": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/assets/data_source_icons/code/draw_data_source_icons.py",
+      "bounds_fraction": [
+        0.7322222222222223,
+        0.6046845637583892,
+        0.026666666666666616,
+        0.03221476510067112
+      ],
+      "native_render": true,
+      "embedded_raster_images": 0
+    },
+    "g": {
+      "version": "user-approved-20261010-grayscale",
+      "canonical_code": "../../assets/data_source_icons/code/draw_data_source_icons.py",
+      "portable_code": "assets/approved_source_icons.py",
+      "code_sha256": "d950202531ce5e35ff356274fdc8e961125d994cb18a76aa8569ae756c7ab68d",
+      "canonical_manifest": "../../assets/data_source_icons/manifest.json",
+      "figure_size_mm": 4.8,
+      "kinds": [
+        "task_behavior",
+        "survey"
+      ],
+      "canonical_png_sha256_by_kind": {
+        "task_behavior": "4c09b0bbedf11bf217192df29247e2c7b384b41c321b3722c962056c01dd469f",
+        "survey": "69fcf99041d35ca11b02ed653e69266151cf9425239d57d8a10473a50d00eb4d"
+      },
+      "panel_map": {
+        "a": "task_behavior",
+        "b": "task_behavior",
+        "c": "task_behavior",
+        "d": "task_behavior",
+        "e": "task_behavior",
+        "f": "task_behavior",
+        "g": "task_behavior",
+        "h": "survey",
+        "i": "survey"
+      },
+      "kind": "task_behavior",
+      "panel": "g",
+      "evidence_role": "measured evidence",
+      "visual_identity": "grayscale selection tiles and hand",
+      "source_loaded": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/assets/data_source_icons/code/draw_data_source_icons.py",
+      "bounds_fraction": [
+        0.04333333333333335,
+        0.28253691275167786,
+        0.026666666666666644,
+        0.03221476510067112
+      ],
+      "native_render": true,
+      "embedded_raster_images": 0
+    },
+    "h": {
+      "version": "user-approved-20261010-grayscale",
+      "canonical_code": "../../assets/data_source_icons/code/draw_data_source_icons.py",
+      "portable_code": "assets/approved_source_icons.py",
+      "code_sha256": "d950202531ce5e35ff356274fdc8e961125d994cb18a76aa8569ae756c7ab68d",
+      "canonical_manifest": "../../assets/data_source_icons/manifest.json",
+      "figure_size_mm": 4.8,
+      "kinds": [
+        "task_behavior",
+        "survey"
+      ],
+      "canonical_png_sha256_by_kind": {
+        "task_behavior": "4c09b0bbedf11bf217192df29247e2c7b384b41c321b3722c962056c01dd469f",
+        "survey": "69fcf99041d35ca11b02ed653e69266151cf9425239d57d8a10473a50d00eb4d"
+      },
+      "panel_map": {
+        "a": "task_behavior",
+        "b": "task_behavior",
+        "c": "task_behavior",
+        "d": "task_behavior",
+        "e": "task_behavior",
+        "f": "task_behavior",
+        "g": "task_behavior",
+        "h": "survey",
+        "i": "survey"
+      },
+      "kind": "survey",
+      "panel": "h",
+      "evidence_role": "measured evidence",
+      "visual_identity": "grayscale checklist plus three-dot speech bubble",
+      "source_loaded": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/assets/data_source_icons/code/draw_data_source_icons.py",
+      "bounds_fraction": [
+        0.3877777777777778,
+        0.28253691275167786,
+        0.026666666666666672,
+        0.03221476510067112
+      ],
+      "native_render": true,
+      "embedded_raster_images": 0
+    },
+    "i": {
+      "version": "user-approved-20261010-grayscale",
+      "canonical_code": "../../assets/data_source_icons/code/draw_data_source_icons.py",
+      "portable_code": "assets/approved_source_icons.py",
+      "code_sha256": "d950202531ce5e35ff356274fdc8e961125d994cb18a76aa8569ae756c7ab68d",
+      "canonical_manifest": "../../assets/data_source_icons/manifest.json",
+      "figure_size_mm": 4.8,
+      "kinds": [
+        "task_behavior",
+        "survey"
+      ],
+      "canonical_png_sha256_by_kind": {
+        "task_behavior": "4c09b0bbedf11bf217192df29247e2c7b384b41c321b3722c962056c01dd469f",
+        "survey": "69fcf99041d35ca11b02ed653e69266151cf9425239d57d8a10473a50d00eb4d"
+      },
+      "panel_map": {
+        "a": "task_behavior",
+        "b": "task_behavior",
+        "c": "task_behavior",
+        "d": "task_behavior",
+        "e": "task_behavior",
+        "f": "task_behavior",
+        "g": "task_behavior",
+        "h": "survey",
+        "i": "survey"
+      },
+      "kind": "survey",
+      "panel": "i",
+      "evidence_role": "measured evidence",
+      "visual_identity": "grayscale checklist plus three-dot speech bubble",
+      "source_loaded": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/assets/data_source_icons/code/draw_data_source_icons.py",
+      "bounds_fraction": [
+        0.7322222222222223,
+        0.2825369127516779,
+        0.026666666666666616,
+        0.03221476510067106
+      ],
+      "native_render": true,
+      "embedded_raster_images": 0
+    }
+  },
+  "association_colours": {
+    "a": "#2F5FAE",
+    "b": "#D57224",
+    "c": "#2F5FAE"
+  },
+  "colour_profile": {
+    "bars": [
+      {
+        "face_rgba": [
+          0.8352941176470589,
+          0.4470588235294118,
+          0.1411764705882353,
+          0.8
+        ],
+        "edge_rgba": [
+          0.2980392156862745,
+          0.3254901960784314,
+          0.35294117647058826,
+          1.0
+        ],
+        "artist_alpha": null
+      },
+      {
+        "face_rgba": [
+          0.3764705882352941,
+          0.27058823529411763,
+          0.5607843137254902,
+          0.8
+        ],
+        "edge_rgba": [
+          0.2980392156862745,
+          0.3254901960784314,
+          0.35294117647058826,
+          1.0
+        ],
+        "artist_alpha": null
+      },
+      {
+        "face_rgba": [
+          0.8352941176470589,
+          0.4470588235294118,
+          0.1411764705882353,
+          0.8
+        ],
+        "edge_rgba": [
+          0.2980392156862745,
+          0.3254901960784314,
+          0.35294117647058826,
+          1.0
+        ],
+        "artist_alpha": null
+      },
+      {
+        "face_rgba": [
+          0.3764705882352941,
+          0.27058823529411763,
+          0.5607843137254902,
+          0.8
+        ],
+        "edge_rgba": [
+          0.2980392156862745,
+          0.3254901960784314,
+          0.35294117647058826,
+          1.0
+        ],
+        "artist_alpha": null
+      }
+    ],
+    "raw_point_alpha": {
+      "a": 0.55,
+      "b": 0.55,
+      "c": 0.55
+    },
+    "ribbon_alpha": {
+      "a": [
+        0.2
+      ],
+      "b": [
+        0.2
+      ],
+      "c": [
+        0.2
+      ],
+      "e": [
+        0.2,
+        0.2
+      ],
+      "g": [
+        0.2,
+        0.2
+      ]
+    },
+    "schematic_sofa_colours": [
+      "#348F77",
+      "#397BA6",
+      "#7D5AA6",
+      "#C58A36"
+    ],
+    "schematic_sofa_edge_colours": [
+      "#455363"
+    ],
+    "condition_labels_ink": {
+      "Obs": "#FFFFFF",
+      "DIS-D": "#FFFFFF"
+    }
+  },
+  "authorized_geometry_changes": [
+    "h/i swapped",
+    "i classification diamonds replaced by bars",
+    "f/i display percent from zero to 100",
+    "source icons completed",
+    "b recoloured Obs orange",
+    "c viewport 0\u20131",
+    "public a shared y30-103, left-only y decorations and5-mm gap"
+  ],
+  "subplot_titles": [],
+  "scientific_coordinates": {
+    "a": {
+      "points": [
+        {
+          "shape": [
+            105,
+            2
+          ],
+          "sha256": "b3e29f07ffc16a77b372e645dcb9b33972a266dd380257f11a8535707b336ff0"
+        }
+      ],
+      "bands": [
+        [
+          {
+            "shape": [
+              323,
+              2
+            ],
+            "sha256": "d72bf18e1b5d8d1472f6448db23aa2c50f62c98d4eaa306ce685bc692240db38"
+          }
+        ]
+      ],
+      "traces": [
+        {
+          "shape": [
+            160,
+            2
+          ],
+          "sha256": "1fedc56ec5fb63553b4a01e756e9469a60c88c92f47a341f7d97dde43208a0ad"
+        }
+      ],
+      "errorbars": [],
+      "bar_heights": []
+    },
+    "b": {
+      "points": [
+        {
+          "shape": [
+            80,
+            2
+          ],
+          "sha256": "f1839f67418ddfeb24858534b07fe6abce6fbd171f0e4ab3d37deb3437dd6286"
+        }
+      ],
+      "bands": [
+        [
+          {
+            "shape": [
+              323,
+              2
+            ],
+            "sha256": "80aa33600151d5774564ee92ed35a231d62c430e143ca5da8d8711aefa83b855"
+          }
+        ]
+      ],
+      "traces": [
+        {
+          "shape": [
+            160,
+            2
+          ],
+          "sha256": "c72fa81cb0cd9a346f673eb11abab3f51579edccb00e2fa6505e8ceb12cf9bf8"
+        }
+      ],
+      "errorbars": [],
+      "bar_heights": []
+    },
+    "c": {
+      "points": [
+        {
+          "shape": [
+            51,
+            2
+          ],
+          "sha256": "4236b96bfa0aa1988ebaa5c758b4f438ff7da51fc80b6e87d78d85781820b03a"
+        }
+      ],
+      "bands": [
+        [
+          {
+            "shape": [
+              323,
+              2
+            ],
+            "sha256": "060efb3ce4d738b750f103ef974766805fa9b52f770a9217eff57d742a1bd640"
+          }
+        ]
+      ],
+      "traces": [
+        {
+          "shape": [
+            160,
+            2
+          ],
+          "sha256": "8658acb574066e5bde1516841f5f2fff1c073f0a629a11546bf4cd0dd4c718fc"
+        }
+      ],
+      "errorbars": [],
+      "bar_heights": []
+    },
+    "e": {
+      "points": [],
+      "bands": [
+        [
+          {
+            "shape": [
+              803,
+              2
+            ],
+            "sha256": "5b2e76f67973eb0b2a1708c9df269157eddc0190c3a43eec73da2a15a45ab2e9"
+          }
+        ],
+        [
+          {
+            "shape": [
+              803,
+              2
+            ],
+            "sha256": "93c7cc236b2d50dfe61ccf9eac8bd5e66789433172cdbf3794b6e2d613699a52"
+          }
+        ]
+      ],
+      "traces": [
+        {
+          "shape": [
+            400,
+            2
+          ],
+          "sha256": "372c2ab15ee705ad8837057037191995ff7a1c93382764b08fbca4f312716be4"
+        },
+        {
+          "shape": [
+            400,
+            2
+          ],
+          "sha256": "203d899770777d0e07509da290f6819af2e72e056b3218da38696de086a51852"
+        }
+      ],
+      "errorbars": [],
+      "bar_heights": []
+    },
+    "f": {
+      "points": [],
+      "bands": [],
+      "traces": [],
+      "errorbars": [
+        {
+          "mean": null,
+          "intervals": [
+            {
+              "shape": [
+                1,
+                2,
+                2
+              ],
+              "sha256": "487a2e82e66daa5491bca5fa02085eed88c9b225b72c009e4581b204acc184af"
+            }
+          ]
+        },
+        {
+          "mean": null,
+          "intervals": [
+            {
+              "shape": [
+                1,
+                2,
+                2
+              ],
+              "sha256": "9b4bc2242b22a44f55bb886ad00563ad656a015b157cc19bad982b88a5f0ceca"
+            }
+          ]
+        }
+      ],
+      "bar_heights": [
+        45.0,
+        22.5
+      ]
+    },
+    "g": {
+      "points": [],
+      "bands": [
+        [
+          {
+            "shape": [
+              363,
+              2
+            ],
+            "sha256": "686059251e8dcbe428967858aee59985321a9640de9effc002a9109c7da8fbb8"
+          }
+        ],
+        [
+          {
+            "shape": [
+              363,
+              2
+            ],
+            "sha256": "0f040eb2bed5a8077d89451567a8b6af4f63fc51c831fa77d9e8acb0aef7b866"
+          }
+        ]
+      ],
+      "traces": [
+        {
+          "shape": [
+            180,
+            2
+          ],
+          "sha256": "71a4d0e38053b3354f09095d982f553b1ae25768c443604ec78de8bb40af3e04"
+        },
+        {
+          "shape": [
+            180,
+            2
+          ],
+          "sha256": "e35e157cae4fced95d1ee7f0c6a2ac16f49dfa1961b23c81b37118606ba17614"
+        }
+      ],
+      "errorbars": [],
+      "bar_heights": []
+    },
+    "h": {
+      "points": [],
+      "bands": [],
+      "traces": [
+        {
+          "shape": [
+            4,
+            2
+          ],
+          "sha256": "04bc5332c229c8269152db32b273f0bb95061ef93423f58601b00be8dafc4286"
+        },
+        {
+          "shape": [
+            4,
+            2
+          ],
+          "sha256": "25c71610475ff1650b94dd5250532341775bb2e3ef14b6b406d30c18e03b9511"
+        },
+        {
+          "shape": [
+            4,
+            2
+          ],
+          "sha256": "80eb98a208b73eb646417b7aaf1918c38dea8c9cc18a0c95378f737ed256dbf3"
+        },
+        {
+          "shape": [
+            4,
+            2
+          ],
+          "sha256": "7418ce37d329bef00271d7cd4ddaeef2f6d7a7fa8186eafdc9090555075fbdc8"
+        },
+        {
+          "shape": [
+            4,
+            2
+          ],
+          "sha256": "5ec79cf5b09f68e5820365a9dcd4e2ef6781f3cd8ad7bd1d10a8bad9d6c462f4"
+        },
+        {
+          "shape": [
+            4,
+            2
+          ],
+          "sha256": "f00d01a26832820d080a78dbf87dedd989b439f0e0d0b603fbf2f6360c80015a"
+        }
+      ],
+      "errorbars": [
+        {
+          "mean": {
+            "shape": [
+              4,
+              2
+            ],
+            "sha256": "04bc5332c229c8269152db32b273f0bb95061ef93423f58601b00be8dafc4286"
+          },
+          "intervals": [
+            {
+              "shape": [
+                4,
+                2,
+                2
+              ],
+              "sha256": "04c37e1879c598060e741c014ca79864b1f672670ed99a52ae856bf4fcf4d4f0"
+            }
+          ]
+        },
+        {
+          "mean": {
+            "shape": [
+              4,
+              2
+            ],
+            "sha256": "7418ce37d329bef00271d7cd4ddaeef2f6d7a7fa8186eafdc9090555075fbdc8"
+          },
+          "intervals": [
+            {
+              "shape": [
+                4,
+                2,
+                2
+              ],
+              "sha256": "10780561b53fce9f518431bc3ced93224942b6a74c07b92f89ed592f0adde083"
+            }
+          ]
+        }
+      ],
+      "bar_heights": []
+    },
+    "i": {
+      "points": [],
+      "bands": [],
+      "traces": [],
+      "errorbars": [
+        {
+          "mean": null,
+          "intervals": [
+            {
+              "shape": [
+                1,
+                2,
+                2
+              ],
+              "sha256": "bf10985212d588a1b92ca90b2c897d15f7b42df88e9107dcaa4a9df178eb1e79"
+            }
+          ]
+        },
+        {
+          "mean": null,
+          "intervals": [
+            {
+              "shape": [
+                1,
+                2,
+                2
+              ],
+              "sha256": "6f5bd28bed121bd231c0364196a0ba408c4bdbd69fd01fb5d63b724e5e80d8c1"
+            }
+          ]
+        }
+      ],
+      "bar_heights": [
+        0.595,
+        0.3641025641025641
+      ]
+    }
+  },
+  "output_sha256": "1dd238eaa60695d21d493e87297c20ad99f64affc7ff5be1f18893757415bf9d"
+}

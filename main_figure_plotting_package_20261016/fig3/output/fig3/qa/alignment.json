@@ -1,0 +1,260 @@
+{
+  "schema_version": 1,
+  "applicable": true,
+  "auditable": true,
+  "verdict": "PASS",
+  "backend": "python-matplotlib",
+  "summary": {
+    "fail": 0,
+    "warn": 0,
+    "comparisons": 10,
+    "exemptions": 2
+  },
+  "tolerances": {
+    "alignment_pt": 1.5,
+    "gutter_pt": 1.5
+  },
+  "layout": {
+    "schema_version": 1,
+    "backend": "python-matplotlib",
+    "figure": {
+      "width_pt": 510.236220472441,
+      "height_pt": 555.8740157480315
+    },
+    "panels": [
+      {
+        "id": "a1",
+        "bbox_pt": [
+          34.01574803149607,
+          456.66141732283467,
+          104.88188976377954,
+          516.1889763779528
+        ]
+      },
+      {
+        "id": "a2",
+        "bbox_pt": [
+          34.01574803149607,
+          363.1181102362205,
+          104.88188976377954,
+          422.6456692913386
+        ]
+      },
+      {
+        "id": "b1",
+        "bbox_pt": [
+          181.4173228346457,
+          456.66141732283467,
+          294.8031496062992,
+          516.1889763779528
+        ]
+      },
+      {
+        "id": "b2",
+        "bbox_pt": [
+          181.4173228346457,
+          363.1181102362205,
+          294.8031496062992,
+          422.6456692913386
+        ]
+      },
+      {
+        "id": "c1",
+        "bbox_pt": [
+          360.00000000000006,
+          456.66141732283467,
+          439.37007874015757,
+          516.1889763779528
+        ]
+      },
+      {
+        "id": "c1_reduction",
+        "bbox_pt": [
+          464.88188976377955,
+          456.66141732283467,
+          504.56692913385837,
+          516.1889763779528
+        ]
+      },
+      {
+        "id": "c2",
+        "bbox_pt": [
+          360.00000000000006,
+          363.1181102362205,
+          439.37007874015757,
+          422.6456692913386
+        ]
+      },
+      {
+        "id": "c2_reduction",
+        "bbox_pt": [
+          464.88188976377955,
+          363.1181102362205,
+          504.56692913385837,
+          422.6456692913386
+        ]
+      },
+      {
+        "id": "e1",
+        "bbox_pt": [
+          215.43307086614175,
+          235.55905511811022,
+          286.29921259842524,
+          295.0866141732283
+        ]
+      },
+      {
+        "id": "e2",
+        "bbox_pt": [
+          215.43307086614175,
+          139.18110236220474,
+          286.29921259842524,
+          198.70866141732287
+        ]
+      },
+      {
+        "id": "f1",
+        "bbox_pt": [
+          374.1732283464567,
+          235.55905511811022,
+          487.5590551181103,
+          295.0866141732283
+        ]
+      },
+      {
+        "id": "f2",
+        "bbox_pt": [
+          374.1732283464567,
+          139.18110236220474,
+          487.5590551181103,
+          198.70866141732287
+        ]
+      },
+      {
+        "id": "g_effect",
+        "bbox_pt": [
+          113.38582677165356,
+          37.1338582677165,
+          232.44094488188978,
+          76.81889763779525
+        ]
+      }
+    ],
+    "row_groups": [
+      {
+        "id": "row-1",
+        "panels": [
+          "a1",
+          "b1",
+          "c1",
+          "c1_reduction"
+        ]
+      },
+      {
+        "id": "row-2",
+        "panels": [
+          "a2",
+          "b2",
+          "c2",
+          "c2_reduction"
+        ]
+      },
+      {
+        "id": "row-3",
+        "panels": [
+          "e1",
+          "f1"
+        ]
+      },
+      {
+        "id": "row-4",
+        "panels": [
+          "e2",
+          "f2"
+        ]
+      }
+    ],
+    "column_groups": [
+      {
+        "id": "column-1",
+        "panels": [
+          "a1",
+          "a2"
+        ]
+      },
+      {
+        "id": "column-2",
+        "panels": [
+          "b1",
+          "b2"
+        ]
+      },
+      {
+        "id": "column-3",
+        "panels": [
+          "c1",
+          "c2"
+        ]
+      },
+      {
+        "id": "column-4",
+        "panels": [
+          "c1_reduction",
+          "c2_reduction"
+        ]
+      },
+      {
+        "id": "column-5",
+        "panels": [
+          "e1",
+          "e2"
+        ]
+      },
+      {
+        "id": "column-6",
+        "panels": [
+          "f1",
+          "f2"
+        ]
+      }
+    ],
+    "boundary_groups": [],
+    "exemptions": [
+      {
+        "panels": [
+          "a1",
+          "a2",
+          "c1",
+          "c2",
+          "c1_reduction",
+          "c2_reduction",
+          "e1",
+          "e2",
+          "g_effect"
+        ],
+        "checks": [
+          "panel-width",
+          "horizontal-gutter"
+        ],
+        "reason": "Approved schematic-led three-tier layout: dual-axis curves25mm, ranks/KDE40mm, event28mm plus14mm summary, language effect42x14mm. Schematic and two native word clouds are non-Cartesian figure artists; all repeated task-specific quantitative roles retain their original dimensions."
+      },
+      {
+        "panels": [
+          "a1",
+          "a2",
+          "b1",
+          "b2",
+          "e1",
+          "e2",
+          "f1",
+          "f2"
+        ],
+        "checks": [
+          "vertical-gutter"
+        ],
+        "reason": "Task-pair pitch33mm in the upper tier and34mm in the middle tier is retained; bottom language effect is a separate role."
+      }
+    ]
+  },
+  "findings": []
+}

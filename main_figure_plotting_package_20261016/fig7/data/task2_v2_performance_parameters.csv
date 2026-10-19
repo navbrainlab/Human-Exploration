@@ -1,0 +1,5 @@
+model,source_model,eta,d,beta,q0,search_games,validation_games,u_et
+fRL-decay,feature_rl_decay_q0,0.14999999999999999,0,60,0.050000000000000003,100,80,
+naiveRL,naive_rl_q0,0.10000000000000001,,40,0.10000000000000001,100,80,
+Bayesian,bayesian_combo,,,30,,100,80,
+ACL,acl_q0,0.5,0,75,0.10000000000000001,100,80,0

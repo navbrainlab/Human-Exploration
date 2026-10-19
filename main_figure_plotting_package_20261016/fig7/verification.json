@@ -1,0 +1,19 @@
+{
+  "figure": 7,
+  "output": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/main_figure_plotting_package_20261016/fig7/output/fig7.png",
+  "reference": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/main_figure_plotting_package_20261016/fig7/reference/fig7.png",
+  "pixels": [
+    4251,
+    4255
+  ],
+  "mode": "RGB",
+  "dpi": [
+    599.9988,
+    599.9988
+  ],
+  "same_shape": true,
+  "different_pixels": 0,
+  "pixel_identical": true,
+  "file_identical": true,
+  "scope": "Frozen plotting tables only; no model fitting, simulation or statistical tests."
+}

@@ -1,0 +1,324 @@
+{
+  "figure": 5,
+  "source_current_figure": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/main_figure/fig5_nhb_dimension_awareness_20261015.png",
+  "assembly_source": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/code/reorganize_main_figures_20261015.py",
+  "entries": [
+    {
+      "path": "code/axis_break_marks.py",
+      "source": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/source_packages/20261015_reorganization/fig5_nhb_evidence_layout/code/axis_break_marks.py",
+      "source_sha256": "ec1c96c4e85e77f48185bf285967dd0cbe4185d93b0be9462d85925bb777f569",
+      "packaged_sha256": "ec1c96c4e85e77f48185bf285967dd0cbe4185d93b0be9462d85925bb777f569",
+      "modified": false
+    },
+    {
+      "path": "code/detached_axes.py",
+      "source": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/source_packages/20261015_reorganization/fig5_nhb_evidence_layout/code/detached_axes.py",
+      "source_sha256": "396b19a65a567158bd9c8a6c6336e4fdf3f9b5ef704c4612c39badf2193a63a9",
+      "packaged_sha256": "396b19a65a567158bd9c8a6c6336e4fdf3f9b5ef704c4612c39badf2193a63a9",
+      "modified": false
+    },
+    {
+      "path": "code/tick_bounded_spines.py",
+      "source": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/source_packages/20261015_reorganization/fig5_nhb_evidence_layout/code/tick_bounded_spines.py",
+      "source_sha256": "613f15e10baa23d1f4fd04c6aff4a3eafe37c65c9d9009481edeab6a1f3152d7",
+      "packaged_sha256": "613f15e10baa23d1f4fd04c6aff4a3eafe37c65c9d9009481edeab6a1f3152d7",
+      "modified": false
+    },
+    {
+      "path": "code/category_label_spacing.py",
+      "source": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/source_packages/20261015_reorganization/fig5_nhb_evidence_layout/code/category_label_spacing.py",
+      "source_sha256": "6e72ef4bf04b633677f82d26cc447479c6bc5c35c26c4c9b5ffffa2f1b95ba03",
+      "packaged_sha256": "6e72ef4bf04b633677f82d26cc447479c6bc5c35c26c4c9b5ffffa2f1b95ba03",
+      "modified": false
+    },
+    {
+      "path": "code/audit_panel_alignment.py",
+      "source": "/home/Scarbu/.codex/skills/nature-figure/scripts/audit_panel_alignment.py",
+      "source_sha256": "43958e6b49d897f326ff64e73cbed0bf057e17c06533b5b57d3dededf8111e76",
+      "packaged_sha256": "43958e6b49d897f326ff64e73cbed0bf057e17c06533b5b57d3dededf8111e76",
+      "modified": false
+    },
+    {
+      "path": "code/draw_data_source_icons.py",
+      "source": "/home/Scarbu/Projects/mini_DG/scripts/publication/draw_data_source_icons.py",
+      "source_sha256": "d950202531ce5e35ff356274fdc8e961125d994cb18a76aa8569ae756c7ab68d",
+      "packaged_sha256": "d950202531ce5e35ff356274fdc8e961125d994cb18a76aa8569ae756c7ab68d",
+      "modified": false
+    },
+    {
+      "path": "code/native_style.py",
+      "source": "/home/Scarbu/Projects/mini_DG/scripts/publication/render_final_figures.py",
+      "source_sha256": "1f4e8ade8000e4dee187a9c94dd8c6d501b3cbf91c517682160482800a137db0",
+      "packaged_sha256": "90d749cd81601c7a8aed35fe52612afa081bd475412dd7f2d5befe95ffdee91a",
+      "modified": true,
+      "changes": "Portable package paths/imports and extraction of invoked functions only; scientific rendering logic preserved."
+    },
+    {
+      "path": "code/fig5_plot_helpers.py",
+      "source": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/discarded_figures/fig5/code/fig5_plot_helpers.py",
+      "source_sha256": "d24bf4e8bbd7ea25fa8eb0a3780229e7dbca5ceaac8f49ba378ff909ced0b231",
+      "packaged_sha256": "1a36e4f9a8aa4362503b8ca3559a7310991f5e8147b24cb238edf576e5d41794",
+      "modified": true,
+      "changes": "Portable paths/imports; omitted uncalled historical renderer or statistical analysis functions; called rendering functions preserved."
+    },
+    {
+      "path": "code/figure5_evidence_layout.py",
+      "source": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/source_packages/20261015_reorganization/fig5_nhb_evidence_layout/code/figure5_evidence_layout.py",
+      "source_sha256": "de9bd385578d06184f347bd0d0da6887f4b47cb84edf263947e559beaa4716dd",
+      "packaged_sha256": "03703a5500a7fd7dca1528a3e464a0d0e2b5e9254473e7b0ca3d54e0b4b7585a",
+      "modified": true,
+      "changes": "Portable paths/imports; omitted uncalled historical renderer or statistical analysis functions; called rendering functions preserved."
+    },
+    {
+      "path": "code/render_fig5_evidence_layout.py",
+      "source": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/source_packages/20261015_reorganization/fig5_nhb_evidence_layout/code/render_fig5_evidence_layout.py",
+      "source_sha256": "f476f7f0b7d685abb3f57a568dd34241449e9ac4261a6a0613669797ff26d81b",
+      "packaged_sha256": "0f5b7136073bbd310147531f0d24be7fa33c89c3df3e95faf049f851fad075be",
+      "modified": true,
+      "changes": "Portable package paths/imports and extraction of invoked functions only; scientific rendering logic preserved."
+    },
+    {
+      "path": "data/old5/fig5j_change_analysis.json",
+      "source": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/source_packages/20261015_reorganization/fig5_nhb_evidence_layout/fig5j_change_analysis.json",
+      "source_sha256": "611a5c6b2762e71d23ea6f8b981a19a5517d917f9923317bb9b68b756394d8b5",
+      "packaged_sha256": "611a5c6b2762e71d23ea6f8b981a19a5517d917f9923317bb9b68b756394d8b5",
+      "modified": false
+    },
+    {
+      "path": "data/old5/fig5j_within_group_analysis.json",
+      "source": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/source_packages/20261015_reorganization/fig5_nhb_evidence_layout/fig5j_within_group_analysis.json",
+      "source_sha256": "c972788bb09c451fb1dd383d396230dd342a101a1bbffceae666039f3defc415",
+      "packaged_sha256": "c972788bb09c451fb1dd383d396230dd342a101a1bbffceae666039f3defc415",
+      "modified": false
+    },
+    {
+      "path": "data/old5/fig5j_subject_changes.csv",
+      "source": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/source_packages/20261015_reorganization/fig5_nhb_evidence_layout/fig5j_subject_changes.csv",
+      "source_sha256": "3d3b0cf38613f3b7f6ae122cf1af6f9de521850b8c921b796102ebe3ca6fffb7",
+      "packaged_sha256": "3d3b0cf38613f3b7f6ae122cf1af6f9de521850b8c921b796102ebe3ca6fffb7",
+      "modified": false
+    },
+    {
+      "path": "data/old5/source/frozen_statistics_20261014.csv",
+      "source": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/source_packages/20261015_reorganization/fig5_nhb_evidence_layout/source/frozen_statistics_20261014.csv",
+      "source_sha256": "825c1fc9a90e933b4b545d6880f98f658757fde8c1ce83778db501908475e33c",
+      "packaged_sha256": "825c1fc9a90e933b4b545d6880f98f658757fde8c1ce83778db501908475e33c",
+      "modified": false
+    },
+    {
+      "path": "data/old5_inputs/direct_metadata.csv",
+      "source": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/source_packages/20261015_reorganization/fig5_frozen_inputs/direct_metadata.csv",
+      "source_sha256": "ecc140d089c15bbecfa6b470bcd39a90896dbc1b3f7daf345623c485c521b399",
+      "packaged_sha256": "ecc140d089c15bbecfa6b470bcd39a90896dbc1b3f7daf345623c485c521b399",
+      "modified": false
+    },
+    {
+      "path": "data/old5_inputs/direct_values.csv",
+      "source": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/source_packages/20261015_reorganization/fig5_frozen_inputs/direct_values.csv",
+      "source_sha256": "1db268d47f90a765dfd14331b1b8515b6fd4ecf313b5963b1359d231cf75051c",
+      "packaged_sha256": "1db268d47f90a765dfd14331b1b8515b6fd4ecf313b5963b1359d231cf75051c",
+      "modified": false
+    },
+    {
+      "path": "data/old5_inputs/heatmap_matrix.csv",
+      "source": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/source_packages/20261015_reorganization/fig5_frozen_inputs/heatmap_matrix.csv",
+      "source_sha256": "05b6c5846ab79cad729ff84d9594eaa2afca1bdfa197caa9fd1b972c9819fefb",
+      "packaged_sha256": "05b6c5846ab79cad729ff84d9594eaa2afca1bdfa197caa9fd1b972c9819fefb",
+      "modified": false
+    },
+    {
+      "path": "data/old5_inputs/heatmap_stats.csv",
+      "source": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/source_packages/20261015_reorganization/fig5_frozen_inputs/heatmap_stats.csv",
+      "source_sha256": "aa41a8e67466dbdb90f442a1192842928c964f4b9454942c759e09815c62fcaf",
+      "packaged_sha256": "aa41a8e67466dbdb90f442a1192842928c964f4b9454942c759e09815c62fcaf",
+      "modified": false
+    },
+    {
+      "path": "data/old5_inputs/heatmap_metadata.csv",
+      "source": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/source_packages/20261015_reorganization/fig5_frozen_inputs/heatmap_metadata.csv",
+      "source_sha256": "72c98fc7a4e2fae2b614068385fca584f35852126e6f2a3b1ce28a8a63ef9644",
+      "packaged_sha256": "72c98fc7a4e2fae2b614068385fca584f35852126e6f2a3b1ce28a8a63ef9644",
+      "modified": false
+    },
+    {
+      "path": "data/old5_inputs/timecourse_values.csv",
+      "source": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/source_packages/20261015_reorganization/fig5_frozen_inputs/timecourse_values.csv",
+      "source_sha256": "482bd50b28f21ce89c2f725407c93af2d522175854f5ce71e0a14ae0d527964a",
+      "packaged_sha256": "482bd50b28f21ce89c2f725407c93af2d522175854f5ce71e0a14ae0d527964a",
+      "modified": false
+    },
+    {
+      "path": "data/old5_inputs/timecourse_metadata.csv",
+      "source": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/source_packages/20261015_reorganization/fig5_frozen_inputs/timecourse_metadata.csv",
+      "source_sha256": "cb2a9042c1d0dc9b3064a53fb4abecd04ed78350b29340dab14551d1de669768",
+      "packaged_sha256": "cb2a9042c1d0dc9b3064a53fb4abecd04ed78350b29340dab14551d1de669768",
+      "modified": false
+    },
+    {
+      "path": "data/old5_inputs/obs_nobs_exploration.csv",
+      "source": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/source_packages/20261015_reorganization/fig5_frozen_inputs/obs_nobs_exploration.csv",
+      "source_sha256": "0cbf638e57279952bd08df41f4fdb0745785c7fea7b8450dfca14ea231309f4c",
+      "packaged_sha256": "0cbf638e57279952bd08df41f4fdb0745785c7fea7b8450dfca14ea231309f4c",
+      "modified": false
+    },
+    {
+      "path": "data/old5_inputs/DIS_OVERLAY.png",
+      "source": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/source_packages/20261015_reorganization/fig5_frozen_inputs/DIS_OVERLAY.png",
+      "source_sha256": "da0a5ac9dab33d8bce4910579710ddbd108e181dbc14e6678d1e7720454f3e9b",
+      "packaged_sha256": "da0a5ac9dab33d8bce4910579710ddbd108e181dbc14e6678d1e7720454f3e9b",
+      "modified": false
+    },
+    {
+      "path": "data/old5_inputs/NONDIS_OVERLAY.png",
+      "source": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/source_packages/20261015_reorganization/fig5_frozen_inputs/NONDIS_OVERLAY.png",
+      "source_sha256": "e820d3bff15fb3df818d562dc0537c0820f02652f322c30562ca0a65c9ea5e28",
+      "packaged_sha256": "e820d3bff15fb3df818d562dc0537c0820f02652f322c30562ca0a65c9ea5e28",
+      "modified": false
+    },
+    {
+      "path": "data/old5_inputs/GAZE_BACKGROUND.png",
+      "source": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/source_packages/20261015_reorganization/fig5_frozen_inputs/GAZE_BACKGROUND.png",
+      "source_sha256": "2ec9594d4514d827c44411fb6f91425b94b2667a86861788351163e40c39e5d5",
+      "packaged_sha256": "2ec9594d4514d827c44411fb6f91425b94b2667a86861788351163e40c39e5d5",
+      "modified": false
+    },
+    {
+      "path": "data/old5_inputs/FIG5A_CSV.csv",
+      "source": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/source_packages/20261015_reorganization/fig5_frozen_inputs/FIG5A_CSV.csv",
+      "source_sha256": "969bda644528addee8d4fbf57210af49aa6dedb0da30459efbff14128a715bd0",
+      "packaged_sha256": "969bda644528addee8d4fbf57210af49aa6dedb0da30459efbff14128a715bd0",
+      "modified": false
+    },
+    {
+      "path": "data/old5_inputs/DIS_OVERLAY.svg",
+      "source": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/source_packages/20261015_reorganization/fig5_frozen_inputs/DIS_OVERLAY.svg",
+      "source_sha256": "1d089f5b4ac13d51507eb3b3e69737ac75f4d90737d1fd4fbc49e352366868b5",
+      "packaged_sha256": "1d089f5b4ac13d51507eb3b3e69737ac75f4d90737d1fd4fbc49e352366868b5",
+      "modified": false
+    },
+    {
+      "path": "data/old5_inputs/NONDIS_OVERLAY.svg",
+      "source": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/source_packages/20261015_reorganization/fig5_frozen_inputs/NONDIS_OVERLAY.svg",
+      "source_sha256": "30a662e3678a55cd459739b7cee171e3834b25193257f0eb8473b36a6dcc37a3",
+      "packaged_sha256": "30a662e3678a55cd459739b7cee171e3834b25193257f0eb8473b36a6dcc37a3",
+      "modified": false
+    },
+    {
+      "path": "code/render_fig2.py",
+      "source": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/source_packages/20261015_reorganization/fig2_nhb_reordered_examples_20261014/code/render_fig2.py",
+      "source_sha256": "52797354c6783a7cb115b6b339d380d931ca3e19c5d1e13d746888cde8dabb68",
+      "packaged_sha256": "a838f8f1412ef4072a216800dc0d8aa3ed38178fc8625a64a96bc7cb6557e5c6",
+      "modified": true,
+      "changes": "Portable paths/imports; omitted uncalled historical renderer or statistical analysis functions; called rendering functions preserved."
+    },
+    {
+      "path": "data/old2/csv/g_task1_subjects.csv",
+      "source": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/source_packages/20261015_reorganization/fig2_nhb_reordered_examples_20261014/csv/g_task1_subjects.csv",
+      "source_sha256": "e63ea8cac42dac2e020111b6af660b8954591a07b12374f8850b75eed4f0c977",
+      "packaged_sha256": "e63ea8cac42dac2e020111b6af660b8954591a07b12374f8850b75eed4f0c977",
+      "modified": false
+    },
+    {
+      "path": "data/old2/csv/g_task2_subjects.csv",
+      "source": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/source_packages/20261015_reorganization/fig2_nhb_reordered_examples_20261014/csv/g_task2_subjects.csv",
+      "source_sha256": "51861ed4950b1b3ccfbe895bc354b026bea1d5d69d7b271c1a5cc9252cab8d10",
+      "packaged_sha256": "51861ed4950b1b3ccfbe895bc354b026bea1d5d69d7b271c1a5cc9252cab8d10",
+      "modified": false
+    },
+    {
+      "path": "data/old2/csv/h_task1_source_metrics.csv",
+      "source": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/source_packages/20261015_reorganization/fig2_nhb_reordered_examples_20261014/csv/h_task1_source_metrics.csv",
+      "source_sha256": "d4861c06570c38e9cb83080f6e44eef8b183cb8a9f211a107e323ff2017874fc",
+      "packaged_sha256": "d4861c06570c38e9cb83080f6e44eef8b183cb8a9f211a107e323ff2017874fc",
+      "modified": false
+    },
+    {
+      "path": "data/old2/csv/h_task2_source_metrics.csv",
+      "source": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/source_packages/20261015_reorganization/fig2_nhb_reordered_examples_20261014/csv/h_task2_source_metrics.csv",
+      "source_sha256": "dab00488234bf81e3e6eacd8d9e06f8f2382fe1798c5f0e5b4c06e35954ac332",
+      "packaged_sha256": "dab00488234bf81e3e6eacd8d9e06f8f2382fe1798c5f0e5b4c06e35954ac332",
+      "modified": false
+    },
+    {
+      "path": "data/old2/analysis/g_source_consistent_statistics.csv",
+      "source": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/source_packages/20261015_reorganization/fig2_nhb_reordered_examples_20261014/analysis/g_source_consistent_statistics.csv",
+      "source_sha256": "b0bde8fdefd1f5a74c5d588e3267b1ca7e686eaa647041c7994cd76dcee86601",
+      "packaged_sha256": "b0bde8fdefd1f5a74c5d588e3267b1ca7e686eaa647041c7994cd76dcee86601",
+      "modified": false
+    },
+    {
+      "path": "data/old2/analysis/h_source_consistent_statistics.csv",
+      "source": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/source_packages/20261015_reorganization/fig2_nhb_reordered_examples_20261014/analysis/h_source_consistent_statistics.csv",
+      "source_sha256": "f60a9d9de3380bb747f70d86a9ea23af7ef4e68aeff2b29a704c27eeec975170",
+      "packaged_sha256": "f60a9d9de3380bb747f70d86a9ea23af7ef4e68aeff2b29a704c27eeec975170",
+      "modified": false
+    },
+    {
+      "path": "code/reassemble.py",
+      "source": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/code/reorganize_main_figures_20261015.py",
+      "source_sha256": "37ae7e6fa3cd0862e8f58a3cecd4ed7391b8e0fa4a51d27ea416cc054e1659d8",
+      "packaged_sha256": "89cd31cb75479e09e561015e418b25e0b7619b21345a3c7bdf514ef1954a83c7",
+      "modified": true,
+      "changes": "Portable package paths/imports and extraction of invoked functions only; scientific rendering logic preserved."
+    },
+    {
+      "path": "reference/fig5.png",
+      "source": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/main_figure/fig5_nhb_dimension_awareness_20261015.png",
+      "source_sha256": "2a166e4a60a3495bb9edda43a798dd89dca4fd4da1a7c964c96131b51a584b87",
+      "packaged_sha256": "2a166e4a60a3495bb9edda43a798dd89dca4fd4da1a7c964c96131b51a584b87",
+      "modified": false
+    },
+    {
+      "path": "caption.md",
+      "source": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/main_figure/fig5_nhb_dimension_awareness_20261015/caption.md",
+      "source_sha256": "31a9b0e19f052291115e2fa2e86df1ae80e8efff5dca92ae58e786ef18a57f3c",
+      "packaged_sha256": "31a9b0e19f052291115e2fa2e86df1ae80e8efff5dca92ae58e786ef18a57f3c",
+      "modified": false
+    },
+    {
+      "path": "methods.md",
+      "source": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/main_figure/fig5_nhb_dimension_awareness_20261015/methods.md",
+      "source_sha256": "e5226877d4389554556cca832fd4f509b2c89b70c51a6b0bee412b5e5fd55123",
+      "packaged_sha256": "e5226877d4389554556cca832fd4f509b2c89b70c51a6b0bee412b5e5fd55123",
+      "modified": false
+    }
+  ],
+  "policy": "Frozen existing plotting data, cached approved statistics, and native artists only; no fitting/simulation/new statistical inference.",
+  "runtime": "Python 3.11; see requirements.txt for tested exact package versions",
+  "generated_files": [
+    {
+      "path": "run.py",
+      "sha256": "cf46f4430186208e632a32889a7e98acc70aaf3b717b73a9320319ed9750f26a"
+    },
+    {
+      "path": "verify.py",
+      "sha256": "c9ddedb65e88953aa05e189a35d20f7bcc69261a95a36dd37c78db8be3d6159b"
+    },
+    {
+      "path": "README.md",
+      "sha256": "9409d11121d4f84b81449753d555d10981cbbe5c3a6b309904a488e6adda729a"
+    },
+    {
+      "path": "requirements.txt",
+      "sha256": "d69935fd3a1a02525fd264678741318e71cf99aac4f7586469048748706cc5a8"
+    },
+    {
+      "path": "data/fig5_input_map.json",
+      "sha256": "3ae94d167b8a8db61451408d379292a5e8ca3dc209565f7254a82ce5ee98eacf"
+    }
+  ],
+  "packaging_generated_files": [
+    {
+      "path": "run.py",
+      "sha256": "cf46f4430186208e632a32889a7e98acc70aaf3b717b73a9320319ed9750f26a"
+    },
+    {
+      "path": "README.md",
+      "sha256": "9409d11121d4f84b81449753d555d10981cbbe5c3a6b309904a488e6adda729a"
+    },
+    {
+      "path": "requirements.txt",
+      "sha256": "d69935fd3a1a02525fd264678741318e71cf99aac4f7586469048748706cc5a8"
+    }
+  ]
+}

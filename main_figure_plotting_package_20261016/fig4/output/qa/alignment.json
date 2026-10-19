@@ -1,0 +1,185 @@
+{
+  "schema_version": 1,
+  "applicable": true,
+  "auditable": true,
+  "verdict": "PASS",
+  "backend": "python-matplotlib",
+  "summary": {
+    "fail": 0,
+    "warn": 0,
+    "comparisons": 6,
+    "exemptions": 3
+  },
+  "tolerances": {
+    "alignment_pt": 1.5,
+    "gutter_pt": 1.5
+  },
+  "layout": {
+    "schema_version": 1,
+    "backend": "python-matplotlib",
+    "figure": {
+      "width_pt": 510.236220472441,
+      "height_pt": 442.2047244094489
+    },
+    "panels": [
+      {
+        "id": "a",
+        "bbox_pt": [
+          67.18110236220473,
+          323.1496062992126,
+          160.7244094488189,
+          408.18897637795277
+        ],
+        "panel_label": "a",
+        "panel_label_anchor_pt": [
+          41.669291338582674,
+          424.9077165354331
+        ]
+      },
+      {
+        "id": "b",
+        "bbox_pt": [
+          174.8976377952756,
+          323.1496062992126,
+          268.4409448818898,
+          408.18897637795277
+        ]
+      },
+      {
+        "id": "c",
+        "bbox_pt": [
+          335.33858267716533,
+          323.1496062992126,
+          445.8897637795276,
+          408.18897637795277
+        ],
+        "panel_label": "b",
+        "panel_label_anchor_pt": [
+          309.8267716535434,
+          424.9077165354331
+        ]
+      },
+      {
+        "id": "e",
+        "bbox_pt": [
+          251.00787401574803,
+          175.74803149606302,
+          361.5590551181103,
+          260.7874015748032
+        ],
+        "panel_label": "d",
+        "panel_label_anchor_pt": [
+          225.49606299212604,
+          283.4645669291339
+        ]
+      },
+      {
+        "id": "f",
+        "bbox_pt": [
+          398.4094488188977,
+          175.74803149606302,
+          477.4960629921261,
+          260.7874015748032
+        ]
+      },
+      {
+        "id": "h",
+        "bbox_pt": [
+          251.00787401574803,
+          34.01574803149607,
+          361.5590551181103,
+          119.05511811023625
+        ],
+        "panel_label": "e",
+        "panel_label_anchor_pt": [
+          225.49606299212604,
+          141.73228346456696
+        ]
+      },
+      {
+        "id": "i",
+        "bbox_pt": [
+          398.4094488188977,
+          34.01574803149607,
+          477.4960629921261,
+          119.05511811023625
+        ]
+      }
+    ],
+    "row_groups": [
+      {
+        "id": "row-1",
+        "panels": [
+          "a",
+          "b",
+          "c"
+        ]
+      },
+      {
+        "id": "row-2",
+        "panels": [
+          "e",
+          "f"
+        ]
+      },
+      {
+        "id": "row-3",
+        "panels": [
+          "h",
+          "i"
+        ]
+      }
+    ],
+    "column_groups": [
+      {
+        "id": "column-1",
+        "panels": [
+          "e",
+          "h"
+        ]
+      },
+      {
+        "id": "column-2",
+        "panels": [
+          "f",
+          "i"
+        ]
+      }
+    ],
+    "boundary_groups": [],
+    "exemptions": [
+      {
+        "panels": [
+          "b",
+          "f",
+          "i"
+        ],
+        "checks": [
+          "panel-label"
+        ],
+        "reason": "Second plots within public a/d/e have task/role titles, not repeated parent letters"
+      },
+      {
+        "panels": [
+          "a",
+          "b",
+          "c"
+        ],
+        "checks": [
+          "horizontal-gutter"
+        ],
+        "reason": "Public a uses a5-mm inner gap with one shared left y axis; public b retains its existing separate ylabel gutter"
+      },
+      {
+        "panels": [
+          "c"
+        ],
+        "checks": [
+          "panel-width"
+        ],
+        "reason": "Public b retains39mm; both task plots in public a are deliberately33mm"
+      }
+    ]
+  },
+  "findings": []
+}

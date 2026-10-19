@@ -1,0 +1,27 @@
+{
+  "version": "user-approved-20261010-grayscale",
+  "canonical_code": "../../assets/data_source_icons/code/draw_data_source_icons.py",
+  "portable_code": "assets/approved_source_icons.py",
+  "code_sha256": "d950202531ce5e35ff356274fdc8e961125d994cb18a76aa8569ae756c7ab68d",
+  "canonical_manifest": "../../assets/data_source_icons/manifest.json",
+  "figure_size_mm": 4.8,
+  "kinds": [
+    "task_behavior",
+    "survey"
+  ],
+  "canonical_png_sha256_by_kind": {
+    "task_behavior": "4c09b0bbedf11bf217192df29247e2c7b384b41c321b3722c962056c01dd469f",
+    "survey": "69fcf99041d35ca11b02ed653e69266151cf9425239d57d8a10473a50d00eb4d"
+  },
+  "panel_map": {
+    "a": "task_behavior",
+    "b": "task_behavior",
+    "c": "task_behavior",
+    "d": "task_behavior",
+    "e": "task_behavior",
+    "f": "task_behavior",
+    "g": "task_behavior",
+    "h": "survey",
+    "i": "survey"
+  }
+}

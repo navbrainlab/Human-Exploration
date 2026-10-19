@@ -1,0 +1,703 @@
+{
+  "status": "PASS",
+  "output_sha256": "06195f5241899e52f58a656d3b377a319c1f077a6f073a4d441cc7f387b88a83",
+  "original_results_sha256": "78a124dd0d36466d17bfa9392a4a667b3d0c628007a2b6089d41896158c32266",
+  "pixels": [
+    4251,
+    1386
+  ],
+  "dpi": 600,
+  "font_sizes_pt": [
+    5.0,
+    6.0,
+    8.0
+  ],
+  "source_input_hashes": {
+    "fig1_all_cohort_cumulative.csv": "a4f47f2845dcfc5b42d9494cea46f6c05572221bebb085329ae689d8b7bd527f",
+    "fig1_all_cohort_statistics.json": "000f3173dbb79f25038dd4e3c7fdf6300a5e2bc3a0f898f62fabd874517e266d",
+    "fig1_learning_display.csv": "44aaa8080dbafd93bee615c612fa703597e487da9d5e02d702a80e9d30024a61",
+    "fig1_reference_panel_statistics.json": "2c514eb1b0ebd04be040576e1bad05e3076062d8e0dc73f91c185dc3dc0c101f",
+    "fig1_reference_personal_best.csv": "b4068728965e20ea9c03d92034250fc357f0d1a9048445eacabcfc049254efcb",
+    "fig1_risk_differences.csv": "3200fcb77c3ddfa0b7179c7cbfad8675f91fd838821936078e5ccda2b5c4b985",
+    "fig1_statistics.json": "dadcb43ad7f8427209e72f0f382d7c161250359111f2f10c05b346e36b09d8da",
+    "fig1_task1_fullscore_time.csv": "24820a20895bfa7b22f3b1f3cf391fdaa2b04aca6c625f17e90f7879bb810993",
+    "fig1_task1_learning.csv": "d2e0abca7ac0fa171f486fed380152e3c9abca78879b691e8939358b2f0ac222",
+    "fig1_task1_learning_clusters.csv": "8e323a6190ae4f61c925c7691d4f3b64d66295a28b1d8abb878f2bbe3a2f42cd",
+    "fig1_task1_learning_extended.csv": "f0f625238ba4a9434e3c74d6c85fffc76542f87808e30c1d15dfb473e87e8569",
+    "fig1_task1_learning_trial_statistics.csv": "3ea2f04cc20a52395f627bc594f85ee451ac01e71d83a4fcf61aea58aea7e933",
+    "fig1_task1_perfect_rate.csv": "16e5adac52e7b6f2e178f97073c21caacfa74ab0d2b75c2b1ca3f155ddaf8ead",
+    "fig1_task1_personal_best.csv": "928cdce84e31784563d90dbe0bcaf42294086852c685cd5b91c0c8b45fe09a73",
+    "fig1_task2_fullscore_time.csv": "28795aa3437b31143af568a2f34f6133c3d2eb1f08a10466d6523d49d91cd830",
+    "fig1_task2_learning.csv": "56968f2fb5591d1942fded6ddb6118497ec69588d8c7324893a4de64a0ab2079",
+    "fig1_task2_learning_extended.csv": "b60240f6f9b8d3dffa736962afd31449fbff859db850faa7cd0d95492e8dafcb",
+    "fig1_task2_observed_scores.csv": "b0db295f830bd65451a8236bbc73dbebf8414e0c03d92b451b6014b67f673b07",
+    "fig1_task2_perfect_rate.csv": "b073ed7a83496d917124e43f1577d6bb1319f2ff506f345e9cdefdc4f525fe9e",
+    "fig2_mode_enrichment_24bins.csv": "4ac06da262ca6d345f8dd1f1ee42978b8a76678c7ec43429aaecbe690515d71f",
+    "fig2_task1_enrichment_trials.csv": "733c24bed4becaed33880d628223fc2befb37cb5a7c0a97350e98bf57b3e7d71",
+    "fig2_task1_human_random_statistics.csv": "546c237ad626db93ecd60d8bf06e3d2ea57050d6f0dc3e16dc2a3fc7fc21cab9",
+    "fig2_task1_human_random_subject.csv": "3e1ea4d4a32fcda06b7853b182b9150eecb706ba88c8bfcee22a8b0d84d4f9b5",
+    "fig2_task1_identification_available_surveys.csv": "bf68cda8311a67d542e329c32034c6f553371de215a9ae5946f0459664669687",
+    "fig2_task2_balanced_correct_evidence.csv": "6647e74a8393c0bbd7e9fa0a461a96d4ef43065813920df9128c9d797554c9cd",
+    "fig2_task2_enrichment_available79.csv": "d52c5787c9b538a0b0a7cfac7ba54eecd5c3dcbfc4224e6ee4d20832744265e1",
+    "fig2_task2_term_frequency_statistics.csv": "a5d5f5bc3e50893c57be8e700064f28261b755f501347e99ee9903a42bf5d40e",
+    "fig2_task2_term_frequency_subject.csv": "102ae09f5e566d10c64774f6c5077245733bd700bbba78aa029f0394c8b50272",
+    "fig2a_clusters.csv": "fcc14ff7fed9e85cd58fe1fb6bef721bb3b76feba85ef5c5be4c4a1f28fdce32"
+  },
+  "axis_display": {
+    "e": {
+      "ylabel": "Mean score",
+      "yticks": [
+        50,
+        75,
+        100
+      ],
+      "ylim": [
+        50.0,
+        100.0
+      ],
+      "y_axis_bounds_px": [
+        71.87664041994748,
+        376.79921259842536,
+        152.5,
+        748.661417322835
+      ]
+    },
+    "f": {
+      "ylabel": "Trial of best score",
+      "yticks": [
+        0,
+        25,
+        50
+      ],
+      "ylim": [
+        0.0,
+        58.0
+      ],
+      "y_axis_bounds_px": [
+        1258.734908136483,
+        376.79921259842536,
+        126.0,
+        650.9150149334785
+      ]
+    },
+    "g": {
+      "ylabel": "Mean score",
+      "yticks": [
+        45.0,
+        60.0,
+        75.0,
+        90.0
+      ],
+      "ylim": [
+        45.0,
+        90.0
+      ],
+      "y_axis_bounds_px": [
+        2272.1207349081374,
+        376.79921259842536,
+        126.0,
+        748.661417322835
+      ]
+    },
+    "h": {
+      "ylabel": "Trial of best score",
+      "yticks": [
+        0,
+        30,
+        60
+      ],
+      "ylim": [
+        0.0,
+        70.0
+      ],
+      "y_axis_bounds_px": [
+        3361.6128608923896,
+        376.79921259842536,
+        126.0,
+        647.4240719910015
+      ]
+    }
+  },
+  "data_artists_exactly_unchanged": false,
+  "raw_values_and_y_sem_exactly_unchanged": true,
+  "trial_normalization": [
+    {
+      "task": 1,
+      "group": "P1",
+      "horizon": 30,
+      "formula": "(trial - 1) / (scheduled trials - 1)",
+      "y_and_sem_unchanged": true
+    },
+    {
+      "task": 1,
+      "group": "P2",
+      "horizon": 50,
+      "formula": "(trial - 1) / (scheduled trials - 1)",
+      "y_and_sem_unchanged": true
+    },
+    {
+      "task": 1,
+      "group": "P2-only",
+      "horizon": 50,
+      "formula": "(trial - 1) / (scheduled trials - 1)",
+      "y_and_sem_unchanged": true
+    },
+    {
+      "task": 2,
+      "group": "FDS-Obs",
+      "horizon": 60,
+      "formula": "(trial - 1) / (scheduled trials - 1)",
+      "y_and_sem_unchanged": true
+    },
+    {
+      "task": 2,
+      "group": "FDS-NoObs",
+      "horizon": 60,
+      "formula": "(trial - 1) / (scheduled trials - 1)",
+      "y_and_sem_unchanged": true
+    }
+  ],
+  "data_signature_before": {
+    "e": {
+      "lines": [
+        "303e1a24c38793040f27470f44bb9fe165e7e753b2018fd0c49e1eec2ec1323b",
+        "2f0fad1d30cac75c1e783f1432b8c26aababb96b44ba2cd2930114ee32e4b084",
+        "577e0bfd30c7892a8cafac8f97032ee6912ddcf74ddf6f488c4fa9150ad9ce9c"
+      ],
+      "patches": [],
+      "collections": [
+        [
+          "0d806014a1d72d78f7ab890113d01c82147d86d0496be272654d8b406658e1e3"
+        ],
+        [
+          "b81931f1b29b52725ce80045d5fa1153da7e9850d4025639235ed65bd2230649"
+        ],
+        [
+          "1cad7c7dafd693d1d2d9c7689f035dcf0070b012d4f468de4dcf700d59002549"
+        ]
+      ],
+      "annotations": []
+    },
+    "f": {
+      "lines": [
+        "117bd205676f222f9bd7e6c3fb2ffaed9515c4d66d8c77eed6d4b464e0b81948",
+        "814c904313ce54dea51940a35d9b464217a272b2f0429c0552b98b25eed26a65",
+        "b6148e3490d5bf610110b4f5da6f256b3fabf7bed03a38fd6241ded4207ae153",
+        "e7ce9e998d5ad52f27c5cff78f99f203f40ed9033c28f0ac4c6753666f9f416f",
+        "d1f21fadaf47247786e7801c5bf2af48fe3b9075ea5b0609df5aa37bee133ece",
+        "567264199b21f5d1f463313cd6fe36d9434f91ddf5cc945e5574976c9c26aae3",
+        "b9c72018006cc7e42819fdf3b2f1c9b516fbf1adb327840079d40cfb05bfb29a",
+        "1c3b1bb3b45375d1ec09b0132baf1a7e05a01b357ba597cc76d0de163316c66a",
+        "2480bafc1a46d852f65cc255f25a026573b2b8ff0531f88b3cd178ef95ce6029",
+        "c7c7fbd26790fec42be3dc292de2b687355f6cfc00d97a3d5df135bee0992b9d",
+        "8bed5286480dab45c556078e28b8c363921e224a44068612aebb02c3d6e932f6",
+        "aedde1922a65dfb91aa875c18838cde286db34976497a748fb39811cffe2b52e",
+        "e266c647a4740aa2a9a66cb6ca584a6ad8382f3519219869311285bca4bba58b",
+        "e9a5c2959d9848a107d73bc13121b96007be270a123f3f480e20f5017cf2db66",
+        "74790c19bc751c3548955c480d04310a4ba5b5d57ef781e5b9f13c5608afc84c",
+        "66d05efcec940a2150b6ed40b39237771fb9d02122009a2870a5459158acd68e"
+      ],
+      "patches": [
+        "14620ee628a642446a631be5ae8cbdc589ebd0dbb3fb4b547bc1031874389689",
+        "4edbcfe1ba7716aa5914945b922837e409b00fedddc924e98dc6637321fe4cbc",
+        "75b1cffc1a95bbeb7c9ab66f69fb1877a4caf520c13f2802fe899577b5bf3e99"
+      ],
+      "collections": [],
+      "annotations": [
+        "*"
+      ]
+    },
+    "g": {
+      "lines": [
+        "bb7434758ca6299492eb7dc19b7a96a35c161187a718bee03b3c6cf2f645d676",
+        "3284eecd26d90df0d9f8d6b91fd1f6e99b2813ddd29fdad6986551229b89a8b7"
+      ],
+      "patches": [],
+      "collections": [
+        [
+          "630f23bf471cb55c1840a9bdac5247b86890f93243e4fc09df1e982e9dd781bb"
+        ],
+        [
+          "46739e1e12258e3524245d2c39a99c59771a239d50828746105e404370da655b"
+        ]
+      ],
+      "annotations": []
+    },
+    "h": {
+      "lines": [
+        "f7ae124d0530bcfe1a239ec790cd3b4f5d0f8fcae1e8679635d55084f592e2c8",
+        "3573c1e4c64713973e5fb70287e7f6272650da8664b911236eb608dd8bc38b30",
+        "d26a1a18018f3c9994a1b1fa830907270855772cbc891726e22deaa8266bd82b",
+        "35c9dc61c987fbaea84ed75417e884289ac5751ce83ef1d8bd0a082b65e4a2ac",
+        "03dde76403ddea0ed0384b8c9ab2f1511b024d6ccd65972f6bddeb6ae6ed161d",
+        "6c4c2ec7d170400b3f866f231448781236fa16ede25ac44372fabbf71c276d07",
+        "263f35f3a3eab449b77148b47290da68c093fe6d6841db353c20791383045654",
+        "d0d77d1062f5eddc7aef5c8bb05cccde7190e57ea56d1985806112428f488a85",
+        "fcd5cc5defebfebbc13ef20506ad794f619d17bcbd04c3312a3bcd306f9b4c53",
+        "9b9f1bde3cb0531d2b4bccac17c4f848ce5d1649049a9351a87e13232ba9326d",
+        "d39b5b504824deed9f8fdb18fd760f07004b871d05d9a3db24d591cdfce47505"
+      ],
+      "patches": [
+        "5ec1b49a596dff013116aedfd71314c13685a6565be2e826e0933d50268921e5",
+        "1e0449178495dc46fdb526ceb9e34f03b08727d81361004381d70cdc4503620e"
+      ],
+      "collections": [],
+      "annotations": [
+        "*"
+      ]
+    }
+  },
+  "data_signature_after": {
+    "e": {
+      "lines": [
+        "03fd6da816c50b91e7537598f8f82fda1b30267da37195bf7bbeab4c87b49ef0",
+        "73ec885f60bd27920032ff03428cda7a00b7bd4af978624ae247f6f122511aa3",
+        "c8f3ee5cd504c8573e9acc0d4d76cda86da6943d50afb9da5cbe3e4be66e3923"
+      ],
+      "patches": [],
+      "collections": [
+        [
+          "0fcc38fa37d6555ce888a7d69e81ced55a98b3ac809a18fc7de62218125f082d"
+        ],
+        [
+          "9aaaf80f172b40342b13959ff0991b6f4e3368f43d4a3a4e55f589cfd1adc57a"
+        ],
+        [
+          "3679575fa9a6d9bf7c8330fdb62e040f96faa32d43ba4d57a7ba7eb6046ac6e9"
+        ]
+      ],
+      "annotations": []
+    },
+    "f": {
+      "lines": [
+        "117bd205676f222f9bd7e6c3fb2ffaed9515c4d66d8c77eed6d4b464e0b81948",
+        "814c904313ce54dea51940a35d9b464217a272b2f0429c0552b98b25eed26a65",
+        "b6148e3490d5bf610110b4f5da6f256b3fabf7bed03a38fd6241ded4207ae153",
+        "e7ce9e998d5ad52f27c5cff78f99f203f40ed9033c28f0ac4c6753666f9f416f",
+        "d1f21fadaf47247786e7801c5bf2af48fe3b9075ea5b0609df5aa37bee133ece",
+        "567264199b21f5d1f463313cd6fe36d9434f91ddf5cc945e5574976c9c26aae3",
+        "b9c72018006cc7e42819fdf3b2f1c9b516fbf1adb327840079d40cfb05bfb29a",
+        "1c3b1bb3b45375d1ec09b0132baf1a7e05a01b357ba597cc76d0de163316c66a",
+        "2480bafc1a46d852f65cc255f25a026573b2b8ff0531f88b3cd178ef95ce6029",
+        "c7c7fbd26790fec42be3dc292de2b687355f6cfc00d97a3d5df135bee0992b9d",
+        "8bed5286480dab45c556078e28b8c363921e224a44068612aebb02c3d6e932f6",
+        "aedde1922a65dfb91aa875c18838cde286db34976497a748fb39811cffe2b52e",
+        "e266c647a4740aa2a9a66cb6ca584a6ad8382f3519219869311285bca4bba58b",
+        "e9a5c2959d9848a107d73bc13121b96007be270a123f3f480e20f5017cf2db66",
+        "74790c19bc751c3548955c480d04310a4ba5b5d57ef781e5b9f13c5608afc84c",
+        "66d05efcec940a2150b6ed40b39237771fb9d02122009a2870a5459158acd68e"
+      ],
+      "patches": [
+        "14620ee628a642446a631be5ae8cbdc589ebd0dbb3fb4b547bc1031874389689",
+        "4edbcfe1ba7716aa5914945b922837e409b00fedddc924e98dc6637321fe4cbc",
+        "75b1cffc1a95bbeb7c9ab66f69fb1877a4caf520c13f2802fe899577b5bf3e99"
+      ],
+      "collections": [],
+      "annotations": [
+        "*"
+      ]
+    },
+    "g": {
+      "lines": [
+        "93bddee45e6a0c4788e2147b5f52bc99f53ff587ffa7e67d70b879c14489a5a2",
+        "f61e0092062193c190a97031605835f8206f10ac9ce68e532fe2a0d7c2ebb3e1"
+      ],
+      "patches": [],
+      "collections": [
+        [
+          "2b5c03c51b7456c387db494af96f5e69e09e26a24a98a32370c9c8a5b5874efe"
+        ],
+        [
+          "747b57c972790d9254a49bc65e20dafff9351c9f07f1f8ae96fb2c3dbc10a131"
+        ]
+      ],
+      "annotations": []
+    },
+    "h": {
+      "lines": [
+        "f7ae124d0530bcfe1a239ec790cd3b4f5d0f8fcae1e8679635d55084f592e2c8",
+        "3573c1e4c64713973e5fb70287e7f6272650da8664b911236eb608dd8bc38b30",
+        "d26a1a18018f3c9994a1b1fa830907270855772cbc891726e22deaa8266bd82b",
+        "35c9dc61c987fbaea84ed75417e884289ac5751ce83ef1d8bd0a082b65e4a2ac",
+        "03dde76403ddea0ed0384b8c9ab2f1511b024d6ccd65972f6bddeb6ae6ed161d",
+        "6c4c2ec7d170400b3f866f231448781236fa16ede25ac44372fabbf71c276d07",
+        "263f35f3a3eab449b77148b47290da68c093fe6d6841db353c20791383045654",
+        "d0d77d1062f5eddc7aef5c8bb05cccde7190e57ea56d1985806112428f488a85",
+        "fcd5cc5defebfebbc13ef20506ad794f619d17bcbd04c3312a3bcd306f9b4c53",
+        "9b9f1bde3cb0531d2b4bccac17c4f848ce5d1649049a9351a87e13232ba9326d",
+        "d39b5b504824deed9f8fdb18fd760f07004b871d05d9a3db24d591cdfce47505"
+      ],
+      "patches": [
+        "5ec1b49a596dff013116aedfd71314c13685a6565be2e826e0933d50268921e5",
+        "1e0449178495dc46fdb526ceb9e34f03b08727d81361004381d70cdc4503620e"
+      ],
+      "collections": [],
+      "annotations": [
+        "*"
+      ]
+    }
+  },
+  "category_spacing": {
+    "f": {
+      "status": "PASS",
+      "before": {
+        "box_to_y_spine_mm": 3.683125000000006,
+        "ylabel_to_box_mm": 8.696097222222232,
+        "xlim": [
+          -0.5,
+          2.5
+        ],
+        "box_widths_mm": [
+          4.949999999999991,
+          4.949999999999991,
+          4.950000000000001
+        ],
+        "left_spine_position": [
+          "outward",
+          5.0
+        ]
+      },
+      "after": {
+        "box_to_y_spine_mm": 3.683125000000006,
+        "ylabel_to_box_mm": 8.696097222222232,
+        "xlim": [
+          -0.5,
+          2.5
+        ],
+        "box_widths_mm": [
+          4.949999999999991,
+          4.949999999999991,
+          4.950000000000001
+        ],
+        "left_spine_position": [
+          "outward",
+          5.0
+        ]
+      },
+      "categorical_view_translation": 0.0,
+      "target_box_to_y_spine_mm": 3.5,
+      "soft_ylabel_target_mm": [
+        6,
+        12
+      ],
+      "scope": "Categorical display-only translation; data/category positions, intervals and mark widths retained"
+    },
+    "h": {
+      "status": "PASS",
+      "before": {
+        "box_to_y_spine_mm": 8.798124999999999,
+        "ylabel_to_box_mm": 13.811097222222214,
+        "xlim": [
+          -0.5,
+          1.5
+        ],
+        "box_widths_mm": [
+          4.95000000000001,
+          4.95000000000001
+        ],
+        "left_spine_position": [
+          "outward",
+          5.0
+        ]
+      },
+      "after": {
+        "box_to_y_spine_mm": 3.4999999999999933,
+        "ylabel_to_box_mm": 8.51297222222221,
+        "xlim": [
+          -0.12020609318996434,
+          1.8797939068100358
+        ],
+        "box_widths_mm": [
+          4.95000000000001,
+          4.95000000000001
+        ],
+        "left_spine_position": [
+          "outward",
+          5.0
+        ]
+      },
+      "categorical_view_translation": 0.37979390681003566,
+      "target_box_to_y_spine_mm": 3.5,
+      "soft_ylabel_target_mm": [
+        6,
+        12
+      ],
+      "scope": "Categorical display-only translation; data/category positions, intervals and mark widths retained"
+    }
+  },
+  "tick_endpoints": {
+    "e": {
+      "bottom": {
+        "status": "PASS",
+        "bounds": [
+          0.0,
+          1.0
+        ],
+        "outer_displayed_major_ticks": [
+          0.0,
+          1.0
+        ]
+      },
+      "left": {
+        "status": "PASS",
+        "bounds": [
+          50.0,
+          100.0
+        ],
+        "outer_displayed_major_ticks": [
+          50.0,
+          100.0
+        ]
+      }
+    },
+    "f": {
+      "bottom": {
+        "status": "PASS",
+        "bounds": [
+          0.0,
+          2.0
+        ],
+        "outer_displayed_major_ticks": [
+          0.0,
+          2.0
+        ]
+      },
+      "left": {
+        "status": "PASS",
+        "bounds": [
+          0.0,
+          50.0
+        ],
+        "outer_displayed_major_ticks": [
+          0.0,
+          50.0
+        ]
+      }
+    },
+    "g": {
+      "bottom": {
+        "status": "PASS",
+        "bounds": [
+          0.0,
+          1.0
+        ],
+        "outer_displayed_major_ticks": [
+          0.0,
+          1.0
+        ]
+      },
+      "left": {
+        "status": "PASS",
+        "bounds": [
+          45.0,
+          90.0
+        ],
+        "outer_displayed_major_ticks": [
+          45.0,
+          90.0
+        ]
+      }
+    },
+    "h": {
+      "bottom": {
+        "status": "PASS",
+        "bounds": [
+          0.2,
+          0.8
+        ],
+        "outer_displayed_major_ticks": [
+          0.2,
+          0.8
+        ]
+      },
+      "left": {
+        "status": "PASS",
+        "bounds": [
+          0.0,
+          60.0
+        ],
+        "outer_displayed_major_ticks": [
+          0.0,
+          60.0
+        ]
+      }
+    }
+  },
+  "axis_corners": {
+    "e": {
+      "status": "PASS",
+      "left_position": [
+        "outward",
+        5.0
+      ],
+      "bottom_position": [
+        "outward",
+        3.0
+      ],
+      "corner_endpoint_distance_mm": 2.057030251792648,
+      "conservative_visible_corner_gap_mm": 1.8100858073482038,
+      "slash_to_x_endpoint_visible_gap_mm": 0.9031444444444454,
+      "slash_tick_text_collisions": []
+    },
+    "f": {
+      "status": "PASS",
+      "left_position": [
+        "outward",
+        5.0
+      ],
+      "bottom_position": [
+        "outward",
+        3.0
+      ],
+      "corner_endpoint_distance_mm": 6.500618441614371,
+      "conservative_visible_corner_gap_mm": 6.253673997169926
+    },
+    "g": {
+      "status": "PASS",
+      "left_position": [
+        "outward",
+        5.0
+      ],
+      "bottom_position": [
+        "outward",
+        3.0
+      ],
+      "corner_endpoint_distance_mm": 2.0570302517926424,
+      "conservative_visible_corner_gap_mm": 1.810085807348198,
+      "slash_to_x_endpoint_visible_gap_mm": 0.9031444444444359,
+      "slash_tick_text_collisions": []
+    },
+    "h": {
+      "status": "PASS",
+      "left_position": [
+        "outward",
+        5.0
+      ],
+      "bottom_position": [
+        "outward",
+        3.0
+      ],
+      "corner_endpoint_distance_mm": 6.3200069686295555,
+      "conservative_visible_corner_gap_mm": 6.0730625241851115
+    }
+  },
+  "omission_marks": {
+    "e": {
+      "panel": "e",
+      "ylim": [
+        50.0,
+        100.0
+      ],
+      "scale": "linear",
+      "version": "fig5f-double-slash-20261012",
+      "marked": true,
+      "slash_count": 2,
+      "width_mm": 1.2276,
+      "slash_height_mm": 0.6,
+      "centers_mm": [
+        -1.95,
+        -1.11
+      ],
+      "extension_mm": 2.7,
+      "x_tick_pad_pt": 7.0,
+      "meaning": "Zero-to-lower-bound interval omitted below first displayed y value",
+      "left_spine_outward_pt": 5.0,
+      "extension_connects_to_y_tick": 50.0,
+      "x_tick_text_collisions": [],
+      "rendered_strokes": [
+        {
+          "width_mm": 1.2275999999999991,
+          "height_mm": 0.6000000000000006,
+          "center_mm": -1.9499999999999993
+        },
+        {
+          "width_mm": 1.2275999999999991,
+          "height_mm": 0.5999999999999983,
+          "center_mm": -1.11
+        }
+      ],
+      "geometry_verdict": "PASS"
+    },
+    "g": {
+      "panel": "g",
+      "ylim": [
+        45.0,
+        90.0
+      ],
+      "scale": "linear",
+      "version": "fig5f-double-slash-20261012",
+      "marked": true,
+      "slash_count": 2,
+      "width_mm": 1.2276,
+      "slash_height_mm": 0.6,
+      "centers_mm": [
+        -1.95,
+        -1.11
+      ],
+      "extension_mm": 2.7,
+      "x_tick_pad_pt": 7.0,
+      "meaning": "Zero-to-lower-bound interval omitted below first displayed y value",
+      "left_spine_outward_pt": 5.0,
+      "extension_connects_to_y_tick": 45.0,
+      "x_tick_text_collisions": [],
+      "rendered_strokes": [
+        {
+          "width_mm": 1.2276000000000173,
+          "height_mm": 0.6000000000000006,
+          "center_mm": -1.9499999999999993
+        },
+        {
+          "width_mm": 1.2276000000000173,
+          "height_mm": 0.5999999999999983,
+          "center_mm": -1.11
+        }
+      ],
+      "geometry_verdict": "PASS"
+    }
+  },
+  "geometry_before": {
+    "e": {
+      "xlim": [
+        0.0,
+        50.0
+      ],
+      "ylim": [
+        50.0,
+        100.0
+      ]
+    },
+    "f": {
+      "xlim": [
+        -0.5,
+        2.5
+      ],
+      "ylim": [
+        0.0,
+        58.0
+      ]
+    },
+    "g": {
+      "xlim": [
+        1.0,
+        60.0
+      ],
+      "ylim": [
+        45.0,
+        90.0
+      ]
+    },
+    "h": {
+      "xlim": [
+        -0.5,
+        1.5
+      ],
+      "ylim": [
+        0.0,
+        70.0
+      ]
+    }
+  },
+  "alignment": "PASS",
+  "scope": "Both personal-best views use Trial of best score; existing normalized-trial display, compact spacing and requested ticks retained; scientific y values and statistics unchanged.",
+  "no_statistical_tests_fitting_or_simulation": true
+}

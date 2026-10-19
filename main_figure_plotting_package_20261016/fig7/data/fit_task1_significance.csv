@@ -1,0 +1,4 @@
+phase,target,comparator,n_pairs,statistic,p_raw,p_holm,significance
+mean-3-phases,DGEM,fRL-decay,105,30,1.3777129509623377e-18,2.7554259019246754e-18,***
+mean-3-phases,DGEM,naiveRL,105,9,7.5581118501653017e-19,2.2674335550495903e-18,***
+mean-3-phases,DGEM,Bayesian,92,30,2.1712320069757906e-16,2.1712320069757906e-16,***

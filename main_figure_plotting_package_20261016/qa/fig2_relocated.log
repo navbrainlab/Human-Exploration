@@ -1,0 +1,10 @@
+{
+  "figure": 2,
+  "output": "/tmp/mini_dg_independent_fig2_g678glqg/fig2/output/fig2_nhb_reordered_examples_20261014.png",
+  "status": "PASS",
+  "size_mm": [
+    180.0,
+    145.0
+  ]
+}
+PASS: identical pixels; original project reads denied

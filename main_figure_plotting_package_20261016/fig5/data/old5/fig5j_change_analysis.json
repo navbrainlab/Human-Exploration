@@ -1,0 +1,54 @@
+{
+  "contrast": "[Final - Early] Obs minus [Final - Early] NObs",
+  "test": "Two-sided Welch t-test of independent subject-level paired change scores",
+  "analysis_status": "Exploratory follow-up; not preregistered",
+  "p_adjustment": "None; one exploratory change contrast, no stagewise or within-group tests",
+  "n_obs": 39,
+  "n_nobs": 40,
+  "obs_mean_change": -1.794871794871795,
+  "nobs_mean_change": 0.675,
+  "obs_change_sd": 3.577557879038122,
+  "nobs_change_sd": 3.2375006187505595,
+  "effect_obs_minus_nobs": -2.469871794871795,
+  "standard_error": 0.7682530195167532,
+  "t_statistic": -3.214919736241837,
+  "degrees_of_freedom": 75.81421674254591,
+  "p_value": 0.0019181109726772781,
+  "ci95": [
+    -4.000040930330087,
+    -0.9397026594135027
+  ],
+  "ci_method": "Welch-Satterthwaite t interval on the additive count scale",
+  "permutation_sensitivity": {
+    "statistic": "Absolute Welch t; independently permute whole subject change scores between groups",
+    "n_permutations": 200000,
+    "seed": 20261009,
+    "extreme_count": 354,
+    "p_value": 0.0017749911250443749,
+    "p_formula": "(extreme_count + 1) / (n_permutations + 1)",
+    "scope": "Monte Carlo sensitivity check; group-label exchangeability under the permutation null"
+  },
+  "updated_at_utc": "2026-10-09T02:37:30.446696+00:00",
+  "input_sha256": "482bd50b28f21ce89c2f725407c93af2d522175854f5ce71e0a14ae0d527964a",
+  "input_path": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/discarded_figures/fig5/human_data/csv/timecourse_subject_values.csv",
+  "source_rows": 478,
+  "endpoint_rows": 158,
+  "excluded_endpoint_observations": 0,
+  "versions": {
+    "numpy": "1.24.3",
+    "pandas": "2.0.3",
+    "scipy": "1.11.1"
+  },
+  "stage_means": {
+    "NObs": {
+      "early": 3.975,
+      "final": 4.65
+    },
+    "Obs": {
+      "early": 5.615384615384615,
+      "final": 3.8205128205128207
+    }
+  },
+  "subject_changes_sha256": "3d3b0cf38613f3b7f6ae122cf1af6f9de521850b8c921b796102ebe3ca6fffb7",
+  "analysis_code_sha256": "51729e99052bec64e96f32854a0a4f02018b8f939657cfa3a2fffdd8ce72f2dd"
+}

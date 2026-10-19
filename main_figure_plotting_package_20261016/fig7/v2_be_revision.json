@@ -1,0 +1,61 @@
+{
+  "date": "2026-10-15",
+  "source_package": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/main_figure/fig6_b_e_v2_comparison_20261015",
+  "source_png_sha256": "7b67dff1d2ec58534c9b1fb67ff57bd3926ba8cced9f407e85ac68ddcdecce2d",
+  "source_manifest_sha256": "4a4b9549a18bcef336be8d0cc3186898eb39db7be43e5dc334e3bbd34fc124af",
+  "copied_tables": {
+    "fit_task2.csv": {
+      "source": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/main_figure/fig6_b_e_v2_comparison_20261015/csv/fit_task2.csv",
+      "sha256": "a4323d04609d79075fe625eef6fd29cf60b0271812b15c38a98fd9b0a514237c"
+    },
+    "performance_task2.csv": {
+      "source": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/main_figure/fig6_b_e_v2_comparison_20261015/csv/performance_task2.csv",
+      "sha256": "20c8ff840f3abc980cb1062cffff2e9c53e1c527d407d61336a9852dd6eb6575"
+    },
+    "task2_fit_tests.csv": {
+      "source": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/main_figure/fig6_b_e_v2_comparison_20261015/csv/task2_fit_tests.csv",
+      "sha256": "b3254cade27d0c28d7a780c7dd8ae895fdae1d1ffe09a50373bd25cf73302bf4"
+    },
+    "task2_v2_episode_metrics.csv": {
+      "source": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/main_figure/fig6_b_e_v2_comparison_20261015/csv/task2_v2_episode_metrics.csv",
+      "sha256": "57ba1038fc50dcf362d8dc4e7ad6d80313e2cfc39ce0fefe0a8b592eae2d8b66"
+    },
+    "task2_v2_performance_parameters.csv": {
+      "source": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/main_figure/fig6_b_e_v2_comparison_20261015/csv/task2_v2_performance_parameters.csv",
+      "sha256": "9c638de9fd5180066a75b193da39d39b9d933ab63400c081106c6fa443658ade"
+    },
+    "source_v2_likelihood_vs_acl_statistics.csv": {
+      "source": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/main_figure/fig6_b_e_v2_comparison_20261015/csv/source_v2_likelihood_vs_acl_statistics.csv",
+      "sha256": "f88d63ccf5beb7bcedce23c6964200a95897b3bc144e831dc3eed0a5ce9da7a0"
+    },
+    "source_v2_performance_bootstrap_ci.csv": {
+      "source": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/main_figure/fig6_b_e_v2_comparison_20261015/csv/source_v2_performance_bootstrap_ci.csv",
+      "sha256": "3728a29dc54be9948f7d9aec68c60c459f5723b197ad042ba16fe6b9092d00c4"
+    },
+    "task2_fit_display_significance.csv": {
+      "source": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/main_figure/fig6_b_e_v2_comparison_20261015/csv/task2_fit_tests.csv",
+      "sha256": "b3254cade27d0c28d7a780c7dd8ae895fdae1d1ffe09a50373bd25cf73302bf4"
+    },
+    "task2_v2_participant_likelihood.csv": {
+      "source": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/main_figure/fig6_b_e_v2_comparison_20261015/csv/task2_participant_likelihood.csv",
+      "sha256": "89d81d5ae93837db083b968c03bbfd06b41aec9b1e8ac7f2cf61f181888e9194"
+    },
+    "task2_v2_cohort_audit.csv": {
+      "source": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/main_figure/fig6_b_e_v2_comparison_20261015/csv/task2_cohort_audit.csv",
+      "sha256": "2b8c21fee3c9cdcecb96a80750c56012ebee8a6d738f92e32b46e6fe1166c4a7"
+    }
+  },
+  "Task1_byte_identical": true,
+  "scope": "Task2 V2 fRL-decay, naiveRL, Bayesian and ACL in panels b/e; DGEM and Human retained",
+  "new_fits_simulations_or_tests": false,
+  "b_ACL": "80 people/4111 trials; 3811 gaze-present and 300 uniform fallback; five parameters",
+  "e_environment": "V2 deterministic feedback; retained DGEM noisy feedback; not an equal-environment benchmark",
+  "historical_tables_not_current_Task2_baselines": [
+    "task2_conditional_gaze_comparison.csv",
+    "task2_fit_status.csv",
+    "task2_optimizer_stages.csv",
+    "rl_fitted_parameters.csv",
+    "rl_optimizer_stages.csv"
+  ],
+  "display": "Original filled bar/point styles; e legend naiveRL and ACL without suffix; e y ticks 0/0.5/1"
+}

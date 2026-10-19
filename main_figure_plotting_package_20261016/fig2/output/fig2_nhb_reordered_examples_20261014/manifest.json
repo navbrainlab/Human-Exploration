@@ -1,0 +1,395 @@
+{
+  "status": "PASS",
+  "canvas_mm": [
+    180.0,
+    145.0
+  ],
+  "rotated_tick_bbox_visual_review": [],
+  "rotated_tick_review": "Source-preserved 35-degree heatmap labels; glyphs inspected and separated",
+  "font_sizes_pt": [
+    5.0,
+    6.0,
+    8.0
+  ],
+  "clipped_text": [],
+  "text_collisions": [],
+  "alignment": "PASS",
+  "panel_mapping": {
+    "a": "unchanged FEL space",
+    "b": "source c: highest-FEL human-minus-random frequency",
+    "c": "source e: mean FEL learning progress",
+    "d": "source b: illustrative DIS choices in both tasks",
+    "e": "source d: persistence/coverage schematic",
+    "f": "unchanged source f endpoints"
+  },
+  "scientific_artist_coordinates_unchanged": true,
+  "scientific_geometry": {
+    "c": {
+      "lines": [
+        "6243e1fceae2da8615cf7a65cae2c9c59119fbb9e4b5c13b87e57bb99662f9ab",
+        "505bd431fc4f461ef4c29deb4a4ad64ac40a8935acba1ad2c81d79f23f7452ae",
+        "b3ea72073a00cf3f0612dd738580adde68d515729328840d422e1c5067ce1b9a",
+        "3919118feaf6030d1233e855e6bc1367fa172fcb2731dda6284e2ac70b8612e9",
+        "c287deb704ec7a92becb80b79ca5f8273ba1be420ce53de7fda3e5520eff910f",
+        "2c730f079818788c958ef7180cf9292d723682a13dfcb3ddab07b88f56bdb596",
+        "baf01e0f06c0fe9b6514f6ec48debf2468a2c6f4c5c32fd4f81e465eed0ef300",
+        "1011c17ce23d5c694c329a9eda8da3829e190fd6675a01dc48bf872c5d8db1b9",
+        "70ff5f494f4e87a964030a0767bed851c56e3e722a435e7bce2cfb71b4e4cc27",
+        "81d1e7774720f87065c17b525efde20417a222d4fd11dabea1f77197a23c60d4",
+        "b0effd0e9f90934f35a8db8593a0d3c94a1af9b252c51f1b1522c910386bb761"
+      ],
+      "collections": [
+        {
+          "offsets": "856a9ac390b4227f0c81086600d55ae43824b8a38fac0704f1926b1fdab04413",
+          "paths": [
+            "682f68a54f38851d57e5d1923fd73bca7cb007ffb829c34401444e303a010321"
+          ]
+        },
+        {
+          "offsets": "3cb12dce1cbec7fe948cbaa47e8fcefbbfed650a27fe2f71e6fbfe2ae9fd98d2",
+          "paths": [
+            "682f68a54f38851d57e5d1923fd73bca7cb007ffb829c34401444e303a010321"
+          ]
+        }
+      ],
+      "patches": [
+        "0efccd007b309ed7bf7c669a4cc73d0c368eb8c5b1ab19eabf265eeeb32a5159",
+        "95e8fe9a73f33dd2aea4177cd621ffb1971c558ac0fc3752354b30416358f6f7"
+      ]
+    },
+    "e": {
+      "lines": [
+        "a92f930c368a37063692ec8112e22510e30450a83af8630bf0d422f99bcf5c0c",
+        "6984f0c85f1c2bc9f0676b3c4ca491dacba4e5ad61ae1a9acfa5192d00dee31f",
+        "f6079927ff48738570de6d35072126010cbcc2320c4209d23f9e52faed192132",
+        "8f097fd566cd654ef228ed863afbb00814006c8ef449f823fe46a6073464f29d",
+        "8f097fd566cd654ef228ed863afbb00814006c8ef449f823fe46a6073464f29d",
+        "56356eaea45f697edda1da123859c4e8c3d402e373c019db83519a22b3aec165",
+        "56356eaea45f697edda1da123859c4e8c3d402e373c019db83519a22b3aec165"
+      ],
+      "collections": [
+        {
+          "offsets": "491db7d410b3a2b087062bde45f6ba99bd95374b02e19205d86070a346b1d5c4",
+          "paths": [
+            "f5f9d5b0352cfd72224c7f75b43f38bd61804c79560964ca394a9d3edbd05080"
+          ]
+        },
+        {
+          "offsets": "491db7d410b3a2b087062bde45f6ba99bd95374b02e19205d86070a346b1d5c4",
+          "paths": [
+            "a10fb4a039a0cf8bdc23d4464fd8ac4e58764fa55bc669d608f263e687490532"
+          ]
+        }
+      ],
+      "patches": []
+    },
+    "f1": {
+      "lines": [
+        "8ab6a2aa964edb1980f044e7f48a09b79bda45960098bb4178e36498e7d52d2b",
+        "0125b33da5f23e9a23103a315dd8b464fbc258bf81bd0c0c6f45c10d58dce911",
+        "5727ab164301d3f0ebc885b128f2fe66ff81f1505eb4556c4c5423a6a70b47d6",
+        "6cfc7377923b35b1cba8f1eaa041070d83e4ad2ad52d757f837e64ecacc61053",
+        "dcf269dc6f99f437caf81af7ef78c7ba7fbd07dd5317c1fd665e7eec98428d9c",
+        "5c60e075bcd6ce93eb3e443229c40f35c148c04343ff249d8a73c9a8b70bcfc2",
+        "a106c3bf56778433166dc9fed81736d2c4d8287efce699c9f571f7856b3957c6",
+        "b2be4461357d4febccdff0d471cd8ccf058e7af98713793357719eead49f2241",
+        "f5f509babbeb5ddbc12ca381d191e13d153570dda15daa7aca25114dd1e31dfd",
+        "dcacc18e921f15ec657dfb8571ba402dcaef90eed39c3ad1d77646ec78645441",
+        "e905e994eb51ee75e41c2055436c434cf3c700227b813463d89e3073953784c8",
+        "55a4e44b8c35cf6963a844b36229e187c982d455df25f6d8548610ce8c4833cc",
+        "0deb361c91beed7a24823150cc26b04868d4ff2e6e9e80e5baa2ababd4d4b2fa",
+        "b136eb9619f9a6cc7016e273dd19121ff6999d91e762cab3385beb33914bf018",
+        "4c30c62406896f62475a25b1ae94b3a114ac38b1318c58477c6dd181d6b69f26",
+        "27f73b64fbdcf0dc6134f26b7b0b15fadbe16578f9bf5c753ad1fd944033ffba"
+      ],
+      "collections": [
+        {
+          "offsets": "1f4c2a53ea6e7df24047cbd3037796a76ed0030ef7fd265214f3bc115c515d68",
+          "paths": [
+            "682f68a54f38851d57e5d1923fd73bca7cb007ffb829c34401444e303a010321"
+          ]
+        }
+      ],
+      "patches": [
+        "deb01e6c73c4dec5b26d8f5ad9c786c17df08fda3ddc2b73a5a580c9ffab4642",
+        "4ebcde155d559b42788633e939328fea4a3e2b8c4443be7615a9a4076cf59f56",
+        "aeebedf04f63ac987c191e41223f5ab09a3d0a1ebc21226ca8342940d656823c"
+      ]
+    },
+    "f2": {
+      "lines": [
+        "2f1435b13d2e781a7076f917e49d0a8c93e84fb0e1d70bcb76e5c54ce26999c1",
+        "9a12656b13cb9d4eb20ae0c9827e82f5b3de63d3f5b6d5b537be173b56649b2a",
+        "dc9d465930dec8945464df9a7c99cfa2586e6b5001a71a5b5d3dc844b225da5f",
+        "7536a4743d05201ffef499e564db9a8b5274e7ad6546cc71dc45467bbcaa0057",
+        "51adf270ea2e0f3b474b8a04b59ab36661bb246d2476e217bc577216bc7e725c",
+        "a772a9f5cb256e4e5d6e973909de29680ecbc095ea2c06da3302a37a42ba639e",
+        "cc373c70e40a02aa688226fb2583085970f117b829e37c6d5d44dabedecd9296",
+        "eefd0d418d7fea7003bddb1a5d80f18c77bf616836df9d022dc80399e5bebab9",
+        "9063f816c4141fd430c109994a91fb7a41581844e92705ad0996c8f856fd1028",
+        "310167cd0afb79163414bce571bd49400519d715b56c83a3a8bc4199a0068fc0",
+        "abed346cdfce9d1ec1560b9f99e9891e4d049283c9467d99898be48235ee4cbc",
+        "c113829a11a481dac8f378090df9b187371f5deecbff88a779a0512ffdaf512f",
+        "a0450c721d653048de7ebdd3a03fc091b53eb5143f8cd19f08027ebbd084bbd1",
+        "98e974891e176ded6106baaf1d14d31940ddc265c70b2b4f4a8bbe4410da0121",
+        "3320441f2da00d576081fd04048d02bccc40afbb490bbfb931aaac7cc3e8140a",
+        "571d2c5467213ec53c9634218a047c72b670c2e8761e631f478eb8f3b956e81b"
+      ],
+      "collections": [
+        {
+          "offsets": "3c56c73e6fb98fe930a4a063a6b7ca8e50b41800ba76b019f56fd7fcc21af596",
+          "paths": [
+            "682f68a54f38851d57e5d1923fd73bca7cb007ffb829c34401444e303a010321"
+          ]
+        }
+      ],
+      "patches": [
+        "9a056f36d68236150581871740383da9dfa15d36913edb011af42d1fb57dbede",
+        "97ddfcb52fdf6b981f78844db22f9ac4ba1d91b32f729b21c56721696e51400e",
+        "289e2bf7dcb18793a8df79141f12cfa6e7bddcbbd98458d868ced63cbc2909fc"
+      ]
+    },
+    "f3": {
+      "lines": [
+        "995e5e650faaadee83da9f729671fa3e1460dacaaf978699c99cf0f23d03ff3e",
+        "f08a206568cc3d97223f7f9948e1ce582540ae1be14d01a91d9183b8b771d001",
+        "7c1f2887169f957f6000336b1e7a7fdf2bbbbfa1c3a87dd9207da5790923c2b6",
+        "7734c9207f7e94f8178fc1bdaa192153ebabf24e5a92237beebc83980e71714c",
+        "3ccc0989a9235c4076117bf9261791f30e13cb0eaf123f7b2934e4ea2d62ee83",
+        "6bcbfcd73fc06e8109f4b57ba5a14f75c33b7506aa03369493e7b39533e2512d",
+        "4748e9806839d9fcc38eca7ace7dd27b26d5249742e6fc8ffc0f34669b14d630",
+        "22572c813f6bf9ff9c30b24fb2dc9f90239f0395a85eb32e688a290734e3ae5e",
+        "23e5764017869f09fbd2b4a8a9f6609afc733375ae0b2539d3fef734569e2949",
+        "e31fa673eba81a6d9e02d0d97fad9c665c14369cba72f22cf32cfd31cb8a195f",
+        "53186ad1fb760c99be872aa5521f7911cef740a3aff611cd333e9ffcd90dddeb"
+      ],
+      "collections": [
+        {
+          "offsets": "1b8adbb7026df49f27c80be5ae4e9de6325ea2d581efb9dbbe838bb1bc0b8dd5",
+          "paths": [
+            "682f68a54f38851d57e5d1923fd73bca7cb007ffb829c34401444e303a010321"
+          ]
+        }
+      ],
+      "patches": [
+        "710e3e3971de5125349de829f3e327d342fb8eaaa572656e5b8407db02f4f011",
+        "517e86379cc1a6c375bc4ab7c6c03e7df89253a821a939f619822a3c190dd8fc"
+      ]
+    },
+    "f4": {
+      "lines": [
+        "164441305e043f1ddf84d8a75e339ce2a00ba99472492164787dcf63b45b545a",
+        "af0c19487d2ca9559990b662c4474cbb8370f9dffcb4b332fd4fd075d17c3b39",
+        "1d4b1b14d7c234e3664a3320c4ebae92e44a503b88d485277bda363fd3d92f45",
+        "4900237f0090546fc5120e9ae7a470166fb0312706ee7a83c14afc390a0cd8e0",
+        "50d4ba269c495d8bab7b5ef33c3f9666fb1beab21367837f4d04e1a7784d8078",
+        "47fa93c26c24af56ae7e56dc459964679111706f025ddc1c4d78a4c9f43556fd",
+        "6fe7377e541527a73dc0b7aefc27ba224e8ac3d440d0f1f4ba084f053db29b7b",
+        "2a2a870620733d30dfcb68c031c3ec92f25978dd475a4880caba971e57e64b94",
+        "5720a1e0bc722eacdfd348cc049250ed35e37cbdf647b82537520c695a690741",
+        "2fe3fdd8e95f4fb60158dc7d15509723c9786fce7deda4ce823d9f3381560b82",
+        "864975e659f0ab64caee67eae0d3670780491e627f9b0ec4219dad215c24955e"
+      ],
+      "collections": [
+        {
+          "offsets": "f927034896f776f26a33406e83e5c1fe7127f44396a312453e749513c48639d7",
+          "paths": [
+            "682f68a54f38851d57e5d1923fd73bca7cb007ffb829c34401444e303a010321"
+          ]
+        }
+      ],
+      "patches": [
+        "2e4168be025e31057328e39b09ac737170d3c20fc77b59a773dbff300f83e46e",
+        "3dbfa9c7b787e5b62dec059b36572a89260fa4d9e3f6ed278be04ef4ec823f79"
+      ]
+    }
+  },
+  "axes": {
+    "c": {
+      "bounds": [
+        0.5583333333333333,
+        0.6965517241379311,
+        0.15833333333333333,
+        0.2206896551724138
+      ],
+      "xlabel": "",
+      "ylabel": "Highest-FEL choice rate\nHuman \u2212 random"
+    },
+    "e": {
+      "bounds": [
+        0.8,
+        0.6965517241379311,
+        0.15833333333333333,
+        0.2206896551724138
+      ],
+      "xlabel": "",
+      "ylabel": "Mean FEL"
+    },
+    "f1": {
+      "bounds": [
+        0.075,
+        0.048101149425287204,
+        0.15833333333333333,
+        0.2206896551724138
+      ],
+      "xlabel": "",
+      "ylabel": "Within-dim. run length\n(normalized)"
+    },
+    "f2": {
+      "bounds": [
+        0.31666666666666665,
+        0.048101149425287204,
+        0.15833333333333333,
+        0.2206896551724138
+      ],
+      "xlabel": "",
+      "ylabel": "Dimension coverage\n(normalized)"
+    },
+    "f3": {
+      "bounds": [
+        0.5583333333333333,
+        0.048101149425287204,
+        0.15833333333333333,
+        0.2206896551724138
+      ],
+      "xlabel": "",
+      "ylabel": "Within-dim. run length\n(normalized)"
+    },
+    "f4": {
+      "bounds": [
+        0.8,
+        0.048101149425287204,
+        0.15833333333333333,
+        0.2206896551724138
+      ],
+      "xlabel": "",
+      "ylabel": "Dimension coverage\n(normalized)"
+    }
+  },
+  "native_texts": [
+    "**",
+    "***",
+    "0",
+    "0.0",
+    "0.05",
+    "0.075",
+    "0.1",
+    "0.15",
+    "0.5",
+    "0.6",
+    "1.0",
+    "1.2",
+    "100",
+    "3D-NE",
+    "4D-E",
+    "4D-NE",
+    "50",
+    "65",
+    "75",
+    "85",
+    "95",
+    "Choice frequency",
+    "D1",
+    "D2",
+    "D3",
+    "DIS",
+    "Dessert",
+    "Dimension coverage",
+    "Dimension coverage\n(normalized)",
+    "Dimension-isolating sampling (DIS)",
+    "Drink",
+    "Early",
+    "FEL in D1",
+    "FEL in D2",
+    "FEL in D3",
+    "FEL, feature enrichment level",
+    "Fruit-enriched",
+    "Highest-FEL choice rate\nHuman \u2212 random",
+    "Late",
+    "Mean FEL",
+    "NObs",
+    "Normalized trial progress",
+    "Obs",
+    "Random",
+    "Same-dimension run",
+    "Sofa-enriched",
+    "Task 1",
+    "Task 2",
+    "Trial progress",
+    "Visit order",
+    "Within-dim. run length\n(normalized)",
+    "a",
+    "b",
+    "c",
+    "d",
+    "e",
+    "f",
+    "\u2026"
+  ],
+  "no_new_analysis": true,
+  "source_snapshot": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/main_figure_plotting_package_20261016/fig2/source",
+  "removed_panels": "g/h relocated to new Fig5a/b",
+  "task2_normalization": {
+    "f3": 60,
+    "f4": 5
+  },
+  "f_size_matches_public_b": true,
+  "normalization_is_display_only": true,
+  "saved_P_unchanged": true,
+  "d_Task2_outer_border_removed_px": 2,
+  "f_y_axis_heights_mm": {
+    "f1": 32.0,
+    "f2": 32.0,
+    "f3": 32.0,
+    "f4": 32.0
+  },
+  "f_y_ticks": {
+    "f1": [
+      0.0,
+      0.075,
+      0.15
+    ],
+    "f2": [
+      0.0,
+      0.6,
+      1.2
+    ],
+    "f3": [
+      0.0,
+      0.05,
+      0.1
+    ],
+    "f4": [
+      0.0,
+      0.6,
+      1.2
+    ]
+  },
+  "f3_y_ticks": [
+    0.0,
+    0.05,
+    0.1
+  ],
+  "f3_tight_bounds_px": [
+    2077.665748031496,
+    66.42257217847718,
+    969.578346456693,
+    869.738845144357
+  ],
+  "random_legend_bounds_px": [
+    2011.5456036745395,
+    989.0603674540681,
+    313.91666666666697,
+    73.33333333333337
+  ],
+  "a_fel_definition_label": {
+    "text": "FEL, feature enrichment level",
+    "position_in_a_mm": [
+      37.5,
+      49.132
+    ],
+    "right_gap_from_D2_mm": 1.5093333333333365,
+    "below_gap_from_D2_mm": 0.9066666666666531
+  },
+  "sha256": "075675d6024c3de7298b56fe7f7fe79c339d08c7474908863fb804d28e3dc744"
+}

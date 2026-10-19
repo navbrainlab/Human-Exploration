@@ -1,0 +1,1693 @@
+{
+  "status": "PASS",
+  "png": {
+    "mode": "RGB",
+    "pixels": [
+      4251,
+      4632
+    ],
+    "dpi": [
+      599.9988,
+      599.9988
+    ]
+  },
+  "size_mm": [
+    180.0,
+    196.1
+  ],
+  "font_sizes_pt": [
+    5.0,
+    5.685674305870756,
+    5.777481583023224,
+    5.889123467545729,
+    5.95507180995052,
+    5.969689902733181,
+    6.0,
+    6.102821933140712,
+    6.159001113929383,
+    6.242890228219284,
+    6.437903879808232,
+    6.5332143583519935,
+    6.617054379068579,
+    8.0
+  ],
+  "ordinary_font_sizes_pt": [
+    5.0,
+    6.0,
+    8.0
+  ],
+  "frequency_encoded_font_sizes_pt": [
+    5.685674305870756,
+    5.777481583023224,
+    5.889123467545729,
+    5.95507180995052,
+    5.969689902733181,
+    6.102821933140712,
+    6.159001113929383,
+    6.242890228219284,
+    6.437903879808232,
+    6.5332143583519935,
+    6.617054379068579,
+    8.0
+  ],
+  "frequency_type_exception": "User2026-10-14 continuous5\u20138pt words and size key",
+  "panel_letters": "abcdefg",
+  "panels": {
+    "a1": {
+      "rect_mm": [
+        12.0,
+        161.09999999999994,
+        37.0,
+        182.09999999999997
+      ],
+      "xlabel": "",
+      "ylabel": "Total uncertainty",
+      "xlim": [
+        0.0,
+        1.0
+      ],
+      "ylim": [
+        0.0,
+        90.0
+      ],
+      "visible_data_source": "frozen derived tables"
+    },
+    "a2": {
+      "rect_mm": [
+        12.0,
+        128.1,
+        37.0,
+        149.1
+      ],
+      "xlabel": "Normalized progress",
+      "ylabel": "Total uncertainty",
+      "xlim": [
+        0.0,
+        1.0
+      ],
+      "ylim": [
+        0.0,
+        150.0
+      ],
+      "visible_data_source": "frozen derived tables"
+    },
+    "b1": {
+      "rect_mm": [
+        64.0,
+        161.09999999999997,
+        103.99999999999999,
+        182.09999999999997
+      ],
+      "xlabel": "",
+      "ylabel": "DIS probability",
+      "xlim": [
+        0.75,
+        4.25
+      ],
+      "ylim": [
+        0.0,
+        0.3
+      ],
+      "visible_data_source": "frozen derived tables"
+    },
+    "b2": {
+      "rect_mm": [
+        64.0,
+        128.1,
+        103.99999999999999,
+        149.1
+      ],
+      "xlabel": "Uncertainty rank (low \u2192 high)",
+      "ylabel": "DIS probability",
+      "xlim": [
+        0.75,
+        5.25
+      ],
+      "ylim": [
+        0.0,
+        0.3
+      ],
+      "visible_data_source": "frozen derived tables"
+    },
+    "c1": {
+      "rect_mm": [
+        127.0,
+        161.09999999999997,
+        155.0,
+        182.09999999999997
+      ],
+      "xlabel": "",
+      "ylabel": "Max. dim.\nuncertainty",
+      "xlim": [
+        -3.0,
+        3.0
+      ],
+      "ylim": [
+        3.0,
+        9.0
+      ],
+      "visible_data_source": "frozen derived tables"
+    },
+    "c1_reduction": {
+      "rect_mm": [
+        164.0,
+        161.09999999999997,
+        177.99999999999997,
+        182.09999999999997
+      ],
+      "xlabel": "",
+      "ylabel": "",
+      "xlim": [
+        -0.5,
+        1.5
+      ],
+      "ylim": [
+        2.2,
+        4.0
+      ],
+      "visible_data_source": "frozen derived tables"
+    },
+    "c2": {
+      "rect_mm": [
+        127.0,
+        128.1,
+        155.0,
+        149.1
+      ],
+      "xlabel": "Trial offset",
+      "ylabel": "Max. dim.\nuncertainty",
+      "xlim": [
+        -3.0,
+        3.0
+      ],
+      "ylim": [
+        8.0,
+        14.0
+      ],
+      "visible_data_source": "frozen derived tables"
+    },
+    "c2_reduction": {
+      "rect_mm": [
+        164.0,
+        128.1,
+        177.99999999999997,
+        149.1
+      ],
+      "xlabel": "",
+      "ylabel": "",
+      "xlim": [
+        -0.5,
+        1.5
+      ],
+      "ylim": [
+        2.0,
+        3.6
+      ],
+      "visible_data_source": "frozen derived tables"
+    },
+    "e1": {
+      "rect_mm": [
+        75.99999999999999,
+        83.1,
+        101.0,
+        104.1
+      ],
+      "xlabel": "",
+      "ylabel": "Exploration index",
+      "xlim": [
+        0.0,
+        1.0
+      ],
+      "ylim": [
+        10.0,
+        28.0
+      ],
+      "visible_data_source": "frozen derived tables"
+    },
+    "e2": {
+      "rect_mm": [
+        75.99999999999999,
+        49.1,
+        101.0,
+        70.10000000000001
+      ],
+      "xlabel": "Trial progress",
+      "ylabel": "Exploration index",
+      "xlim": [
+        0.0,
+        1.0
+      ],
+      "ylim": [
+        3.9,
+        4.8
+      ],
+      "visible_data_source": "frozen derived tables"
+    },
+    "f1": {
+      "rect_mm": [
+        132.0,
+        83.1,
+        171.99999999999997,
+        104.1
+      ],
+      "xlabel": "",
+      "ylabel": "Density (\u00d710\u207b\u00b3)",
+      "xlim": [
+        0.0,
+        1500.0
+      ],
+      "ylim": [
+        0.0,
+        2.0
+      ],
+      "visible_data_source": "frozen derived tables"
+    },
+    "f2": {
+      "rect_mm": [
+        132.0,
+        49.1,
+        171.99999999999997,
+        70.10000000000001
+      ],
+      "xlabel": "Squared exploration index",
+      "ylabel": "Density",
+      "xlim": [
+        0.0,
+        32.0
+      ],
+      "ylim": [
+        0.0,
+        0.06
+      ],
+      "visible_data_source": "frozen derived tables"
+    },
+    "g_effect": {
+      "rect_mm": [
+        39.99999999999999,
+        13.099999999999985,
+        82.0,
+        27.099999999999987
+      ],
+      "xlabel": "Term-frequency difference",
+      "ylabel": "",
+      "xlim": [
+        -2.0,
+        75.0
+      ],
+      "ylim": [
+        -0.55,
+        1.55
+      ],
+      "visible_data_source": "frozen derived tables"
+    }
+  },
+  "significance": [
+    {
+      "panel": "b",
+      "task": 1,
+      "rank": 3,
+      "label": "***",
+      "p_adjusted": 0.0005373697594586,
+      "family": "Task 1: 3 later ranks vs rank 1"
+    },
+    {
+      "panel": "b",
+      "task": 1,
+      "rank": 4,
+      "label": "***",
+      "p_adjusted": 3.9341994884581135e-11,
+      "family": "Task 1: 3 later ranks vs rank 1"
+    },
+    {
+      "panel": "b",
+      "task": 2,
+      "rank": 2,
+      "label": "*",
+      "p_adjusted": 0.0334873664835626,
+      "family": "Task 2: 4 later ranks vs rank 1"
+    },
+    {
+      "panel": "b",
+      "task": 2,
+      "rank": 4,
+      "label": "***",
+      "p_adjusted": 1.994253698701451e-06,
+      "family": "Task 2: 4 later ranks vs rank 1"
+    },
+    {
+      "panel": "b",
+      "task": 2,
+      "rank": 5,
+      "label": "***",
+      "p_adjusted": 8.24502766624724e-12,
+      "family": "Task 2: 4 later ranks vs rank 1"
+    },
+    {
+      "panel": "c",
+      "task": 1,
+      "label": "***",
+      "p_adjusted": 4.961071269396694e-05,
+      "family": "Panel c: two tasks"
+    },
+    {
+      "panel": "c",
+      "task": 2,
+      "label": "**",
+      "p_adjusted": 0.0013246246188378,
+      "family": "Panel c: two tasks"
+    },
+    {
+      "panel": "f",
+      "task": 1,
+      "label": "***",
+      "p_adjusted": 4.1636206799066285e-16,
+      "p_raw": 2.0818103399533143e-16,
+      "n_pairs": 104,
+      "test": "Paired Wilcoxon signed-rank",
+      "family": "Panel e: two tasks",
+      "endpoint": "Participant mean rounded squared EI"
+    },
+    {
+      "panel": "f",
+      "task": 2,
+      "label": "***",
+      "p_adjusted": 4.935342017150747e-07,
+      "p_raw": 4.935342017150747e-07,
+      "n_pairs": 79,
+      "test": "Paired Wilcoxon signed-rank",
+      "family": "Panel e: two tasks",
+      "endpoint": "Participant mean rounded squared EI"
+    },
+    {
+      "panel": "g",
+      "task": 1,
+      "label": "**",
+      "p_adjusted": 0.0027803578473087,
+      "family": "BH over the two saved language contrasts"
+    },
+    {
+      "panel": "g",
+      "task": 2,
+      "label": "***",
+      "p_adjusted": 0.0001189609392392,
+      "family": "BH over the two saved language contrasts"
+    }
+  ],
+  "alignment": "PASS",
+  "y_axis_breaks": {
+    "c1": {
+      "panel": "c1",
+      "ylim": [
+        3.0,
+        9.0
+      ],
+      "scale": "linear",
+      "version": "fig5f-double-slash-20261012",
+      "marked": true,
+      "slash_count": 2,
+      "width_mm": 1.2276,
+      "slash_height_mm": 0.6,
+      "centers_mm": [
+        -1.95,
+        -1.11
+      ],
+      "extension_mm": 2.7,
+      "x_tick_pad_pt": 7.0,
+      "meaning": "Zero-to-lower-bound interval omitted below first displayed y value",
+      "left_spine_outward_pt": 5.0,
+      "extension_connects_to_y_tick": 3.0,
+      "x_tick_text_collisions": [],
+      "rendered_strokes": [
+        {
+          "width_mm": 1.2276000000000173,
+          "height_mm": 0.6000000000000175,
+          "center_mm": -1.9499999999999993
+        },
+        {
+          "width_mm": 1.2276000000000173,
+          "height_mm": 0.5999999999999983,
+          "center_mm": -1.1099999999999977
+        }
+      ],
+      "geometry_verdict": "PASS"
+    },
+    "c1_reduction": {
+      "panel": "c1_reduction",
+      "ylim": [
+        2.2,
+        4.0
+      ],
+      "scale": "linear",
+      "version": "fig5f-double-slash-20261012",
+      "marked": true,
+      "slash_count": 2,
+      "width_mm": 1.2276,
+      "slash_height_mm": 0.6,
+      "centers_mm": [
+        -1.95,
+        -1.11
+      ],
+      "extension_mm": 2.7,
+      "x_tick_pad_pt": 2.0,
+      "meaning": "Zero-to-lower-bound interval omitted below first displayed y value",
+      "left_spine_outward_pt": 5.0,
+      "extension_connects_to_y_tick": 2.2,
+      "x_tick_text_collisions": [],
+      "rendered_strokes": [
+        {
+          "width_mm": 1.2276000000000173,
+          "height_mm": 0.6000000000000175,
+          "center_mm": -1.9499999999999993
+        },
+        {
+          "width_mm": 1.2276000000000173,
+          "height_mm": 0.5999999999999983,
+          "center_mm": -1.1099999999999977
+        }
+      ],
+      "geometry_verdict": "PASS"
+    },
+    "c2": {
+      "panel": "c2",
+      "ylim": [
+        8.0,
+        14.0
+      ],
+      "scale": "linear",
+      "version": "fig5f-double-slash-20261012",
+      "marked": true,
+      "slash_count": 2,
+      "width_mm": 1.2276,
+      "slash_height_mm": 0.6,
+      "centers_mm": [
+        -1.95,
+        -1.11
+      ],
+      "extension_mm": 2.7,
+      "x_tick_pad_pt": 7.0,
+      "meaning": "Zero-to-lower-bound interval omitted below first displayed y value",
+      "left_spine_outward_pt": 5.0,
+      "extension_connects_to_y_tick": 8.0,
+      "x_tick_text_collisions": [],
+      "rendered_strokes": [
+        {
+          "width_mm": 1.2276000000000173,
+          "height_mm": 0.5999999999999983,
+          "center_mm": -1.9500000000000186
+        },
+        {
+          "width_mm": 1.2276000000000173,
+          "height_mm": 0.5999999999999983,
+          "center_mm": -1.110000000000017
+        }
+      ],
+      "geometry_verdict": "PASS"
+    },
+    "c2_reduction": {
+      "panel": "c2_reduction",
+      "ylim": [
+        2.0,
+        3.6
+      ],
+      "scale": "linear",
+      "version": "fig5f-double-slash-20261012",
+      "marked": true,
+      "slash_count": 2,
+      "width_mm": 1.2276,
+      "slash_height_mm": 0.6,
+      "centers_mm": [
+        -1.95,
+        -1.11
+      ],
+      "extension_mm": 2.7,
+      "x_tick_pad_pt": 2.0,
+      "meaning": "Zero-to-lower-bound interval omitted below first displayed y value",
+      "left_spine_outward_pt": 5.0,
+      "extension_connects_to_y_tick": 2.0,
+      "x_tick_text_collisions": [],
+      "rendered_strokes": [
+        {
+          "width_mm": 1.2276000000000173,
+          "height_mm": 0.5999999999999983,
+          "center_mm": -1.9500000000000186
+        },
+        {
+          "width_mm": 1.2276000000000173,
+          "height_mm": 0.5999999999999983,
+          "center_mm": -1.110000000000017
+        }
+      ],
+      "geometry_verdict": "PASS"
+    },
+    "e1": {
+      "panel": "e1",
+      "ylim": [
+        10.0,
+        28.0
+      ],
+      "scale": "linear",
+      "version": "fig5f-double-slash-20261012",
+      "marked": true,
+      "slash_count": 2,
+      "width_mm": 1.2276,
+      "slash_height_mm": 0.6,
+      "centers_mm": [
+        -1.95,
+        -1.11
+      ],
+      "extension_mm": 2.7,
+      "x_tick_pad_pt": 7.0,
+      "meaning": "Zero-to-lower-bound interval omitted below first displayed y value",
+      "left_spine_outward_pt": 5.0,
+      "extension_connects_to_y_tick": 10.0,
+      "x_tick_text_collisions": [],
+      "rendered_strokes": [
+        {
+          "width_mm": 1.227599999999998,
+          "height_mm": 0.5999999999999983,
+          "center_mm": -1.9499999999999993
+        },
+        {
+          "width_mm": 1.227599999999998,
+          "height_mm": 0.5999999999999983,
+          "center_mm": -1.1099999999999977
+        }
+      ],
+      "geometry_verdict": "PASS"
+    },
+    "e2": {
+      "panel": "e2",
+      "ylim": [
+        3.9,
+        4.8
+      ],
+      "scale": "linear",
+      "version": "fig5f-double-slash-20261012",
+      "marked": true,
+      "slash_count": 2,
+      "width_mm": 1.2276,
+      "slash_height_mm": 0.6,
+      "centers_mm": [
+        -1.95,
+        -1.11
+      ],
+      "extension_mm": 2.7,
+      "x_tick_pad_pt": 7.0,
+      "meaning": "Zero-to-lower-bound interval omitted below first displayed y value",
+      "left_spine_outward_pt": 5.0,
+      "extension_connects_to_y_tick": 3.9,
+      "x_tick_text_collisions": [],
+      "rendered_strokes": [
+        {
+          "width_mm": 1.227599999999998,
+          "height_mm": 0.5999999999999983,
+          "center_mm": -1.9499999999999993
+        },
+        {
+          "width_mm": 1.227599999999998,
+          "height_mm": 0.5999999999999983,
+          "center_mm": -1.1099999999999977
+        }
+      ],
+      "geometry_verdict": "PASS"
+    }
+  },
+  "source_protection": {
+    "n_frozen_plot_tables": 14,
+    "local_copies_unchanged": true,
+    "scope": "Portable frozen plot tables; original archival hashes recorded in provenance.json"
+  },
+  "plot_input_hashes": {
+    "data/derived_behavior/b_rank_statistics.csv": "a7059c98cbc51828f92d9a7b3bd679b894d3e6cbb9ff3047c519d15d84f61421",
+    "data/derived_behavior/b_rank_summary.csv": "ac13075c8af205607cb6a82f60d8bfd42f784df83c794566da33bd7b06ff879f",
+    "data/derived_behavior/e_squared_distance_kde.csv": "5320b45011dab4bbf92ca6cf08bb2d3a076c9614f039f1b1d564c46235842412",
+    "data/derived_behavior/a_progress_summary.csv": "a96b8bd534ac8d81e2528592ea9f2cbcd0403f7d6f2f8fdd2edeea9cdfb5fa3e",
+    "data/derived_ei_language/language_top7.csv": "a027fd62d461a85e68829858a9538447f08ec99c31d3ff12075bfe5c4eed42b1",
+    "data/derived_ei_language/ei_progress_task2.csv": "8405d5e88286836f8f13cc407e5e5160d8376f41dbc03c59d31f4b8660ba24eb",
+    "data/derived_ei_language/ei_progress_task1.csv": "049722655947fc145ac3ddf205eba331e9cd7f8367dc468bb97e14c0410f8fde",
+    "data/derived_ei_language/language_saved_effects.csv": "01efa21c13e20e0d823d725735e83ef70ddc8def17f627f8be64f0e82c6f130b",
+    "data/derived_figure9/e_squared_EI_paired_units.csv": "15fb436d01c937642c798bf480ab4f016ed6c58ff29ab7dc5e802df39856a6f5",
+    "data/derived_figure9/c_event_statistics.csv": "1bf008c93780a88934245c2e2ef20171baa2af2888f8b68c660b3bbd398f9bf7",
+    "data/derived_figure9/e_squared_EI_statistics.csv": "dae62bf7b4a5b7ede2baaccc8b0e6182a9881a692074b18ce5dd162a1f5ff3c3",
+    "data/derived_figure9/c_event_curves.csv": "be46454c6a50c7ede7346a9c10bf98aedaebcd8255c0af4a2a67d929ae686c92",
+    "data/derived_figure9/c_event_unit_reductions.csv": "30ed731c5aefba1e20b0150bc174767ac3c09e807b7c49f5ebc5b15b1e9ee105",
+    "data/derived_figure9/c_event_reduction_summary.csv": "5afd0ffef943f523dbb041f63715089a8d0ebe599fb6a85baad2735bde0c55e3"
+  },
+  "sha256": "00bd120d231a4c6d7e860f55f80fc7a2f51434e4ad980139abce2a27e330515d",
+  "backend": "native Matplotlib; PNG-only",
+  "wordcloud_layout": [
+    {
+      "task": 1,
+      "container_mm": [
+        88.0,
+        166.0,
+        118.0,
+        190.0
+      ],
+      "native_words": [
+        {
+          "task": 1,
+          "word": "attempt",
+          "count": 148,
+          "rank": 1,
+          "relative_count": 1.0,
+          "fontsize_pt": 8.0,
+          "color": "#163E67",
+          "contrast_on_white": 10.943091701354346,
+          "anchor_mm": [
+            103.0,
+            178.0
+          ],
+          "bbox_mm": [
+            97.34585416666665,
+            176.64533333333333,
+            108.65414583333332,
+            179.35466666666667
+          ]
+        },
+        {
+          "task": 1,
+          "word": "determine",
+          "count": 43,
+          "rank": 2,
+          "relative_count": 0.2905405405405405,
+          "fontsize_pt": 6.617054379068579,
+          "color": "#163E67",
+          "contrast_on_white": 10.943091701354346,
+          "anchor_mm": [
+            100.0,
+            173.3
+          ],
+          "bbox_mm": [
+            93.99131249999999,
+            172.157,
+            106.0086875,
+            174.443
+          ]
+        },
+        {
+          "task": 1,
+          "word": "try",
+          "count": 34,
+          "rank": 3,
+          "relative_count": 0.22972972972972974,
+          "fontsize_pt": 6.437903879808232,
+          "color": "#163E67",
+          "contrast_on_white": 10.943091701354346,
+          "anchor_mm": [
+            112.0,
+            176.1
+          ],
+          "bbox_mm": [
+            110.41514583333333,
+            174.9993333333333,
+            113.58485416666666,
+            177.20066666666665
+          ]
+        },
+        {
+          "task": 1,
+          "word": "find",
+          "count": 20,
+          "rank": 4,
+          "relative_count": 0.13513513513513514,
+          "fontsize_pt": 6.102821933140712,
+          "color": "#163E67",
+          "contrast_on_white": 10.943091701354346,
+          "anchor_mm": [
+            95.0,
+            181.8
+          ],
+          "bbox_mm": [
+            92.95741666666666,
+            180.74166666666667,
+            97.04258333333333,
+            182.85833333333335
+          ]
+        },
+        {
+          "task": 1,
+          "word": "exclude",
+          "count": 20,
+          "rank": 5,
+          "relative_count": 0.13513513513513514,
+          "fontsize_pt": 6.102821933140712,
+          "color": "#163E67",
+          "contrast_on_white": 10.943091701354346,
+          "anchor_mm": [
+            110.0,
+            183.0
+          ],
+          "bbox_mm": [
+            105.824875,
+            181.94166666666666,
+            114.17512500000002,
+            184.05833333333334
+          ]
+        },
+        {
+          "task": 1,
+          "word": "arrange",
+          "count": 15,
+          "rank": 6,
+          "relative_count": 0.10135135135135136,
+          "fontsize_pt": 5.95507180995052,
+          "color": "#163E67",
+          "contrast_on_white": 10.943091701354346,
+          "anchor_mm": [
+            98.0,
+            186.2
+          ],
+          "bbox_mm": [
+            93.88572916666665,
+            185.184,
+            102.11427083333332,
+            187.21599999999998
+          ]
+        },
+        {
+          "task": 1,
+          "word": "compare",
+          "count": 13,
+          "rank": 7,
+          "relative_count": 0.08783783783783784,
+          "fontsize_pt": 5.889123467545729,
+          "color": "#163E67",
+          "contrast_on_white": 10.943091701354346,
+          "anchor_mm": [
+            109.5,
+            170.0
+          ],
+          "bbox_mm": [
+            104.94387499999998,
+            168.984,
+            114.05612499999998,
+            171.016
+          ]
+        }
+      ],
+      "nominal_font_classes": [
+        5.889123467545729,
+        5.95507180995052,
+        6.102821933140712,
+        6.437903879808232,
+        6.617054379068579,
+        8.0
+      ],
+      "all_horizontal": true,
+      "within_task_intensity_rule": "Task hue is constant; shade does not encode frequency",
+      "within_task_size_rule": "fontsize_pt = 5 + 3*sqrt(count / task maximum)",
+      "layout_mode": "Compact native word cloud: largest term centered, smaller terms distributed around it",
+      "frequency_order": "Native records sorted by count; spatial location does not encode frequency",
+      "user_authorized_type_exception": "User2026-10-14 authorizes continuous5\u20138pt frequency coding for words; ordinary typography remains5/6/8pt.",
+      "minimum_word_box_gap_mm": 1.1410000000000196
+    },
+    {
+      "task": 2,
+      "container_mm": [
+        124.0,
+        166.0,
+        154.0,
+        190.0
+      ],
+      "native_words": [
+        {
+          "task": 2,
+          "word": "select",
+          "count": 134,
+          "rank": 1,
+          "relative_count": 1.0,
+          "fontsize_pt": 8.0,
+          "color": "#703D07",
+          "contrast_on_white": 8.900136586040839,
+          "anchor_mm": [
+            139.0,
+            178.0
+          ],
+          "bbox_mm": [
+            134.81429166666666,
+            176.64533333333333,
+            143.18570833333334,
+            179.35466666666667
+          ]
+        },
+        {
+          "task": 2,
+          "word": "try",
+          "count": 35,
+          "rank": 2,
+          "relative_count": 0.26119402985074625,
+          "fontsize_pt": 6.5332143583519935,
+          "color": "#703D07",
+          "contrast_on_white": 8.900136586040839,
+          "anchor_mm": [
+            136.0,
+            173.3
+          ],
+          "bbox_mm": [
+            134.3886875,
+            172.157,
+            137.6113125,
+            174.443
+          ]
+        },
+        {
+          "task": 2,
+          "word": "exclude",
+          "count": 23,
+          "rank": 3,
+          "relative_count": 0.17164179104477612,
+          "fontsize_pt": 6.242890228219284,
+          "color": "#703D07",
+          "contrast_on_white": 8.900136586040839,
+          "anchor_mm": [
+            148.0,
+            176.1
+          ],
+          "bbox_mm": [
+            143.72697916666667,
+            175.04166666666666,
+            152.27302083333333,
+            177.15833333333333
+          ]
+        },
+        {
+          "task": 2,
+          "word": "determine",
+          "count": 20,
+          "rank": 4,
+          "relative_count": 0.14925373134328357,
+          "fontsize_pt": 6.159001113929383,
+          "color": "#703D07",
+          "contrast_on_white": 8.900136586040839,
+          "anchor_mm": [
+            131.0,
+            181.8
+          ],
+          "bbox_mm": [
+            125.40141666666665,
+            180.74166666666667,
+            136.59858333333332,
+            182.85833333333335
+          ]
+        },
+        {
+          "task": 2,
+          "word": "attempt",
+          "count": 14,
+          "rank": 5,
+          "relative_count": 0.1044776119402985,
+          "fontsize_pt": 5.969689902733181,
+          "color": "#703D07",
+          "contrast_on_white": 8.900136586040839,
+          "anchor_mm": [
+            146.0,
+            183.0
+          ],
+          "bbox_mm": [
+            141.76666666666665,
+            181.984,
+            150.23333333333332,
+            184.01600000000002
+          ]
+        },
+        {
+          "task": 2,
+          "word": "filter",
+          "count": 9,
+          "rank": 6,
+          "relative_count": 0.06716417910447761,
+          "fontsize_pt": 5.777481583023224,
+          "color": "#703D07",
+          "contrast_on_white": 8.900136586040839,
+          "anchor_mm": [
+            134.0,
+            186.2
+          ],
+          "bbox_mm": [
+            131.63197916666667,
+            185.20516666666666,
+            136.36802083333333,
+            187.19483333333332
+          ]
+        },
+        {
+          "task": 2,
+          "word": "compare",
+          "count": 7,
+          "rank": 7,
+          "relative_count": 0.05223880597014925,
+          "fontsize_pt": 5.685674305870756,
+          "color": "#703D07",
+          "contrast_on_white": 8.900136586040839,
+          "anchor_mm": [
+            145.5,
+            170.0
+          ],
+          "bbox_mm": [
+            141.1105625,
+            169.00516666666667,
+            149.8894375,
+            170.99483333333333
+          ]
+        }
+      ],
+      "nominal_font_classes": [
+        5.685674305870756,
+        5.777481583023224,
+        5.969689902733181,
+        6.159001113929383,
+        6.242890228219284,
+        6.5332143583519935,
+        8.0
+      ],
+      "all_horizontal": true,
+      "within_task_intensity_rule": "Task hue is constant; shade does not encode frequency",
+      "within_task_size_rule": "fontsize_pt = 5 + 3*sqrt(count / task maximum)",
+      "layout_mode": "Compact native word cloud: largest term centered, smaller terms distributed around it",
+      "frequency_order": "Native records sorted by count; spatial location does not encode frequency",
+      "user_authorized_type_exception": "User2026-10-14 authorizes continuous5\u20138pt frequency coding for words; ordinary typography remains5/6/8pt.",
+      "minimum_word_box_gap_mm": 0.5412708333333285
+    }
+  ],
+  "ei_definition": {
+    "role": "illustrative schematic",
+    "nodes": [
+      {
+        "id": "previous",
+        "text": "$C_{t-1}$",
+        "anchor_mm": [
+          10,
+          127
+        ],
+        "fill": "#F4F5F6",
+        "edge": "#8D9399",
+        "linestyle": "-",
+        "radius_mm": 4.0
+      },
+      {
+        "id": "current",
+        "text": "$C_t$",
+        "anchor_mm": [
+          25,
+          115
+        ],
+        "fill": "#E7EAED",
+        "edge": "#252B30",
+        "linestyle": "-",
+        "radius_mm": 4.0
+      },
+      {
+        "id": "actual",
+        "text": "$C_{t+1}$",
+        "anchor_mm": [
+          44,
+          99
+        ],
+        "fill": "#E7EAED",
+        "edge": "#252B30",
+        "linestyle": "-",
+        "radius_mm": 4.0
+      },
+      {
+        "id": "predicted",
+        "text": "$C^*_{t+1}$",
+        "anchor_mm": [
+          44,
+          135
+        ],
+        "fill": "#EFEAF5",
+        "edge": "#60458F",
+        "linestyle": [
+          0,
+          [
+            3,
+            2
+          ]
+        ],
+        "radius_mm": 4.0
+      }
+    ],
+    "arrows": [
+      {
+        "start": "previous",
+        "stop": "current",
+        "predicted": false,
+        "endpoints_mm": [
+          [
+            13.748170285326545,
+            124.00146377173877
+          ],
+          [
+            21.251829714673455,
+            117.99853622826123
+          ]
+        ]
+      },
+      {
+        "start": "current",
+        "stop": "actual",
+        "predicted": false,
+        "endpoints_mm": [
+          [
+            28.671573750961844,
+            111.90814842024265
+          ],
+          [
+            40.32842624903816,
+            102.09185157975735
+          ]
+        ]
+      },
+      {
+        "start": "current",
+        "stop": "predicted",
+        "predicted": true,
+        "endpoints_mm": [
+          [
+            28.305997417190525,
+            118.47999728125319
+          ],
+          [
+            40.694002582809475,
+            131.5200027187468
+          ]
+        ]
+      }
+    ],
+    "formula": "$\\mathrm{EI}_{t+1}=d(C_{t+1},C^*_{t+1})$",
+    "metric": "Distance between actual next choice and predicted optimum",
+    "source": "User-supplied EI reference schematic, redrawn natively",
+    "predictor": "Conceptual reference; not a DGEM fit or replay",
+    "no_new_predictor_calculated": true,
+    "schematic_coordinates_are_not_empirical": true,
+    "bounds_mm": [
+      4,
+      84,
+      58,
+      156
+    ],
+    "distance_bracket_mm": [
+      51,
+      105,
+      129
+    ]
+  },
+  "panel_mapping_from_previous": {
+    "a": "a",
+    "b": "b",
+    "c": "c",
+    "d": "e",
+    "e": "f",
+    "f": "g"
+  },
+  "wordcloud_size_key": [],
+  "tick_endpoints": {
+    "a1": {
+      "bottom": {
+        "status": "PASS",
+        "bounds": [
+          0.0,
+          1.0
+        ],
+        "outer_displayed_major_ticks": [
+          0.0,
+          1.0
+        ]
+      },
+      "left": {
+        "status": "PASS",
+        "bounds": [
+          0.0,
+          90.0
+        ],
+        "outer_displayed_major_ticks": [
+          0.0,
+          90.0
+        ]
+      }
+    },
+    "a2": {
+      "bottom": {
+        "status": "PASS",
+        "bounds": [
+          0.0,
+          1.0
+        ],
+        "outer_displayed_major_ticks": [
+          0.0,
+          1.0
+        ]
+      },
+      "left": {
+        "status": "PASS",
+        "bounds": [
+          0.0,
+          150.0
+        ],
+        "outer_displayed_major_ticks": [
+          0.0,
+          150.0
+        ]
+      }
+    },
+    "b1": {
+      "bottom": {
+        "status": "PASS",
+        "bounds": [
+          1.0,
+          4.0
+        ],
+        "outer_displayed_major_ticks": [
+          1.0,
+          4.0
+        ]
+      },
+      "left": {
+        "status": "PASS",
+        "bounds": [
+          0.0,
+          0.3
+        ],
+        "outer_displayed_major_ticks": [
+          0.0,
+          0.3
+        ]
+      }
+    },
+    "b2": {
+      "bottom": {
+        "status": "PASS",
+        "bounds": [
+          1.0,
+          5.0
+        ],
+        "outer_displayed_major_ticks": [
+          1.0,
+          5.0
+        ]
+      },
+      "left": {
+        "status": "PASS",
+        "bounds": [
+          0.0,
+          0.3
+        ],
+        "outer_displayed_major_ticks": [
+          0.0,
+          0.3
+        ]
+      }
+    },
+    "c1": {
+      "bottom": {
+        "status": "PASS",
+        "bounds": [
+          -3.0,
+          3.0
+        ],
+        "outer_displayed_major_ticks": [
+          -3.0,
+          3.0
+        ]
+      },
+      "left": {
+        "status": "PASS",
+        "bounds": [
+          3.0,
+          9.0
+        ],
+        "outer_displayed_major_ticks": [
+          3.0,
+          9.0
+        ]
+      }
+    },
+    "c1_reduction": {
+      "bottom": {
+        "status": "PASS",
+        "bounds": [
+          0.0,
+          1.0
+        ],
+        "outer_displayed_major_ticks": [
+          0.0,
+          1.0
+        ]
+      },
+      "left": {
+        "status": "PASS",
+        "bounds": [
+          2.2,
+          4.0
+        ],
+        "outer_displayed_major_ticks": [
+          2.2,
+          4.0
+        ]
+      }
+    },
+    "c2": {
+      "bottom": {
+        "status": "PASS",
+        "bounds": [
+          -3.0,
+          3.0
+        ],
+        "outer_displayed_major_ticks": [
+          -3.0,
+          3.0
+        ]
+      },
+      "left": {
+        "status": "PASS",
+        "bounds": [
+          8.0,
+          14.0
+        ],
+        "outer_displayed_major_ticks": [
+          8.0,
+          14.0
+        ]
+      }
+    },
+    "c2_reduction": {
+      "bottom": {
+        "status": "PASS",
+        "bounds": [
+          0.0,
+          1.0
+        ],
+        "outer_displayed_major_ticks": [
+          0.0,
+          1.0
+        ]
+      },
+      "left": {
+        "status": "PASS",
+        "bounds": [
+          2.0,
+          3.6
+        ],
+        "outer_displayed_major_ticks": [
+          2.0,
+          3.6
+        ]
+      }
+    },
+    "e1": {
+      "bottom": {
+        "status": "PASS",
+        "bounds": [
+          0.0,
+          1.0
+        ],
+        "outer_displayed_major_ticks": [
+          0.0,
+          1.0
+        ]
+      },
+      "left": {
+        "status": "PASS",
+        "bounds": [
+          10.0,
+          28.0
+        ],
+        "outer_displayed_major_ticks": [
+          10.0,
+          28.0
+        ]
+      }
+    },
+    "e2": {
+      "bottom": {
+        "status": "PASS",
+        "bounds": [
+          0.0,
+          1.0
+        ],
+        "outer_displayed_major_ticks": [
+          0.0,
+          1.0
+        ]
+      },
+      "left": {
+        "status": "PASS",
+        "bounds": [
+          3.9,
+          4.8
+        ],
+        "outer_displayed_major_ticks": [
+          3.9,
+          4.8
+        ]
+      }
+    },
+    "f1": {
+      "bottom": {
+        "status": "PASS",
+        "bounds": [
+          0.0,
+          1500.0
+        ],
+        "outer_displayed_major_ticks": [
+          0.0,
+          1500.0
+        ]
+      },
+      "left": {
+        "status": "PASS",
+        "bounds": [
+          0.0,
+          2.0
+        ],
+        "outer_displayed_major_ticks": [
+          0.0,
+          2.0
+        ]
+      }
+    },
+    "f2": {
+      "bottom": {
+        "status": "PASS",
+        "bounds": [
+          0.0,
+          32.0
+        ],
+        "outer_displayed_major_ticks": [
+          0.0,
+          32.0
+        ]
+      },
+      "left": {
+        "status": "PASS",
+        "bounds": [
+          0.0,
+          0.06
+        ],
+        "outer_displayed_major_ticks": [
+          0.0,
+          0.06
+        ]
+      }
+    },
+    "g_effect": {
+      "bottom": {
+        "status": "PASS",
+        "bounds": [
+          0.0,
+          75.0
+        ],
+        "outer_displayed_major_ticks": [
+          0.0,
+          75.0
+        ]
+      }
+    },
+    "a1_probability": {
+      "right": {
+        "status": "PASS",
+        "bounds": [
+          0.0,
+          0.9
+        ],
+        "outer_displayed_major_ticks": [
+          0.0,
+          0.9
+        ]
+      }
+    },
+    "a2_probability": {
+      "right": {
+        "status": "PASS",
+        "bounds": [
+          0.0,
+          0.9
+        ],
+        "outer_displayed_major_ticks": [
+          0.0,
+          0.9
+        ]
+      }
+    },
+    "e1_probability": {
+      "right": {
+        "status": "PASS",
+        "bounds": [
+          0.0,
+          0.9
+        ],
+        "outer_displayed_major_ticks": [
+          0.0,
+          0.9
+        ]
+      }
+    },
+    "e2_probability": {
+      "right": {
+        "status": "PASS",
+        "bounds": [
+          0.0,
+          0.9
+        ],
+        "outer_displayed_major_ticks": [
+          0.0,
+          0.9
+        ]
+      }
+    }
+  },
+  "wordcloud_colorbars": [],
+  "axis_corner_spacing": {
+    "a1": {
+      "status": "PASS",
+      "left_position": [
+        "outward",
+        5.0
+      ],
+      "bottom_position": [
+        "outward",
+        3.0
+      ],
+      "corner_endpoint_distance_mm": 2.057030251792648,
+      "conservative_visible_corner_gap_mm": 1.8100858073482038
+    },
+    "a2": {
+      "status": "PASS",
+      "left_position": [
+        "outward",
+        5.0
+      ],
+      "bottom_position": [
+        "outward",
+        3.0
+      ],
+      "corner_endpoint_distance_mm": 2.057030251792648,
+      "conservative_visible_corner_gap_mm": 1.8100858073482038
+    },
+    "b1": {
+      "status": "PASS",
+      "left_position": [
+        "outward",
+        5.0
+      ],
+      "bottom_position": [
+        "outward",
+        3.0
+      ],
+      "corner_endpoint_distance_mm": 4.740675462661173,
+      "conservative_visible_corner_gap_mm": 4.493731018216728
+    },
+    "b2": {
+      "status": "PASS",
+      "left_position": [
+        "outward",
+        5.0
+      ],
+      "bottom_position": [
+        "outward",
+        3.0
+      ],
+      "corner_endpoint_distance_mm": 4.124215226508913,
+      "conservative_visible_corner_gap_mm": 3.877270782064469
+    },
+    "c1": {
+      "status": "PASS",
+      "left_position": [
+        "outward",
+        5.0
+      ],
+      "bottom_position": [
+        "outward",
+        3.0
+      ],
+      "corner_endpoint_distance_mm": 2.0570302517926424,
+      "conservative_visible_corner_gap_mm": 1.810085807348198,
+      "slash_to_x_endpoint_visible_gap_mm": 0.9031444444444359,
+      "slash_tick_text_collisions": []
+    },
+    "c1_reduction": {
+      "status": "PASS",
+      "left_position": [
+        "outward",
+        5.0
+      ],
+      "bottom_position": [
+        "outward",
+        3.0
+      ],
+      "corner_endpoint_distance_mm": 5.3692267300806185,
+      "conservative_visible_corner_gap_mm": 5.1222822856361745,
+      "slash_to_x_endpoint_visible_gap_mm": 4.403144444444429,
+      "slash_tick_text_collisions": []
+    },
+    "c2": {
+      "status": "PASS",
+      "left_position": [
+        "outward",
+        5.0
+      ],
+      "bottom_position": [
+        "outward",
+        3.0
+      ],
+      "corner_endpoint_distance_mm": 2.057030251792632,
+      "conservative_visible_corner_gap_mm": 1.8100858073481878,
+      "slash_to_x_endpoint_visible_gap_mm": 0.9031444444444359,
+      "slash_tick_text_collisions": []
+    },
+    "c2_reduction": {
+      "status": "PASS",
+      "left_position": [
+        "outward",
+        5.0
+      ],
+      "bottom_position": [
+        "outward",
+        3.0
+      ],
+      "corner_endpoint_distance_mm": 5.3692267300806185,
+      "conservative_visible_corner_gap_mm": 5.1222822856361745,
+      "slash_to_x_endpoint_visible_gap_mm": 4.403144444444429,
+      "slash_tick_text_collisions": []
+    },
+    "e1": {
+      "status": "PASS",
+      "left_position": [
+        "outward",
+        5.0
+      ],
+      "bottom_position": [
+        "outward",
+        3.0
+      ],
+      "corner_endpoint_distance_mm": 2.0570302517926504,
+      "conservative_visible_corner_gap_mm": 1.810085807348206,
+      "slash_to_x_endpoint_visible_gap_mm": 0.9031444444444454,
+      "slash_tick_text_collisions": []
+    },
+    "e2": {
+      "status": "PASS",
+      "left_position": [
+        "outward",
+        5.0
+      ],
+      "bottom_position": [
+        "outward",
+        3.0
+      ],
+      "corner_endpoint_distance_mm": 2.0570302517926504,
+      "conservative_visible_corner_gap_mm": 1.810085807348206,
+      "slash_to_x_endpoint_visible_gap_mm": 0.9031444444444454,
+      "slash_tick_text_collisions": []
+    },
+    "f1": {
+      "status": "PASS",
+      "left_position": [
+        "outward",
+        5.0
+      ],
+      "bottom_position": [
+        "outward",
+        3.0
+      ],
+      "corner_endpoint_distance_mm": 2.0570302517926424,
+      "conservative_visible_corner_gap_mm": 1.810085807348198
+    },
+    "f2": {
+      "status": "PASS",
+      "left_position": [
+        "outward",
+        5.0
+      ],
+      "bottom_position": [
+        "outward",
+        3.0
+      ],
+      "corner_endpoint_distance_mm": 2.0570302517926424,
+      "conservative_visible_corner_gap_mm": 1.810085807348198
+    },
+    "g_effect": {
+      "status": "EXEMPT",
+      "reason": "A Cartesian corner is not drawn: shared/hidden/categorical one-axis view."
+    },
+    "dual_probability_right_spines": {
+      "a1_probability": {
+        "right_position": [
+          "outward",
+          5.0
+        ],
+        "bottom_position": [
+          "outward",
+          3.0
+        ],
+        "visible_corner_gap_mm": 1.8100858073481962
+      },
+      "a2_probability": {
+        "right_position": [
+          "outward",
+          5.0
+        ],
+        "bottom_position": [
+          "outward",
+          3.0
+        ],
+        "visible_corner_gap_mm": 1.810085807348206
+      },
+      "e1_probability": {
+        "right_position": [
+          "outward",
+          5.0
+        ],
+        "bottom_position": [
+          "outward",
+          3.0
+        ],
+        "visible_corner_gap_mm": 1.810085807348198
+      },
+      "e2_probability": {
+        "right_position": [
+          "outward",
+          5.0
+        ],
+        "bottom_position": [
+          "outward",
+          3.0
+        ],
+        "visible_corner_gap_mm": 1.810085807348198
+      }
+    }
+  },
+  "notes": [
+    "No source PNGs scaled or inserted; all marks and words are native.",
+    "Two native compact word clouds preserve all14source terms/counts; fontsize=5+3sqrt(count/taskmax) continuously encodes relative frequency. User-approved local type exception; ordinary text5/6/8pt. No Word legend or size key; constant task hues.",
+    "New d is an explanatory EI schematic, not a fitted predictor. Previous d/e/f become e/f/g; frozen cache names retain their source aliases.",
+    "All quantitative plot sizes, source means, intervals and P values remain unchanged. Height grows by900native pixels to keep upper a-c at their original physical positions.",
+    "Panel c uses the supplied Figure9 all-DIS-trial event curves and participant reductions; source two-task Mann-Whitney/BH comparisons are reproduced and frozen. Both positive-origin reduction axes have omission marks.",
+    "Panel c displays trial offsets -3 to +3; complete frozen curves retain -5 to +5. Delta max. dimension uncertainty means Umax(0)-Umax(+3), unchanged from the source reduction.",
+    "Panel f retains every existing KDE point and its paired participant-mean squared-EI Wilcoxon/BH stars; source correction-family alias Panel e is retained in frozen statistics.",
+    "The former language panel is compressed vertically into a bottom strip without changing its42x14mm effect plot or any of the14words/counts/font sizes.",
+    "Panel g is one centered compact group: effect x40mm, cloud centers103/139mm, equal6mm component gaps; g letter and source icon follow its left edge.",
+    "Source fig3_rebuilt.png and its whole package are protected; this candidate does not replace the source."
+  ]
+}

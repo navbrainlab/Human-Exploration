@@ -1,0 +1,16 @@
+{
+  "data/derived_behavior/a_progress_summary.csv": "a96b8bd534ac8d81e2528592ea9f2cbcd0403f7d6f2f8fdd2edeea9cdfb5fa3e",
+  "data/derived_behavior/b_rank_summary.csv": "ac13075c8af205607cb6a82f60d8bfd42f784df83c794566da33bd7b06ff879f",
+  "data/derived_behavior/b_rank_statistics.csv": "a7059c98cbc51828f92d9a7b3bd679b894d3e6cbb9ff3047c519d15d84f61421",
+  "data/derived_behavior/e_squared_distance_kde.csv": "5320b45011dab4bbf92ca6cf08bb2d3a076c9614f039f1b1d564c46235842412",
+  "data/derived_ei_language/ei_progress_task1.csv": "049722655947fc145ac3ddf205eba331e9cd7f8367dc468bb97e14c0410f8fde",
+  "data/derived_ei_language/ei_progress_task2.csv": "8405d5e88286836f8f13cc407e5e5160d8376f41dbc03c59d31f4b8660ba24eb",
+  "data/derived_ei_language/language_top7.csv": "a027fd62d461a85e68829858a9538447f08ec99c31d3ff12075bfe5c4eed42b1",
+  "data/derived_ei_language/language_saved_effects.csv": "01efa21c13e20e0d823d725735e83ef70ddc8def17f627f8be64f0e82c6f130b",
+  "data/derived_figure9/c_event_curves.csv": "be46454c6a50c7ede7346a9c10bf98aedaebcd8255c0af4a2a67d929ae686c92",
+  "data/derived_figure9/c_event_reduction_summary.csv": "5afd0ffef943f523dbb041f63715089a8d0ebe599fb6a85baad2735bde0c55e3",
+  "data/derived_figure9/c_event_statistics.csv": "1bf008c93780a88934245c2e2ef20171baa2af2888f8b68c660b3bbd398f9bf7",
+  "data/derived_figure9/e_squared_EI_statistics.csv": "dae62bf7b4a5b7ede2baaccc8b0e6182a9881a692074b18ce5dd162a1f5ff3c3",
+  "data/derived_figure9/c_event_unit_reductions.csv": "30ed731c5aefba1e20b0150bc174767ac3c09e807b7c49f5ebc5b15b1e9ee105",
+  "data/derived_figure9/e_squared_EI_paired_units.csv": "15fb436d01c937642c798bf480ab4f016ed6c58ff29ab7dc5e802df39856a6f5"
+}

@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "text_collisions": [],
+  "labels_outside_boxes": [],
+  "arrow_text_intersections": [],
+  "clipped_text": [],
+  "neighboring_labels_intersecting_boxes": [],
+  "nominal_font_sizes_pt": [
+    6.0
+  ],
+  "physical_size_mm": [
+    111.6,
+    32.081250000000004
+  ],
+  "reward_node_or_feedback_arrows": false,
+  "movie_examples_are_data": false,
+  "action_box_displayed": false,
+  "selected_candidate": "Movie B",
+  "selected_candidate_matches_feature_fill_and_edge": true,
+  "other_tags_block_matches_other_clusters": true,
+  "source": "Task_dimension_guided_exploration_NeurIPS_2026 (19).pdf",
+  "source_pages": [
+    5,
+    6,
+    16,
+    17,
+    18
+  ],
+  "scope": "Native Matplotlib text, box and arrow geometry plus PNG visual inspection."
+}

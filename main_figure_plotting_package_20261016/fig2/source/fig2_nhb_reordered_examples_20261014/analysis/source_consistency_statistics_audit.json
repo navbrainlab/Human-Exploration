@@ -1,0 +1,89 @@
+{
+  "status": "PASS",
+  "source_endpoints_reproduced": true,
+  "f_raw_and_panelwise_BH_match_supplied": true,
+  "g_raw_and_trimmed_tests_match_supplied": true,
+  "h_paired_raw_tests_match_supplied": true,
+  "source_exclusions": {
+    "data_3d_processed.csv": {
+      "rows_before": 1368,
+      "rows_after": 1368,
+      "malformed_rows_excluded": 0,
+      "csv_line_numbers": [],
+      "incomplete_random_episodes": [],
+      "sha256": "acfc6bdab8f419f9e9640ce2e92cc9ca3eaa6f38142b3a585e567b5b20651cbb"
+    },
+    "data_4d_processed.csv": {
+      "rows_before": 1731,
+      "rows_after": 1731,
+      "malformed_rows_excluded": 0,
+      "csv_line_numbers": [],
+      "incomplete_random_episodes": [],
+      "sha256": "daf9a9f47cf4f2bb1b618de755f8e3f8996cbcebc9c5f0ecc37f10bc8d5d1ee5"
+    },
+    "data_4donly_processed.csv": {
+      "rows_before": 2224,
+      "rows_after": 2224,
+      "malformed_rows_excluded": 0,
+      "csv_line_numbers": [],
+      "incomplete_random_episodes": [],
+      "sha256": "5b58b896d24561f2ac56c0254d1bcee55a2d178ca461d5a74a7ba6a102414d47"
+    },
+    "random_df_3d.csv": {
+      "rows_before": 9557,
+      "rows_after": 9556,
+      "malformed_rows_excluded": 1,
+      "csv_line_numbers": [
+        9558
+      ],
+      "incomplete_random_episodes": [
+        {
+          "subject": "318",
+          "valid_trials": 16,
+          "expected_trials": 30
+        }
+      ],
+      "sha256": "ee29f243e063eda0d2e27bff8f29f409ec0b1e71e346828539790137adebe01d"
+    },
+    "random_df_4d.csv": {
+      "rows_before": 1288,
+      "rows_after": 1287,
+      "malformed_rows_excluded": 1,
+      "csv_line_numbers": [
+        1289
+      ],
+      "incomplete_random_episodes": [
+        {
+          "subject": "25",
+          "valid_trials": 37,
+          "expected_trials": 50
+        }
+      ],
+      "sha256": "aa78b6fe34c9c0ae50bbb66563b024bd4d3a70d14d562f48785797c79bb0ffaa"
+    },
+    "behavior_data_all260707.csv": {
+      "rows_before": 9668,
+      "rows_after": 9668,
+      "malformed_rows_excluded": 0,
+      "csv_line_numbers": [],
+      "duplicate_subject_trials_excluded": 4695,
+      "rows_outside_target_groups": 862,
+      "sha256": "955b38ece88707a3b565c1b02d86f5a9091b66cdd45738eb7875813dd3c46c34"
+    },
+    "random_data_60rds.csv": {
+      "rows_before": 119940,
+      "rows_after": 119940,
+      "malformed_rows_excluded": 0,
+      "csv_line_numbers": [],
+      "sha256": "0e5ba0b8657026d2829732520e2d69a752cd9775ca6184fcdf2d0edf4d9cccd7"
+    }
+  },
+  "historical_full_sample_Holm_tables_unchanged": true,
+  "new_random_generation": false,
+  "new_fitting": false,
+  "outputs": {
+    "analysis/f_source_consistent_statistics.csv": "fbed57cec23a57818f3eacfb89d5998aede617b109fd40878e69a419ae825d00",
+    "analysis/g_source_consistent_statistics.csv": "b0bde8fdefd1f5a74c5d588e3267b1ca7e686eaa647041c7994cd76dcee86601",
+    "analysis/h_source_consistent_statistics.csv": "f60a9d9de3380bb747f70d86a9ea23af7ef4e68aeff2b29a704c27eeec975170"
+  }
+}

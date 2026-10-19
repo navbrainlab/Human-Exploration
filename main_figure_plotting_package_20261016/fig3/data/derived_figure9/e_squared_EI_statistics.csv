@@ -1,0 +1,3 @@
+task,n_pairs,n_nonzero_pairs,statistic,p_raw,mean_DIS,mean_other,mean_difference,median_difference,test,alternative,zero_method,correction_family,endpoint,trial_matching,p_fdr_bh,stars
+1,104,104,196,2.0818103399533143e-16,643.318084530183,283.93755996325916,359.3805245669239,389.30219780219784,Paired Wilcoxon signed-rank,two-sided,wilcox,Panel e: two tasks,Participant mean rounded squared EI,None; all available trials within each unit/condition,4.1636206799066285e-16,***
+2,79,79,551,4.9353420171507474e-07,21.402451073908551,17.876903594322926,3.5255474795856219,3.8666666666666671,Paired Wilcoxon signed-rank,two-sided,wilcox,Panel e: two tasks,Participant mean rounded squared EI,None; all available trials within each unit/condition,4.9353420171507474e-07,***

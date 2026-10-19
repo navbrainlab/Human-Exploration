@@ -1,0 +1,131 @@
+{
+  "status": "PASS",
+  "reference": "Fig4 tight outcomes 5 pt left / 3 pt bottom",
+  "axes": {
+    "b1": {
+      "status": "PASS",
+      "left_position": [
+        "outward",
+        5.0
+      ],
+      "bottom_position": [
+        "outward",
+        3.0
+      ],
+      "corner_endpoint_distance_mm": 9.214450680748516,
+      "conservative_visible_corner_gap_mm": 8.967506236304072
+    },
+    "b2": {
+      "status": "PASS",
+      "left_position": [
+        "outward",
+        5.0
+      ],
+      "bottom_position": [
+        "outward",
+        3.0
+      ],
+      "corner_endpoint_distance_mm": 4.4201719438176434,
+      "conservative_visible_corner_gap_mm": 4.1732274993731995
+    },
+    "c": {
+      "status": "PASS",
+      "left_position": [
+        "outward",
+        5.0
+      ],
+      "bottom_position": [
+        "outward",
+        3.0
+      ],
+      "corner_endpoint_distance_mm": 2.0570302517926424,
+      "conservative_visible_corner_gap_mm": 1.810085807348198,
+      "slash_to_x_endpoint_visible_gap_mm": 0.9031444444444359,
+      "slash_tick_text_collisions": []
+    },
+    "d_upper": {
+      "status": "EXEMPT",
+      "reason": "A Cartesian corner is not drawn: shared/hidden/categorical one-axis view."
+    },
+    "d_lower": {
+      "status": "EXEMPT",
+      "reason": "A Cartesian corner is not drawn: shared/hidden/categorical one-axis view."
+    },
+    "e1": {
+      "status": "PASS",
+      "left_position": [
+        "outward",
+        5.0
+      ],
+      "bottom_position": [
+        "outward",
+        3.0
+      ],
+      "corner_endpoint_distance_mm": 2.057030251792648,
+      "conservative_visible_corner_gap_mm": 1.8100858073482038
+    },
+    "e2": {
+      "status": "EXEMPT",
+      "reason": "A Cartesian corner is not drawn: shared/hidden/categorical one-axis view."
+    },
+    "g_upper": {
+      "status": "PASS",
+      "left_position": [
+        "outward",
+        5.0
+      ],
+      "bottom_position": [
+        "outward",
+        3.0
+      ],
+      "corner_endpoint_distance_mm": 2.0570302517926424,
+      "conservative_visible_corner_gap_mm": 1.810085807348198
+    },
+    "g_lower": {
+      "status": "PASS",
+      "left_position": [
+        "outward",
+        5.0
+      ],
+      "bottom_position": [
+        "outward",
+        3.0
+      ],
+      "corner_endpoint_distance_mm": 2.0570302517926424,
+      "conservative_visible_corner_gap_mm": 1.810085807348198
+    },
+    "f": {
+      "status": "PASS",
+      "left_position": [
+        "outward",
+        5.0
+      ],
+      "bottom_position": [
+        "outward",
+        3.0
+      ],
+      "corner_endpoint_distance_mm": 7.059486073760452,
+      "conservative_visible_corner_gap_mm": 6.812541629316007
+    },
+    "i": {
+      "status": "EXEMPT",
+      "reason": "Original custom categorical bracket replaces hidden bottom spine; retains category bounds",
+      "actual_left_spine_position": [
+        "outward",
+        5.0
+      ],
+      "actual_omission_marks_follow_left_spine": true,
+      "custom_category_baseline_to_omission_visible_horizontal_gap_mm": 8.878630555555539
+    }
+  },
+  "scientific_artist_hash_unchanged": true,
+  "scientific_artist_sha256": "c44c56ac80d1c4e55074f0c51723ceb4bd6960479907c275030836e7b56caf6f",
+  "plot_area_positions_limits_ticks_values_unchanged": true,
+  "exceptions": {
+    "a": "Model architecture: no quantitative Cartesian axes",
+    "h": "Movie-recommendation schematic: no quantitative Cartesian axes",
+    "c_Full_range_inset": "Compact inset retains original corner transforms and no omission marks, as requested by the user"
+  },
+  "shared_fitting_xlabel_shift_pt": 3.0,
+  "data_sources": "Frozen existing CSVs; no fitting, simulation or statistical test executed"
+}

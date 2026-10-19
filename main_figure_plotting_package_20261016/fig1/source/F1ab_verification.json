@@ -1,0 +1,2520 @@
+{
+  "status": "PASS",
+  "reference": "Approved compound-panel redesign and group-flow reference, 2026-10-14",
+  "canvas_mm": [
+    180.0,
+    81.0
+  ],
+  "font_sizes_pt": [
+    5.0,
+    6.0,
+    8.0
+  ],
+  "public_letters": [
+    "a",
+    "b"
+  ],
+  "compound_panels": {
+    "a": [
+      "a",
+      "c"
+    ],
+    "b": [
+      "b",
+      "d"
+    ]
+  },
+  "group_text_clearances": [
+    {
+      "area": "c",
+      "text": "3D-NE",
+      "min_clearance_mm": 2.4939999999999958
+    },
+    {
+      "area": "c",
+      "text": "4D-E",
+      "min_clearance_mm": 2.4939999999999958
+    },
+    {
+      "area": "c",
+      "text": "4D-NE",
+      "min_clearance_mm": 2.4939999999999984
+    },
+    {
+      "area": "c",
+      "text": "Survey &\ninterview",
+      "min_clearance_mm": 1.5775666666666661
+    },
+    {
+      "area": "d",
+      "text": "Observation",
+      "min_clearance_mm": 1.6494583333333204
+    },
+    {
+      "area": "d",
+      "text": "Room-choice\ntask",
+      "min_clearance_mm": 1.3975666666666635
+    },
+    {
+      "area": "d",
+      "text": "Room-choice\ntask",
+      "min_clearance_mm": 1.397566666666666
+    },
+    {
+      "area": "d",
+      "text": "Survey &\ninterview",
+      "min_clearance_mm": 1.5775666666666661
+    }
+  ],
+  "text_overlaps": [],
+  "clipped_text": [],
+  "alignment": "PASS",
+  "source_sha256": "0223edc5dd2a4b6ef90f41ededc7ffd62b355b1daf8d916fed9fef16d057243a",
+  "source_images": {
+    "meal_stim_1": {
+      "path": "assets/meal_stim_1.png",
+      "sha256": "afb9668d057a9ca280d780978be34645915289cb0af300a27b266480ae528cc8",
+      "slide": 1,
+      "shape_path": "0.7.0",
+      "pixel_size": [
+        500,
+        500
+      ],
+      "crop_ltrb": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "meal_rank_1": {
+      "path": "assets/meal_rank_1.png",
+      "sha256": "1d97409aca5c0d21edaf7c6f8ee98d89fc83b52eb761cfd60956bcbc30d5d56b",
+      "slide": 1,
+      "shape_path": "0.16.0",
+      "pixel_size": [
+        500,
+        500
+      ],
+      "crop_ltrb": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "meal_stim_2": {
+      "path": "assets/meal_stim_2.png",
+      "sha256": "b0bf5522f7cd4f0d0bdb2cc05dd5ff320ebda8d27bdec8d301a0ad87dcd9ab46",
+      "slide": 1,
+      "shape_path": "0.8.0",
+      "pixel_size": [
+        500,
+        500
+      ],
+      "crop_ltrb": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "meal_rank_2": {
+      "path": "assets/meal_rank_2.png",
+      "sha256": "c516ae2046df9b1b52523827d8da082f84e6b3820d2d7d7ceb9e5f8d527f4680",
+      "slide": 1,
+      "shape_path": "0.17.0",
+      "pixel_size": [
+        500,
+        500
+      ],
+      "crop_ltrb": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "meal_stim_3": {
+      "path": "assets/meal_stim_3.png",
+      "sha256": "93adea165c17a29e21272a3574b317f1000d56ef2a854259b5c3e771d611ae2e",
+      "slide": 1,
+      "shape_path": "0.9.0",
+      "pixel_size": [
+        500,
+        500
+      ],
+      "crop_ltrb": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "meal_rank_3": {
+      "path": "assets/meal_rank_3.png",
+      "sha256": "93adea165c17a29e21272a3574b317f1000d56ef2a854259b5c3e771d611ae2e",
+      "slide": 1,
+      "shape_path": "0.18.0",
+      "pixel_size": [
+        500,
+        500
+      ],
+      "crop_ltrb": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "meal_stim_4": {
+      "path": "assets/meal_stim_4.png",
+      "sha256": "71862cc3f45ab6c234d809b671942687c41fc13b63f85e533b3c24ac3577f310",
+      "slide": 1,
+      "shape_path": "0.10.0",
+      "pixel_size": [
+        500,
+        500
+      ],
+      "crop_ltrb": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "meal_rank_4": {
+      "path": "assets/meal_rank_4.png",
+      "sha256": "ff9a7a1e4e3f91c5d8a3f6fe811cb8495d31046bf71d32e892d64a62ab87fc5b",
+      "slide": 1,
+      "shape_path": "0.19.0",
+      "pixel_size": [
+        500,
+        500
+      ],
+      "crop_ltrb": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "meal_stim_5": {
+      "path": "assets/meal_stim_5.png",
+      "sha256": "eed270a5f31bbaf7be47c146ee5697da0b8596956a575d87dfa96b5186053822",
+      "slide": 1,
+      "shape_path": "0.11.0",
+      "pixel_size": [
+        500,
+        500
+      ],
+      "crop_ltrb": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "meal_rank_5": {
+      "path": "assets/meal_rank_5.png",
+      "sha256": "eed270a5f31bbaf7be47c146ee5697da0b8596956a575d87dfa96b5186053822",
+      "slide": 1,
+      "shape_path": "0.20.0",
+      "pixel_size": [
+        500,
+        500
+      ],
+      "crop_ltrb": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "meal_stim_6": {
+      "path": "assets/meal_stim_6.png",
+      "sha256": "c516ae2046df9b1b52523827d8da082f84e6b3820d2d7d7ceb9e5f8d527f4680",
+      "slide": 1,
+      "shape_path": "0.12.0",
+      "pixel_size": [
+        500,
+        500
+      ],
+      "crop_ltrb": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "meal_rank_6": {
+      "path": "assets/meal_rank_6.png",
+      "sha256": "eed270a5f31bbaf7be47c146ee5697da0b8596956a575d87dfa96b5186053822",
+      "slide": 1,
+      "shape_path": "0.21.0",
+      "pixel_size": [
+        500,
+        500
+      ],
+      "crop_ltrb": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "meal_stim_7": {
+      "path": "assets/meal_stim_7.png",
+      "sha256": "2e988bd2fa8058c1a89aba091e2c4c8de0adbd4309838bef7809cf326ec7ed4d",
+      "slide": 1,
+      "shape_path": "0.13.0",
+      "pixel_size": [
+        500,
+        500
+      ],
+      "crop_ltrb": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "meal_rank_7": {
+      "path": "assets/meal_rank_7.png",
+      "sha256": "71862cc3f45ab6c234d809b671942687c41fc13b63f85e533b3c24ac3577f310",
+      "slide": 1,
+      "shape_path": "0.22.0",
+      "pixel_size": [
+        500,
+        500
+      ],
+      "crop_ltrb": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "meal_stim_8": {
+      "path": "assets/meal_stim_8.png",
+      "sha256": "ff9a7a1e4e3f91c5d8a3f6fe811cb8495d31046bf71d32e892d64a62ab87fc5b",
+      "slide": 1,
+      "shape_path": "0.14.0",
+      "pixel_size": [
+        500,
+        500
+      ],
+      "crop_ltrb": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "meal_rank_8": {
+      "path": "assets/meal_rank_8.png",
+      "sha256": "afb9668d057a9ca280d780978be34645915289cb0af300a27b266480ae528cc8",
+      "slide": 1,
+      "shape_path": "0.23.0",
+      "pixel_size": [
+        500,
+        500
+      ],
+      "crop_ltrb": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "meal_stim_9": {
+      "path": "assets/meal_stim_9.png",
+      "sha256": "1d97409aca5c0d21edaf7c6f8ee98d89fc83b52eb761cfd60956bcbc30d5d56b",
+      "slide": 1,
+      "shape_path": "0.15.0",
+      "pixel_size": [
+        500,
+        500
+      ],
+      "crop_ltrb": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "meal_rank_9": {
+      "path": "assets/meal_rank_9.png",
+      "sha256": "2e988bd2fa8058c1a89aba091e2c4c8de0adbd4309838bef7809cf326ec7ed4d",
+      "slide": 1,
+      "shape_path": "0.24.0",
+      "pixel_size": [
+        500,
+        500
+      ],
+      "crop_ltrb": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "food3_staple_1": {
+      "path": "assets/food3_staple_1.png",
+      "sha256": "00451c94ae779edd9f115f7535c56ab451b1e358b6a84c969bd1fc94b46cab76",
+      "slide": 1,
+      "shape_path": "0.49",
+      "pixel_size": [
+        500,
+        500
+      ],
+      "crop_ltrb": [
+        0.09272,
+        0.44557,
+        0.23749,
+        0.05793
+      ]
+    },
+    "food3_staple_2": {
+      "path": "assets/food3_staple_2.png",
+      "sha256": "d75cdd35d2256d0bb6688c81316cebdcbcf7f37292450f3061a7dbda2147fec1",
+      "slide": 1,
+      "shape_path": "0.50",
+      "pixel_size": [
+        500,
+        500
+      ],
+      "crop_ltrb": [
+        0.15914,
+        0.43361,
+        0.15664,
+        0.0
+      ]
+    },
+    "food3_staple_3": {
+      "path": "assets/food3_staple_3.png",
+      "sha256": "d9cc044f4543557451e387b926b6e508fd8e5e8dcab41650b974dd4fec87b762",
+      "slide": 1,
+      "shape_path": "0.51",
+      "pixel_size": [
+        500,
+        500
+      ],
+      "crop_ltrb": [
+        0.15232,
+        0.37262,
+        0.1779,
+        0.09525
+      ]
+    },
+    "food3_dessert_1": {
+      "path": "assets/food3_dessert_1.png",
+      "sha256": "ba43cae196921d9e1a979dc5b246235b988d529f8530489b3be4906de1e52e9f",
+      "slide": 1,
+      "shape_path": "0.52",
+      "pixel_size": [
+        500,
+        500
+      ],
+      "crop_ltrb": [
+        0.4438,
+        0.0,
+        0.0,
+        0.44429
+      ]
+    },
+    "food3_dessert_2": {
+      "path": "assets/food3_dessert_2.png",
+      "sha256": "7cf376e78e73b9a888854bc6fd45f45b9df4bf1dcb2e7b8639e55c1f0a176398",
+      "slide": 1,
+      "shape_path": "0.53",
+      "pixel_size": [
+        500,
+        500
+      ],
+      "crop_ltrb": [
+        0.47837,
+        0.0,
+        0.0,
+        0.50123
+      ]
+    },
+    "food3_dessert_3": {
+      "path": "assets/food3_dessert_3.png",
+      "sha256": "678296dea62ee1b38ee3141e9ec4aafa4f7d48b102dd8bc7735dc1de113d4b5b",
+      "slide": 1,
+      "shape_path": "0.54",
+      "pixel_size": [
+        500,
+        500
+      ],
+      "crop_ltrb": [
+        0.47837,
+        0.0,
+        0.0,
+        0.44429
+      ]
+    },
+    "food3_beverage_1": {
+      "path": "assets/food3_beverage_1.png",
+      "sha256": "074ee8771d9b174f0c2ad75d97c33b55fff7506dc688a18cedd727507ac13543",
+      "slide": 1,
+      "shape_path": "0.46",
+      "pixel_size": [
+        500,
+        500
+      ],
+      "crop_ltrb": [
+        0.0,
+        0.0,
+        0.49505,
+        0.44467
+      ]
+    },
+    "food3_beverage_2": {
+      "path": "assets/food3_beverage_2.png",
+      "sha256": "8036d774e9fd364ae14cdabc5b42e149d2084062a343a39416dc626f59fe5274",
+      "slide": 1,
+      "shape_path": "0.47",
+      "pixel_size": [
+        500,
+        500
+      ],
+      "crop_ltrb": [
+        0.0,
+        0.0,
+        0.54498,
+        0.44467
+      ]
+    },
+    "food3_beverage_3": {
+      "path": "assets/food3_beverage_3.png",
+      "sha256": "a67b8fdc6b5b530987dc3ff1b8ec1dc05367346900aecc5d285610bd8f1ebd4c",
+      "slide": 1,
+      "shape_path": "0.48",
+      "pixel_size": [
+        500,
+        500
+      ],
+      "crop_ltrb": [
+        -1e-05,
+        0.0,
+        0.57005,
+        0.42415
+      ]
+    },
+    "food4_staple_1": {
+      "path": "assets/food4_staple_1.png",
+      "sha256": "a0154725512c71d43453279efe9e910d0b524700f4414ba883cff73db634580d",
+      "slide": 1,
+      "shape_path": "0.56.0",
+      "pixel_size": [
+        62,
+        49
+      ],
+      "crop_ltrb": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "food4_staple_2": {
+      "path": "assets/food4_staple_2.png",
+      "sha256": "2847cca018d6ea553025945d1822afddbb2fc07fbb6842f760236d1a07d818ad",
+      "slide": 1,
+      "shape_path": "0.56.1",
+      "pixel_size": [
+        70,
+        58
+      ],
+      "crop_ltrb": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "food4_staple_3": {
+      "path": "assets/food4_staple_3.png",
+      "sha256": "642e9eb077d397542dda422a7197f05da116dbb2dbbec2440856fb7f72e228dc",
+      "slide": 1,
+      "shape_path": "0.56.2",
+      "pixel_size": [
+        63,
+        55
+      ],
+      "crop_ltrb": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "food4_dessert_1": {
+      "path": "assets/food4_dessert_1.png",
+      "sha256": "02bdf1de09fd2f6696d299646583897814ccbddd71b9edb4689eea8460523e58",
+      "slide": 1,
+      "shape_path": "0.58.0",
+      "pixel_size": [
+        64,
+        54
+      ],
+      "crop_ltrb": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "food4_dessert_2": {
+      "path": "assets/food4_dessert_2.png",
+      "sha256": "b2aab4ddff63797b87284e56c422b73a586df92479602495d1cec91a2952757c",
+      "slide": 1,
+      "shape_path": "0.58.1",
+      "pixel_size": [
+        51,
+        58
+      ],
+      "crop_ltrb": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "food4_dessert_3": {
+      "path": "assets/food4_dessert_3.png",
+      "sha256": "a6dc5173214a4ec94ac4eaa5405e967dc981e8b78d4a00f3a8d836d6d7295c82",
+      "slide": 1,
+      "shape_path": "0.58.2",
+      "pixel_size": [
+        59,
+        47
+      ],
+      "crop_ltrb": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "food4_beverage_1": {
+      "path": "assets/food4_beverage_1.png",
+      "sha256": "39201615006d02f90d4a5ec58de63e25e18c199884b7e7a5944fabc687f8aaa9",
+      "slide": 1,
+      "shape_path": "0.57.0",
+      "pixel_size": [
+        63,
+        48
+      ],
+      "crop_ltrb": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "food4_beverage_2": {
+      "path": "assets/food4_beverage_2.png",
+      "sha256": "d227f2209ff811f264f8e64bc3dd08e85c369236fa762566afd9720bf4d84fa5",
+      "slide": 1,
+      "shape_path": "0.57.1",
+      "pixel_size": [
+        61,
+        53
+      ],
+      "crop_ltrb": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "food4_beverage_3": {
+      "path": "assets/food4_beverage_3.png",
+      "sha256": "d833d8da451ac5f3f2a14dddb6c985b2e4043660a263bcf5d19ef210acc30511",
+      "slide": 1,
+      "shape_path": "0.57.2",
+      "pixel_size": [
+        43,
+        59
+      ],
+      "crop_ltrb": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "food4_fruit_1": {
+      "path": "assets/food4_fruit_1.png",
+      "sha256": "d226d266ed6d71ae5de7d08412a3a5f0e8540f1149ca8c6ec3caa97b292689a5",
+      "slide": 1,
+      "shape_path": "0.59.0",
+      "pixel_size": [
+        57,
+        56
+      ],
+      "crop_ltrb": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "food4_fruit_2": {
+      "path": "assets/food4_fruit_2.png",
+      "sha256": "609561d3900b59edf972bfeb10fff943b932eeedec424b7449c66d6fc624d556",
+      "slide": 1,
+      "shape_path": "0.59.1",
+      "pixel_size": [
+        65,
+        57
+      ],
+      "crop_ltrb": [
+        0.0,
+        -0.03481,
+        0.0,
+        0.03481
+      ]
+    },
+    "food4_fruit_3": {
+      "path": "assets/food4_fruit_3.png",
+      "sha256": "9eaeba66019680298a31f204971fee7856eb2d52c84acceb155448dbaab93111",
+      "slide": 1,
+      "shape_path": "0.59.2",
+      "pixel_size": [
+        60,
+        48
+      ],
+      "crop_ltrb": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "room_sofa_1": {
+      "path": "assets/room_sofa_1.png",
+      "sha256": "1cda9dd818c94ad99aa8c807854bd7876b946c1d3a24299e7d4c26f2a419154c",
+      "slide": 2,
+      "shape_path": "0.30.1.0",
+      "pixel_size": [
+        1536,
+        1024
+      ],
+      "crop_ltrb": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "room_sofa_2": {
+      "path": "assets/room_sofa_2.png",
+      "sha256": "c1c2e5abc84918b7fcc19983da8be058585eea39d8c8c8af07b974c6ebf59464",
+      "slide": 2,
+      "shape_path": "0.30.1.1",
+      "pixel_size": [
+        1536,
+        1024
+      ],
+      "crop_ltrb": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "room_sofa_3": {
+      "path": "assets/room_sofa_3.png",
+      "sha256": "ac41c8920b924fe37f350c8c300254fd99b03f0a701ddba208ff08e9d647592c",
+      "slide": 2,
+      "shape_path": "0.30.1.2",
+      "pixel_size": [
+        1536,
+        1024
+      ],
+      "crop_ltrb": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "room_sofa_4": {
+      "path": "assets/room_sofa_4.png",
+      "sha256": "177f1226b0d6183fc37c5c98be0f12b93b4e5630843f67b268c31b927723b764",
+      "slide": 2,
+      "shape_path": "0.30.1.3",
+      "pixel_size": [
+        1536,
+        1024
+      ],
+      "crop_ltrb": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "room_painting_1": {
+      "path": "assets/room_painting_1.png",
+      "sha256": "ec517ecca02b550074594f85b2507b9ea4a71a0488036098c1fdd20b8d37dee1",
+      "slide": 2,
+      "shape_path": "0.31.0",
+      "pixel_size": [
+        584,
+        580
+      ],
+      "crop_ltrb": [
+        0.0,
+        0.08746,
+        0.0,
+        0.05316
+      ]
+    },
+    "room_painting_2": {
+      "path": "assets/room_painting_2.jpg",
+      "sha256": "bdf991c48177a7cd6df149db6df0777f633f49b360e2625a46252e8df09cd79c",
+      "slide": 2,
+      "shape_path": "0.31.1",
+      "pixel_size": [
+        935,
+        1024
+      ],
+      "crop_ltrb": [
+        0.04417,
+        0.12874,
+        0.0651,
+        0.19168
+      ]
+    },
+    "room_painting_3": {
+      "path": "assets/room_painting_3.jpg",
+      "sha256": "f07cbc1bf58a3b61f9baa6a5998b4340026002b02aa55d1a7f9b2e0e2235397c",
+      "slide": 2,
+      "shape_path": "0.31.2",
+      "pixel_size": [
+        935,
+        1024
+      ],
+      "crop_ltrb": [
+        0.10122,
+        0.19438,
+        0.09388,
+        0.1812
+      ]
+    },
+    "room_painting_4": {
+      "path": "assets/room_painting_4.png",
+      "sha256": "33836e9d0fc84d7cf90743a6a0a735844f2758a0b5f490801e648a4aa55912e0",
+      "slide": 2,
+      "shape_path": "0.31.3",
+      "pixel_size": [
+        626,
+        586
+      ],
+      "crop_ltrb": [
+        0.0,
+        0.0477,
+        0.0,
+        0.0
+      ]
+    },
+    "room_plant_1": {
+      "path": "assets/room_plant_1.png",
+      "sha256": "bbee8e18ba73cda0c4eba31996bd1b37347aa9cd47787c2beb5c28d636d0e4bd",
+      "slide": 2,
+      "shape_path": "0.33.0",
+      "pixel_size": [
+        1124,
+        844
+      ],
+      "crop_ltrb": [
+        0.24403,
+        0.0,
+        0.23923,
+        0.0
+      ]
+    },
+    "room_plant_2": {
+      "path": "assets/room_plant_2.png",
+      "sha256": "1c2b7394e50509105ef04ac3c6efc2e76775915afbfb8b8ba70dfaadda38faba",
+      "slide": 2,
+      "shape_path": "0.33.1",
+      "pixel_size": [
+        1226,
+        920
+      ],
+      "crop_ltrb": [
+        0.1766,
+        0.0,
+        0.2283,
+        0.0
+      ]
+    },
+    "room_plant_3": {
+      "path": "assets/room_plant_3.png",
+      "sha256": "b48fccd0f67cadfc073ef0501cdfdf3df2e4d953049aaa4ee0f11f68c0d079f2",
+      "slide": 2,
+      "shape_path": "0.33.2",
+      "pixel_size": [
+        1224,
+        920
+      ],
+      "crop_ltrb": [
+        0.19744,
+        0.0,
+        0.22245,
+        0.0
+      ]
+    },
+    "room_plant_4": {
+      "path": "assets/room_plant_4.png",
+      "sha256": "e8f70ba6efcc0d968edada7142ba4b4aa1f2d8092fa6c9c7dab2a9c8440c2924",
+      "slide": 2,
+      "shape_path": "0.33.3",
+      "pixel_size": [
+        1224,
+        920
+      ],
+      "crop_ltrb": [
+        0.28992,
+        0.0,
+        0.18949,
+        0.0
+      ]
+    },
+    "room_table_1": {
+      "path": "assets/room_table_1.png",
+      "sha256": "6937fc7ca45ab9be32ae9daceb280a7e67a38988e891f3bb6809c169fca7cdd8",
+      "slide": 2,
+      "shape_path": "0.29.0",
+      "pixel_size": [
+        1536,
+        1024
+      ],
+      "crop_ltrb": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "room_table_2": {
+      "path": "assets/room_table_2.png",
+      "sha256": "8a03f39be9c63fe663f2af5c1892bcb407cdde35b9371e7f160a4761be0baec3",
+      "slide": 2,
+      "shape_path": "0.29.1",
+      "pixel_size": [
+        1536,
+        1024
+      ],
+      "crop_ltrb": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "room_table_3": {
+      "path": "assets/room_table_3.png",
+      "sha256": "9871ea161b085926ae458a6442de01402b19b5ea4c4f79a8b05814edcb3d805a",
+      "slide": 2,
+      "shape_path": "0.29.2",
+      "pixel_size": [
+        1536,
+        1024
+      ],
+      "crop_ltrb": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "room_table_4": {
+      "path": "assets/room_table_4.png",
+      "sha256": "312ad575c1e8180cce388759748abdbcbedf8660ab2fc3a775bf79a9ee8a140e",
+      "slide": 2,
+      "shape_path": "0.29.3",
+      "pixel_size": [
+        1536,
+        1024
+      ],
+      "crop_ltrb": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "room_rug_1": {
+      "path": "assets/room_rug_1.png",
+      "sha256": "ea4a65d45fbf979deb9d5f9683df605e5fa8bfbc1d8468ce9c71a6b0165c6a7d",
+      "slide": 2,
+      "shape_path": "0.32.0",
+      "pixel_size": [
+        1956,
+        2142
+      ],
+      "crop_ltrb": [
+        0.02734,
+        0.33408,
+        0.02934,
+        0.34714
+      ]
+    },
+    "room_rug_2": {
+      "path": "assets/room_rug_2.jpg",
+      "sha256": "c2532aa847ccbcbd416565a4f265e3322c5a1d4890f4a2db5a93ad493dfbfc05",
+      "slide": 2,
+      "shape_path": "0.32.1",
+      "pixel_size": [
+        1280,
+        1402
+      ],
+      "crop_ltrb": [
+        0.04094,
+        0.36533,
+        0.04189,
+        0.36405
+      ]
+    },
+    "room_rug_3": {
+      "path": "assets/room_rug_3.png",
+      "sha256": "2808b72fa543a8db471762ba0ba2b0ac0f761af7ce190b18c61f7c3a8454b9f6",
+      "slide": 2,
+      "shape_path": "0.32.2",
+      "pixel_size": [
+        746,
+        278
+      ],
+      "crop_ltrb": [
+        0.02945,
+        0.08833,
+        0.01362,
+        1e-05
+      ]
+    },
+    "room_rug_4": {
+      "path": "assets/room_rug_4.png",
+      "sha256": "c916dd8b242abd01ed904275ecccac90188d62226df3ff746266ab06ceb83632",
+      "slide": 2,
+      "shape_path": "0.32.3",
+      "pixel_size": [
+        1314,
+        426
+      ],
+      "crop_ltrb": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "coin": {
+      "path": "assets/coin.png",
+      "sha256": "38886036d68d4cb9f9dde6bbbbbe81ba4c0b9fb51584b4c698f3e8306e06a743",
+      "slide": 1,
+      "shape_path": "0.30",
+      "pixel_size": [
+        300,
+        300
+      ],
+      "crop_ltrb": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "room_array": {
+      "path": "assets/room_array.png",
+      "sha256": "68b464ef17fc858506b05501412f562c59b67ba9f2feb4ae63d2847df0f992b0",
+      "slide": 2,
+      "shape_path": "0.20",
+      "pixel_size": [
+        3102,
+        2472
+      ],
+      "crop_ltrb": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "room_choice": {
+      "path": "assets/room_choice.png",
+      "sha256": "164e6f25201c205641d599730c884ab99127c598c3e58bcdd8aff0a45e0c8791",
+      "slide": 2,
+      "shape_path": "0.21",
+      "pixel_size": [
+        1902,
+        1475
+      ],
+      "crop_ltrb": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "survey": {
+      "path": "assets/survey.png",
+      "sha256": "59f2689146027dd1819a76fafc66df4cf7f0465f0f7f2ec7e7bcfe0af2c83ffa",
+      "slide": 1,
+      "shape_path": "1.16",
+      "pixel_size": [
+        2048,
+        683
+      ],
+      "crop_ltrb": [
+        0.69922,
+        0.13491,
+        0.07422,
+        0.3225
+      ]
+    },
+    "eye": {
+      "path": "assets/eye.png",
+      "sha256": "59f2689146027dd1819a76fafc66df4cf7f0465f0f7f2ec7e7bcfe0af2c83ffa",
+      "slide": 2,
+      "shape_path": "16",
+      "pixel_size": [
+        2048,
+        683
+      ],
+      "crop_ltrb": [
+        0.40887,
+        0.19626,
+        0.39581,
+        0.30113
+      ]
+    },
+    "distractor_1": {
+      "path": "assets/distractor_1.png",
+      "sha256": "8301d9c2da5462f89b7800480caab7160f645241b55e10e8e0fd5b466f76dd59",
+      "slide": 2,
+      "shape_path": "0.49.0",
+      "pixel_size": [
+        1024,
+        1536
+      ],
+      "crop_ltrb": [
+        0.12059,
+        0.18476,
+        0.07409,
+        0.22226
+      ]
+    },
+    "distractor_2": {
+      "path": "assets/distractor_2.png",
+      "sha256": "11818471c454160f34233e54f6fa145b3c6dc8b9a931a8c45e47772226465e7f",
+      "slide": 2,
+      "shape_path": "0.49.1",
+      "pixel_size": [
+        1024,
+        1536
+      ],
+      "crop_ltrb": [
+        0.0,
+        0.14829,
+        0.0,
+        0.23631
+      ]
+    },
+    "distractor_3": {
+      "path": "assets/distractor_3.png",
+      "sha256": "c2ff51c90ba94ef0d249b90878b9e8c3e1a9b8971c3221eb3a9b548f6bfd0f7b",
+      "slide": 2,
+      "shape_path": "0.49.2",
+      "pixel_size": [
+        1536,
+        1024
+      ],
+      "crop_ltrb": [
+        0.14132,
+        0.14037,
+        0.10589,
+        0.18176
+      ]
+    }
+  },
+  "image_placements": {
+    "a": [
+      {
+        "asset": "coin",
+        "bbox": [
+          296.0,
+          199.0,
+          9.0,
+          9.0
+        ]
+      },
+      {
+        "asset": "coin",
+        "bbox": [
+          305.0,
+          199.0,
+          9.0,
+          9.0
+        ]
+      },
+      {
+        "asset": "coin",
+        "bbox": [
+          314.0,
+          199.0,
+          9.0,
+          9.0
+        ]
+      },
+      {
+        "asset": "coin",
+        "bbox": [
+          296.0,
+          232.0,
+          9.0,
+          9.0
+        ]
+      },
+      {
+        "asset": "coin",
+        "bbox": [
+          305.0,
+          232.0,
+          9.0,
+          9.0
+        ]
+      },
+      {
+        "asset": "coin",
+        "bbox": [
+          296.0,
+          265.0,
+          9.0,
+          9.0
+        ]
+      },
+      {
+        "asset": "food4_staple_2",
+        "bbox": [
+          157.0,
+          300.07142857142856,
+          12.5,
+          10.357142857142858
+        ]
+      },
+      {
+        "asset": "food4_beverage_1",
+        "bbox": [
+          169.5,
+          300.48809523809524,
+          12.5,
+          9.523809523809524
+        ]
+      },
+      {
+        "asset": "food4_dessert_3",
+        "bbox": [
+          157.0,
+          312.771186440678,
+          12.5,
+          9.957627118644067
+        ]
+      },
+      {
+        "asset": "food4_fruit_3",
+        "bbox": [
+          169.5,
+          312.75,
+          12.5,
+          10.0
+        ]
+      },
+      {
+        "asset": "food4_staple_1",
+        "bbox": [
+          196.0,
+          300.31048387096774,
+          12.5,
+          9.879032258064516
+        ]
+      },
+      {
+        "asset": "food4_beverage_3",
+        "bbox": [
+          210.1949152542373,
+          299.0,
+          9.110169491525424,
+          12.5
+        ]
+      },
+      {
+        "asset": "food4_dessert_1",
+        "bbox": [
+          196.0,
+          312.4765625,
+          12.5,
+          10.546875
+        ]
+      },
+      {
+        "asset": "food4_fruit_3",
+        "bbox": [
+          208.5,
+          312.75,
+          12.5,
+          10.0
+        ]
+      },
+      {
+        "asset": "food4_staple_3",
+        "bbox": [
+          235.0,
+          299.7936507936508,
+          12.5,
+          10.912698412698411
+        ]
+      },
+      {
+        "asset": "food4_beverage_1",
+        "bbox": [
+          247.5,
+          300.48809523809524,
+          12.5,
+          9.523809523809524
+        ]
+      },
+      {
+        "asset": "food4_dessert_1",
+        "bbox": [
+          235.0,
+          312.4765625,
+          12.5,
+          10.546875
+        ]
+      },
+      {
+        "asset": "food4_fruit_2",
+        "bbox": [
+          247.5,
+          312.2692307692308,
+          12.5,
+          10.961538461538462
+        ]
+      },
+      {
+        "asset": "food4_staple_1",
+        "bbox": [
+          274.0,
+          300.31048387096774,
+          12.5,
+          9.879032258064516
+        ]
+      },
+      {
+        "asset": "food4_beverage_2",
+        "bbox": [
+          286.5,
+          299.8196721311475,
+          12.5,
+          10.860655737704919
+        ]
+      },
+      {
+        "asset": "food4_dessert_3",
+        "bbox": [
+          274.0,
+          312.771186440678,
+          12.5,
+          9.957627118644067
+        ]
+      },
+      {
+        "asset": "food4_fruit_2",
+        "bbox": [
+          286.5,
+          312.2692307692308,
+          12.5,
+          10.961538461538462
+        ]
+      },
+      {
+        "asset": "food4_staple_3",
+        "bbox": [
+          145.0,
+          329.7936507936508,
+          12.5,
+          10.912698412698411
+        ]
+      },
+      {
+        "asset": "food4_beverage_2",
+        "bbox": [
+          157.5,
+          329.8196721311475,
+          12.5,
+          10.860655737704919
+        ]
+      },
+      {
+        "asset": "food4_dessert_2",
+        "bbox": [
+          145.7543103448276,
+          341.5,
+          10.991379310344827,
+          12.5
+        ]
+      },
+      {
+        "asset": "food4_fruit_3",
+        "bbox": [
+          157.5,
+          342.75,
+          12.5,
+          10.0
+        ]
+      },
+      {
+        "asset": "food4_staple_1",
+        "bbox": [
+          181.0,
+          330.31048387096774,
+          12.5,
+          9.879032258064516
+        ]
+      },
+      {
+        "asset": "food4_beverage_1",
+        "bbox": [
+          193.5,
+          330.48809523809524,
+          12.5,
+          9.523809523809524
+        ]
+      },
+      {
+        "asset": "food4_dessert_2",
+        "bbox": [
+          181.7543103448276,
+          341.5,
+          10.991379310344827,
+          12.5
+        ]
+      },
+      {
+        "asset": "food4_fruit_1",
+        "bbox": [
+          193.5,
+          341.609649122807,
+          12.5,
+          12.280701754385964
+        ]
+      },
+      {
+        "asset": "food4_staple_2",
+        "bbox": [
+          217.0,
+          330.07142857142856,
+          12.5,
+          10.357142857142858
+        ]
+      },
+      {
+        "asset": "food4_beverage_2",
+        "bbox": [
+          229.5,
+          329.8196721311475,
+          12.5,
+          10.860655737704919
+        ]
+      },
+      {
+        "asset": "food4_dessert_1",
+        "bbox": [
+          217.0,
+          342.4765625,
+          12.5,
+          10.546875
+        ]
+      },
+      {
+        "asset": "food4_fruit_1",
+        "bbox": [
+          229.5,
+          341.609649122807,
+          12.5,
+          12.280701754385964
+        ]
+      },
+      {
+        "asset": "food4_staple_3",
+        "bbox": [
+          253.0,
+          329.7936507936508,
+          12.5,
+          10.912698412698411
+        ]
+      },
+      {
+        "asset": "food4_beverage_3",
+        "bbox": [
+          267.1949152542373,
+          329.0,
+          9.110169491525424,
+          12.5
+        ]
+      },
+      {
+        "asset": "food4_dessert_3",
+        "bbox": [
+          253.0,
+          342.771186440678,
+          12.5,
+          9.957627118644067
+        ]
+      },
+      {
+        "asset": "food4_fruit_1",
+        "bbox": [
+          265.5,
+          341.609649122807,
+          12.5,
+          12.280701754385964
+        ]
+      },
+      {
+        "asset": "food4_staple_2",
+        "bbox": [
+          289.0,
+          330.07142857142856,
+          12.5,
+          10.357142857142858
+        ]
+      },
+      {
+        "asset": "food4_beverage_3",
+        "bbox": [
+          303.1949152542373,
+          329.0,
+          9.110169491525424,
+          12.5
+        ]
+      },
+      {
+        "asset": "food4_dessert_2",
+        "bbox": [
+          289.75431034482756,
+          341.5,
+          10.991379310344827,
+          12.5
+        ]
+      },
+      {
+        "asset": "food4_fruit_2",
+        "bbox": [
+          301.5,
+          342.2692307692308,
+          12.5,
+          10.961538461538462
+        ]
+      },
+      {
+        "asset": "food4_staple_1",
+        "bbox": [
+          372.0,
+          273.0967741935484,
+          20.0,
+          15.806451612903226
+        ]
+      },
+      {
+        "asset": "food4_beverage_3",
+        "bbox": [
+          394.7118644067797,
+          271.0,
+          14.576271186440678,
+          20.0
+        ]
+      },
+      {
+        "asset": "food4_dessert_1",
+        "bbox": [
+          372.0,
+          292.5625,
+          20.0,
+          16.875
+        ]
+      },
+      {
+        "asset": "food4_fruit_3",
+        "bbox": [
+          392.0,
+          293.0,
+          20.0,
+          16.0
+        ]
+      },
+      {
+        "asset": "food4_staple_1",
+        "bbox": [
+          417.0,
+          273.0967741935484,
+          20.0,
+          15.806451612903226
+        ]
+      },
+      {
+        "asset": "food4_beverage_1",
+        "bbox": [
+          437.0,
+          273.3809523809524,
+          20.0,
+          15.238095238095237
+        ]
+      },
+      {
+        "asset": "food4_dessert_2",
+        "bbox": [
+          418.2068965517241,
+          291.0,
+          17.586206896551726,
+          20.0
+        ]
+      },
+      {
+        "asset": "food4_fruit_1",
+        "bbox": [
+          437.0,
+          291.17543859649123,
+          20.0,
+          19.64912280701754
+        ]
+      },
+      {
+        "asset": "food4_staple_1",
+        "bbox": [
+          462.0,
+          273.0967741935484,
+          20.0,
+          15.806451612903226
+        ]
+      },
+      {
+        "asset": "food4_beverage_2",
+        "bbox": [
+          482.0,
+          272.3114754098361,
+          20.0,
+          17.377049180327866
+        ]
+      },
+      {
+        "asset": "food4_dessert_3",
+        "bbox": [
+          462.0,
+          293.03389830508473,
+          20.0,
+          15.932203389830509
+        ]
+      },
+      {
+        "asset": "food4_fruit_2",
+        "bbox": [
+          482.0,
+          292.2307692307692,
+          20.0,
+          17.53846153846154
+        ]
+      },
+      {
+        "asset": "food4_staple_2",
+        "bbox": [
+          372.0,
+          319.7142857142857,
+          20.0,
+          16.57142857142857
+        ]
+      },
+      {
+        "asset": "food4_beverage_3",
+        "bbox": [
+          394.7118644067797,
+          318.0,
+          14.576271186440678,
+          20.0
+        ]
+      },
+      {
+        "asset": "food4_dessert_2",
+        "bbox": [
+          373.2068965517241,
+          338.0,
+          17.586206896551726,
+          20.0
+        ]
+      },
+      {
+        "asset": "food4_fruit_2",
+        "bbox": [
+          392.0,
+          339.2307692307692,
+          20.0,
+          17.53846153846154
+        ]
+      },
+      {
+        "asset": "food4_staple_2",
+        "bbox": [
+          417.0,
+          319.7142857142857,
+          20.0,
+          16.57142857142857
+        ]
+      },
+      {
+        "asset": "food4_beverage_1",
+        "bbox": [
+          437.0,
+          320.3809523809524,
+          20.0,
+          15.238095238095237
+        ]
+      },
+      {
+        "asset": "food4_dessert_3",
+        "bbox": [
+          417.0,
+          340.03389830508473,
+          20.0,
+          15.932203389830509
+        ]
+      },
+      {
+        "asset": "food4_fruit_3",
+        "bbox": [
+          437.0,
+          340.0,
+          20.0,
+          16.0
+        ]
+      },
+      {
+        "asset": "food4_staple_2",
+        "bbox": [
+          462.0,
+          319.7142857142857,
+          20.0,
+          16.57142857142857
+        ]
+      },
+      {
+        "asset": "food4_beverage_2",
+        "bbox": [
+          482.0,
+          319.3114754098361,
+          20.0,
+          17.377049180327866
+        ]
+      },
+      {
+        "asset": "food4_dessert_1",
+        "bbox": [
+          462.0,
+          339.5625,
+          20.0,
+          16.875
+        ]
+      },
+      {
+        "asset": "food4_fruit_1",
+        "bbox": [
+          482.0,
+          338.17543859649123,
+          20.0,
+          19.64912280701754
+        ]
+      },
+      {
+        "asset": "food4_staple_3",
+        "bbox": [
+          372.0,
+          366.26984126984127,
+          20.0,
+          17.46031746031746
+        ]
+      },
+      {
+        "asset": "food4_beverage_3",
+        "bbox": [
+          394.7118644067797,
+          365.0,
+          14.576271186440678,
+          20.0
+        ]
+      },
+      {
+        "asset": "food4_dessert_3",
+        "bbox": [
+          372.0,
+          387.03389830508473,
+          20.0,
+          15.932203389830509
+        ]
+      },
+      {
+        "asset": "food4_fruit_1",
+        "bbox": [
+          392.0,
+          385.17543859649123,
+          20.0,
+          19.64912280701754
+        ]
+      },
+      {
+        "asset": "food4_staple_3",
+        "bbox": [
+          417.0,
+          366.26984126984127,
+          20.0,
+          17.46031746031746
+        ]
+      },
+      {
+        "asset": "food4_beverage_1",
+        "bbox": [
+          437.0,
+          367.3809523809524,
+          20.0,
+          15.238095238095237
+        ]
+      },
+      {
+        "asset": "food4_dessert_1",
+        "bbox": [
+          417.0,
+          386.5625,
+          20.0,
+          16.875
+        ]
+      },
+      {
+        "asset": "food4_fruit_2",
+        "bbox": [
+          437.0,
+          386.2307692307692,
+          20.0,
+          17.53846153846154
+        ]
+      },
+      {
+        "asset": "food4_staple_3",
+        "bbox": [
+          462.0,
+          366.26984126984127,
+          20.0,
+          17.46031746031746
+        ]
+      },
+      {
+        "asset": "food4_beverage_2",
+        "bbox": [
+          482.0,
+          366.3114754098361,
+          20.0,
+          17.377049180327866
+        ]
+      },
+      {
+        "asset": "food4_dessert_2",
+        "bbox": [
+          463.2068965517241,
+          385.0,
+          17.586206896551726,
+          20.0
+        ]
+      },
+      {
+        "asset": "food4_fruit_3",
+        "bbox": [
+          482.0,
+          387.0,
+          20.0,
+          16.0
+        ]
+      },
+      {
+        "asset": "coin",
+        "bbox": [
+          520.0,
+          278.0,
+          9.0,
+          9.0
+        ]
+      },
+      {
+        "asset": "coin",
+        "bbox": [
+          529.0,
+          278.0,
+          9.0,
+          9.0
+        ]
+      },
+      {
+        "asset": "coin",
+        "bbox": [
+          538.0,
+          278.0,
+          9.0,
+          9.0
+        ]
+      },
+      {
+        "asset": "coin",
+        "bbox": [
+          520.0,
+          325.0,
+          9.0,
+          9.0
+        ]
+      },
+      {
+        "asset": "coin",
+        "bbox": [
+          529.0,
+          325.0,
+          9.0,
+          9.0
+        ]
+      },
+      {
+        "asset": "coin",
+        "bbox": [
+          520.0,
+          372.0,
+          9.0,
+          9.0
+        ]
+      },
+      {
+        "asset": "food4_staple_1",
+        "bbox": [
+          665.0,
+          205.92741935483872,
+          47.0,
+          37.145161290322584
+        ]
+      },
+      {
+        "asset": "food4_staple_2",
+        "bbox": [
+          740.0,
+          205.02857142857144,
+          46.99999999999999,
+          38.94285714285714
+        ]
+      },
+      {
+        "asset": "food4_staple_3",
+        "bbox": [
+          815.0,
+          203.984126984127,
+          47.0,
+          41.03174603174603
+        ]
+      },
+      {
+        "asset": "food4_beverage_3",
+        "bbox": [
+          672.1016949152543,
+          279.0,
+          32.79661016949152,
+          45.0
+        ]
+      },
+      {
+        "asset": "food4_beverage_1",
+        "bbox": [
+          740.0,
+          283.5952380952381,
+          47.0,
+          35.80952380952381
+        ]
+      },
+      {
+        "asset": "food4_beverage_2",
+        "bbox": [
+          815.0,
+          281.08196721311475,
+          47.0,
+          40.83606557377049
+        ]
+      },
+      {
+        "asset": "food4_dessert_1",
+        "bbox": [
+          665.0,
+          358.671875,
+          47.0,
+          39.65625
+        ]
+      },
+      {
+        "asset": "food4_dessert_2",
+        "bbox": [
+          743.7155172413793,
+          356.0,
+          39.56896551724138,
+          45.0
+        ]
+      },
+      {
+        "asset": "food4_dessert_3",
+        "bbox": [
+          815.0,
+          359.77966101694915,
+          47.0,
+          37.440677966101696
+        ]
+      },
+      {
+        "asset": "food4_fruit_3",
+        "bbox": [
+          665.0,
+          436.7,
+          47.0,
+          37.6
+        ]
+      },
+      {
+        "asset": "food4_fruit_2",
+        "bbox": [
+          740.0,
+          434.89230769230767,
+          47.0,
+          41.215384615384615
+        ]
+      },
+      {
+        "asset": "food4_fruit_1",
+        "bbox": [
+          815.5982142857143,
+          433.0,
+          45.80357142857143,
+          45.0
+        ]
+      }
+    ],
+    "b": [
+      {
+        "asset": "room_array",
+        "bbox": [
+          36.0,
+          187.00193298969072,
+          56.50000000000001,
+          44.99613402061856
+        ]
+      },
+      {
+        "asset": "room_array",
+        "bbox": [
+          93.5,
+          186.97290322580645,
+          56.5,
+          45.0541935483871
+        ]
+      },
+      {
+        "asset": "room_array",
+        "bbox": [
+          151.0,
+          186.97290322580645,
+          56.5,
+          45.0541935483871
+        ]
+      },
+      {
+        "asset": "room_array",
+        "bbox": [
+          208.5,
+          187.00193298969072,
+          56.50000000000001,
+          44.99613402061856
+        ]
+      },
+      {
+        "asset": "room_array",
+        "bbox": [
+          36.0,
+          235.00193298969072,
+          56.50000000000001,
+          44.99613402061856
+        ]
+      },
+      {
+        "asset": "room_array",
+        "bbox": [
+          93.5,
+          234.97290322580645,
+          56.5,
+          45.0541935483871
+        ]
+      },
+      {
+        "asset": "room_array",
+        "bbox": [
+          151.0,
+          234.97290322580645,
+          56.5,
+          45.0541935483871
+        ]
+      },
+      {
+        "asset": "room_array",
+        "bbox": [
+          208.5,
+          235.00193298969072,
+          56.50000000000001,
+          44.99613402061856
+        ]
+      },
+      {
+        "asset": "room_array",
+        "bbox": [
+          36.0,
+          283.0019329896907,
+          56.50000000000001,
+          44.99613402061856
+        ]
+      },
+      {
+        "asset": "room_array",
+        "bbox": [
+          93.5,
+          282.9729032258065,
+          56.5,
+          45.0541935483871
+        ]
+      },
+      {
+        "asset": "room_array",
+        "bbox": [
+          151.0,
+          282.9729032258065,
+          56.5,
+          45.0541935483871
+        ]
+      },
+      {
+        "asset": "room_array",
+        "bbox": [
+          208.5,
+          283.0019329896907,
+          56.50000000000001,
+          44.99613402061856
+        ]
+      },
+      {
+        "asset": "room_array",
+        "bbox": [
+          36.0,
+          331.0019329896907,
+          56.50000000000001,
+          44.99613402061856
+        ]
+      },
+      {
+        "asset": "room_array",
+        "bbox": [
+          93.5,
+          330.9729032258065,
+          56.5,
+          45.0541935483871
+        ]
+      },
+      {
+        "asset": "room_array",
+        "bbox": [
+          151.0,
+          330.9729032258065,
+          56.5,
+          45.0541935483871
+        ]
+      },
+      {
+        "asset": "room_array",
+        "bbox": [
+          208.5,
+          331.0019329896907,
+          56.50000000000001,
+          44.99613402061856
+        ]
+      },
+      {
+        "asset": "room_array",
+        "bbox": [
+          295.7734627831715,
+          282.0,
+          100.45307443365695,
+          80.0
+        ]
+      },
+      {
+        "asset": "room_array",
+        "bbox": [
+          403.8381877022654,
+          282.0,
+          100.32362459546924,
+          80.0
+        ]
+      },
+      {
+        "asset": "room_array",
+        "bbox": [
+          295.7734627831715,
+          366.0,
+          100.45307443365695,
+          80.0
+        ]
+      },
+      {
+        "asset": "room_array",
+        "bbox": [
+          403.7734627831715,
+          366.0,
+          100.45307443365695,
+          80.0
+        ]
+      },
+      {
+        "asset": "room_sofa_3",
+        "bbox": [
+          604.5,
+          183.0,
+          51.0,
+          34.0
+        ]
+      },
+      {
+        "asset": "room_sofa_4",
+        "bbox": [
+          676.5,
+          183.0,
+          51.0,
+          34.0
+        ]
+      },
+      {
+        "asset": "room_sofa_2",
+        "bbox": [
+          748.5,
+          183.0,
+          51.0,
+          34.0
+        ]
+      },
+      {
+        "asset": "room_sofa_1",
+        "bbox": [
+          820.5,
+          183.0,
+          51.0,
+          34.0
+        ]
+      },
+      {
+        "asset": "room_table_1",
+        "bbox": [
+          604.5,
+          234.0,
+          51.0,
+          34.0
+        ]
+      },
+      {
+        "asset": "room_table_2",
+        "bbox": [
+          676.5,
+          234.0,
+          51.0,
+          34.0
+        ]
+      },
+      {
+        "asset": "room_table_3",
+        "bbox": [
+          748.5,
+          234.0,
+          51.0,
+          34.0
+        ]
+      },
+      {
+        "asset": "room_table_4",
+        "bbox": [
+          820.5,
+          234.0,
+          51.0,
+          34.0
+        ]
+      },
+      {
+        "asset": "room_painting_1",
+        "bbox": [
+          610.0642570281125,
+          285.0,
+          39.8714859437751,
+          34.0
+        ]
+      },
+      {
+        "asset": "room_painting_2",
+        "bbox": [
+          681.653735632184,
+          285.0,
+          40.69252873563219,
+          34.0
+        ]
+      },
+      {
+        "asset": "room_painting_3",
+        "bbox": [
+          753.9937402190924,
+          285.0,
+          40.01251956181533,
+          34.0
+        ]
+      },
+      {
+        "asset": "room_painting_4",
+        "bbox": [
+          826.9283154121864,
+          285.0,
+          38.14336917562724,
+          34.0
+        ]
+      },
+      {
+        "asset": "room_rug_3",
+        "bbox": [
+          602.0,
+          343.078431372549,
+          56.0,
+          19.84313725490196
+        ]
+      },
+      {
+        "asset": "room_rug_1",
+        "bbox": [
+          674.0,
+          342.6554712892741,
+          56.0,
+          20.68905742145179
+        ]
+      },
+      {
+        "asset": "room_rug_4",
+        "bbox": [
+          746.0,
+          343.92237442922374,
+          56.0,
+          18.15525114155251
+        ]
+      },
+      {
+        "asset": "room_rug_2",
+        "bbox": [
+          818.0,
+          343.93696763202723,
+          56.0,
+          18.126064735945487
+        ]
+      },
+      {
+        "asset": "room_plant_1",
+        "bbox": [
+          618.2973933649289,
+          387.0,
+          23.40521327014218,
+          34.0
+        ]
+      },
+      {
+        "asset": "room_plant_2",
+        "bbox": [
+          688.5293478260869,
+          387.0,
+          26.941304347826087,
+          34.0
+        ]
+      },
+      {
+        "asset": "room_plant_3",
+        "bbox": [
+          760.8804347826087,
+          387.0,
+          26.23913043478261,
+          34.0
+        ]
+      },
+      {
+        "asset": "room_plant_4",
+        "bbox": [
+          834.229347826087,
+          387.0,
+          23.541304347826088,
+          34.0
+        ]
+      },
+      {
+        "asset": "distractor_1",
+        "bbox": [
+          654.1240395170142,
+          449.0,
+          40.75192096597146,
+          45.0
+        ]
+      },
+      {
+        "asset": "distractor_2",
+        "bbox": [
+          703.0,
+          451.65869140625,
+          43.0,
+          39.6826171875
+        ]
+      },
+      {
+        "asset": "distractor_3",
+        "bbox": [
+          753.0,
+          458.59256055363323,
+          43.0,
+          25.814878892733564
+        ]
+      }
+    ],
+    "c": [],
+    "d": []
+  },
+  "selected_room_indices": [
+    0,
+    5,
+    8,
+    12
+  ],
+  "illustrative_bundles": [
+    [
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      1,
+      2
+    ],
+    [
+      0,
+      2,
+      2,
+      1
+    ],
+    [
+      1,
+      0,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      2,
+      0
+    ],
+    [
+      1,
+      2,
+      0,
+      2
+    ],
+    [
+      2,
+      0,
+      2,
+      2
+    ],
+    [
+      2,
+      1,
+      0,
+      1
+    ],
+    [
+      2,
+      2,
+      1,
+      0
+    ]
+  ],
+  "illustrative_feedback": [
+    78,
+    48
+  ],
+  "no_fitting_or_simulation": true,
+  "task1_feedback_layout": {
+    "outer_box": [
+      342,
+      260,
+      214,
+      191
+    ],
+    "score_strip_top": 414,
+    "score_strip_height": 37,
+    "selection_frame": [
+      365,
+      263,
+      148,
+      149
+    ],
+    "bundle_size": 40,
+    "previous_bundle_size": 30,
+    "score": 78
+  },
+  "task1_interface_colors": {
+    "background": "#FFFFFF",
+    "edge": "#777777",
+    "divider": "#BBBBBB"
+  },
+  "style_scope": "Two compound task panels; ordinary text regular; 600 dpi and 5/6/8 pt",
+  "task2_accent": "#D57224",
+  "feature_space_frame_color": "#929CA5",
+  "native_symbols": [
+    "survey",
+    "survey"
+  ],
+  "value_key_bounds": {
+    "y": 194,
+    "height": 242
+  },
+  "official_survey_helper_sha256": "d950202531ce5e35ff356274fdc8e961125d994cb18a76aa8569ae756c7ab68d",
+  "renderer_sha256": "2e34d20fc7550efc0a5e539723d394776e3d78283d60c7557795fe1831f9e463",
+  "components_code_sha256": "e2a8f5bf52b33a6cbcb2db1ed1c74f78e755cd0a00f3f09e2b6be9bdfbfbcb77",
+  "pixel_dimensions": [
+    4251,
+    1913
+  ],
+  "output_sha256": "9a566cff807280ef760e5d777edad0844d7423d85aec3cd51bccba471f9e82d5",
+  "dpi": [
+    599.9988,
+    599.9988
+  ]
+}

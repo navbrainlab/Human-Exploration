@@ -1,0 +1,92 @@
+{
+  "schema_version": 1,
+  "applicable": true,
+  "auditable": true,
+  "verdict": "PASS",
+  "backend": "python-matplotlib",
+  "summary": {
+    "fail": 0,
+    "warn": 0,
+    "comparisons": 1,
+    "exemptions": 1
+  },
+  "tolerances": {
+    "alignment_pt": 1.5,
+    "gutter_pt": 1.5
+  },
+  "layout": {
+    "schema_version": 1,
+    "backend": "python-matplotlib",
+    "figure": {
+      "width_pt": 510.236220472441,
+      "height_pt": 529.2170078740157
+    },
+    "panels": [
+      {
+        "id": "e",
+        "bbox_pt": [
+          36.425196850393704,
+          48.15590551181104,
+          138.47244094488192,
+          133.1952755905512
+        ]
+      },
+      {
+        "id": "f",
+        "bbox_pt": [
+          175.668188976378,
+          48.15590551181104,
+          254.75480314960632,
+          133.1952755905512
+        ]
+      },
+      {
+        "id": "g",
+        "bbox_pt": [
+          297.2744881889765,
+          48.15590551181104,
+          390.8177952755907,
+          133.1952755905512
+        ]
+      },
+      {
+        "id": "h",
+        "bbox_pt": [
+          428.01354330708676,
+          48.15590551181104,
+          507.10015748031515,
+          133.1952755905512
+        ]
+      }
+    ],
+    "row_groups": [
+      {
+        "id": "row-1",
+        "panels": [
+          "e",
+          "f",
+          "g",
+          "h"
+        ]
+      }
+    ],
+    "column_groups": [],
+    "boundary_groups": [],
+    "exemptions": [
+      {
+        "panels": [
+          "e",
+          "f",
+          "g",
+          "h"
+        ],
+        "checks": [
+          "panel-width",
+          "horizontal-gutter"
+        ],
+        "reason": "Existing task-specific learning widths and compound plot gaps are preserved."
+      }
+    ]
+  },
+  "findings": []
+}

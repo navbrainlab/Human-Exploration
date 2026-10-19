@@ -1,0 +1,39 @@
+**Dimensional attention provides a computational account of structured exploration**
+
+Having established that DIS was accompanied by dimension-selective gaze, we asked how such structured exploration could arise during learning. We developed the Dimension-Guided Exploration Model (DGEM), in which dimension-level uncertainty guides attentional priorities and aggregate uncertainty regulates attention temperature (Fig. 7a). Lower temperatures concentrate sampled attention on fewer dimensions, favouring DIS, whereas higher temperatures distribute attention across dimensions. Attention weights combine learned feature values and uncertainty bonuses to guide item ranking and row assignment. After each choice, reward feedback updates feature values, while attention-weighted feature exposure updates uncertainty.
+
+DGEM provided a closer fit to human choices than the baseline models shown in Fig. 7b. In Task 1, the seven-parameter model, including fitted initial uncertainty-bonus strength, achieved a mean geometric trial likelihood of 0.0170, compared with 0.00177–0.00492 for the alternatives (participant-paired Wilcoxon tests, all Holm-adjusted P ≤ 2.18 × 10⁻¹⁶). In Task 2, the corresponding seven-parameter model achieved a mean geometric trial likelihood of 0.0125, compared with 0.000908–0.00295 for the three behaviour-only alternatives (80 participants; all Holm-adjusted P ≤ 2.91 × 10⁻¹⁴). The Task 2 alternatives use the supplied V2 ActionScore-softmax policy. A separate comparison against V2 ACL, conditioned on same-trial gaze with uniform fallback, also favoured DGEM (80 pairs, W = 43, P = 3.92 × 10⁻¹⁴); it was outside the behavioural Holm family. These are in-sample likelihood comparisons rather than held-out or complexity-adjusted evidence. These comparisons supported DGEM's description of choice, although a Task 1 chronological holdout comparison did not clearly distinguish uncertainty-driven from trial-driven gating (difference, 0.182 nats per trial; 95% participant-cluster bootstrap CI, −0.010 to 0.410; Holm-adjusted P = 0.268).
+
+Fitted-data replays linked the model's attention control to observed DIS. Lower effective attention temperatures were associated with higher maximum dimension weights, consistent with the model architecture (Fig. 7c). Higher maximum dimension weight was, in turn, associated with a greater probability of observed DIS (participant-clustered binomial-logit slope = 7.68, P = 3.90 × 10⁻³⁵; Fig. 7d). Together, these relationships connected inferred attentional concentration to the dimensional structure of human choices.
+
+DGEM combined frequent DIS with high task success under separately performance-optimised settings with fixed initial uncertainty-bonus strength. In Task 1 4D, DGEM combined 91.0% DIS with 92.7% full-score success (5,000 agents). fRL-decay and whole-stimulus naiveRL achieved 79.9% and 31.3% success with 2.41% and 1.50% DIS, respectively (1,000 agents each; Fig. 7e). These retained Task 1 results show that high success can occur without frequent DIS. In Task 2, the saved V2 simulations achieved full-score rates of 85.0% for fRL-decay, 11.25% for naiveRL, and 65.0% for both Bayesian and ACL (80 episodes each), with DIS rates of 2.67%, 1.07%, 4.16% and 1.40%, respectively. The retained DGEM reference achieved 94.9% DIS and 99.2% success (1,000 episodes). However, V2 uses deterministic feedback and DGEM uses noisy feedback; these Task 2 positions describe different model versions and cannot establish comparative performance under identical environments. The joint seven-parameter human fits also revealed phase-dependent variation in attention control. Median uncertainty-gate slopes were higher in 4D-E (0.0793) than in 3D (0.0396) or 4D-NE (0.0401; Holm-adjusted P = 0.00372 and 0.00167, respectively; Fig. 7f). Simulations generated from these individual fitted parameters captured the broad aggregate decline in human DIS during learning (3,120 runs; Fig. 7g). Conditional replay also showed an aggregate increase in mean temperature, although this trend was descriptive because the participants and phases contributing to each round varied.
+
+We next examined an application of the dimension-guided selection mechanism to movie recommendation, implemented in task-dimension-guided exploration (TDGE). Semantic tag clusters served as dimensions and individual tags as features, allowing dimension and feature selection to guide candidate retrieval and movie choice (Fig. 7h). Reported MovieLens benchmark summaries showed 13.1%, 11.3% and 13.5% higher mean rewards than Linear UCB, Neural UCB and Neural Thompson sampling, respectively (Fig. 7i). This transfer retained the dimension-guided organisation of exploration while adapting the learning and choice rules to recommendation. Together, the modelling results provide a plausible computational account of DIS and illustrate dimension-guided selection as a design principle beyond the experimental task.
+
+---
+
+Editorial and source notes
+
+- This Results version describes the corrected figure `fig7_dgem_free_beta_consistent_20261015.png`, not the parent figure's no-bonus f panel.
+- Panel f uses the same seven-parameter free_bonus fits as b Task1,c,d,g. The three exploratory nonparametric phase comparisons use Holm(3); 3D–4D-NE adjusted P = 0.7267713238249085 (authoritative exact value in slope_analysis.json).
+- Task2 now uses 80 individual seven-parameter free-beta fits and high-particle independent evaluation. V2 ACL includes 80 people/4,111 trials (3,811 with gaze and 300 uniform fallback); its five-parameter fit has a separate paired comparison. Finite-budget fits are retained regardless of optimizer stopping status.
+- Panel e is a distinct performance optimisation with beta_init=20. It is not participant-fitted recovery.
+- Panel g upper is free simulation; lower is conditional fitted-data replay. These cannot establish a human causal trajectory by visual correspondence alone.
+- TDGE transfers the dimension-guided selection mechanism through adapted learning/choice rules. The local figure is a digitized reference benchmark; no new MovieLens experiment was performed for this figure correction. Supply the formal TDGE source citation before submission.
+- Detailed action sampling and learning equations belong in Methods; high-particle gate sensitivity and numerical warnings belong in the supplementary validation. Keep the unresolved gate-specificity conclusion visible in the main text.
+
+Main-text evidence allocation
+
+| Evidence | Function | Destination |
+|---|---|---|
+| Fig6 eye tracking and Fig7a | Motivation and computational account | Opening paragraph; equations in Methods |
+| Fig7b | Baseline fit comparison | Main text; exact pair counts/tests in source data |
+| Gate holdout | Conclusion-changing qualification | Main text; particle sensitivity in supplement |
+| Fig7c/d | Architecture consistency and inferred-state association | Main text; clustered inference in Methods |
+| Fig7e | Task-specific performance capability | Main text; search/validation banks in Methods |
+| Fig7f | Fitted phase heterogeneity | Main text; exact three-test family in source data |
+| Fig7g | Aggregate generative consistency | Main text; contribution/sequence limits in supplement |
+| Fig7h/i | Application of dimension-guided selection | Main text; formal TDGE provenance required |
+
+
+Current model-scope note, 2026-10-15: Task 1 b/e retains rl_feature_item_20261012; Task 2 alternatives in b/e are imported from fig6_b_e_v2_comparison_20261015. DGEM fits and performance references are retained. Panel g still contains historical RL recovery references and is not validation of the V2 policies. No fitting, simulation or statistical test was rerun for this transfer. See methods.md and v2_be_revision.json for source and environment distinctions.

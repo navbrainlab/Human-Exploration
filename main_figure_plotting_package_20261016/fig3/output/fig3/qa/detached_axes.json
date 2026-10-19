@@ -1,0 +1,220 @@
+{
+  "a1": {
+    "status": "PASS",
+    "left_position": [
+      "outward",
+      5.0
+    ],
+    "bottom_position": [
+      "outward",
+      3.0
+    ],
+    "corner_endpoint_distance_mm": 2.057030251792648,
+    "conservative_visible_corner_gap_mm": 1.8100858073482038
+  },
+  "a2": {
+    "status": "PASS",
+    "left_position": [
+      "outward",
+      5.0
+    ],
+    "bottom_position": [
+      "outward",
+      3.0
+    ],
+    "corner_endpoint_distance_mm": 2.057030251792648,
+    "conservative_visible_corner_gap_mm": 1.8100858073482038
+  },
+  "b1": {
+    "status": "PASS",
+    "left_position": [
+      "outward",
+      5.0
+    ],
+    "bottom_position": [
+      "outward",
+      3.0
+    ],
+    "corner_endpoint_distance_mm": 4.740675462661173,
+    "conservative_visible_corner_gap_mm": 4.493731018216728
+  },
+  "b2": {
+    "status": "PASS",
+    "left_position": [
+      "outward",
+      5.0
+    ],
+    "bottom_position": [
+      "outward",
+      3.0
+    ],
+    "corner_endpoint_distance_mm": 4.124215226508913,
+    "conservative_visible_corner_gap_mm": 3.877270782064469
+  },
+  "c1": {
+    "status": "PASS",
+    "left_position": [
+      "outward",
+      5.0
+    ],
+    "bottom_position": [
+      "outward",
+      3.0
+    ],
+    "corner_endpoint_distance_mm": 2.0570302517926424,
+    "conservative_visible_corner_gap_mm": 1.810085807348198,
+    "slash_to_x_endpoint_visible_gap_mm": 0.9031444444444359,
+    "slash_tick_text_collisions": []
+  },
+  "c1_reduction": {
+    "status": "PASS",
+    "left_position": [
+      "outward",
+      5.0
+    ],
+    "bottom_position": [
+      "outward",
+      3.0
+    ],
+    "corner_endpoint_distance_mm": 5.3692267300806185,
+    "conservative_visible_corner_gap_mm": 5.1222822856361745,
+    "slash_to_x_endpoint_visible_gap_mm": 4.403144444444429,
+    "slash_tick_text_collisions": []
+  },
+  "c2": {
+    "status": "PASS",
+    "left_position": [
+      "outward",
+      5.0
+    ],
+    "bottom_position": [
+      "outward",
+      3.0
+    ],
+    "corner_endpoint_distance_mm": 2.057030251792632,
+    "conservative_visible_corner_gap_mm": 1.8100858073481878,
+    "slash_to_x_endpoint_visible_gap_mm": 0.9031444444444359,
+    "slash_tick_text_collisions": []
+  },
+  "c2_reduction": {
+    "status": "PASS",
+    "left_position": [
+      "outward",
+      5.0
+    ],
+    "bottom_position": [
+      "outward",
+      3.0
+    ],
+    "corner_endpoint_distance_mm": 5.3692267300806185,
+    "conservative_visible_corner_gap_mm": 5.1222822856361745,
+    "slash_to_x_endpoint_visible_gap_mm": 4.403144444444429,
+    "slash_tick_text_collisions": []
+  },
+  "e1": {
+    "status": "PASS",
+    "left_position": [
+      "outward",
+      5.0
+    ],
+    "bottom_position": [
+      "outward",
+      3.0
+    ],
+    "corner_endpoint_distance_mm": 2.0570302517926504,
+    "conservative_visible_corner_gap_mm": 1.810085807348206,
+    "slash_to_x_endpoint_visible_gap_mm": 0.9031444444444454,
+    "slash_tick_text_collisions": []
+  },
+  "e2": {
+    "status": "PASS",
+    "left_position": [
+      "outward",
+      5.0
+    ],
+    "bottom_position": [
+      "outward",
+      3.0
+    ],
+    "corner_endpoint_distance_mm": 2.0570302517926504,
+    "conservative_visible_corner_gap_mm": 1.810085807348206,
+    "slash_to_x_endpoint_visible_gap_mm": 0.9031444444444454,
+    "slash_tick_text_collisions": []
+  },
+  "f1": {
+    "status": "PASS",
+    "left_position": [
+      "outward",
+      5.0
+    ],
+    "bottom_position": [
+      "outward",
+      3.0
+    ],
+    "corner_endpoint_distance_mm": 2.0570302517926424,
+    "conservative_visible_corner_gap_mm": 1.810085807348198
+  },
+  "f2": {
+    "status": "PASS",
+    "left_position": [
+      "outward",
+      5.0
+    ],
+    "bottom_position": [
+      "outward",
+      3.0
+    ],
+    "corner_endpoint_distance_mm": 2.0570302517926424,
+    "conservative_visible_corner_gap_mm": 1.810085807348198
+  },
+  "g_effect": {
+    "status": "EXEMPT",
+    "reason": "A Cartesian corner is not drawn: shared/hidden/categorical one-axis view."
+  },
+  "dual_probability_right_spines": {
+    "a1_probability": {
+      "right_position": [
+        "outward",
+        5.0
+      ],
+      "bottom_position": [
+        "outward",
+        3.0
+      ],
+      "visible_corner_gap_mm": 1.8100858073481962
+    },
+    "a2_probability": {
+      "right_position": [
+        "outward",
+        5.0
+      ],
+      "bottom_position": [
+        "outward",
+        3.0
+      ],
+      "visible_corner_gap_mm": 1.810085807348206
+    },
+    "e1_probability": {
+      "right_position": [
+        "outward",
+        5.0
+      ],
+      "bottom_position": [
+        "outward",
+        3.0
+      ],
+      "visible_corner_gap_mm": 1.810085807348198
+    },
+    "e2_probability": {
+      "right_position": [
+        "outward",
+        5.0
+      ],
+      "bottom_position": [
+        "outward",
+        3.0
+      ],
+      "visible_corner_gap_mm": 1.810085807348198
+    }
+  }
+}

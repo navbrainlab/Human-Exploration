@@ -1,0 +1,4 @@
+phase_a,phase_b,test,statistic,p_raw,n_a,n_b,n_pairs,p_holm3,significance,variant
+P1,P2,paired two-sided Wilcoxon,331,0.0018583016423124122,51,51,51,0.0037166032846248243,**,free_bonus
+P1,P2-only,independent two-sided Mann-Whitney,1322,0.7267713238249085,51,54,0,0.7267713238249085,ns,free_bonus
+P2,P2-only,independent two-sided Mann-Whitney,1916,0.00055529076830236254,51,54,0,0.0016658723049070875,**,free_bonus

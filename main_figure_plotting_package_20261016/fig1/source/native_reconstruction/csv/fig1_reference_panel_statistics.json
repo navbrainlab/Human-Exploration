@@ -1,0 +1,116 @@
+{
+  "endpoint": "First observed trial attaining the participant's own window maximum",
+  "excludes_noncompleters": false,
+  "counts": {
+    "1": [
+      51,
+      51,
+      54
+    ],
+    "2": [
+      40,
+      40
+    ]
+  },
+  "fullscore_counts": {
+    "1": [
+      17,
+      32,
+      22
+    ],
+    "2": [
+      18,
+      12
+    ]
+  },
+  "trials": "Observed Task 1 scores; observed Task 2 score_noisy; no normalized coordinates",
+  "reference": "reference/figure1_figure2_files_full/figure1/code/figure1_panels_ej_optimized.py",
+  "interpretation": "Reference visualizations include their personal-best endpoint and selected unadjusted tests",
+  "tests": {
+    "f": {
+      "test": "Fisher exact",
+      "groups": [
+        "P2",
+        "P2-only"
+      ],
+      "contingency_table": [
+        [
+          32,
+          19
+        ],
+        [
+          22,
+          32
+        ]
+      ],
+      "odds_ratio": 2.449760765550239,
+      "p_raw": 0.031850093365493055,
+      "displayed": true,
+      "alternative": "two-sided",
+      "adjustment": "none"
+    },
+    "i": {
+      "test": "Fisher exact",
+      "groups": [
+        "FDS-Obs",
+        "FDS-NoObs"
+      ],
+      "contingency_table": [
+        [
+          18,
+          22
+        ],
+        [
+          12,
+          28
+        ]
+      ],
+      "odds_ratio": 1.9090909090909092,
+      "p_raw": 0.24806112140557737,
+      "displayed": false,
+      "alternative": "two-sided",
+      "adjustment": "none"
+    },
+    "g": {
+      "test": "Mann\u2013Whitney U",
+      "groups": [
+        "P2",
+        "P2-only"
+      ],
+      "n": [
+        51,
+        54
+      ],
+      "U": 1016.0,
+      "p_raw": 0.020714828307657238,
+      "displayed": true,
+      "alternative": "two-sided",
+      "adjustment": "none",
+      "method": "SciPy auto: asymptotic tie-corrected with continuity correction"
+    },
+    "j": {
+      "test": "Mann\u2013Whitney U",
+      "groups": [
+        "FDS-Obs",
+        "FDS-NoObs"
+      ],
+      "n": [
+        40,
+        40
+      ],
+      "U": 591.5,
+      "p_raw": 0.045259782513881706,
+      "displayed": true,
+      "alternative": "two-sided",
+      "adjustment": "none",
+      "method": "SciPy auto: asymptotic tie-corrected with continuity correction"
+    }
+  },
+  "input_sha256": {
+    "fig1_task1_personal_best.csv": "928cdce84e31784563d90dbe0bcaf42294086852c685cd5b91c0c8b45fe09a73",
+    "fig1_task1_learning_extended.csv": "f0f625238ba4a9434e3c74d6c85fffc76542f87808e30c1d15dfb473e87e8569",
+    "fig1_task2_observed_scores.csv": "b0db295f830bd65451a8236bbc73dbebf8414e0c03d92b451b6014b67f673b07",
+    "fig1_task1_perfect_rate.csv": "16e5adac52e7b6f2e178f97073c21caacfa74ab0d2b75c2b1ca3f155ddaf8ead",
+    "fig1_task2_perfect_rate.csv": "b073ed7a83496d917124e43f1577d6bb1319f2ff506f345e9cdefdc4f525fe9e"
+  }
+}

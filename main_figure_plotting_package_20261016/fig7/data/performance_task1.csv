@@ -1,0 +1,6 @@
+model,phase,weight_3d,weight_4d,n_3d,n_4d,fds_ratio,fds_ratio_sem,full_score_rate,full_score_rate_sem,sem_method,value_representation,model_version
+Bayesian,3D_4D_mean,0.5,0.5,100,100,0.029861791082480701,0.0048086713437141999,0.20999999999999999,0.0288062142566144,independent phase means:0.5*sqrt(SEM3D^2+SEM4D^2),hypothesis,
+DGEM,3D_4D_mean,0.5,0.5,5000,5000,0.91307858450876156,0.00050957595947049997,0.94030000000000002,0.0023656891801459002,independent phase means:0.5*sqrt(SEM3D^2+SEM4D^2),attention_weighted_feature,
+Human,3D_4D_mean,0.5,0.5,51,54,0.38827455570068181,0.0231785748884859,0.37037037037037029,0.047433278230988599,independent phase means:0.5*sqrt(SEM3D^2+SEM4D^2),observed,
+fRL-decay,3D_4D_mean,0.5,0.5,1000,1000,0.032438426704295725,0.0011405633335339336,0.6865,0.010068869456504646,independent phase means:0.5*sqrt(SEM3D^2+SEM4D^2),feature,rl_feature_item_20261012
+naiveRL,3D_4D_mean,0.5,0.5,1000,1000,0.013145845191329945,0.00045768285774851599,0.27849999999999997,0.0099986860998695099,independent phase means:0.5*sqrt(SEM3D^2+SEM4D^2),whole_stimulus,rl_feature_item_20261012

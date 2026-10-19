@@ -1,0 +1,834 @@
+{
+  "edition": "fig6_full_joint90_free_beta_consistent",
+  "parent_edition": "fig6_full_joint90_free_beta_performance_first",
+  "parent_provenance_sha256": "964ea2b4250622f9c54e0431488ae95e13453ae435e818d5ea9d0a92fc2cf681",
+  "parent_model_sources": {
+    "Data mining/vis_result/results/DGEM/data/fitting/dgem_ablation/20261004_free_bonus/fit/fit_summary.csv": "2c5d7e0b339cff1d1ba93512e6c4053201d406ff7f315b68b52d1d27474a6d44",
+    "Data mining/vis_result/results/DGEM/data/fitting/dgem_ablation/20261004_free_bonus/analysis/participant_phase_scores.csv": "20e4e89a087cba451e5b8d54277a22eb037e53b1ed41bb55275558015aa39796",
+    "Data mining/vis_result/results/DGEM/data/fitting/dgem_ablation/20261004_free_bonus/fit/protocol.json": "ca277eb9ce8f4af27451130820656d90b049057caa7cd35c7df4260630d44b28",
+    "Data mining/vis_result/results/DGEM/data/fitting/dgem_ablation/20261004_free_bonus/mc8192/manifest.json": "0cdc270d7a6188a969258862f773d39dfbfc9e1032145d0579f70e48d1142184",
+    "scripts/publication/document_fig6_full_joint90_free_beta.py": "8190b79560430eb760b4ed3ee0a95655ade4fd46d0089c883c27527679070c4c",
+    "scripts/publication/build_fig6_full_joint90_free_beta.py": "7d3eb08527c4ac368597dc50ff15d493d38814abd1c7216a1899ef6232e9bb11",
+    "game_environment.py": "da1fcfe0c3fcca2df2b349263ff4a946c60b1761d76037d440ef47ccf41a653d",
+    "tree.py": "3c7de04594c7969a8b9a18357bce5fac8342d8d9c9a85049ef0a57de63bee436",
+    "data_loader.py": "c1567f5f84717955ed705f288062902abf87cd8b3e0cb123c8d21996a8b3ebb5",
+    "agents/simplified_agent_fds_v11_9_4_3.py": "c4ae09483593359055cb98cf22479513f874dab0fed4249d423f7beaec394867",
+    "scripts/publication/render_final_figures.py": "b14594c3fd9bc8bcf8b7f40a5364918dc9730c280ba81d168126626b30b08715",
+    "scripts/v11_9_4_3_fitted_parameter_simulation.py": "9a98323a58a5e2c0c4f7c0872a3988f4f44ec3c8a2fa4fe12023d8a01b66cd82",
+    "scripts/fitting_parameter_simulation/publication_figures.py": "acf4ef9f10cc352796762c40230019d0d4c4ec7b455b8f65df9ab5c479ef868d",
+    "Data mining/vis_result/results/DGEM/fig/publication/main_figure/fig6_full_joint90_free_beta_performance_first/code/render_fig6_full_joint90_free_beta.py": "cd35f4346cd9d1f5bcc7e68e202666a4bd1ec1e73d97a9345c18ebb3c70e77f0",
+    "Data mining/vis_result/results/DGEM/fig/publication/main_figure/fig6_full_joint90_free_beta_performance_first/code/attention_panel.py": "6e4311578bd74f24fb4be0f58bece441ff5f1d9f86662a3f852bf557c46ae99f",
+    "Data mining/vis_result/results/DGEM/fig/publication/main_figure/fig6_full_joint90_free_beta_performance_first/code/figure6_layout.py": "a8b34f651d7a69366a1000d37fe3c8e28b86c9644e16b52f600ece0f1ee7a934",
+    "Data mining/vis_result/results/DGEM/fig/publication/main_figure/fig6_full_joint90_free_beta_performance_first/code/full_joint90_native.py": "a88f0a614d6daaec4bd7610ade5684f6a5da8a1d5e45d4dc86f2aa38a4674bc3",
+    "Data mining/vis_result/results/DGEM/fig/publication/main_figure/fig6_full_joint90_free_beta_performance_first/code/no_bonus_slope.py": "bac8be22b85270b408cc2c3f314cf5cbc6da6a236692b4ed189b145cfe6a5505",
+    "Data mining/vis_result/results/DGEM/fig/publication/main_figure/fig6_full_joint90_free_beta_performance_first/code/verify_layout.py": "9de6c6a36e7918070cac51694d4ddf659b9ad8d7de6edff1c49f9debb57c4305"
+  },
+  "panel_scope": {
+    "a": "Full-DGEM architecture",
+    "b_Task1_c_d_f_g": "Same joint seven-parameter free_bonus fits, with beta_init fitted",
+    "b_Task2": "Retained seven-parameter DGEM versus V2 alternatives on80 participants/4111 trials; five-parameter real-gaze/uniform-fallback ACL separately compared",
+    "e": "Task1 4D-only retained; Task2 V2 deterministic feedback versus retained DGEM noisy feedback/Human; no equal-environment inference",
+    "h_i": "TDGE application of dimension-guided selection; digitized MovieLens reference results",
+    "b": "Task1 retained; Task2 seven-parameter DGEM versus V2 alternatives, all80/4111; ACL uniform fallback and separate test"
+  },
+  "replay": {
+    "n_trials": 5323,
+    "n_people": 105,
+    "n_participant_phases": 156,
+    "particles": 2048,
+    "regression": {
+      "slope": 7.675349215275657,
+      "slope_se_clustered": 0.40938108608609197,
+      "slope_p_clustered": 3.900987528145121e-35,
+      "n": 5323,
+      "n_subjects": 105
+    },
+    "paired_test": {
+      "panel_comparison": "d_DIS_vs_Non-DIS",
+      "group_1": "DIS",
+      "group_2": "Non-DIS",
+      "n_group_1": 105,
+      "n_group_2": 105,
+      "n_pairs": 105,
+      "test": "paired two-sided Wilcoxon",
+      "statistic": 102.0,
+      "p_value": 1.0434319815944216e-17,
+      "estimand": "Within-participant mean maximum dimension attention weight by observed action class",
+      "significance": "***"
+    }
+  },
+  "simulation": {
+    "n_fits": 156,
+    "n_people": 105,
+    "repetitions_per_fit": 20,
+    "n_runs": 3120,
+    "trial_rows": 124626,
+    "beta_init": "individual fitted values, not fixed20 or forced0",
+    "fullscore_stop": true,
+    "DIS_padding": false,
+    "other_models": "unchanged reference traces"
+  },
+  "f_analysis": {
+    "variant": "free_bonus",
+    "n_parameters": 7,
+    "parameter": "temperature_slope",
+    "source": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/main_figure/fig6_full_joint90_free_beta_consistent/csv/participant_fitted_parameters.csv",
+    "source_sha256": "9349aded2ed872b8bde726c608d9328da2485a77c0aa59ab5f00f73f0131a706",
+    "n_participant_phases": 156,
+    "n_people": 105,
+    "beta_init_fitted": true,
+    "exact_zero_beta_fits": 5,
+    "new_fitting": false,
+    "new_simulation": false,
+    "test_family": "Three exploratory two-sided phase contrasts, Holm(3)",
+    "tests": [
+      {
+        "phase_a": "P1",
+        "phase_b": "P2",
+        "test": "paired two-sided Wilcoxon",
+        "statistic": 331.0,
+        "p_raw": 0.0018583016423124122,
+        "n_a": 51,
+        "n_b": 51,
+        "n_pairs": 51,
+        "p_holm3": 0.0037166032846248243,
+        "significance": "**",
+        "variant": "free_bonus"
+      },
+      {
+        "phase_a": "P1",
+        "phase_b": "P2-only",
+        "test": "independent two-sided Mann-Whitney",
+        "statistic": 1322.0,
+        "p_raw": 0.7267713238249085,
+        "n_a": 51,
+        "n_b": 54,
+        "n_pairs": 0,
+        "p_holm3": 0.7267713238249085,
+        "significance": "ns",
+        "variant": "free_bonus"
+      },
+      {
+        "phase_a": "P2",
+        "phase_b": "P2-only",
+        "test": "independent two-sided Mann-Whitney",
+        "statistic": 1916.0,
+        "p_raw": 0.0005552907683023625,
+        "n_a": 51,
+        "n_b": 54,
+        "n_pairs": 0,
+        "p_holm3": 0.0016658723049070875,
+        "significance": "**",
+        "variant": "free_bonus"
+      }
+    ],
+    "summaries": [
+      {
+        "phase": "P1",
+        "phase_display": "3D",
+        "n": 51,
+        "median": 0.0396139955920572,
+        "q1": 0.022730760263808852,
+        "q3": 0.06487152932445026,
+        "mean": 0.5593734898870482,
+        "minimum": 0.0106987631244898,
+        "maximum": 23.00925418837353
+      },
+      {
+        "phase": "P2",
+        "phase_display": "4D-E",
+        "n": 51,
+        "median": 0.079322817941665,
+        "q1": 0.049745790358800154,
+        "q3": 0.3979820469845782,
+        "mean": 1.445687577812156,
+        "minimum": 0.0115549533034869,
+        "maximum": 24.206878638695716
+      },
+      {
+        "phase": "P2-only",
+        "phase_display": "4D-NE",
+        "n": 54,
+        "median": 0.04012678323701,
+        "q1": 0.02228244415585685,
+        "q3": 0.10067810450303992,
+        "mean": 0.21036978433103456,
+        "minimum": 0.0106421633051179,
+        "maximum": 4.446664449933362
+      }
+    ],
+    "interpretation": "Fitted uncertainty-gate slope, not effective temperature or behavioural recovery"
+  },
+  "new_fitting": false,
+  "new_simulation": false,
+  "new_phase_statistics": false,
+  "figure_contract": "Schematic-led composite; uncertainty-dependent attention and structured exploration; Python,180-mm width, PNG only600dpi",
+  "source_sha256": {
+    "Data mining/vis_result/results/DGEM/fig/publication/main_figure/fig6_full_joint90_free_beta_consistent/code/verify_edition.py": "ee9b4bacb2a7613c6561a9112f4d9e72c7d3508f47071b5492eae35867faf516",
+    "Data mining/vis_result/results/DGEM/fig/publication/main_figure/fig6_full_joint90_free_beta_consistent/code/build_fitted_slope.py": "a3f2995378e8d4e0902cc714c595ea57198170ad8156b6f885653a7ff33f761f",
+    "Data mining/vis_result/results/DGEM/fig/publication/main_figure/fig6_full_joint90_free_beta_consistent/code/render_fig6_full_joint90_free_beta.py": "129d2ca67b5fa96eea511d46f7a09fe959f354c75c30300fcfb679bc8d79c73f",
+    "Data mining/vis_result/results/DGEM/fig/publication/main_figure/fig6_full_joint90_free_beta_consistent/code/attention_panel.py": "6e4311578bd74f24fb4be0f58bece441ff5f1d9f86662a3f852bf557c46ae99f",
+    "Data mining/vis_result/results/DGEM/fig/publication/main_figure/fig6_full_joint90_free_beta_consistent/code/figure6_layout.py": "3c50f073f4c4bd2d63bb098b76f90d9b93115224253d8f65851fdd45ecf92cd4",
+    "Data mining/vis_result/results/DGEM/fig/publication/main_figure/fig6_full_joint90_free_beta_consistent/code/full_joint90_native.py": "a88f0a614d6daaec4bd7610ade5684f6a5da8a1d5e45d4dc86f2aa38a4674bc3",
+    "Data mining/vis_result/results/DGEM/fig/publication/main_figure/fig6_full_joint90_free_beta_consistent/code/phase_slope.py": "2fcaa43c709951be063ca99047eb2aa1b06e2c00c17ecf265e620923575b7484",
+    "scripts/publication/build_fig6_task1_phase_mean_20261012.py": "680e529176e510b91c14697816773a96b803034a89a148b9b111a155b9ee6e18",
+    "Data mining/vis_result/results/DGEM/fig/publication/main_figure/fig6_full_joint90_free_beta_consistent/code/build_corrected_performance.py": "4fc1bc071f30aab200edadc95c4fd317db319de1cf6df42b6e55136780601a56"
+  },
+  "plot_csv_sha256": {
+    "attention_bins.csv": "3fd48fe3ec5115f2961a872781a21fc9011b22cb82857bb95ae587a35d11ff83",
+    "attention_dis_distribution_shape.csv": "e849c93eeea2b7c49a06a601dcabfbb34ffe1556e6f356ae9c39f84f6465ef27",
+    "attention_dis_distribution_summary.csv": "efeec0ae7ab809fe73394a183c94a140994ba1001567845b8d6836737fc9f16c",
+    "attention_dis_logit_curve.csv": "4a0470d96400cab6cae9b2bde9bf2da1d0574b802caae83047a26bcc4cbc7729",
+    "attention_trial_coordinates.csv": "e0ec8e441a3b30ce7fa745ecac35dbae35212c8f53c23b299f0e58cb3a782831",
+    "dis_by_round.csv": "6fe374bcd6b13dc763ea0f5d1a13b2f2489d9b345e5b4b345bd47c8951cb55cc",
+    "fit_task1.csv": "f1e422d35d167d452e6d3851a63137cfba051ce65045f0ead711d9e4450f85bd",
+    "fit_task1_participant_phase_scores.csv": "bca1701838702bd1edf3b689bf6132befe51f8a778a6716e6e729f99f9687bf7",
+    "fit_task1_significance.csv": "1e10b6b153d67af614225f52346f9ef42a666abb09d3e5c1e92653c8b691c156",
+    "fit_task2.csv": "a4323d04609d79075fe625eef6fd29cf60b0271812b15c38a98fd9b0a514237c",
+    "naive_performance_sensitivity.csv": "36fa57a31afee4abca2d5d62eda8ab7071e4dc2b9dd2b9c06efdf658ea4a36b6",
+    "panel_statistics.csv": "48c7f81492b8d16998c59c3277da4a15695068a6de4df410972b664116c5182f",
+    "participant_fitted_parameters.csv": "9349aded2ed872b8bde726c608d9328da2485a77c0aa59ab5f00f73f0131a706",
+    "participant_temperature_slope.csv": "ddb61634ebabea947907fc56fe8f352ab9801149215035c7b9f4a09fb4d7b046",
+    "performance_task1.csv": "70a60c0fdb3644689fa6b4910d2fbf375b16e322b13c1e93e7de4e90193e061c",
+    "performance_task1_4d.csv": "9e158f675813e2a3895dd5a56cd3c8ac11a525425dbbddc39e2ca30846910488",
+    "performance_task1_phase_components.csv": "8081ed2552eddba4ef494e9ee7a2800a7446dbb2cfc0849536c5e6aebd34f9f0",
+    "performance_task2.csv": "20c8ff840f3abc980cb1062cffff2e9c53e1c527d407d61336a9852dd6eb6575",
+    "rl_fitted_parameters.csv": "0bc8b2658c88757a3c761923257adb1acf5dc134ea98683f96555605eb04a530",
+    "rl_optimizer_stages.csv": "160e21dd7864b1461da2e54941c3ad5b715d38a2b16b2ab539218d6dba99a7b5",
+    "slope_phase_summary.csv": "165161229ece5e9242d1da52bbd64d9273985a73f5bf719ec4160f775c67121c",
+    "slope_phase_tests.csv": "a82b3256bd6429b474f8cdf1463876314d8c3eae73e83e261034e2e7dd565f1d",
+    "source_v2_likelihood_vs_acl_statistics.csv": "f88d63ccf5beb7bcedce23c6964200a95897b3bc144e831dc3eed0a5ce9da7a0",
+    "source_v2_performance_bootstrap_ci.csv": "3728a29dc54be9948f7d9aec68c60c459f5723b197ad042ba16fe6b9092d00c4",
+    "task2_conditional_gaze_comparison.csv": "458a670b949f414035c3bd1427a1466ded355d710889ee5b37c9fb8fc68e2718",
+    "task2_fit_display_significance.csv": "b3254cade27d0c28d7a780c7dd8ae895fdae1d1ffe09a50373bd25cf73302bf4",
+    "task2_fit_status.csv": "5993a08f0efb8f21a6f9ff57b7431ca666155b4b0dc1d218c36f9905ac803a1d",
+    "task2_fit_tests.csv": "b3254cade27d0c28d7a780c7dd8ae895fdae1d1ffe09a50373bd25cf73302bf4",
+    "task2_optimizer_stages.csv": "2990140ed2724801eca44e0652daed2e80805e000cbe919422b3e3fa206120f1",
+    "task2_participant_fitted_parameters.csv": "d53920d7e5562deb8c0ba605fa5743ee91bc07ed664c675c13f02a76f1a7ca6e",
+    "task2_v2_cohort_audit.csv": "2b8c21fee3c9cdcecb96a80750c56012ebee8a6d738f92e32b46e6fe1166c4a7",
+    "task2_v2_episode_metrics.csv": "57ba1038fc50dcf362d8dc4e7ad6d80313e2cfc39ce0fefe0a8b592eae2d8b66",
+    "task2_v2_participant_likelihood.csv": "89d81d5ae93837db083b968c03bbfd06b41aec9b1e8ac7f2cf61f181888e9194",
+    "task2_v2_performance_parameters.csv": "9c638de9fd5180066a75b193da39d39b9d933ab63400c081106c6fa443658ade",
+    "tdge_digitized_reference.csv": "9bcdcf922a00ffb1ba572c0d3301e506cd25144ba9337f961135e43d4acb727f",
+    "temperature_by_round.csv": "7d5f209b7f42d3b4f288dd550450f79cc1e1c1bdd6f33e7f527cb63e837a9c8d"
+  },
+  "limitations": [
+    "Best-performance simulations have separately optimized parameters, not participant-fitted values.",
+    "Phase slopes are descriptive fitted heterogeneity, not independent behavioural recovery.",
+    "MovieLens source results are digitized, with formal reference still to be supplied.",
+    "Task1 Bayesian search/simulator not provenance-bound; historical reference only",
+    "Finite searches, not globally optimal policies",
+    "Task-specific reward adapters and fRL decay implementation differences remain; no new fitting"
+  ],
+  "documentation_sha256": {
+    "README.md": "664fba62ba12cfcd507d87c04b757059f9f704bc1f12dec900ce1323bbbdf1b2",
+    "caption.md": "415a414c0c778912dda309ff906795208477b818ec46715d184443b15c737bb9",
+    "methods.md": "43858ae06e6c264d951b65dd4af9887854db82db54f89f8d62668e60f63b65b6",
+    "results.md": "3d6a42c7a5b96c63061c418faa5e8a0a16b1a8aac48bb6ccf814934bf321d0b5"
+  },
+  "task2_run_sources": [
+    {
+      "path": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/data/fitting/task2_free_beta_20261010/scored_parameters.csv",
+      "sha256": "17fd769d1573226139cd65870af314f8c0536d3d52f6c5ee1c968fcb2ca33600"
+    },
+    {
+      "path": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/data/fitting/task2_free_beta_20261010/trial_predictions.csv",
+      "sha256": "6ae4bc43d2e8cadf26a38e133e4bb5e06d7dfe7a9890ef8aff7fa25633d6ec81"
+    },
+    {
+      "path": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/data/fitting/task2_free_beta_20261010/protocol.json",
+      "sha256": "4a273c531da64e08917699b0bd2513c8ba6794dab4bb22c3bd362663028e87ee"
+    },
+    {
+      "path": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/data/best_performance/task2_aligned_20261010/selected_parameters.json",
+      "sha256": "50772317c945e702002a6bc7db3e18ba5a0fb749cebe281ef93a07efdb7ba4af"
+    },
+    {
+      "path": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/data/best_performance/task2_aligned_20261010/validation_agents.csv",
+      "sha256": "2b7e40d6f69b053ffbcb780898d7e494bd61a7f70d2a89863c9710cc9b5db270"
+    },
+    {
+      "path": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/data/best_performance/task2_aligned_20261010/validation_trials.csv",
+      "sha256": "97290e6aef99aa57b612a6686a3f950a7018c7e6231c9a7a935f75437a23396f"
+    },
+    {
+      "path": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/data/fitting_parameter_simulation/task2_free_beta_20261010/agents.csv",
+      "sha256": "4dae4279156b8163e35d286d4e590e97c5c94c0fe803cb90ee726f539cffb83e"
+    },
+    {
+      "path": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/data/fitting_parameter_simulation/task2_free_beta_20261010/trials.csv",
+      "sha256": "ee11056b68e331f173b0fbaa601aa67ba5216272cc07b9cfbf43794bdcb955b9"
+    }
+  ],
+  "current_limitations": [
+    "In-sample likelihood comparison; no new held-out comparison or complexity adjustment",
+    "Task2 ACL conditions on same-trial gaze with missing-data fallback; not behaviour-only",
+    "Task2 V2 performance deterministic feedback differs from retained DGEM noisy feedback",
+    "Task1 Bayesian performance historical; finite searches not global optima",
+    "g retains historical RL recovery and does not validate the V2 policies",
+    "i is a digitized reference; formal TDGE reference still required"
+  ],
+  "current_code_sha256": {
+    "code/attention_panel.py": "6e4311578bd74f24fb4be0f58bece441ff5f1d9f86662a3f852bf557c46ae99f",
+    "code/axis_break_marks.py": "ec1c96c4e85e77f48185bf285967dd0cbe4185d93b0be9462d85925bb777f569",
+    "code/build_corrected_performance.py": "4fc1bc071f30aab200edadc95c4fd317db319de1cf6df42b6e55136780601a56",
+    "code/build_fitted_slope.py": "a3f2995378e8d4e0902cc714c595ea57198170ad8156b6f885653a7ff33f761f",
+    "code/build_rl_feature_item.py": "9eac4fda6a781bcc9a578a110ee63a2cda3066d710a7f1f181861b672acb59d4",
+    "code/category_label_spacing.py": "6e72ef4bf04b633677f82d26cc447479c6bc5c35c26c4c9b5ffffa2f1b95ba03",
+    "code/detached_axes.py": "396b19a65a567158bd9c8a6c6336e4fdf3f9b5ef704c4612c39badf2193a63a9",
+    "code/figure6_layout.py": "f13716a6dc065ffb0d0b6b1d3692f738a9e03e5b0134816850f03d5c9cb9fde1",
+    "code/full_joint90_native.py": "032351435c3a82dad7dc8140b617dfa250afeb970144c56729f74c3c8d9565f5",
+    "code/import_v2_be.py": "5edb472a1d543bb91c572a7b2dd8df0514c3746bbf194e85c7c928e9b2d82ee9",
+    "code/phase_slope.py": "2fcaa43c709951be063ca99047eb2aa1b06e2c00c17ecf265e620923575b7484",
+    "code/prepare_4d_display.py": "36a7035f84913789db5cf4599ca3e4716850bb99169d8106a927d52b3ffd7e2d",
+    "code/render_fig6_full_joint90_free_beta.py": "6dfc0539fa3c87aedd3b47e931d967f4cdea6362e1e9aed4a53a420915aa9c14",
+    "code/test_detail_polish.py": "4246488a917f09dfd14c80cf66959232edfa63e5d12b53cd1496530a473ee571",
+    "code/tick_bounded_spines.py": "613f15e10baa23d1f4fd04c6aff4a3eafe37c65c9d9009481edeab6a1f3152d7",
+    "code/verify_category_spacing_tick_fonts.py": "f730f3768746ebea0faaffa4b9b2ca1e8a7f014dab74a1565277a99f44e67412",
+    "code/verify_detached_axes.py": "76518197ce0f68ecba7c816e904e38724f66aebf700e9a1a170cd98f85c97c26",
+    "code/verify_detail_polish.py": "56011e0156327fcbc7a7a8c996db6f9f305de14470dc6bb7c0593b6ecf00e11a",
+    "code/verify_edition.py": "5866a07e839978b5ddf7e9a9c7cba424c95ddc9af443ed58e5e086aafa66db76",
+    "code/verify_feedback_y_endpoints.py": "6e4b4560d302384042f3ce475ef106d0de741c49ff907e892e8cd86d43fcfcad"
+  },
+  "display_update_20261015": {
+    "png": "fig6_full_joint90_free_beta_consistent.png",
+    "sha256": "700865b99597761d89d5025ac8d5a6c0a7324bb06391721e5b6b3f2f0b533d52",
+    "backup": "revisions/20261015_before_uniform_labels_palette",
+    "no_new_analysis": true
+  },
+  "historical_revisions": {
+    "task2_alignment": {
+      "date": "2026-10-10",
+      "analysis_manifest": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/data/fitting/task2_free_beta_20261010/analysis/analysis_manifest.json",
+      "analysis_sha256": "6b727c77adeb2bdbfdd212a620368c1e03d054f305a74e1b2b7f85727deaecb8",
+      "plot_tables": {
+        "task2_participant_fitted_parameters.csv": "c439ecc93691db7b0687ed5dcba27db9a4c78261dcc56e772fa7aa5f5dca2a9d",
+        "task2_conditional_gaze_comparison.csv": "458a670b949f414035c3bd1427a1466ded355d710889ee5b37c9fb8fc68e2718",
+        "fit_task2.csv": "18477aeaa70d66f450d98f0b811cf153c62b178438261b08119bd9ba7ebb84d4",
+        "task2_fit_tests.csv": "438f0cef8b9c3d5ceaec0ddf7ade4b226dff53ce4618020405b1efd6a0bec469",
+        "task2_fit_status.csv": "a224605f81f9b2b0e41c6e7fa1557c63787cda2656e52ba7a0bef64b30b47b3a",
+        "performance_task2.csv": "f40ec06c791753e183e7e168a2788d08b560517e510f1aab7e7ae1cc17c21305",
+        "task2_optimizer_stages.csv": "a4f993fae184b4c89dab9ae97d1b76b2961b1def13ff8633331b5410261d58c0"
+      },
+      "behavioural_models": [
+        "DGEM",
+        "fRL-decay",
+        "naiveRL",
+        "Bayesian"
+      ],
+      "behavioural_people": 80,
+      "behavioural_trials": 4111,
+      "DGEM_parameters": 7,
+      "beta_init_fitted": true,
+      "conditional_ACL": {
+        "n_pairs": 75,
+        "n_valid_trials": 3736,
+        "W": 31.0,
+        "p_value": 1.8240605573946904e-13,
+        "test": "two-sided paired Wilcoxon; separate single conditional comparison, not part of Holm(3)",
+        "mean_DGEM": 0.01327266139286236,
+        "mean_ACL": 0.0029078903902976126,
+        "scope": "same observed-gaze trials; ACL conditions choice on contemporaneous real gaze",
+        "no_pure_behaviour_superiority_claim": true
+      },
+      "best_performance": "1000 independently validated actual Task2 episodes per model; 10 reward pairs",
+      "archive": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/main_figure/fig6_full_joint90_free_beta_consistent/revisions/20261010_before_task2_alignment",
+      "Task1_plot_tables_unchanged": true,
+      "historical_performance_task2_sha256": "f2faa229dfc113222566b42d0d7d5faab4bec9d7ff8809e4863767614baa156a",
+      "performance_revision": "Data mining/vis_result/results/DGEM/fig/publication/main_figure/fig6_full_joint90_free_beta_consistent/best_performance_revision.json",
+      "performance_model_revision": "Panel e uses corrected whole-stimulus naive; fitted b and recovery g are not replaced"
+    },
+    "best_performance_revision": {
+      "date": "2026-10-12",
+      "category": "best_performance",
+      "panels": [
+        "e"
+      ],
+      "archive": "Data mining/vis_result/results/DGEM/fig/publication/main_figure/fig6_full_joint90_free_beta_consistent/revisions/20261012_before_best_performance_update",
+      "sources": {
+        "Data mining/vis_result/results/DGEM/data/best_performance/task1_verified_baselines_20261012/locked_parameters.json": "07982a6300fac83dca739dca5b3372ed6265da97228f28d6db383ce6e2842ebb",
+        "Data mining/vis_result/results/DGEM/data/best_performance/task1_verified_baselines_20261012/validation_agents.csv": "523da10277fbba3ab0828ee89aa3105a7b995722b4beb9546c88a8a44bb7204c",
+        "Data mining/vis_result/results/DGEM/data/best_performance/task1_verified_baselines_20261012/completion.json": "1f6ac671d74053572d8797ecb87940d30b2f674890ceea88a9ef078ab57871c9",
+        "Data mining/vis_result/results/DGEM/data/best_performance/task1_verified_baselines_20261012/verification.json": "99f8c0507e78359345dde48a49caaee2c6133d52baf8e6a15884121e028e0548",
+        "Data mining/vis_result/results/DGEM/data/best_performance/task_gap_audit_20261012/naive_nesting_correction/locked_parameters.json": "d334cfc2daa6311dd206102c21f86fa9e9c1c3463f72236e7a6ba57fa366220b",
+        "Data mining/vis_result/results/DGEM/data/best_performance/task_gap_audit_20261012/naive_nesting_correction/validation_agents.csv": "fbbb3dd11e361ce7b249d7a7be1597f5f21cb7ef5e5e05767045ef735f2512e8",
+        "Data mining/vis_result/results/DGEM/data/best_performance/task_gap_audit_20261012/naive_nesting_correction/completion.json": "4911275cbd07bf56e32ab9389a6e30250d78d5caa0ab31c08b75cddbe39d1623",
+        "Data mining/vis_result/results/DGEM/data/best_performance/task2_initial_value_verified_20261012/locked_parameters.json": "0e5814327d856ec3d86f4571bf676612f8e4de5e7c8734776ba62c0c464a8228",
+        "Data mining/vis_result/results/DGEM/data/best_performance/task2_initial_value_verified_20261012/plan.json": "c08c9acc8f46b6ebb8c5594a7bc5e22958200c74cb416ca101ee180ca66c2516",
+        "Data mining/vis_result/results/DGEM/data/best_performance/task2_initial_value_verified_20261012/completion.json": "c850af16e0b32aeef4241f2d165d3367c64d8a63008f73533d9f65be92ad5f96",
+        "Data mining/vis_result/results/DGEM/data/best_performance/task2_initial_value_verified_20261012/validation_agents.csv": "3e5afdf1da93e8238db66fa76335d292b2102c7c0620b2d664d1a850a151c368",
+        "Data mining/vis_result/results/DGEM/data/best_performance/task2_initial_value_verified_20261012/validation_trials.csv": "bc1b9dd29d6a1f3163fd7a7b15d16088cbe378df1f72009ca0e9d58833c0befa",
+        "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/data/publication/main_figure/fig6_nouncertainty/best_performance/20261005_target90_refine3d/validation_agents.csv": "fb134928e8524ccbdd822acb8d5f4fdf588395421e1eb644ecfb62ad3de17cee",
+        "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/data/publication/main_figure/fig6_nouncertainty/best_performance/20261005_target90_refine3d/manifest.json": "ff7f8286ce3144e35ed5c575e942427cbdb7cef70e14e71541186bf360b4d8b7",
+        "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/data/publication/main_figure/fig6_nouncertainty/best_performance/20261005_target90/4D/locked_validation_5000_agents.csv": "4aec2ea22e265648ffc44c2d34102bb8d347f15dcb64cd391e729e780bddccba",
+        "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/data/publication/main_figure/fig6_nouncertainty/best_performance/20261005_target90/4D/locked_validation_5000_manifest.json": "19083ac3250168c3c2c69b4faa7879f52753ad96ec653ae6e4709a3823bf8203",
+        "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/data/best_performance/task1_verified_baselines_20261012/validation_agents.csv": "523da10277fbba3ab0828ee89aa3105a7b995722b4beb9546c88a8a44bb7204c",
+        "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/data/Bayesian/simulation/P1_bayesian_best_beta_agents_100.csv": "901c85793531a1f95aaf34d21dd5758f0766c3aee89be8aaab2dd3910cf7bf72",
+        "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/data/Bayesian/simulation/P2_bayesian_best_beta_agents_100.csv": "adc34598818d4bef9d1501356a8f19ee3a4d67c2954eb599192abb87ec6d3dbc",
+        "/home/Scarbu/Projects/mini_DG/fitting human data/all_subject_data.csv": "62f15dc74915e52cad5c49372a22d4db607c860059b602fedd6be58c94d9afa0",
+        "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/data/best_performance/stimulus_rl_corrected_20261012/plan.json": "089a1cf06a3b089412062d67f4e66bfb7dc02bb33c60e0706cf770d92e061a40",
+        "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/data/best_performance/stimulus_rl_corrected_20261012/verification.json": "6e35f79a9f61e1c92aedc2cc3a258ec1a0c7bf348112800856617adebaa22f67",
+        "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/data/best_performance/stimulus_rl_corrected_20261012/completion.json": "323da3320c7bd11bab78401bd52483605ffdbd768cfb2f7d918f0c9eff911cc1",
+        "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/data/best_performance/stimulus_rl_corrected_20261012/locked_parameters.json": "78136235ea70d72e13ab0793ce75f26278286e81cccf2775f0e65c53a9d34276",
+        "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/data/best_performance/stimulus_rl_corrected_20261012/validation_agents.csv": "faeca4a86dbefcfc0fe880a54acd05841e6723503cb887a1761da3aa2918c999",
+        "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/data/best_performance/stimulus_rl_corrected_20261012/validation_trials.csv": "8fbfc15dcb9dddb5ca15818876fcb2f1054c8d69c5f2f05417e7e54fcbf59c19",
+        "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/data/best_performance/stimulus_rl_corrected_20261012/search_results.csv": "9dfa5595e4dbc801fd56a798f04e05abde361e83f3da2d2c53fd13b44e595253"
+      },
+      "plot_tables": {
+        "performance_task1.csv": "b394ce2ca5571b21ec65cd146d87b6f7faa2e8cb1048d37d05cc10d333d5c4a0",
+        "performance_task2.csv": "f40ec06c791753e183e7e168a2788d08b560517e510f1aab7e7ae1cc17c21305",
+        "performance_task1_phase_components.csv": "622f5615b90b095405a2f30e5ce26b7fbe764595400b0a479563f06629703fa9"
+      },
+      "Task1": "Equal3D/4D means: corrected whole-stimulus naive fresh1000 per phase; other verified model/human references unchanged;Human3D51+independent4D-NE54",
+      "Task2": "Whole-stimulus naive and feature fRL independently optimized;320global+160local,100screen,400selection,1000freshvalidation each; other references unchanged",
+      "displayed_policies": "e uses whole-stimulus naiveRL(Q),feature fRL;best performance only,not fitting or recovery",
+      "limitations": [
+        "Task1 Bayesian search/simulator not provenance-bound; historical reference only",
+        "Finite searches, not globally optimal policies",
+        "Task-specific reward adapters and fRL decay implementation differences remain; no new fitting",
+        "Only e naiveRL is corrected to whole stimuli; retained b/g feature-naive fits/recovery require later refitting"
+      ],
+      "phase_mean_aggregation": {
+        "category": "best_performance",
+        "human_4d": "NE",
+        "aggregation": "equal3D/4D raw arithmetic means before log axis;fixed0.5/0.5",
+        "horizons": {
+          "3D": 30,
+          "4D": 50,
+          "Task2": 60
+        },
+        "builder_runs_no_simulation_or_fitting": true,
+        "new_naive_performance_source": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/data/best_performance/stimulus_rl_corrected_20261012",
+        "naive_value_representation": "whole_stimulus",
+        "unchanged_fitting_and_recovery_naive_representation": "legacy_feature_no_decay",
+        "sample_counts": [
+          {
+            "model": "Bayesian",
+            "phase": "3D",
+            "n": 100
+          },
+          {
+            "model": "Bayesian",
+            "phase": "4D",
+            "n": 100
+          },
+          {
+            "model": "DGEM",
+            "phase": "3D",
+            "n": 5000
+          },
+          {
+            "model": "DGEM",
+            "phase": "4D",
+            "n": 5000
+          },
+          {
+            "model": "Human",
+            "phase": "3D",
+            "n": 51
+          },
+          {
+            "model": "Human",
+            "phase": "4D",
+            "n": 54
+          },
+          {
+            "model": "fRL-decay",
+            "phase": "3D",
+            "n": 1000
+          },
+          {
+            "model": "fRL-decay",
+            "phase": "4D",
+            "n": 1000
+          },
+          {
+            "model": "naiveRL",
+            "phase": "3D",
+            "n": 1000
+          },
+          {
+            "model": "naiveRL",
+            "phase": "4D",
+            "n": 1000
+          }
+        ],
+        "human_covariance": "3D:51 participants;4D-NE:54 independent participants;no paired cohort included;SEM=0.5*sqrt(SEM3D^2+SEM4D-NE^2)",
+        "human_exclusions": "User-selected4Dgroup:NE",
+        "source_hashes": {
+          "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/data/publication/main_figure/fig6_nouncertainty/best_performance/20261005_target90_refine3d/validation_agents.csv": "fb134928e8524ccbdd822acb8d5f4fdf588395421e1eb644ecfb62ad3de17cee",
+          "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/data/publication/main_figure/fig6_nouncertainty/best_performance/20261005_target90_refine3d/manifest.json": "ff7f8286ce3144e35ed5c575e942427cbdb7cef70e14e71541186bf360b4d8b7",
+          "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/data/publication/main_figure/fig6_nouncertainty/best_performance/20261005_target90/4D/locked_validation_5000_agents.csv": "4aec2ea22e265648ffc44c2d34102bb8d347f15dcb64cd391e729e780bddccba",
+          "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/data/publication/main_figure/fig6_nouncertainty/best_performance/20261005_target90/4D/locked_validation_5000_manifest.json": "19083ac3250168c3c2c69b4faa7879f52753ad96ec653ae6e4709a3823bf8203",
+          "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/data/best_performance/task1_verified_baselines_20261012/validation_agents.csv": "523da10277fbba3ab0828ee89aa3105a7b995722b4beb9546c88a8a44bb7204c",
+          "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/data/best_performance/stimulus_rl_corrected_20261012/validation_agents.csv": "faeca4a86dbefcfc0fe880a54acd05841e6723503cb887a1761da3aa2918c999",
+          "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/data/best_performance/stimulus_rl_corrected_20261012/locked_parameters.json": "78136235ea70d72e13ab0793ce75f26278286e81cccf2775f0e65c53a9d34276",
+          "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/data/best_performance/stimulus_rl_corrected_20261012/plan.json": "089a1cf06a3b089412062d67f4e66bfb7dc02bb33c60e0706cf770d92e061a40",
+          "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/data/best_performance/stimulus_rl_corrected_20261012/completion.json": "323da3320c7bd11bab78401bd52483605ffdbd768cfb2f7d918f0c9eff911cc1",
+          "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/data/best_performance/stimulus_rl_corrected_20261012/verification.json": "6e35f79a9f61e1c92aedc2cc3a258ec1a0c7bf348112800856617adebaa22f67",
+          "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/data/Bayesian/simulation/P1_bayesian_best_beta_agents_100.csv": "901c85793531a1f95aaf34d21dd5758f0766c3aee89be8aaab2dd3910cf7bf72",
+          "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/data/Bayesian/simulation/P2_bayesian_best_beta_agents_100.csv": "adc34598818d4bef9d1501356a8f19ee3a4d67c2954eb599192abb87ec6d3dbc",
+          "/home/Scarbu/Projects/mini_DG/fitting human data/all_subject_data.csv": "62f15dc74915e52cad5c49372a22d4db607c860059b602fedd6be58c94d9afa0"
+        },
+        "builder_sha256": "680e529176e510b91c14697816773a96b803034a89a148b9b111a155b9ee6e18",
+        "limitation": "Bayesian historicalbest-beta reference,optimizer/simulatorprovenanceunverified;finiteothersearches,notglobaloptima",
+        "outputs": {
+          "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/main_figure/fig6_full_joint90_free_beta_consistent/csv/performance_task1.csv": "b394ce2ca5571b21ec65cd146d87b6f7faa2e8cb1048d37d05cc10d333d5c4a0",
+          "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/main_figure/fig6_full_joint90_free_beta_consistent/csv/performance_task1_phase_components.csv": "622f5615b90b095405a2f30e5ce26b7fbe764595400b0a479563f06629703fa9"
+        }
+      },
+      "latest_aggregation_archive": "Data mining/vis_result/results/DGEM/fig/publication/main_figure/fig6_full_joint90_free_beta_consistent/revisions/20261012_before_stimulus_naive_correction",
+      "corrected_model_source": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/data/best_performance/stimulus_rl_corrected_20261012",
+      "corrected_model_definitions": {
+        "e_naiveRL": "whole_stimulus",
+        "e_fRL-decay": "feature with decay",
+        "b_g_naiveRL": "legacy feature no decay; not refitted by this e-only correction"
+      },
+      "corrected_parameters": {
+        "3D/naiveRL": {
+          "task": "3D",
+          "model": "naiveRL",
+          "candidate": "local:124",
+          "params": [
+            0.0001761491903607767,
+            7.390604680342961,
+            9.252880515092113e-05,
+            0.0
+          ],
+          "split": "selection",
+          "n": 256,
+          "success": 0.3125,
+          "best_score": 95.9375,
+          "rounds": 27.56640625,
+          "DIS_ratio": 0.01330105058923755
+        },
+        "4D/naiveRL": {
+          "task": "4D",
+          "model": "naiveRL",
+          "candidate": "local:48",
+          "params": [
+            0.0025298100469055866,
+            7.836751326893611,
+            0.00014695960403952746,
+            0.0
+          ],
+          "split": "selection",
+          "n": 256,
+          "success": 0.3671875,
+          "best_score": 96.55859375,
+          "rounds": 44.2734375,
+          "DIS_ratio": 0.01521315037479246
+        },
+        "Task2/naiveRL": {
+          "task": "Task2",
+          "model": "naiveRL",
+          "candidate": "local:64",
+          "params": [
+            0.00010994258927569252,
+            0.1502725079286422,
+            2.074892429986741e-06,
+            0.0
+          ],
+          "split": "selection",
+          "n": 400,
+          "success": 0.105,
+          "best_score": 90.4,
+          "rounds": 57.975,
+          "DIS_ratio": 0.014047196077022513
+        },
+        "Task2/fRL-decay": {
+          "task": "Task2",
+          "model": "fRL-decay",
+          "candidate": "local:122",
+          "params": [
+            0.11976657189962857,
+            0.019093141708443388,
+            0.004253767233911272,
+            0.0007617782878158854
+          ],
+          "split": "selection",
+          "n": 400,
+          "success": 0.965,
+          "best_score": 99.795,
+          "rounds": 32.1875,
+          "DIS_ratio": 0.016632573559283083
+        }
+      }
+    },
+    "rl_feature_item_revision": {
+      "version": "rl_feature_item_20261012",
+      "sources": {
+        "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/data/fitting/rl_feature_item_20261012/completion.json": "25619082593d9f80e91dc334ea02b6d6dc822a9591220d6976aefd56fdf2a900",
+        "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/data/fitting/rl_feature_item_20261012/protocol.json": "9af7555d9259b2479ffea66ab4500f0ee72d29fe56bd371c3c1504418f90e971",
+        "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/data/fitting/rl_feature_item_20261012/fitting_summary.csv": "e43be920dbab91819c727d106786607c1b97ede091debad4198692645cf46bf3",
+        "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/data/best_performance/rl_feature_item_20261012/completion.json": "db078a3131d0d4267d46f0fa8ff72a0ce1418f76cab946f7fe5a17ad9421e764",
+        "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/data/best_performance/rl_feature_item_20261012/verification.json": "e03147e2483b4a687f2aedfc154d391498b490b639779847669c4a78f02e40ff",
+        "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/data/best_performance/rl_feature_item_20261012/validation_agents.csv": "703cfc328927f607ef6dfa1a8698a858f2f5ecc16655b3ff6110018c6bc0e286",
+        "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/data/best_performance/rl_feature_item_20261012/locked_parameters.json": "0e7851288150c1a7f5d19bbfb8eae0fd49c86aa64eb8534b45305d1bad23962f",
+        "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/data/fitting/dgem_ablation/20261004_free_bonus/analysis/participant_phase_scores.csv": "20e4e89a087cba451e5b8d54277a22eb037e53b1ed41bb55275558015aa39796"
+      },
+      "updated_original_tables": [
+        "task2_fit_status.csv",
+        "task2_optimizer_stages.csv",
+        "fit_task1.csv",
+        "fit_task1_significance.csv",
+        "fit_task2.csv",
+        "task2_fit_tests.csv",
+        "task2_participant_fitted_parameters.csv",
+        "performance_task1.csv",
+        "performance_task1_phase_components.csv",
+        "performance_task2.csv"
+      ],
+      "current_csv_hashes": {
+        "slope_phase_summary.csv": "165161229ece5e9242d1da52bbd64d9273985a73f5bf719ec4160f775c67121c",
+        "fit_task1.csv": "f1e422d35d167d452e6d3851a63137cfba051ce65045f0ead711d9e4450f85bd",
+        "task2_participant_fitted_parameters.csv": "d53920d7e5562deb8c0ba605fa5743ee91bc07ed664c675c13f02a76f1a7ca6e",
+        "temperature_by_round.csv": "7d5f209b7f42d3b4f288dd550450f79cc1e1c1bdd6f33e7f527cb63e837a9c8d",
+        "task2_conditional_gaze_comparison.csv": "458a670b949f414035c3bd1427a1466ded355d710889ee5b37c9fb8fc68e2718",
+        "participant_fitted_parameters.csv": "9349aded2ed872b8bde726c608d9328da2485a77c0aa59ab5f00f73f0131a706",
+        "attention_trial_coordinates.csv": "e0ec8e441a3b30ce7fa745ecac35dbae35212c8f53c23b299f0e58cb3a782831",
+        "performance_task1.csv": "70a60c0fdb3644689fa6b4910d2fbf375b16e322b13c1e93e7de4e90193e061c",
+        "panel_statistics.csv": "48c7f81492b8d16998c59c3277da4a15695068a6de4df410972b664116c5182f",
+        "rl_optimizer_stages.csv": "160e21dd7864b1461da2e54941c3ad5b715d38a2b16b2ab539218d6dba99a7b5",
+        "fit_task2.csv": "6e82348663d48acf42063182452eaeaa669ee300d94aa0778a9beb86efebb759",
+        "fit_task1_significance.csv": "1e10b6b153d67af614225f52346f9ef42a666abb09d3e5c1e92653c8b691c156",
+        "task2_fit_tests.csv": "663b53fe616aaaf771b8d83db98c379e25915bafb63d0e915f039b9d258582fc",
+        "performance_task1_phase_components.csv": "8081ed2552eddba4ef494e9ee7a2800a7446dbb2cfc0849536c5e6aebd34f9f0",
+        "attention_dis_distribution_shape.csv": "e849c93eeea2b7c49a06a601dcabfbb34ffe1556e6f356ae9c39f84f6465ef27",
+        "task2_fit_status.csv": "5993a08f0efb8f21a6f9ff57b7431ca666155b4b0dc1d218c36f9905ac803a1d",
+        "attention_bins.csv": "3fd48fe3ec5115f2961a872781a21fc9011b22cb82857bb95ae587a35d11ff83",
+        "attention_dis_logit_curve.csv": "4a0470d96400cab6cae9b2bde9bf2da1d0574b802caae83047a26bcc4cbc7729",
+        "performance_task2.csv": "6fbede54f4d23663d44347af16e0e44626748901a3334a316a1ba289a5fecf36",
+        "attention_dis_distribution_summary.csv": "efeec0ae7ab809fe73394a183c94a140994ba1001567845b8d6836737fc9f16c",
+        "participant_temperature_slope.csv": "ddb61634ebabea947907fc56fe8f352ab9801149215035c7b9f4a09fb4d7b046",
+        "tdge_digitized_reference.csv": "9bcdcf922a00ffb1ba572c0d3301e506cd25144ba9337f961135e43d4acb727f",
+        "slope_phase_tests.csv": "a82b3256bd6429b474f8cdf1463876314d8c3eae73e83e261034e2e7dd565f1d",
+        "rl_fitted_parameters.csv": "0bc8b2658c88757a3c761923257adb1acf5dc134ea98683f96555605eb04a530",
+        "task2_optimizer_stages.csv": "2990140ed2724801eca44e0652daed2e80805e000cbe919422b3e3fa206120f1",
+        "task2_fit_display_significance.csv": "e2fd1fc87be0ab06b1a6062f6a221582a5f90a33f44211bf56442e1350855ed4",
+        "naive_performance_sensitivity.csv": "36fa57a31afee4abca2d5d62eda8ab7071e4dc2b9dd2b9c06efdf658ea4a36b6",
+        "dis_by_round.csv": "6fe374bcd6b13dc763ea0f5d1a13b2f2489d9b345e5b4b345bd47c8951cb55cc",
+        "fit_task1_participant_phase_scores.csv": "bca1701838702bd1edf3b689bf6132befe51f8a778a6716e6e729f99f9687bf7"
+      },
+      "fitting_summary": [
+        {
+          "model": "DGEM",
+          "phase": "mean-3-phases",
+          "n_subjects": 105,
+          "mean_geom_likelihood": 0.017015881754512678,
+          "sem_geom_likelihood": 0.0017337345108969823
+        },
+        {
+          "model": "fRL-decay",
+          "phase": "mean-3-phases",
+          "n_subjects": 105,
+          "mean_geom_likelihood": 0.004914522495174673,
+          "sem_geom_likelihood": 0.0010300691217895895
+        },
+        {
+          "model": "naiveRL",
+          "phase": "mean-3-phases",
+          "n_subjects": 105,
+          "mean_geom_likelihood": 0.001766694084015068,
+          "sem_geom_likelihood": 0.00018957633009913707
+        },
+        {
+          "model": "Bayesian",
+          "phase": "mean-3-phases",
+          "n_subjects": 92,
+          "mean_geom_likelihood": 0.002059461133595258,
+          "sem_geom_likelihood": 0.00030342972398103167
+        }
+      ],
+      "task1_tests": [
+        {
+          "phase": "mean-3-phases",
+          "target": "DGEM",
+          "comparator": "fRL-decay",
+          "n_pairs": 105,
+          "statistic": 30.0,
+          "p_raw": 1.3777129509623377e-18,
+          "p_holm": 2.7554259019246754e-18,
+          "significance": "***"
+        },
+        {
+          "phase": "mean-3-phases",
+          "target": "DGEM",
+          "comparator": "naiveRL",
+          "n_pairs": 105,
+          "statistic": 9.0,
+          "p_raw": 7.558111850165302e-19,
+          "p_holm": 2.2674335550495903e-18,
+          "significance": "***"
+        },
+        {
+          "phase": "mean-3-phases",
+          "target": "DGEM",
+          "comparator": "Bayesian",
+          "n_pairs": 92,
+          "statistic": 30.0,
+          "p_raw": 2.1712320069757906e-16,
+          "p_holm": 2.1712320069757906e-16,
+          "significance": "***"
+        }
+      ],
+      "task2_tests": [
+        {
+          "model": "fRL-decay",
+          "n_pairs": 80,
+          "W": 83.0,
+          "p_raw": 1.6822149240618657e-13,
+          "mean_DGEM_minus_model": 0.008245815183116689,
+          "family": "behavioural Holm(3)",
+          "p_holm": 1.6822149240618657e-13,
+          "significance": "***",
+          "p_display": 1.6822149240618657e-13
+        },
+        {
+          "model": "naiveRL",
+          "n_pairs": 80,
+          "W": 3.0,
+          "p_raw": 8.792926151362765e-15,
+          "mean_DGEM_minus_model": 0.011526965384991043,
+          "family": "behavioural Holm(3)",
+          "p_holm": 2.5400047695592775e-14,
+          "significance": "***",
+          "p_display": 2.5400047695592775e-14
+        },
+        {
+          "model": "Bayesian",
+          "n_pairs": 80,
+          "W": 2.0,
+          "p_raw": 8.466682565197592e-15,
+          "mean_DGEM_minus_model": 0.01068426662171644,
+          "family": "behavioural Holm(3)",
+          "p_holm": 2.5400047695592775e-14,
+          "significance": "***",
+          "p_display": 2.5400047695592775e-14
+        },
+        {
+          "model": "ACL",
+          "n_pairs": 75,
+          "W": 31.0,
+          "p_raw": 1.8240605573946904e-13,
+          "mean_DGEM_minus_model": null,
+          "family": "separate gaze-matched single comparison",
+          "p_holm": null,
+          "significance": "***",
+          "p_display": 1.8240605573946904e-13
+        }
+      ],
+      "optimizer_DE_success": 650,
+      "optimizer_DE_total": 944,
+      "optimizer_local_success": 757,
+      "updated_panels": [
+        "b",
+        "e"
+      ],
+      "g_recovery_is_historical": true,
+      "naive_parameters": 3,
+      "frl_parameters": 4,
+      "fixed_beta": 1.0,
+      "feature_item_sigma_ratio": 1.0,
+      "archive": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/main_figure/fig6_full_joint90_free_beta_consistent/revisions/20261012_before_frl_feature_item_naive_item"
+    },
+    "RL_model_definition_audit": {
+      "status": "PARTIALLY_RESOLVED",
+      "date": "2026-10-12",
+      "finding": "Current naiveRL is feature-RL without decay, not historical whole-stimulus naiveRL",
+      "report": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/handoff/RL_MODEL_IDENTITY_AUDIT_20261012.md",
+      "audit": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/data/publication/rl_identity_audit_20261012/audit.json",
+      "audit_sha256": "12b5f1d893fab48401ca095822cb827e4a4c5fc6e4a594ca7225ba326c931def",
+      "formal_model_code_data_and_artwork_changed": "e plotting data and source changed; legacy fitting/recovery cores/data frozen",
+      "required_for_original_comparison": "restore whole-stimulus naiveRL, refit, separately optimize, regenerate fitted-parameter simulations and affected plots",
+      "resolved_scope": "Only e whole-stimulus naiveRL performance, independently optimized/validated",
+      "unresolved_scope": "b/g legacy feature-naive fitting and recovery, requiring later refit"
+    },
+    "naive_diagnostics": {
+      "source": "Data mining/vis_result/results/DGEM/data/best_performance/naive_mechanism_diagnostics_20261012",
+      "scope": "5400paired sensitivity episodes,no fitting,no new performance winner selection"
+    },
+    "new_simulation_scope": "New corrected performance only: naive3D/4D/Task2 and independentTask2fRL;4000validation episodes; no fitting/recovery reruns",
+    "scope": "Earlier editions; current Task2 b/e is defined by v2_be_revision and current panel_scope.",
+    "earlier_analysis_flags": {
+      "new_fitting": true,
+      "new_simulation": true,
+      "new_phase_statistics": true
+    }
+  },
+  "v2_be_revision": {
+    "date": "2026-10-15",
+    "source_package": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/main_figure/fig6_b_e_v2_comparison_20261015",
+    "source_png_sha256": "7b67dff1d2ec58534c9b1fb67ff57bd3926ba8cced9f407e85ac68ddcdecce2d",
+    "source_manifest_sha256": "4a4b9549a18bcef336be8d0cc3186898eb39db7be43e5dc334e3bbd34fc124af",
+    "copied_tables": {
+      "fit_task2.csv": {
+        "source": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/main_figure/fig6_b_e_v2_comparison_20261015/csv/fit_task2.csv",
+        "sha256": "a4323d04609d79075fe625eef6fd29cf60b0271812b15c38a98fd9b0a514237c"
+      },
+      "performance_task2.csv": {
+        "source": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/main_figure/fig6_b_e_v2_comparison_20261015/csv/performance_task2.csv",
+        "sha256": "20c8ff840f3abc980cb1062cffff2e9c53e1c527d407d61336a9852dd6eb6575"
+      },
+      "task2_fit_tests.csv": {
+        "source": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/main_figure/fig6_b_e_v2_comparison_20261015/csv/task2_fit_tests.csv",
+        "sha256": "b3254cade27d0c28d7a780c7dd8ae895fdae1d1ffe09a50373bd25cf73302bf4"
+      },
+      "task2_v2_episode_metrics.csv": {
+        "source": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/main_figure/fig6_b_e_v2_comparison_20261015/csv/task2_v2_episode_metrics.csv",
+        "sha256": "57ba1038fc50dcf362d8dc4e7ad6d80313e2cfc39ce0fefe0a8b592eae2d8b66"
+      },
+      "task2_v2_performance_parameters.csv": {
+        "source": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/main_figure/fig6_b_e_v2_comparison_20261015/csv/task2_v2_performance_parameters.csv",
+        "sha256": "9c638de9fd5180066a75b193da39d39b9d933ab63400c081106c6fa443658ade"
+      },
+      "source_v2_likelihood_vs_acl_statistics.csv": {
+        "source": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/main_figure/fig6_b_e_v2_comparison_20261015/csv/source_v2_likelihood_vs_acl_statistics.csv",
+        "sha256": "f88d63ccf5beb7bcedce23c6964200a95897b3bc144e831dc3eed0a5ce9da7a0"
+      },
+      "source_v2_performance_bootstrap_ci.csv": {
+        "source": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/main_figure/fig6_b_e_v2_comparison_20261015/csv/source_v2_performance_bootstrap_ci.csv",
+        "sha256": "3728a29dc54be9948f7d9aec68c60c459f5723b197ad042ba16fe6b9092d00c4"
+      },
+      "task2_fit_display_significance.csv": {
+        "source": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/main_figure/fig6_b_e_v2_comparison_20261015/csv/task2_fit_tests.csv",
+        "sha256": "b3254cade27d0c28d7a780c7dd8ae895fdae1d1ffe09a50373bd25cf73302bf4"
+      },
+      "task2_v2_participant_likelihood.csv": {
+        "source": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/main_figure/fig6_b_e_v2_comparison_20261015/csv/task2_participant_likelihood.csv",
+        "sha256": "89d81d5ae93837db083b968c03bbfd06b41aec9b1e8ac7f2cf61f181888e9194"
+      },
+      "task2_v2_cohort_audit.csv": {
+        "source": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/main_figure/fig6_b_e_v2_comparison_20261015/csv/task2_cohort_audit.csv",
+        "sha256": "2b8c21fee3c9cdcecb96a80750c56012ebee8a6d738f92e32b46e6fe1166c4a7"
+      }
+    },
+    "Task1_byte_identical": true,
+    "scope": "Task2 V2 fRL-decay, naiveRL, Bayesian and ACL in panels b/e; DGEM and Human retained",
+    "new_fits_simulations_or_tests": false,
+    "b_ACL": "80 people/4111 trials; 3811 gaze-present and 300 uniform fallback; five parameters",
+    "e_environment": "V2 deterministic feedback; retained DGEM noisy feedback; not an equal-environment benchmark",
+    "historical_tables_not_current_Task2_baselines": [
+      "task2_conditional_gaze_comparison.csv",
+      "task2_fit_status.csv",
+      "task2_optimizer_stages.csv",
+      "rl_fitted_parameters.csv",
+      "rl_optimizer_stages.csv"
+    ],
+    "display": "Original filled bar/point styles; e legend naiveRL and ACL without suffix; e y ticks 0/0.5/1"
+  },
+  "display_e_three_ticks_20261015": {
+    "y_ticks": [
+      0,
+      0.5,
+      1
+    ],
+    "labels": [
+      "0",
+      "0.5",
+      "1"
+    ],
+    "data_unchanged": true,
+    "backup": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/source_packages/20261015_before_fig7_e_three_ticks"
+  }
+}

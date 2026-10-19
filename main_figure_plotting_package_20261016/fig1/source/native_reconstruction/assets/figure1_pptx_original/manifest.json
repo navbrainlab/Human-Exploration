@@ -1,0 +1,65 @@
+{
+  "pptx_name": "figure1 panal ab.pptx",
+  "pptx_sha256": "0223edc5dd2a4b6ef90f41ededc7ffd62b355b1daf8d916fed9fef16d057243a",
+  "source_category": "Illustrative task and group-design slides supplied by the author",
+  "method": "Complete original slides, original geometry and text; only blank lower slide area cropped",
+  "panel_width_mm": 83.0,
+  "panel_height_mm": 116.15219408758112,
+  "raster_effective_dpi": 1200,
+  "final_figure_dpi": 600,
+  "source_font_substitutions": {
+    "Calibri": "Carlito (metric compatible)",
+    "Calibri Light": "Carlito",
+    "Arial": "Liberation Sans (metric compatible)",
+    "-apple-system": "Carlito"
+  },
+  "typography_scope": "PPTX typography is preserved by user request; native 5/6/8-pt audit covers only surrounding figure and quantitative panels",
+  "powerpoint_pixel_identity_claimed": false,
+  "pdf_font_report": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nBAAAAA+Carlito-Bold                  TrueType          WinAnsi          yes yes yes    183  0\nCAAAAA+Carlito                       TrueType          WinAnsi          yes yes yes    188  0\nDAAAAA+LiberationSans                TrueType          WinAnsi          yes yes yes    173  0\nEAAAAA+LiberationSans-Bold           TrueType          WinAnsi          yes yes yes    178  0\n",
+  "font_files_sha256": {
+    "Carlito-BoldItalic.ttf": "380764b6898d7b73ceae6384b2958b196d2a0428962ef3adf138d27947228666",
+    "Carlito-Bold.ttf": "0f62ab34ad5d079a0a28fac01bcf7c7a724a4db4d6cb99cab9cabff382fbb80f",
+    "Carlito-Italic.ttf": "718a0663864d37a4868220a19b9668a5fe10a46197f6df367b4c2c30c04c026c",
+    "Carlito-Regular.ttf": "b4ff23ba370cc95a3c349336b73f9c28514a1371210f89832efc85c4b1ea7131"
+  },
+  "images": {
+    "slide_1.png": {
+      "slide": 1,
+      "sha256": "77f0b23472b66530391c3c7d6086ef2db766396cf6639df9af08334414d29048",
+      "pixel_size": [
+        3922,
+        5488
+      ],
+      "crop_mm": [
+        0,
+        0,
+        338.71077777777776,
+        474.0
+      ],
+      "source_page_mm": [
+        338.71077777777776,
+        599.9868055555555
+      ],
+      "source_text": "Experiment1: more naturalistic value learning task\nPlaying chef : recommending the meals\n\nWithin one trial\nStimulus array\n\nComposite choice\n\nScore feedback\n\n78\n0\n\n100\n\nWeighted sum of\n9 item in 3 rows\nRepeated trials \u00b7 Self-paced \u00b7 End at score of 100 \u00b7 max 30 trials\n(3D)/ 50 trials (4D)\n\nStaple\n\nDessert\n\nBeverage\n\nFruit\n\n10\n\n3D\ntask\n4D\ntask\n\n0\n\nTwo dimension are score relevant \u00b7 random selected in each task phase\n\nGroup design and procedure\nTransfer from lower- to higher- dimensional task\nExperienced\nGroup\nNa\u00efve group\n\n30 rounds\n\n50 rounds\n\n3D-NE\n\n4D-E\n4D-NE\n\nSurvey &\nInterview\n\nOriginal Value\n\nStimulus feature space\n\n"
+    },
+    "slide_2.png": {
+      "slide": 2,
+      "sha256": "521ab84eb7784fec5b9735df807ed483637938d67f567efa327d0ee2989e2f71",
+      "pixel_size": [
+        3922,
+        5488
+      ],
+      "crop_mm": [
+        0,
+        0,
+        338.71077777777776,
+        474.0
+      ],
+      "source_page_mm": [
+        338.71077777777776,
+        599.9868055555555
+      ],
+      "source_text": "Experiment2: multidimensional value learning task\nPlaying interior designer recommending room design\n\nWithin one trial\nStimulus array\n\nComposite choice\n\nScore feedback\n\n56\n100\n\n0\n\nSum of 4 picture\nselected\nRepeated trials \u00b7 Self-paced \u00b7 End at score of 100 \u00b7 max 60 trials\n\nStimulus feature space\nSofa\n\nOriginal Value\n\nFive constant dimensions\n0\nCoffee\nWall\nPotted\ntable\npainting\nplant\n\n10\n\nRug\n\n% of\nimages\n\nTwo dimension are score relevant\nOther dimensions with controlled occurrence frequency gradient\n5.0%\n2.5%\n0.83%\n\nGroup design and procedure\nEffect of prior observation in high-dimensional task\nObservation\nGroup(Obs)\nNo-Observation\ngroup (NObs)\n\n60 rounds\n\nObservation\n\nND task\nND task\n\nSurvey &\nInterview\n\n"
+    }
+  }
+}

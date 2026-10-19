@@ -1,0 +1,2315 @@
+{
+  "canvas_mm": [
+    180.0,
+    156.0
+  ],
+  "dpi": 600,
+  "display_panel_map": {
+    "a": "a",
+    "b": "a",
+    "c": "b",
+    "d": "c",
+    "e": "d",
+    "f": "d",
+    "h": "e",
+    "i": "e"
+  },
+  "display_panel_letters": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e"
+  ],
+  "public_panel_members": {
+    "a": [
+      "a",
+      "b"
+    ],
+    "b": [
+      "c"
+    ],
+    "c": [
+      "d"
+    ],
+    "d": [
+      "e",
+      "f"
+    ],
+    "e": [
+      "h",
+      "i"
+    ]
+  },
+  "migrated_source_axis": "g",
+  "role_titles": {
+    "d": "Manipulation"
+  },
+  "y_axis_breaks": {
+    "a": {
+      "panel": "a",
+      "ylim": [
+        20.0,
+        103.0
+      ],
+      "scale": "linear",
+      "version": "fig5f-double-slash-20261012",
+      "marked": true,
+      "slash_count": 2,
+      "width_mm": 1.2276,
+      "slash_height_mm": 0.6,
+      "centers_mm": [
+        -1.95,
+        -1.11
+      ],
+      "extension_mm": 2.7,
+      "x_tick_pad_pt": 7.0,
+      "meaning": "Zero-to-lower-bound interval omitted below first displayed y value",
+      "left_spine_outward_pt": 5.0,
+      "extension_connects_to_y_tick": 20.0,
+      "x_tick_text_collisions": [],
+      "rendered_strokes": [
+        {
+          "width_mm": 1.227599999999998,
+          "height_mm": 0.6000000000000175,
+          "center_mm": -1.9499999999999993
+        },
+        {
+          "width_mm": 1.227599999999998,
+          "height_mm": 0.5999999999999983,
+          "center_mm": -1.1099999999999977
+        }
+      ],
+      "geometry_verdict": "PASS"
+    },
+    "e": {
+      "panel": "e",
+      "ylim": [
+        45.0,
+        90.0
+      ],
+      "scale": "linear",
+      "version": "fig5f-double-slash-20261012",
+      "marked": true,
+      "slash_count": 2,
+      "width_mm": 1.2276,
+      "slash_height_mm": 0.6,
+      "centers_mm": [
+        -1.95,
+        -1.11
+      ],
+      "extension_mm": 2.7,
+      "x_tick_pad_pt": 7.0,
+      "meaning": "Zero-to-lower-bound interval omitted below first displayed y value",
+      "left_spine_outward_pt": 5.0,
+      "extension_connects_to_y_tick": 45.0,
+      "x_tick_text_collisions": [],
+      "rendered_strokes": [
+        {
+          "width_mm": 1.2276000000000076,
+          "height_mm": 0.5999999999999983,
+          "center_mm": -1.9499999999999993
+        },
+        {
+          "width_mm": 1.2276000000000076,
+          "height_mm": 0.5999999999999983,
+          "center_mm": -1.1099999999999977
+        }
+      ],
+      "geometry_verdict": "PASS"
+    },
+    "h": {
+      "panel": "h",
+      "ylim": [
+        4.0,
+        12.0
+      ],
+      "scale": "linear",
+      "version": "fig5f-double-slash-20261012",
+      "marked": true,
+      "slash_count": 2,
+      "width_mm": 1.2276,
+      "slash_height_mm": 0.6,
+      "centers_mm": [
+        -1.95,
+        -1.11
+      ],
+      "extension_mm": 2.7,
+      "x_tick_pad_pt": 7.0,
+      "meaning": "Zero-to-lower-bound interval omitted below first displayed y value",
+      "left_spine_outward_pt": 5.0,
+      "extension_connects_to_y_tick": 4.0,
+      "x_tick_text_collisions": [],
+      "rendered_strokes": [
+        {
+          "width_mm": 1.2276000000000076,
+          "height_mm": 0.5999999999999995,
+          "center_mm": -1.9499999999999993
+        },
+        {
+          "width_mm": 1.2276000000000076,
+          "height_mm": 0.5999999999999983,
+          "center_mm": -1.11
+        }
+      ],
+      "geometry_verdict": "PASS"
+    }
+  },
+  "mark_proportions": {
+    "reference": "Fig5 g/h independent-group 4.35mm-wide boxes",
+    "bar_width_mm": 4.35,
+    "category_centre_gap_mm": 12.130434782608695,
+    "category_xlim": [
+      -0.34350582437275945,
+      1.9564941756272405
+    ],
+    "original_category_xlim": [
+      -0.65,
+      1.65
+    ],
+    "public_h_bottom_spine_outward_pt": 7.299999999999998,
+    "public_g_h_x_tick_baseline_difference_pt": 0.0,
+    "public_c_f_g_display": "Conceptual diagram / GEE curve / mean-SEM curve; no quantitative box shapes replaced"
+  },
+  "detached_axes_all": {
+    "a": {
+      "status": "PASS",
+      "left_position": [
+        "outward",
+        5.0
+      ],
+      "bottom_position": [
+        "outward",
+        3.0
+      ],
+      "corner_endpoint_distance_mm": 2.8980114368999277,
+      "conservative_visible_corner_gap_mm": 2.6510669924554833,
+      "slash_to_x_endpoint_visible_gap_mm": 1.8371067085953874,
+      "slash_tick_text_collisions": []
+    },
+    "b": {
+      "status": "EXEMPT",
+      "reason": "A Cartesian corner is not drawn: shared/hidden/categorical one-axis view."
+    },
+    "c": {
+      "status": "PASS",
+      "left_position": [
+        "outward",
+        5.0
+      ],
+      "bottom_position": [
+        "outward",
+        3.0
+      ],
+      "corner_endpoint_distance_mm": 3.056723328673026,
+      "conservative_visible_corner_gap_mm": 2.8097788842285816
+    },
+    "e": {
+      "status": "PASS",
+      "left_position": [
+        "outward",
+        5.0
+      ],
+      "bottom_position": [
+        "outward",
+        3.0
+      ],
+      "corner_endpoint_distance_mm": 2.0570302517926424,
+      "conservative_visible_corner_gap_mm": 1.810085807348198,
+      "slash_to_x_endpoint_visible_gap_mm": 0.9031444444444359,
+      "slash_tick_text_collisions": []
+    },
+    "f": {
+      "status": "PASS",
+      "left_position": [
+        "outward",
+        5.0
+      ],
+      "bottom_position": [
+        "outward",
+        3.0
+      ],
+      "corner_endpoint_distance_mm": 6.024452651502267,
+      "conservative_visible_corner_gap_mm": 5.7775082070578225
+    },
+    "h": {
+      "status": "PASS",
+      "left_position": [
+        "outward",
+        5.0
+      ],
+      "bottom_position": [
+        "outward",
+        3.0
+      ],
+      "corner_endpoint_distance_mm": 4.671076802066488,
+      "conservative_visible_corner_gap_mm": 4.424132357622044,
+      "slash_to_x_endpoint_visible_gap_mm": 3.6888587301587235,
+      "slash_tick_text_collisions": []
+    },
+    "i": {
+      "status": "PASS",
+      "left_position": [
+        "outward",
+        5.0
+      ],
+      "bottom_position": [
+        "outward",
+        7.299999999999998
+      ],
+      "corner_endpoint_distance_mm": 6.465757182145359,
+      "conservative_visible_corner_gap_mm": 6.218812737700915
+    }
+  },
+  "tick_bounded_spines": {
+    "a": {
+      "bottom": {
+        "status": "PASS",
+        "bounds": [
+          0.0,
+          1.0
+        ],
+        "outer_displayed_major_ticks": [
+          0.0,
+          1.0
+        ]
+      },
+      "left": {
+        "status": "PASS",
+        "bounds": [
+          20.0,
+          100.0
+        ],
+        "outer_displayed_major_ticks": [
+          20.0,
+          100.0
+        ]
+      }
+    },
+    "b": {
+      "bottom": {
+        "status": "PASS",
+        "bounds": [
+          0.0,
+          1.0
+        ],
+        "outer_displayed_major_ticks": [
+          0.0,
+          1.0
+        ]
+      }
+    },
+    "c": {
+      "bottom": {
+        "status": "PASS",
+        "bounds": [
+          0.0,
+          1.0
+        ],
+        "outer_displayed_major_ticks": [
+          0.0,
+          1.0
+        ]
+      },
+      "left": {
+        "status": "PASS",
+        "bounds": [
+          0.0,
+          1.0
+        ],
+        "outer_displayed_major_ticks": [
+          0.0,
+          1.0
+        ]
+      }
+    },
+    "e": {
+      "bottom": {
+        "status": "PASS",
+        "bounds": [
+          0.0,
+          60.0
+        ],
+        "outer_displayed_major_ticks": [
+          0.0,
+          60.0
+        ]
+      },
+      "left": {
+        "status": "PASS",
+        "bounds": [
+          45.0,
+          90.0
+        ],
+        "outer_displayed_major_ticks": [
+          45.0,
+          90.0
+        ]
+      }
+    },
+    "f": {
+      "bottom": {
+        "status": "PASS",
+        "bounds": [
+          0.0,
+          1.0
+        ],
+        "outer_displayed_major_ticks": [
+          0.0,
+          1.0
+        ]
+      },
+      "left": {
+        "status": "PASS",
+        "bounds": [
+          0.0,
+          0.5
+        ],
+        "outer_displayed_major_ticks": [
+          0.0,
+          0.5
+        ]
+      }
+    },
+    "h": {
+      "bottom": {
+        "status": "PASS",
+        "bounds": [
+          0.0,
+          3.0
+        ],
+        "outer_displayed_major_ticks": [
+          0.0,
+          3.0
+        ]
+      },
+      "left": {
+        "status": "PASS",
+        "bounds": [
+          4.0,
+          12.0
+        ],
+        "outer_displayed_major_ticks": [
+          4.0,
+          12.0
+        ]
+      }
+    },
+    "i": {
+      "bottom": {
+        "status": "PASS",
+        "bounds": [
+          0.0,
+          1.0
+        ],
+        "outer_displayed_major_ticks": [
+          0.0,
+          1.0
+        ]
+      },
+      "left": {
+        "status": "PASS",
+        "bounds": [
+          0.0,
+          1.0
+        ],
+        "outer_displayed_major_ticks": [
+          0.0,
+          1.0
+        ]
+      }
+    }
+  },
+  "categorical_mark_spacing": {
+    "f": {
+      "status": "PASS",
+      "before": {
+        "box_to_y_spine_mm": 7.217907608695659,
+        "ylabel_to_box_mm": 14.125296497584541,
+        "xlim": [
+          -0.65,
+          1.65
+        ],
+        "box_widths_mm": [
+          4.350000000000012,
+          4.3499999999999925
+        ],
+        "left_spine_position": [
+          "outward",
+          5.0
+        ]
+      },
+      "after": {
+        "box_to_y_spine_mm": 3.4999999999999933,
+        "ylabel_to_box_mm": 10.407388888888876,
+        "xlim": [
+          -0.34350582437275945,
+          1.9564941756272405
+        ],
+        "box_widths_mm": [
+          4.3499999999999925,
+          4.3499999999999925
+        ],
+        "left_spine_position": [
+          "outward",
+          5.0
+        ]
+      },
+      "categorical_view_translation": 0.3064941756272406,
+      "target_box_to_y_spine_mm": 3.5,
+      "soft_ylabel_target_mm": [
+        6,
+        12
+      ],
+      "scope": "Categorical display-only translation; data/category positions, intervals and mark widths retained"
+    },
+    "i": {
+      "status": "PASS",
+      "before": {
+        "box_to_y_spine_mm": 7.217907608695659,
+        "ylabel_to_box_mm": 13.564379830917874,
+        "xlim": [
+          -0.65,
+          1.65
+        ],
+        "box_widths_mm": [
+          4.350000000000012,
+          4.3499999999999925
+        ],
+        "left_spine_position": [
+          "outward",
+          5.0
+        ]
+      },
+      "after": {
+        "box_to_y_spine_mm": 3.4999999999999933,
+        "ylabel_to_box_mm": 9.846472222222209,
+        "xlim": [
+          -0.34350582437275945,
+          1.9564941756272405
+        ],
+        "box_widths_mm": [
+          4.3499999999999925,
+          4.3499999999999925
+        ],
+        "left_spine_position": [
+          "outward",
+          5.0
+        ]
+      },
+      "categorical_view_translation": 0.3064941756272406,
+      "target_box_to_y_spine_mm": 3.5,
+      "soft_ylabel_target_mm": [
+        6,
+        12
+      ],
+      "scope": "Categorical display-only translation; data/category positions, intervals and mark widths retained"
+    }
+  },
+  "detached_axes_exceptions": {
+    "b": "Public a Task 2 shares the left y axis of Task 1; its left spine is hidden",
+    "i": "Bottom spine retains an extra outward offset so categorical x tick baselines align with the neighbouring omitted-zero report plot",
+    "d": "Conceptual schematic; no Cartesian corner"
+  },
+  "compound_layout": {
+    "schematic_grid_center_difference_mm": -9.62548559376349e-15,
+    "internal_visible_gaps_mm": {
+      "schematic_outcomes": 10.699211111111126,
+      "upper_outcomes": 1.2983611111111202,
+      "lower_outcomes": 0.6273777777777951,
+      "left_outcome_rows": 2.947722222222218,
+      "right_outcome_rows": 10.882999999999988
+    },
+    "public_vertical_gap_mm": 5.206055555555537,
+    "public_horizontal_gap_mm": 10.47859004192874,
+    "schematic_top_mm": 64.0,
+    "outcome_row_tops_mm": [
+      64.0,
+      114.0
+    ],
+    "outcome_column_lefts_mm": [
+      88.55,
+      140.55
+    ],
+    "measurement": "Native plot/tick/label/legend/title/icon content bounds in mm"
+  },
+  "row_balance": {
+    "upper_visible_bounds_mm": [
+      11.327377777777775,
+      157.87897641509431
+    ],
+    "lower_visible_bounds_mm": [
+      11.55,
+      168.45
+    ],
+    "upper_content_center_mm": 84.60317709643604,
+    "lower_content_center_mm": 90.0,
+    "center_difference_mm": 5.396822903563958,
+    "top_right_shift_mm": 10.7,
+    "measurement_includes_labels_icons_and_parent_letters": true
+  },
+  "detached_axes": {
+    "a": {
+      "display_panel": "a",
+      "left_spine_outward_pt": 5.0,
+      "bottom_spine_outward_pt": 3.0,
+      "corner_endpoint_distance_mm": 2.8980114368999277,
+      "omission_stroke_to_x_endpoint_clearance_mm": 1.8371067085953876,
+      "omission_stroke_to_first_x_tick_clearance_mm": 1.8371067085953876,
+      "omission_marks_aligned_to_actual_y_spine": true
+    },
+    "c": {
+      "display_panel": "b",
+      "left_spine_outward_pt": 5.0,
+      "bottom_spine_outward_pt": 3.0,
+      "corner_endpoint_distance_mm": 3.056723328673026
+    },
+    "e": {
+      "display_panel": "d",
+      "left_spine_outward_pt": 5.0,
+      "bottom_spine_outward_pt": 3.0,
+      "corner_endpoint_distance_mm": 2.0570302517926424,
+      "omission_stroke_to_x_endpoint_clearance_mm": 0.9031444444444358,
+      "omission_stroke_to_first_x_tick_clearance_mm": 0.9031444444444358,
+      "omission_marks_aligned_to_actual_y_spine": true
+    },
+    "h": {
+      "display_panel": "e",
+      "left_spine_outward_pt": 5.0,
+      "bottom_spine_outward_pt": 3.0,
+      "corner_endpoint_distance_mm": 4.671076802066488,
+      "omission_stroke_to_x_endpoint_clearance_mm": 3.688858730158723,
+      "omission_stroke_to_first_x_tick_clearance_mm": 3.688858730158723,
+      "omission_marks_aligned_to_actual_y_spine": true
+    }
+  },
+  "header_positions": {
+    "a": {
+      "letter_anchor_mm": [
+        14.699999999999998,
+        149.898
+      ],
+      "letter_to_icon_left_mm": 3.8000000000000025,
+      "letter_icon_top_difference_mm": 0.0,
+      "header_above_plot_mm": 5.898000000000007
+    },
+    "b": {
+      "letter_anchor_mm": [
+        109.30000000000003,
+        149.898
+      ],
+      "letter_to_icon_left_mm": 3.7999999999999825,
+      "letter_icon_top_difference_mm": 0.0,
+      "header_above_plot_mm": 5.898000000000007
+    },
+    "c": {
+      "letter_anchor_mm": [
+        11.55,
+        100.00000000000001
+      ],
+      "letter_to_icon_left_mm": 3.799999999999997,
+      "letter_icon_top_difference_mm": 0.0,
+      "header_above_plot_mm": 8.000000000000028
+    },
+    "d": {
+      "letter_anchor_mm": [
+        79.55,
+        100.00000000000001
+      ],
+      "letter_to_icon_left_mm": 3.7999999999999825,
+      "letter_icon_top_difference_mm": 0.0,
+      "header_above_plot_mm": 8.000000000000009
+    },
+    "e": {
+      "letter_anchor_mm": [
+        79.55,
+        50.00000000000001
+      ],
+      "letter_to_icon_left_mm": 3.7999999999999825,
+      "letter_icon_top_difference_mm": 0.0,
+      "header_above_plot_mm": 8.0
+    }
+  },
+  "header_reference": {
+    "figure": "fig5_nhb_evidence_layout",
+    "panels": [
+      "g",
+      "h",
+      "i"
+    ],
+    "letter_to_icon_left_mm": 3.8,
+    "header_above_plot_mm": 5.898,
+    "letter_left_of_logical_column_mm": 9.0,
+    "horizontal_margin_exception": "Retain9mm rather than13.5mm to keep first header inside existing canvas"
+  },
+  "merged_panel_a": {
+    "source_ids": [
+      "a",
+      "b"
+    ],
+    "task_labels": [
+      "Task 1",
+      "Task 2"
+    ],
+    "plot_lefts_mm": [
+      23.7,
+      61.7
+    ],
+    "plot_widths_mm": [
+      33.0,
+      33.0
+    ],
+    "inner_plot_gap_mm": 5.0,
+    "shared_ylabel": true,
+    "shared_y_axis": {
+      "live_joined": true,
+      "shared_major_locator": true,
+      "ylim": [
+        20.0,
+        103.0
+      ],
+      "yticks": [
+        20,
+        60,
+        100
+      ],
+      "decoration_source": "a",
+      "right_y_tick_labels": [],
+      "right_y_ticks_visible": false,
+      "right_y_spines_visible": false,
+      "right_y_break_artists": false
+    },
+    "task_plot_visible_content_clearance_mm": 4.624257861635245,
+    "shared_x_label": {
+      "text": "% of DIS trials (first half)",
+      "font_size_pt": 6,
+      "anchor_mm": [
+        59.19999999999999,
+        107.23805555555555
+      ],
+      "bbox_mm": [
+        46.163979166666664,
+        105.20605555555554,
+        72.23602083333333,
+        107.23805555555555
+      ],
+      "x_tick_text_clearance_mm": 0.7999999999999913
+    }
+  },
+  "font_audit": {
+    "method": "Matplotlib rendered native-text bounding boxes at export dpi",
+    "font_sizes_pt": [
+      5.0,
+      6.0,
+      8.0
+    ],
+    "native_text_count": 75,
+    "font_names": [
+      "DejaVu Sans"
+    ],
+    "visible_text": [
+      "c",
+      "% of DIS trials (first half)",
+      "a",
+      "Task 1",
+      "***",
+      "Mean score\n(final 5% of trials)",
+      "0",
+      "50",
+      "100",
+      "20",
+      "60",
+      "100",
+      "Task 2",
+      "*",
+      "0",
+      "50",
+      "100",
+      "b",
+      "***",
+      "% of DIS trials (3D-NE)",
+      "% of DIS trials\n(early 4D-E)",
+      "0",
+      "50",
+      "100",
+      "0",
+      "50",
+      "100",
+      "d",
+      "Trial",
+      "Mean score",
+      "0",
+      "20",
+      "40",
+      "60",
+      "45",
+      "60",
+      "75",
+      "90",
+      "Obs",
+      "No-DIS",
+      "Full-score proportion",
+      "Obs",
+      "No-DIS",
+      "0.00",
+      "0.25",
+      "0.50",
+      "e",
+      "*",
+      "*",
+      "Elements noticed\n(count)",
+      "Post-obs.",
+      "Early",
+      "Mid",
+      "Late",
+      "4",
+      "6",
+      "8",
+      "10",
+      "12",
+      "Obs",
+      "No-DIS",
+      "***",
+      "Dimensions correctly\nclassified (%)",
+      "Obs",
+      "No-DIS",
+      "0",
+      "25",
+      "50",
+      "75",
+      "100",
+      "Prior observation",
+      "Obs",
+      "Standard rule",
+      "No-DIS",
+      "DIS blocked"
+    ],
+    "text_text_collisions": [],
+    "page_clipping": [],
+    "unexpected_bold_text": [],
+    "embedded_raster_text": "none; all diagram text redrawn natively",
+    "pdf_collision_audit": "not run: publication PNG-only output policy",
+    "renamed_condition_label_boxes_pixels": [
+      {
+        "current": [
+          2834.325459317585,
+          1499.983595800525,
+          2977.575459317585,
+          1539.983595800525
+        ],
+        "previous": [
+          2834.325459317585,
+          1499.983595800525,
+          2952.450459317585,
+          1539.983595800525
+        ]
+      },
+      {
+        "current": [
+          3633.429561793906,
+          1359.5669291338584,
+          3776.679561793906,
+          1399.5669291338584
+        ],
+        "previous": [
+          3645.992061793906,
+          1359.5669291338584,
+          3764.117061793906,
+          1399.5669291338584
+        ]
+      },
+      {
+        "current": [
+          2532.1092519685035,
+          1047.7690288713914,
+          2675.3592519685035,
+          1087.7690288713914
+        ],
+        "previous": [
+          2532.1092519685035,
+          1047.7690288713914,
+          2650.2342519685035,
+          1087.7690288713914
+        ]
+      },
+      {
+        "current": [
+          3633.429561793906,
+          142.63123359580055,
+          3776.679561793906,
+          182.63123359580055
+        ],
+        "previous": [
+          3645.992061793906,
+          142.63123359580055,
+          3764.117061793906,
+          182.63123359580055
+        ]
+      },
+      {
+        "current": [
+          926.3297244094487,
+          1017.732283464567,
+          1098.0797244094488,
+          1065.732283464567
+        ],
+        "previous": [
+          941.5172244094487,
+          1017.732283464567,
+          1082.8922244094488,
+          1065.732283464567
+        ]
+      }
+    ],
+    "renamed_condition_legend_boxes_pixels": [
+      {
+        "current": [
+          2732.2421259842517,
+          1483.3169291338584,
+          2994.2421259842517,
+          1611.233595800525
+        ],
+        "previous": [
+          2757.3671259842517,
+          1483.3169291338584,
+          2994.2421259842517,
+          1611.233595800525
+        ]
+      },
+      {
+        "current": [
+          2275.984251968504,
+          1031.1023622047246,
+          2692.0259186351705,
+          1104.435695538058
+        ],
+        "previous": [
+          2275.984251968504,
+          1031.1023622047246,
+          2666.9009186351705,
+          1104.435695538058
+        ]
+      }
+    ]
+  },
+  "analytical_axes": {
+    "a": {
+      "left_mm": 23.699999999999996,
+      "top_mm": 12.0,
+      "width_mm": 32.99999999999999,
+      "height_mm": 30.000000000000014,
+      "outer_content_bbox_mm": [
+        11.327377777777775,
+        108.03805555555554,
+        57.448787735849045,
+        149.898
+      ],
+      "xlabel": "",
+      "ylabel": "Mean score\n(final 5% of trials)",
+      "xlim": [
+        -0.03,
+        1.03
+      ],
+      "ylim": [
+        20.0,
+        103.0
+      ],
+      "xticks": [
+        0.0,
+        0.5,
+        1.0
+      ],
+      "yticks": [
+        20.0,
+        60.0,
+        100.0
+      ],
+      "ytick_labels": [
+        "20",
+        "60",
+        "100"
+      ]
+    },
+    "b": {
+      "left_mm": 61.7,
+      "top_mm": 12.0,
+      "width_mm": 32.999999999999986,
+      "height_mm": 30.000000000000014,
+      "outer_content_bbox_mm": [
+        61.7,
+        108.03805555555554,
+        95.44878773584904,
+        148.69333333333336
+      ],
+      "xlabel": "",
+      "ylabel": "",
+      "xlim": [
+        -0.03,
+        1.03
+      ],
+      "ylim": [
+        20.0,
+        103.0
+      ],
+      "xticks": [
+        0.0,
+        0.5,
+        1.0
+      ],
+      "yticks": [
+        20.0,
+        60.0,
+        100.0
+      ],
+      "ytick_labels": []
+    },
+    "c": {
+      "left_mm": 118.29999999999998,
+      "top_mm": 12.0,
+      "width_mm": 38.999999999999986,
+      "height_mm": 30.000000000000014,
+      "outer_content_bbox_mm": [
+        105.92737777777776,
+        106.7116111111111,
+        157.87897641509431,
+        149.898
+      ],
+      "xlabel": "% of DIS trials (3D-NE)",
+      "ylabel": "% of DIS trials\n(early 4D-E)",
+      "xlim": [
+        -0.03,
+        1.03
+      ],
+      "ylim": [
+        0.0,
+        1.0
+      ],
+      "xticks": [
+        0.0,
+        0.5,
+        1.0
+      ],
+      "yticks": [
+        0.0,
+        0.5,
+        1.0
+      ],
+      "ytick_labels": [
+        "0",
+        "50",
+        "100"
+      ]
+    },
+    "e": {
+      "left_mm": 88.55,
+      "top_mm": 64.0,
+      "width_mm": 38.999999999999986,
+      "height_mm": 30.0,
+      "outer_content_bbox_mm": [
+        79.55,
+        52.947722222222225,
+        128.6718333333333,
+        100.00000000000001
+      ],
+      "xlabel": "Trial",
+      "ylabel": "Mean score",
+      "xlim": [
+        0.0,
+        60.0
+      ],
+      "ylim": [
+        45.0,
+        90.0
+      ],
+      "xticks": [
+        0.0,
+        20.0,
+        40.0,
+        60.0
+      ],
+      "yticks": [
+        45.0,
+        60.0,
+        75.0,
+        90.0
+      ],
+      "ytick_labels": [
+        "45",
+        "60",
+        "75",
+        "90"
+      ]
+    },
+    "f": {
+      "left_mm": 140.55,
+      "top_mm": 64.0,
+      "width_mm": 27.900000000000006,
+      "height_mm": 30.0,
+      "outer_content_bbox_mm": [
+        129.97019444444445,
+        57.55500000000001,
+        168.45,
+        92.65616666666666
+      ],
+      "xlabel": "",
+      "ylabel": "Full-score proportion",
+      "xlim": [
+        -0.34350582437275945,
+        1.9564941756272405
+      ],
+      "ylim": [
+        0.0,
+        0.5
+      ],
+      "xticks": [
+        0.0,
+        1.0
+      ],
+      "yticks": [
+        0.0,
+        0.25,
+        0.5
+      ],
+      "ytick_labels": [
+        "0.00",
+        "0.25",
+        "0.50"
+      ]
+    },
+    "h": {
+      "left_mm": 88.55,
+      "top_mm": 114.0,
+      "width_mm": 38.999999999999986,
+      "height_mm": 30.000000000000007,
+      "outer_content_bbox_mm": [
+        77.29921111111112,
+        6.038055555555556,
+        127.54999999999998,
+        50.00000000000001
+      ],
+      "xlabel": "",
+      "ylabel": "Elements noticed\n(count)",
+      "xlim": [
+        -0.25,
+        3.25
+      ],
+      "ylim": [
+        4.0,
+        12.0
+      ],
+      "xticks": [
+        0.0,
+        1.0,
+        2.0,
+        3.0
+      ],
+      "yticks": [
+        4.0,
+        6.0,
+        8.0,
+        10.0,
+        12.0
+      ],
+      "ytick_labels": [
+        "4",
+        "6",
+        "8",
+        "10",
+        "12"
+      ]
+    },
+    "i": {
+      "left_mm": 140.55,
+      "top_mm": 114.0,
+      "width_mm": 27.900000000000006,
+      "height_mm": 30.000000000000007,
+      "outer_content_bbox_mm": [
+        128.1773777777778,
+        6.038055555555556,
+        168.45,
+        46.67200000000001
+      ],
+      "xlabel": "",
+      "ylabel": "Dimensions correctly\nclassified (%)",
+      "xlim": [
+        -0.34350582437275945,
+        1.9564941756272405
+      ],
+      "ylim": [
+        0.0,
+        1.0
+      ],
+      "xticks": [
+        0.0,
+        1.0
+      ],
+      "yticks": [
+        0.0,
+        0.25,
+        0.5,
+        0.75,
+        1.0
+      ],
+      "ytick_labels": [
+        "0",
+        "25",
+        "50",
+        "75",
+        "100"
+      ]
+    }
+  },
+  "statistical_bar_widths_mm": [
+    4.3499999999999925,
+    4.3499999999999925,
+    4.3499999999999925,
+    4.3499999999999925
+  ],
+  "panels": {
+    "a": {
+      "rows_plotted": 105,
+      "uncertainty": "HC3 OLS mean 95% CI",
+      "native_artist_count": 2,
+      "source_icon": {
+        "version": "user-approved-20261010-grayscale",
+        "canonical_code": "../../assets/data_source_icons/code/draw_data_source_icons.py",
+        "portable_code": "assets/approved_source_icons.py",
+        "code_sha256": "d950202531ce5e35ff356274fdc8e961125d994cb18a76aa8569ae756c7ab68d",
+        "canonical_manifest": "../../assets/data_source_icons/manifest.json",
+        "figure_size_mm": 4.8,
+        "kinds": [
+          "task_behavior",
+          "survey"
+        ],
+        "canonical_png_sha256_by_kind": {
+          "task_behavior": "4c09b0bbedf11bf217192df29247e2c7b384b41c321b3722c962056c01dd469f",
+          "survey": "69fcf99041d35ca11b02ed653e69266151cf9425239d57d8a10473a50d00eb4d"
+        },
+        "panel_map": {
+          "a": "task_behavior",
+          "b": "task_behavior",
+          "c": "task_behavior",
+          "d": "task_behavior",
+          "e": "task_behavior",
+          "f": "task_behavior",
+          "g": "task_behavior",
+          "h": "survey",
+          "i": "survey"
+        },
+        "kind": "task_behavior",
+        "panel": "a",
+        "evidence_role": "measured evidence",
+        "visual_identity": "grayscale selection tiles and hand",
+        "source_loaded": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/main_figure_plotting_package_20261016/fig4/assets/approved_source_icons.py",
+        "bounds_fraction": [
+          0.10277777777777777,
+          0.9301153846153846,
+          0.026666666666666672,
+          0.03076923076923077
+        ],
+        "native_render": true,
+        "embedded_raster_images": 0
+      }
+    },
+    "b": {
+      "rows_plotted": 80,
+      "uncertainty": "HC3 OLS mean 95% CI",
+      "native_artist_count": 2,
+      "shared_header_with": "a"
+    },
+    "c": {
+      "rows_plotted": 51,
+      "uncertainty": "HC3 OLS mean 95% CI",
+      "native_artist_count": 2,
+      "display_ylim": [
+        0,
+        1
+      ],
+      "ols_ci_clipped_to_viewport": true,
+      "source_icon": {
+        "version": "user-approved-20261010-grayscale",
+        "canonical_code": "../../assets/data_source_icons/code/draw_data_source_icons.py",
+        "portable_code": "assets/approved_source_icons.py",
+        "code_sha256": "d950202531ce5e35ff356274fdc8e961125d994cb18a76aa8569ae756c7ab68d",
+        "canonical_manifest": "../../assets/data_source_icons/manifest.json",
+        "figure_size_mm": 4.8,
+        "kinds": [
+          "task_behavior",
+          "survey"
+        ],
+        "canonical_png_sha256_by_kind": {
+          "task_behavior": "4c09b0bbedf11bf217192df29247e2c7b384b41c321b3722c962056c01dd469f",
+          "survey": "69fcf99041d35ca11b02ed653e69266151cf9425239d57d8a10473a50d00eb4d"
+        },
+        "panel_map": {
+          "a": "task_behavior",
+          "b": "task_behavior",
+          "c": "task_behavior",
+          "d": "task_behavior",
+          "e": "task_behavior",
+          "f": "task_behavior",
+          "g": "task_behavior",
+          "h": "survey",
+          "i": "survey"
+        },
+        "kind": "task_behavior",
+        "panel": "c",
+        "evidence_role": "measured evidence",
+        "visual_identity": "grayscale selection tiles and hand",
+        "source_loaded": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/main_figure_plotting_package_20261016/fig4/assets/approved_source_icons.py",
+        "bounds_fraction": [
+          0.6283333333333333,
+          0.9301153846153847,
+          0.026666666666666616,
+          0.03076923076923066
+        ],
+        "native_render": true,
+        "embedded_raster_images": 0
+      }
+    },
+    "d": {
+      "source_asset_sha256": "112958d00da4ae0b9b3b1055291437f7e9f2d66dcf3ffc72f661b5b669b70497",
+      "display": "Native reconstruction of the same manipulation",
+      "native_size_mm": [
+        47.5,
+        80.0
+      ],
+      "sofa_icons": 8,
+      "group_layout": "vertical parallel groups; Obs above No-DIS",
+      "concept_source": "fig4_nhb_style public c",
+      "native_units": "1mm per native coordinate on both axes",
+      "shared_prior_observation_position": "between the two condition cards",
+      "card_bounds": {
+        "Obs": [
+          4.75,
+          46.2,
+          38.0,
+          33.5
+        ],
+        "No-DIS": [
+          4.75,
+          0.3,
+          38.0,
+          33.5
+        ]
+      },
+      "branch_arrow_geometry": {
+        "Obs": [
+          [
+            23.75,
+            42.6
+          ],
+          [
+            23.75,
+            45.55
+          ]
+        ],
+        "No-DIS": [
+          [
+            23.75,
+            37.4
+          ],
+          [
+            23.75,
+            34.45
+          ]
+        ]
+      },
+      "sequential_group_arrow": false,
+      "left_mm": 19.099999999999994,
+      "left_edge_matches_public_a_task1": false,
+      "rendered_bounds_fraction": [
+        0.10611111111111107,
+        0.07692307692307693,
+        0.26388888888888895,
+        0.5128205128205128
+      ],
+      "right_mm": 66.6,
+      "condition_card_style": {
+        "Obs": {
+          "body": "#FCF1E8",
+          "edge": "#8E4414",
+          "header": "#AF5F23"
+        },
+        "No-DIS": {
+          "body": "#F1F2F3",
+          "edge": "#62676B",
+          "header": "#8D9399"
+        }
+      },
+      "condition_card_size_mm": [
+        38.0,
+        33.5
+      ],
+      "condition_card_gap_mm": 12.4,
+      "stimulus_card_size_mm": [
+        13.8,
+        7.0
+      ],
+      "sofa_linear_scale_relative_to_prior": 1.4,
+      "frame_linewidth_pt": 0.65,
+      "header_height_mm": 3.4,
+      "prohibition_badge_diameter_mm": 23.6,
+      "prohibition_badge_placement": "Single overlay across all four No-DIS green sofas; no footer symbol",
+      "shared_observation_branches": 2,
+      "blocked_example": "No-DIS",
+      "embedded_raster_images": 0,
+      "font_sizes_pt": [
+        5,
+        6
+      ],
+      "alignment_exclusion": "Conceptual schematic; not a statistical plot",
+      "source_icon": {
+        "version": "user-approved-20261010-grayscale",
+        "canonical_code": "../../assets/data_source_icons/code/draw_data_source_icons.py",
+        "portable_code": "assets/approved_source_icons.py",
+        "code_sha256": "d950202531ce5e35ff356274fdc8e961125d994cb18a76aa8569ae756c7ab68d",
+        "canonical_manifest": "../../assets/data_source_icons/manifest.json",
+        "figure_size_mm": 4.8,
+        "kinds": [
+          "task_behavior",
+          "survey"
+        ],
+        "canonical_png_sha256_by_kind": {
+          "task_behavior": "4c09b0bbedf11bf217192df29247e2c7b384b41c321b3722c962056c01dd469f",
+          "survey": "69fcf99041d35ca11b02ed653e69266151cf9425239d57d8a10473a50d00eb4d"
+        },
+        "panel_map": {
+          "a": "task_behavior",
+          "b": "task_behavior",
+          "c": "task_behavior",
+          "d": "task_behavior",
+          "e": "task_behavior",
+          "f": "task_behavior",
+          "g": "task_behavior",
+          "h": "survey",
+          "i": "survey"
+        },
+        "kind": "task_behavior",
+        "panel": "d",
+        "evidence_role": "task design",
+        "visual_identity": "grayscale selection tiles and hand",
+        "source_loaded": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/main_figure_plotting_package_20261016/fig4/assets/approved_source_icons.py",
+        "bounds_fraction": [
+          0.08527777777777777,
+          0.6102564102564103,
+          0.026666666666666658,
+          0.03076923076923077
+        ],
+        "native_render": true,
+        "embedded_raster_images": 0
+      }
+    },
+    "e": {
+      "summary_rows": 120,
+      "participant_trial_rows": 4800,
+      "uncertainty": "Mean \u00b11 SEM across5-trial-smoothed participant scores; PCHIP display",
+      "display_analysis": {
+        "display_panel": "d",
+        "source_analysis_id": "e",
+        "window_trials": 5,
+        "centered": true,
+        "edge_rule": "Use available trials; min_periods=1",
+        "summary": "Across-participant mean and sample SD/sqrt(n), after individual smoothing",
+        "source_rows": 4800,
+        "participants": 80,
+        "participants_per_condition": 40,
+        "source_sha256": {
+          "csv/04_06_extended_learning_data.csv": "457fb08e6599ab013f3d36286ba32be3c0d7413c71425d0d3a86451046551e2f"
+        },
+        "display_sha256": {
+          "analysis/d_learning_display_5trial.csv": "47be7fa6a7e12625b9374a33fbdba6f4f5ac0340329eab5c8d9bfaf5bb4fb2d8"
+        },
+        "interpolation": "PCHIP to400 trial-grid nodes, without extrapolation",
+        "reference": "Fig1e, fig1_fig2_reconstruction/code/build_outcome_panels.py",
+        "tests_changed": false,
+        "fits_changed": false,
+        "source_assumption": "Original100-score carry-forward after stopping, through trial60"
+      },
+      "source_icon": {
+        "version": "user-approved-20261010-grayscale",
+        "canonical_code": "../../assets/data_source_icons/code/draw_data_source_icons.py",
+        "portable_code": "assets/approved_source_icons.py",
+        "code_sha256": "d950202531ce5e35ff356274fdc8e961125d994cb18a76aa8569ae756c7ab68d",
+        "canonical_manifest": "../../assets/data_source_icons/manifest.json",
+        "figure_size_mm": 4.8,
+        "kinds": [
+          "task_behavior",
+          "survey"
+        ],
+        "canonical_png_sha256_by_kind": {
+          "task_behavior": "4c09b0bbedf11bf217192df29247e2c7b384b41c321b3722c962056c01dd469f",
+          "survey": "69fcf99041d35ca11b02ed653e69266151cf9425239d57d8a10473a50d00eb4d"
+        },
+        "panel_map": {
+          "a": "task_behavior",
+          "b": "task_behavior",
+          "c": "task_behavior",
+          "d": "task_behavior",
+          "e": "task_behavior",
+          "f": "task_behavior",
+          "g": "task_behavior",
+          "h": "survey",
+          "i": "survey"
+        },
+        "kind": "task_behavior",
+        "panel": "e",
+        "evidence_role": "measured evidence",
+        "visual_identity": "grayscale selection tiles and hand",
+        "source_loaded": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/main_figure_plotting_package_20261016/fig4/assets/approved_source_icons.py",
+        "bounds_fraction": [
+          0.4630555555555555,
+          0.6102564102564103,
+          0.026666666666666672,
+          0.03076923076923077
+        ],
+        "native_render": true,
+        "embedded_raster_images": 0
+      }
+    },
+    "f": {
+      "participants": 80,
+      "events_by_group": [
+        18,
+        9
+      ],
+      "uncertainty_displayed": false,
+      "preserved_uncertainty": "Wilson 95% CI in frozen table/Methods",
+      "preserved_barnard_p": 0.0398911197044849,
+      "display_omission_is_not_nonsignificance": true
+    },
+    "i": {
+      "input_rows": 79,
+      "individual_points_plotted": 0,
+      "group_n": [
+        40,
+        39
+      ],
+      "uncertainty": "frozen bootstrap mean 95% CI",
+      "summary_style": "bar +95% CI",
+      "source_panel_before_swap": "h",
+      "data_unit": "proportion",
+      "tick_unit": "percent"
+    },
+    "h": {
+      "input_rows": 320,
+      "individual_points_plotted": 0,
+      "summary_rows": 8,
+      "participants": 80,
+      "uncertainty": "observed group mean \u00b11 SEM",
+      "stage_comparisons": [
+        {
+          "phase": "Post-observation",
+          "stage_order": 1,
+          "n_obs": 40,
+          "n_disd": 40,
+          "u_obs": 700.5,
+          "p_raw": 0.3368663705178248,
+          "obs_minus_disd_mean": -0.625,
+          "rank_biserial_obs_minus_disd": -0.124375,
+          "p_holm4": 0.4817271743190612,
+          "stars": ""
+        },
+        {
+          "phase": "Early",
+          "stage_order": 2,
+          "n_obs": 40,
+          "n_disd": 40,
+          "u_obs": 678.0,
+          "p_raw": 0.2408635871595306,
+          "obs_minus_disd_mean": -1.1500000000000004,
+          "rank_biserial_obs_minus_disd": -0.1524999999999999,
+          "p_holm4": 0.4817271743190612,
+          "stars": ""
+        },
+        {
+          "phase": "Mid",
+          "stage_order": 3,
+          "n_obs": 40,
+          "n_disd": 40,
+          "u_obs": 510.0,
+          "p_raw": 0.005172232198298,
+          "obs_minus_disd_mean": -3.1,
+          "rank_biserial_obs_minus_disd": -0.3625,
+          "p_holm4": 0.0206889287931921,
+          "stars": "*"
+        },
+        {
+          "phase": "Late",
+          "stage_order": 4,
+          "n_obs": 40,
+          "n_disd": 40,
+          "u_obs": 521.0,
+          "p_raw": 0.0069861482623077,
+          "obs_minus_disd_mean": -3.725000000000001,
+          "rank_biserial_obs_minus_disd": -0.34875,
+          "p_holm4": 0.0209584447869232,
+          "stars": "*"
+        }
+      ],
+      "analysis": {
+        "scope": "Exploratory user-requested four-stage independent-group contrasts; not an interaction test",
+        "stage_fields": {
+          "Post-observation": "previously exported coded observation counts",
+          "Early": "q2_1",
+          "Mid": "q2_2",
+          "Late": "q2_3"
+        },
+        "excluded_endpoint": "q2_4 union of reward-related/unrelated elements",
+        "experimental_unit": "participant; 40 per group, same 80 people at each stage",
+        "summary": "observed arithmetic mean \u00b11 SEM",
+        "test": "two-sided Mann\u2013Whitney U; asymptotic, tie-corrected, continuity correction",
+        "multiplicity": "Holm correction across all four stage comparisons",
+        "source_discrepancies": 2,
+        "post_observation_coding": "Reused existing participant export; original coder/protocol not supplied, no new NLP coding",
+        "source_inputs_sha256": {
+          "source/i_reference_subject_values.csv": "4666816ca91e913b58709db56049b40f32db8b1d93435fd0127d7ee9f8dd0b06",
+          "source/i_questionnaire_lists.csv": "db9a85ba6bfe07875217cb749cea15e06ecd2147fa91d3cbe89bf687c7d1241c"
+        },
+        "derived_files_sha256": {
+          "analysis/i_noticed_subjects.csv": "4a482525833bc8b804b1528633d9ff6994ec9770a030f9d24fb538c3fac0f181",
+          "analysis/i_noticed_summary.csv": "3f16684fffdd5348ac0fb0915400bdc58437c1ea2ff66c214cf6240116abefef",
+          "analysis/i_stage_contrasts.csv": "6a64ad5db9c84513457af4917d6ace51cd0f006ab9685f6970ab0488aa422a43",
+          "analysis/i_source_discrepancies.csv": "a3ecb5b7015ddad043d201d3ec234b2d1a34598c2900b19e088f93c5f244fbe5"
+        },
+        "historical_interaction": "P=.1411 concerns the previous differently mapped endpoint; not used here"
+      },
+      "display_ylim": [
+        4,
+        12
+      ],
+      "subplot_titles": "none",
+      "source_panel_before_swap": "i",
+      "source_icon": {
+        "version": "user-approved-20261010-grayscale",
+        "canonical_code": "../../assets/data_source_icons/code/draw_data_source_icons.py",
+        "portable_code": "assets/approved_source_icons.py",
+        "code_sha256": "d950202531ce5e35ff356274fdc8e961125d994cb18a76aa8569ae756c7ab68d",
+        "canonical_manifest": "../../assets/data_source_icons/manifest.json",
+        "figure_size_mm": 4.8,
+        "kinds": [
+          "task_behavior",
+          "survey"
+        ],
+        "canonical_png_sha256_by_kind": {
+          "task_behavior": "4c09b0bbedf11bf217192df29247e2c7b384b41c321b3722c962056c01dd469f",
+          "survey": "69fcf99041d35ca11b02ed653e69266151cf9425239d57d8a10473a50d00eb4d"
+        },
+        "panel_map": {
+          "a": "task_behavior",
+          "b": "task_behavior",
+          "c": "task_behavior",
+          "d": "task_behavior",
+          "e": "task_behavior",
+          "f": "task_behavior",
+          "g": "task_behavior",
+          "h": "survey",
+          "i": "survey"
+        },
+        "kind": "survey",
+        "panel": "h",
+        "evidence_role": "measured evidence",
+        "visual_identity": "grayscale checklist plus three-dot speech bubble",
+        "source_loaded": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/main_figure_plotting_package_20261016/fig4/assets/approved_source_icons.py",
+        "bounds_fraction": [
+          0.4630555555555555,
+          0.28974358974358977,
+          0.026666666666666672,
+          0.03076923076923077
+        ],
+        "native_render": true,
+        "embedded_raster_images": 0
+      }
+    }
+  },
+  "native_bar_geometry": {
+    "f": [
+      {
+        "bounds_data": [
+          -0.1793010752688172,
+          0.0,
+          0.3586021505376344,
+          0.45
+        ],
+        "bounds_mm": [
+          142.54187499999998,
+          62.0,
+          4.3499999999999925,
+          27.00000000000001
+        ]
+      },
+      {
+        "bounds_data": [
+          0.8206989247311828,
+          0.0,
+          0.35860215053763433,
+          0.225
+        ],
+        "bounds_mm": [
+          154.6723097826087,
+          62.0,
+          4.3499999999999925,
+          13.5
+        ]
+      }
+    ],
+    "i": [
+      {
+        "bounds_data": [
+          -0.1793010752688172,
+          0.0,
+          0.3586021505376344,
+          0.595
+        ],
+        "bounds_mm": [
+          142.54187499999998,
+          12.0,
+          4.3499999999999925,
+          17.85
+        ]
+      },
+      {
+        "bounds_data": [
+          0.8206989247311828,
+          0.0,
+          0.35860215053763433,
+          0.3641025641025641
+        ],
+        "bounds_mm": [
+          154.6723097826087,
+          12.0,
+          4.3499999999999925,
+          10.923076923076925
+        ]
+      }
+    ]
+  },
+  "alignment_verdict": "PASS",
+  "input_sha256": {
+    "csv/01a_plot_data.csv": "1ce41363dfedb8ba5cdcebb0efb0aea5b4b4e76cf7720e173c63d0dd36699ad0",
+    "csv/01b_plot_data.csv": "6c4838b64ff0830a823969cedaaede688a5058653bf02f9c0e5235b4f9569e71",
+    "csv/02_plot_data.csv": "4f58c57241aed669cda3cfe0b6cff209dcf5b4001ee1c0157386df349be58457",
+    "csv/04_06_extended_learning_data.csv": "457fb08e6599ab013f3d36286ba32be3c0d7413c71425d0d3a86451046551e2f",
+    "csv/04_plot_data.csv": "72dd436e1eedb99368a6e2f312095ad7681b34b597d44d7c7b454ca5aa55b34a",
+    "csv/05_plot_data.csv": "71d115d8d47e0da90d40f673283610cbc5e780aad416523e6f03c2c13bb57add",
+    "csv/06_model_predictions.csv": "b5b975936a865deb2c3c1cb04aa4a1d82cef615268a0c893d6b21b72da7f1be2",
+    "csv/07_plot_data.csv": "49d50c798a53dd9ad57cf96d37d38fb7e8367f9ec86cbe7849a9cc9e617476f2",
+    "csv/08_model_predictions.csv": "99378cd84a35fdf542060271a4f468b5c0283b936598ab01cb1564892d492047",
+    "csv/08_plot_data.csv": "cbe3af56027ce7ac0ec88756c673a25db685970c5d041893fbea25da15251a9b",
+    "csv/a_ols_predictions.csv": "c0d0c4a1101b2c33c85e0739e138ca3d901cefc6a3ec67e9e4a2f2c44e8884a5",
+    "csv/b_ols_predictions.csv": "2d57576ac3a59d4c44516aea285350d6613721fda3ec04408330cb33f108fb20",
+    "csv/c_ols_predictions.csv": "0b602ecab41a93d45d9475ce856cd7320d5832bb83250bf6aa0cd631b4db4452",
+    "csv/panel_statistics.csv": "4426e091436c0d69d1df24dbebba1e135c3be563cf57586fb171663e40335e1e",
+    "assets/condition_schematic_source.png": "112958d00da4ae0b9b3b1055291437f7e9f2d66dcf3ffc72f661b5b669b70497"
+  },
+  "unchanged_panel_coordinates_match_original": [
+    "a",
+    "b",
+    "c",
+    "e",
+    "h",
+    "i"
+  ],
+  "classification_summary_values_match_original": true,
+  "panel_content_map": {
+    "h": "previous i: noticed-element trajectory",
+    "i": "previous h: classification accuracy"
+  },
+  "source_icons": {
+    "a": {
+      "version": "user-approved-20261010-grayscale",
+      "canonical_code": "../../assets/data_source_icons/code/draw_data_source_icons.py",
+      "portable_code": "assets/approved_source_icons.py",
+      "code_sha256": "d950202531ce5e35ff356274fdc8e961125d994cb18a76aa8569ae756c7ab68d",
+      "canonical_manifest": "../../assets/data_source_icons/manifest.json",
+      "figure_size_mm": 4.8,
+      "kinds": [
+        "task_behavior",
+        "survey"
+      ],
+      "canonical_png_sha256_by_kind": {
+        "task_behavior": "4c09b0bbedf11bf217192df29247e2c7b384b41c321b3722c962056c01dd469f",
+        "survey": "69fcf99041d35ca11b02ed653e69266151cf9425239d57d8a10473a50d00eb4d"
+      },
+      "panel_map": {
+        "a": "task_behavior",
+        "b": "task_behavior",
+        "c": "task_behavior",
+        "d": "task_behavior",
+        "e": "task_behavior",
+        "f": "task_behavior",
+        "g": "task_behavior",
+        "h": "survey",
+        "i": "survey"
+      },
+      "kind": "task_behavior",
+      "panel": "a",
+      "evidence_role": "measured evidence",
+      "visual_identity": "grayscale selection tiles and hand",
+      "source_loaded": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/main_figure_plotting_package_20261016/fig4/assets/approved_source_icons.py",
+      "bounds_fraction": [
+        0.10277777777777777,
+        0.9301153846153846,
+        0.026666666666666672,
+        0.03076923076923077
+      ],
+      "native_render": true,
+      "embedded_raster_images": 0
+    },
+    "c": {
+      "version": "user-approved-20261010-grayscale",
+      "canonical_code": "../../assets/data_source_icons/code/draw_data_source_icons.py",
+      "portable_code": "assets/approved_source_icons.py",
+      "code_sha256": "d950202531ce5e35ff356274fdc8e961125d994cb18a76aa8569ae756c7ab68d",
+      "canonical_manifest": "../../assets/data_source_icons/manifest.json",
+      "figure_size_mm": 4.8,
+      "kinds": [
+        "task_behavior",
+        "survey"
+      ],
+      "canonical_png_sha256_by_kind": {
+        "task_behavior": "4c09b0bbedf11bf217192df29247e2c7b384b41c321b3722c962056c01dd469f",
+        "survey": "69fcf99041d35ca11b02ed653e69266151cf9425239d57d8a10473a50d00eb4d"
+      },
+      "panel_map": {
+        "a": "task_behavior",
+        "b": "task_behavior",
+        "c": "task_behavior",
+        "d": "task_behavior",
+        "e": "task_behavior",
+        "f": "task_behavior",
+        "g": "task_behavior",
+        "h": "survey",
+        "i": "survey"
+      },
+      "kind": "task_behavior",
+      "panel": "c",
+      "evidence_role": "measured evidence",
+      "visual_identity": "grayscale selection tiles and hand",
+      "source_loaded": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/main_figure_plotting_package_20261016/fig4/assets/approved_source_icons.py",
+      "bounds_fraction": [
+        0.6283333333333333,
+        0.9301153846153847,
+        0.026666666666666616,
+        0.03076923076923066
+      ],
+      "native_render": true,
+      "embedded_raster_images": 0
+    },
+    "d": {
+      "version": "user-approved-20261010-grayscale",
+      "canonical_code": "../../assets/data_source_icons/code/draw_data_source_icons.py",
+      "portable_code": "assets/approved_source_icons.py",
+      "code_sha256": "d950202531ce5e35ff356274fdc8e961125d994cb18a76aa8569ae756c7ab68d",
+      "canonical_manifest": "../../assets/data_source_icons/manifest.json",
+      "figure_size_mm": 4.8,
+      "kinds": [
+        "task_behavior",
+        "survey"
+      ],
+      "canonical_png_sha256_by_kind": {
+        "task_behavior": "4c09b0bbedf11bf217192df29247e2c7b384b41c321b3722c962056c01dd469f",
+        "survey": "69fcf99041d35ca11b02ed653e69266151cf9425239d57d8a10473a50d00eb4d"
+      },
+      "panel_map": {
+        "a": "task_behavior",
+        "b": "task_behavior",
+        "c": "task_behavior",
+        "d": "task_behavior",
+        "e": "task_behavior",
+        "f": "task_behavior",
+        "g": "task_behavior",
+        "h": "survey",
+        "i": "survey"
+      },
+      "kind": "task_behavior",
+      "panel": "d",
+      "evidence_role": "task design",
+      "visual_identity": "grayscale selection tiles and hand",
+      "source_loaded": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/main_figure_plotting_package_20261016/fig4/assets/approved_source_icons.py",
+      "bounds_fraction": [
+        0.08527777777777777,
+        0.6102564102564103,
+        0.026666666666666658,
+        0.03076923076923077
+      ],
+      "native_render": true,
+      "embedded_raster_images": 0
+    },
+    "e": {
+      "version": "user-approved-20261010-grayscale",
+      "canonical_code": "../../assets/data_source_icons/code/draw_data_source_icons.py",
+      "portable_code": "assets/approved_source_icons.py",
+      "code_sha256": "d950202531ce5e35ff356274fdc8e961125d994cb18a76aa8569ae756c7ab68d",
+      "canonical_manifest": "../../assets/data_source_icons/manifest.json",
+      "figure_size_mm": 4.8,
+      "kinds": [
+        "task_behavior",
+        "survey"
+      ],
+      "canonical_png_sha256_by_kind": {
+        "task_behavior": "4c09b0bbedf11bf217192df29247e2c7b384b41c321b3722c962056c01dd469f",
+        "survey": "69fcf99041d35ca11b02ed653e69266151cf9425239d57d8a10473a50d00eb4d"
+      },
+      "panel_map": {
+        "a": "task_behavior",
+        "b": "task_behavior",
+        "c": "task_behavior",
+        "d": "task_behavior",
+        "e": "task_behavior",
+        "f": "task_behavior",
+        "g": "task_behavior",
+        "h": "survey",
+        "i": "survey"
+      },
+      "kind": "task_behavior",
+      "panel": "e",
+      "evidence_role": "measured evidence",
+      "visual_identity": "grayscale selection tiles and hand",
+      "source_loaded": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/main_figure_plotting_package_20261016/fig4/assets/approved_source_icons.py",
+      "bounds_fraction": [
+        0.4630555555555555,
+        0.6102564102564103,
+        0.026666666666666672,
+        0.03076923076923077
+      ],
+      "native_render": true,
+      "embedded_raster_images": 0
+    },
+    "h": {
+      "version": "user-approved-20261010-grayscale",
+      "canonical_code": "../../assets/data_source_icons/code/draw_data_source_icons.py",
+      "portable_code": "assets/approved_source_icons.py",
+      "code_sha256": "d950202531ce5e35ff356274fdc8e961125d994cb18a76aa8569ae756c7ab68d",
+      "canonical_manifest": "../../assets/data_source_icons/manifest.json",
+      "figure_size_mm": 4.8,
+      "kinds": [
+        "task_behavior",
+        "survey"
+      ],
+      "canonical_png_sha256_by_kind": {
+        "task_behavior": "4c09b0bbedf11bf217192df29247e2c7b384b41c321b3722c962056c01dd469f",
+        "survey": "69fcf99041d35ca11b02ed653e69266151cf9425239d57d8a10473a50d00eb4d"
+      },
+      "panel_map": {
+        "a": "task_behavior",
+        "b": "task_behavior",
+        "c": "task_behavior",
+        "d": "task_behavior",
+        "e": "task_behavior",
+        "f": "task_behavior",
+        "g": "task_behavior",
+        "h": "survey",
+        "i": "survey"
+      },
+      "kind": "survey",
+      "panel": "h",
+      "evidence_role": "measured evidence",
+      "visual_identity": "grayscale checklist plus three-dot speech bubble",
+      "source_loaded": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/main_figure_plotting_package_20261016/fig4/assets/approved_source_icons.py",
+      "bounds_fraction": [
+        0.4630555555555555,
+        0.28974358974358977,
+        0.026666666666666672,
+        0.03076923076923077
+      ],
+      "native_render": true,
+      "embedded_raster_images": 0
+    }
+  },
+  "association_colours": {
+    "a": "#2F5FAE",
+    "b": "#D57224",
+    "c": "#2F5FAE"
+  },
+  "colour_profile": {
+    "bars": [
+      {
+        "face_rgba": [
+          0.8352941176470589,
+          0.4470588235294118,
+          0.1411764705882353,
+          0.8
+        ],
+        "edge_rgba": [
+          0.2980392156862745,
+          0.3254901960784314,
+          0.35294117647058826,
+          1.0
+        ],
+        "artist_alpha": null
+      },
+      {
+        "face_rgba": [
+          0.5529411764705883,
+          0.5764705882352941,
+          0.6,
+          0.8
+        ],
+        "edge_rgba": [
+          0.2980392156862745,
+          0.3254901960784314,
+          0.35294117647058826,
+          1.0
+        ],
+        "artist_alpha": null
+      },
+      {
+        "face_rgba": [
+          0.8352941176470589,
+          0.4470588235294118,
+          0.1411764705882353,
+          0.8
+        ],
+        "edge_rgba": [
+          0.2980392156862745,
+          0.3254901960784314,
+          0.35294117647058826,
+          1.0
+        ],
+        "artist_alpha": null
+      },
+      {
+        "face_rgba": [
+          0.5529411764705883,
+          0.5764705882352941,
+          0.6,
+          0.8
+        ],
+        "edge_rgba": [
+          0.2980392156862745,
+          0.3254901960784314,
+          0.35294117647058826,
+          1.0
+        ],
+        "artist_alpha": null
+      }
+    ],
+    "raw_point_alpha": {
+      "a": 0.55,
+      "b": 0.55,
+      "c": 0.55
+    },
+    "ribbon_alpha": {
+      "a": [
+        0.2
+      ],
+      "b": [
+        0.2
+      ],
+      "c": [
+        0.2
+      ],
+      "e": [
+        0.2,
+        0.2
+      ]
+    },
+    "schematic_sofa_colours": [
+      "#348F77",
+      "#397BA6",
+      "#7D5AA6",
+      "#C58A36"
+    ],
+    "schematic_sofa_edge_colours": [
+      "#455363"
+    ],
+    "condition_labels_ink": {
+      "Obs": "#FFFFFF",
+      "No-DIS": "#FFFFFF"
+    }
+  },
+  "authorized_geometry_changes": [
+    "five public panels; c concept only, d/e outcome rows",
+    "visible Cartesian x/y spines bounded by first/last displayed major ticks; user-selected shared score ticks20/60/100 with unchanged20..103 viewport",
+    "categorical viewport translated at fixed span/width/centres for3.5mm bar-to-actual-y-spine gap",
+    "concept enlarged leftward47.5x80mm with38x33.5mm cards,1.4x sofas and12.4mm central observation gap; right edge unchanged",
+    "outcome rows moved up10mm; canvas height156mm",
+    "concept shifted left for5.65mm outcome clearance; upper block retains10.7mm right shift",
+    "one modality icon per public panel; original statistics unchanged",
+    "right outcome axes shifted left4mm; categorical bars brought closer at fixed4.35mm width",
+    "the complete c/d/e group shifted right7.55mm for equal outer whitespace"
+  ],
+  "subplot_titles": [
+    "Manipulation"
+  ],
+  "scientific_coordinates": {
+    "a": {
+      "points": [
+        {
+          "shape": [
+            105,
+            2
+          ],
+          "sha256": "b3e29f07ffc16a77b372e645dcb9b33972a266dd380257f11a8535707b336ff0"
+        }
+      ],
+      "bands": [
+        [
+          {
+            "shape": [
+              323,
+              2
+            ],
+            "sha256": "d72bf18e1b5d8d1472f6448db23aa2c50f62c98d4eaa306ce685bc692240db38"
+          }
+        ]
+      ],
+      "traces": [
+        {
+          "shape": [
+            160,
+            2
+          ],
+          "sha256": "1fedc56ec5fb63553b4a01e756e9469a60c88c92f47a341f7d97dde43208a0ad"
+        }
+      ],
+      "errorbars": [],
+      "bar_heights": []
+    },
+    "b": {
+      "points": [
+        {
+          "shape": [
+            80,
+            2
+          ],
+          "sha256": "f1839f67418ddfeb24858534b07fe6abce6fbd171f0e4ab3d37deb3437dd6286"
+        }
+      ],
+      "bands": [
+        [
+          {
+            "shape": [
+              323,
+              2
+            ],
+            "sha256": "80aa33600151d5774564ee92ed35a231d62c430e143ca5da8d8711aefa83b855"
+          }
+        ]
+      ],
+      "traces": [
+        {
+          "shape": [
+            160,
+            2
+          ],
+          "sha256": "c72fa81cb0cd9a346f673eb11abab3f51579edccb00e2fa6505e8ceb12cf9bf8"
+        }
+      ],
+      "errorbars": [],
+      "bar_heights": []
+    },
+    "c": {
+      "points": [
+        {
+          "shape": [
+            51,
+            2
+          ],
+          "sha256": "4236b96bfa0aa1988ebaa5c758b4f438ff7da51fc80b6e87d78d85781820b03a"
+        }
+      ],
+      "bands": [
+        [
+          {
+            "shape": [
+              323,
+              2
+            ],
+            "sha256": "060efb3ce4d738b750f103ef974766805fa9b52f770a9217eff57d742a1bd640"
+          }
+        ]
+      ],
+      "traces": [
+        {
+          "shape": [
+            160,
+            2
+          ],
+          "sha256": "8658acb574066e5bde1516841f5f2fff1c073f0a629a11546bf4cd0dd4c718fc"
+        }
+      ],
+      "errorbars": [],
+      "bar_heights": []
+    },
+    "e": {
+      "points": [],
+      "bands": [
+        [
+          {
+            "shape": [
+              803,
+              2
+            ],
+            "sha256": "5b2e76f67973eb0b2a1708c9df269157eddc0190c3a43eec73da2a15a45ab2e9"
+          }
+        ],
+        [
+          {
+            "shape": [
+              803,
+              2
+            ],
+            "sha256": "93c7cc236b2d50dfe61ccf9eac8bd5e66789433172cdbf3794b6e2d613699a52"
+          }
+        ]
+      ],
+      "traces": [
+        {
+          "shape": [
+            400,
+            2
+          ],
+          "sha256": "372c2ab15ee705ad8837057037191995ff7a1c93382764b08fbca4f312716be4"
+        },
+        {
+          "shape": [
+            400,
+            2
+          ],
+          "sha256": "203d899770777d0e07509da290f6819af2e72e056b3218da38696de086a51852"
+        }
+      ],
+      "errorbars": [],
+      "bar_heights": []
+    },
+    "f": {
+      "points": [],
+      "bands": [],
+      "traces": [],
+      "errorbars": [],
+      "bar_heights": [
+        0.45,
+        0.225
+      ]
+    },
+    "h": {
+      "points": [],
+      "bands": [],
+      "traces": [
+        {
+          "shape": [
+            4,
+            2
+          ],
+          "sha256": "04bc5332c229c8269152db32b273f0bb95061ef93423f58601b00be8dafc4286"
+        },
+        {
+          "shape": [
+            4,
+            2
+          ],
+          "sha256": "25c71610475ff1650b94dd5250532341775bb2e3ef14b6b406d30c18e03b9511"
+        },
+        {
+          "shape": [
+            4,
+            2
+          ],
+          "sha256": "80eb98a208b73eb646417b7aaf1918c38dea8c9cc18a0c95378f737ed256dbf3"
+        },
+        {
+          "shape": [
+            4,
+            2
+          ],
+          "sha256": "7418ce37d329bef00271d7cd4ddaeef2f6d7a7fa8186eafdc9090555075fbdc8"
+        },
+        {
+          "shape": [
+            4,
+            2
+          ],
+          "sha256": "5ec79cf5b09f68e5820365a9dcd4e2ef6781f3cd8ad7bd1d10a8bad9d6c462f4"
+        },
+        {
+          "shape": [
+            4,
+            2
+          ],
+          "sha256": "f00d01a26832820d080a78dbf87dedd989b439f0e0d0b603fbf2f6360c80015a"
+        }
+      ],
+      "errorbars": [
+        {
+          "mean": {
+            "shape": [
+              4,
+              2
+            ],
+            "sha256": "04bc5332c229c8269152db32b273f0bb95061ef93423f58601b00be8dafc4286"
+          },
+          "intervals": [
+            {
+              "shape": [
+                4,
+                2,
+                2
+              ],
+              "sha256": "04c37e1879c598060e741c014ca79864b1f672670ed99a52ae856bf4fcf4d4f0"
+            }
+          ]
+        },
+        {
+          "mean": {
+            "shape": [
+              4,
+              2
+            ],
+            "sha256": "7418ce37d329bef00271d7cd4ddaeef2f6d7a7fa8186eafdc9090555075fbdc8"
+          },
+          "intervals": [
+            {
+              "shape": [
+                4,
+                2,
+                2
+              ],
+              "sha256": "10780561b53fce9f518431bc3ced93224942b6a74c07b92f89ed592f0adde083"
+            }
+          ]
+        }
+      ],
+      "bar_heights": []
+    },
+    "i": {
+      "points": [],
+      "bands": [],
+      "traces": [],
+      "errorbars": [
+        {
+          "mean": null,
+          "intervals": [
+            {
+              "shape": [
+                1,
+                2,
+                2
+              ],
+              "sha256": "bf10985212d588a1b92ca90b2c897d15f7b42df88e9107dcaa4a9df178eb1e79"
+            }
+          ]
+        },
+        {
+          "mean": null,
+          "intervals": [
+            {
+              "shape": [
+                1,
+                2,
+                2
+              ],
+              "sha256": "6f5bd28bed121bd231c0364196a0ba408c4bdbd69fd01fb5d63b724e5e80d8c1"
+            }
+          ]
+        }
+      ],
+      "bar_heights": [
+        0.595,
+        0.3641025641025641
+      ]
+    }
+  },
+  "output_sha256": "7429e91d85db239280b29263432ba7c7d6fcfcc3a03a81a4564e21cbb4aa1705"
+}

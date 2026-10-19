@@ -1,0 +1,56 @@
+{
+  "test": "Two-sided paired t-tests of Final versus Early within each group",
+  "contrast": "Final minus Early within Obs and within NObs",
+  "analysis_status": "Exploratory secondary follow-up; not preregistered",
+  "p_adjustment": "Holm across the two within-group comparisons",
+  "ci_method": "Pointwise unadjusted 95% paired-t interval for mean change",
+  "between_group_scope": "Existing exploratory Welch change contrast remains a separate primary comparison",
+  "groups": {
+    "Obs": {
+      "n": 39,
+      "early_mean": 5.615384615384615,
+      "final_mean": 3.8205128205128207,
+      "mean_change": -1.794871794871795,
+      "change_sd": 3.5775578790381215,
+      "mean_change_ci95": [
+        -2.954581901362136,
+        -0.6351616883814535
+      ],
+      "t_statistic": -3.1331347095828934,
+      "degrees_of_freedom": 38,
+      "p_value_raw": 0.003325078998932904,
+      "zero_changes": 5,
+      "change_skew": -0.9145155165996092,
+      "p_value_adjusted": 0.006650157997865808
+    },
+    "NObs": {
+      "n": 40,
+      "early_mean": 3.975,
+      "final_mean": 4.65,
+      "mean_change": 0.675,
+      "change_sd": 3.2375006187505595,
+      "mean_change_ci95": [
+        -0.3604029250444809,
+        1.710402925044481
+      ],
+      "t_statistic": 1.318632903574507,
+      "degrees_of_freedom": 39,
+      "p_value_raw": 0.1949832807526651,
+      "zero_changes": 7,
+      "change_skew": 1.0617940659110596,
+      "p_value_adjusted": 0.1949832807526651
+    }
+  },
+  "updated_at_utc": "2026-10-09T03:27:36.864872+00:00",
+  "input_sha256": "482bd50b28f21ce89c2f725407c93af2d522175854f5ce71e0a14ae0d527964a",
+  "input_path": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/discarded_figures/fig5/human_data/csv/timecourse_subject_values.csv",
+  "endpoint_rows": 158,
+  "paired_subject_changes_sha256": "3d3b0cf38613f3b7f6ae122cf1af6f9de521850b8c921b796102ebe3ca6fffb7",
+  "analysis_code_sha256": "e4a8e2fe4a8dee61e2a13946e81c384d2ca3463b4983482d8702dc9f56d0172d",
+  "excluded_endpoint_observations": 0,
+  "versions": {
+    "numpy": "1.24.3",
+    "pandas": "2.0.3",
+    "scipy": "1.11.1"
+  }
+}

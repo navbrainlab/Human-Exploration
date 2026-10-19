@@ -1,0 +1,2 @@
+panel_comparison,group_1,group_2,n_group_1,n_group_2,n_pairs,test,statistic,p_value,estimand,significance
+d_DIS_vs_Non-DIS,DIS,Non-DIS,105,105,105,paired two-sided Wilcoxon,102,1.0434319815944216e-17,Within-participant mean maximum dimension attention weight by observed action class,***

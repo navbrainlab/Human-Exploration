@@ -1,0 +1,241 @@
+{
+  "figure": "Fig. 3",
+  "active_source_directory": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/main_figure/fig3_nhb_tick_endpoints_size_key_20261014",
+  "active_reference_png": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/main_figure/fig3_nhb_tick_endpoints_size_key_20261014.png",
+  "scope": "Standalone rendering from frozen plotting data; no fitting, simulation, test/statistical recalculation",
+  "changes_in_copy": [
+    "Set output stem to fig3; replace archive-only integrity gate with checksum verification of all bundled frozen plot tables. All drawing/data/statistical functions unchanged."
+  ],
+  "original_renderer_sha256": "afb3876556bb9456122e72c304afdb25fbb1958b4015cf8ae749867a073922f4",
+  "files": [
+    {
+      "source": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/main_figure/fig3_nhb_tick_endpoints_size_key_20261014/code/audit_panel_alignment.py",
+      "packaged": "code/audit_panel_alignment.py",
+      "source_sha256": "43958e6b49d897f326ff64e73cbed0bf057e17c06533b5b57d3dededf8111e76",
+      "packaged_sha256": "43958e6b49d897f326ff64e73cbed0bf057e17c06533b5b57d3dededf8111e76",
+      "role": "renderer_dependency"
+    },
+    {
+      "source": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/main_figure/fig3_nhb_tick_endpoints_size_key_20261014/code/axis_break_marks.py",
+      "packaged": "code/axis_break_marks.py",
+      "source_sha256": "ec1c96c4e85e77f48185bf285967dd0cbe4185d93b0be9462d85925bb777f569",
+      "packaged_sha256": "ec1c96c4e85e77f48185bf285967dd0cbe4185d93b0be9462d85925bb777f569",
+      "role": "renderer_dependency"
+    },
+    {
+      "source": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/main_figure/fig3_nhb_tick_endpoints_size_key_20261014/code/detached_axes.py",
+      "packaged": "code/detached_axes.py",
+      "source_sha256": "396b19a65a567158bd9c8a6c6336e4fdf3f9b5ef704c4612c39badf2193a63a9",
+      "packaged_sha256": "396b19a65a567158bd9c8a6c6336e4fdf3f9b5ef704c4612c39badf2193a63a9",
+      "role": "renderer_dependency"
+    },
+    {
+      "source": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/main_figure/fig3_nhb_tick_endpoints_size_key_20261014/code/tick_bounded_spines.py",
+      "packaged": "code/tick_bounded_spines.py",
+      "source_sha256": "613f15e10baa23d1f4fd04c6aff4a3eafe37c65c9d9009481edeab6a1f3152d7",
+      "packaged_sha256": "613f15e10baa23d1f4fd04c6aff4a3eafe37c65c9d9009481edeab6a1f3152d7",
+      "role": "renderer_dependency"
+    },
+    {
+      "source": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/main_figure/fig3_nhb_tick_endpoints_size_key_20261014/code/render_fig3.py",
+      "packaged": "code/render_fig3.py",
+      "source_sha256": "afb3876556bb9456122e72c304afdb25fbb1958b4015cf8ae749867a073922f4",
+      "packaged_sha256": "72477497f9f3bc70af92871568ff1d58e46f7b58c9725bd5eb6ce47b0e33c374",
+      "role": "renderer_dependency"
+    },
+    {
+      "source": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/main_figure/fig3_nhb_tick_endpoints_size_key_20261014/code/draw_data_source_icons.py",
+      "packaged": "code/draw_data_source_icons.py",
+      "source_sha256": "d950202531ce5e35ff356274fdc8e961125d994cb18a76aa8569ae756c7ab68d",
+      "packaged_sha256": "d950202531ce5e35ff356274fdc8e961125d994cb18a76aa8569ae756c7ab68d",
+      "role": "renderer_dependency"
+    },
+    {
+      "source": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/main_figure/fig3_nhb_tick_endpoints_size_key_20261014/code/ei_definition_schematic.py",
+      "packaged": "code/ei_definition_schematic.py",
+      "source_sha256": "7308463f0c9467fff530f44481d1dcc1665ae5544e804b1ab6ed1a46c92681e1",
+      "packaged_sha256": "7308463f0c9467fff530f44481d1dcc1665ae5544e804b1ab6ed1a46c92681e1",
+      "role": "renderer_dependency"
+    },
+    {
+      "source": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/main_figure/fig3_nhb_tick_endpoints_size_key_20261014/data/derived_behavior/a_progress_summary.csv",
+      "packaged": "data/derived_behavior/a_progress_summary.csv",
+      "source_sha256": "a96b8bd534ac8d81e2528592ea9f2cbcd0403f7d6f2f8fdd2edeea9cdfb5fa3e",
+      "packaged_sha256": "a96b8bd534ac8d81e2528592ea9f2cbcd0403f7d6f2f8fdd2edeea9cdfb5fa3e",
+      "role": "frozen_plot_input_or_integrity_metadata"
+    },
+    {
+      "source": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/main_figure/fig3_nhb_tick_endpoints_size_key_20261014/data/derived_behavior/b_rank_summary.csv",
+      "packaged": "data/derived_behavior/b_rank_summary.csv",
+      "source_sha256": "ac13075c8af205607cb6a82f60d8bfd42f784df83c794566da33bd7b06ff879f",
+      "packaged_sha256": "ac13075c8af205607cb6a82f60d8bfd42f784df83c794566da33bd7b06ff879f",
+      "role": "frozen_plot_input_or_integrity_metadata"
+    },
+    {
+      "source": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/main_figure/fig3_nhb_tick_endpoints_size_key_20261014/data/derived_behavior/b_rank_statistics.csv",
+      "packaged": "data/derived_behavior/b_rank_statistics.csv",
+      "source_sha256": "a7059c98cbc51828f92d9a7b3bd679b894d3e6cbb9ff3047c519d15d84f61421",
+      "packaged_sha256": "a7059c98cbc51828f92d9a7b3bd679b894d3e6cbb9ff3047c519d15d84f61421",
+      "role": "frozen_plot_input_or_integrity_metadata"
+    },
+    {
+      "source": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/main_figure/fig3_nhb_tick_endpoints_size_key_20261014/data/derived_behavior/e_squared_distance_kde.csv",
+      "packaged": "data/derived_behavior/e_squared_distance_kde.csv",
+      "source_sha256": "5320b45011dab4bbf92ca6cf08bb2d3a076c9614f039f1b1d564c46235842412",
+      "packaged_sha256": "5320b45011dab4bbf92ca6cf08bb2d3a076c9614f039f1b1d564c46235842412",
+      "role": "frozen_plot_input_or_integrity_metadata"
+    },
+    {
+      "source": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/main_figure/fig3_nhb_tick_endpoints_size_key_20261014/data/derived_ei_language/ei_progress_task1.csv",
+      "packaged": "data/derived_ei_language/ei_progress_task1.csv",
+      "source_sha256": "049722655947fc145ac3ddf205eba331e9cd7f8367dc468bb97e14c0410f8fde",
+      "packaged_sha256": "049722655947fc145ac3ddf205eba331e9cd7f8367dc468bb97e14c0410f8fde",
+      "role": "frozen_plot_input_or_integrity_metadata"
+    },
+    {
+      "source": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/main_figure/fig3_nhb_tick_endpoints_size_key_20261014/data/derived_ei_language/ei_progress_task2.csv",
+      "packaged": "data/derived_ei_language/ei_progress_task2.csv",
+      "source_sha256": "8405d5e88286836f8f13cc407e5e5160d8376f41dbc03c59d31f4b8660ba24eb",
+      "packaged_sha256": "8405d5e88286836f8f13cc407e5e5160d8376f41dbc03c59d31f4b8660ba24eb",
+      "role": "frozen_plot_input_or_integrity_metadata"
+    },
+    {
+      "source": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/main_figure/fig3_nhb_tick_endpoints_size_key_20261014/data/derived_ei_language/language_top7.csv",
+      "packaged": "data/derived_ei_language/language_top7.csv",
+      "source_sha256": "a027fd62d461a85e68829858a9538447f08ec99c31d3ff12075bfe5c4eed42b1",
+      "packaged_sha256": "a027fd62d461a85e68829858a9538447f08ec99c31d3ff12075bfe5c4eed42b1",
+      "role": "frozen_plot_input_or_integrity_metadata"
+    },
+    {
+      "source": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/main_figure/fig3_nhb_tick_endpoints_size_key_20261014/data/derived_ei_language/language_saved_effects.csv",
+      "packaged": "data/derived_ei_language/language_saved_effects.csv",
+      "source_sha256": "01efa21c13e20e0d823d725735e83ef70ddc8def17f627f8be64f0e82c6f130b",
+      "packaged_sha256": "01efa21c13e20e0d823d725735e83ef70ddc8def17f627f8be64f0e82c6f130b",
+      "role": "frozen_plot_input_or_integrity_metadata"
+    },
+    {
+      "source": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/main_figure/fig3_nhb_tick_endpoints_size_key_20261014/data/derived_figure9/c_event_curves.csv",
+      "packaged": "data/derived_figure9/c_event_curves.csv",
+      "source_sha256": "be46454c6a50c7ede7346a9c10bf98aedaebcd8255c0af4a2a67d929ae686c92",
+      "packaged_sha256": "be46454c6a50c7ede7346a9c10bf98aedaebcd8255c0af4a2a67d929ae686c92",
+      "role": "frozen_plot_input_or_integrity_metadata"
+    },
+    {
+      "source": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/main_figure/fig3_nhb_tick_endpoints_size_key_20261014/data/derived_figure9/c_event_reduction_summary.csv",
+      "packaged": "data/derived_figure9/c_event_reduction_summary.csv",
+      "source_sha256": "5afd0ffef943f523dbb041f63715089a8d0ebe599fb6a85baad2735bde0c55e3",
+      "packaged_sha256": "5afd0ffef943f523dbb041f63715089a8d0ebe599fb6a85baad2735bde0c55e3",
+      "role": "frozen_plot_input_or_integrity_metadata"
+    },
+    {
+      "source": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/main_figure/fig3_nhb_tick_endpoints_size_key_20261014/data/derived_figure9/c_event_statistics.csv",
+      "packaged": "data/derived_figure9/c_event_statistics.csv",
+      "source_sha256": "1bf008c93780a88934245c2e2ef20171baa2af2888f8b68c660b3bbd398f9bf7",
+      "packaged_sha256": "1bf008c93780a88934245c2e2ef20171baa2af2888f8b68c660b3bbd398f9bf7",
+      "role": "frozen_plot_input_or_integrity_metadata"
+    },
+    {
+      "source": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/main_figure/fig3_nhb_tick_endpoints_size_key_20261014/data/derived_figure9/e_squared_EI_statistics.csv",
+      "packaged": "data/derived_figure9/e_squared_EI_statistics.csv",
+      "source_sha256": "dae62bf7b4a5b7ede2baaccc8b0e6182a9881a692074b18ce5dd162a1f5ff3c3",
+      "packaged_sha256": "dae62bf7b4a5b7ede2baaccc8b0e6182a9881a692074b18ce5dd162a1f5ff3c3",
+      "role": "frozen_plot_input_or_integrity_metadata"
+    },
+    {
+      "source": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/main_figure/fig3_nhb_tick_endpoints_size_key_20261014/data/derived_figure9/c_event_unit_reductions.csv",
+      "packaged": "data/derived_figure9/c_event_unit_reductions.csv",
+      "source_sha256": "30ed731c5aefba1e20b0150bc174767ac3c09e807b7c49f5ebc5b15b1e9ee105",
+      "packaged_sha256": "30ed731c5aefba1e20b0150bc174767ac3c09e807b7c49f5ebc5b15b1e9ee105",
+      "role": "frozen_plot_input_or_integrity_metadata"
+    },
+    {
+      "source": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/main_figure/fig3_nhb_tick_endpoints_size_key_20261014/data/derived_figure9/e_squared_EI_paired_units.csv",
+      "packaged": "data/derived_figure9/e_squared_EI_paired_units.csv",
+      "source_sha256": "15fb436d01c937642c798bf480ab4f016ed6c58ff29ab7dc5e802df39856a6f5",
+      "packaged_sha256": "15fb436d01c937642c798bf480ab4f016ed6c58ff29ab7dc5e802df39856a6f5",
+      "role": "frozen_plot_input_or_integrity_metadata"
+    },
+    {
+      "source": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/main_figure/fig3_nhb_tick_endpoints_size_key_20261014/caption.md",
+      "packaged": "documentation/caption.md",
+      "source_sha256": "dcf7f2a3ddb6ea5a915dd07eb86105452b0fdb4b404e50aa3c1c20843ec829ae",
+      "packaged_sha256": "dcf7f2a3ddb6ea5a915dd07eb86105452b0fdb4b404e50aa3c1c20843ec829ae",
+      "role": "scientific_documentation"
+    },
+    {
+      "source": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/main_figure/fig3_nhb_tick_endpoints_size_key_20261014/methods.md",
+      "packaged": "documentation/methods.md",
+      "source_sha256": "1a80c49395efa5767ae66aebfd587fe743ebe60471e6ff5a8c634e984a995146",
+      "packaged_sha256": "1a80c49395efa5767ae66aebfd587fe743ebe60471e6ff5a8c634e984a995146",
+      "role": "scientific_documentation"
+    },
+    {
+      "source": "/home/Scarbu/anaconda3/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf",
+      "packaged": "assets/fonts/DejaVuSans.ttf",
+      "source_sha256": "3fdf69cabf06049ea70a00b5919340e2ce1e6d02b0cc3c4b44fb6801bd1e0d22",
+      "packaged_sha256": "3fdf69cabf06049ea70a00b5919340e2ce1e6d02b0cc3c4b44fb6801bd1e0d22",
+      "role": "bundled_font"
+    },
+    {
+      "source": "/home/Scarbu/anaconda3/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans-Bold.ttf",
+      "packaged": "assets/fonts/DejaVuSans-Bold.ttf",
+      "source_sha256": "b184b89e3c1075f22f6b71575b6fc20d4972b3cfd3b23322ca6fd596dcaef167",
+      "packaged_sha256": "b184b89e3c1075f22f6b71575b6fc20d4972b3cfd3b23322ca6fd596dcaef167",
+      "role": "bundled_font"
+    },
+    {
+      "source": "/home/Scarbu/anaconda3/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans-Oblique.ttf",
+      "packaged": "assets/fonts/DejaVuSans-Oblique.ttf",
+      "source_sha256": "ccdf74b350f11fd3dd5774de50e5e6346a1a5da1f5b7d5fb83590665e97a5213",
+      "packaged_sha256": "ccdf74b350f11fd3dd5774de50e5e6346a1a5da1f5b7d5fb83590665e97a5213",
+      "role": "bundled_font"
+    },
+    {
+      "source": "/home/Scarbu/anaconda3/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans-BoldOblique.ttf",
+      "packaged": "assets/fonts/DejaVuSans-BoldOblique.ttf",
+      "source_sha256": "6edf0283160186af451cbee71e7b845f2e4cabf264bb992ce668c83c25465e6f",
+      "packaged_sha256": "6edf0283160186af451cbee71e7b845f2e4cabf264bb992ce668c83c25465e6f",
+      "role": "bundled_font"
+    },
+    {
+      "source": "/home/Scarbu/Projects/mini_DG/Data mining/vis_result/results/DGEM/fig/publication/main_figure/fig3_nhb_tick_endpoints_size_key_20261014.png",
+      "packaged": "reference/fig3.png",
+      "source_sha256": "00bd120d231a4c6d7e860f55f80fc7a2f51434e4ad980139abce2a27e330515d",
+      "packaged_sha256": "00bd120d231a4c6d7e860f55f80fc7a2f51434e4ad980139abce2a27e330515d",
+      "role": "current_active_png_not_renderer_input"
+    },
+    {
+      "source": "/home/Scarbu/anaconda3/lib/python3.11/site-packages/matplotlib/mpl-data/fonts/ttf/LICENSE_DEJAVU",
+      "packaged": "assets/fonts/LICENSE_DEJAVU",
+      "source_sha256": "d75938dec098f06f0ac3c00853065d94f020be1c3c62ef1dc2975ba15b4d9b0e",
+      "packaged_sha256": "d75938dec098f06f0ac3c00853065d94f020be1c3c62ef1dc2975ba15b4d9b0e",
+      "role": "bundled_font_license"
+    }
+  ],
+  "environment": {
+    "python": "3.11.5",
+    "matplotlib": "3.7.2",
+    "numpy": "1.24.3",
+    "pandas": "2.0.3",
+    "scipy": "1.11.1",
+    "Pillow": "9.4.0"
+  },
+  "packaging_generated_files": [
+    {
+      "path": "run.py",
+      "sha256": "4c8bbe550dda4dabb9c4f8b0bb97a91e45992717b89ef20416e670b3f89f7194"
+    },
+    {
+      "path": "README.md",
+      "sha256": "bb21cd1f519bdbf3a0e7e18ebb1de1f42ede6e99a53fee0b1d38b933addcf0d5"
+    },
+    {
+      "path": "requirements.txt",
+      "sha256": "ab62e16b8b189af7721b470d4840e6ab8479cebfbca42c82b0da4d75c0ef494f"
+    },
+    {
+      "path": "plot_input_hashes.json",
+      "sha256": "49157588f6b480f7907b30212f52e304cc00b148e9ac8e5de65db7cad9d18a44"
+    }
+  ]
+}

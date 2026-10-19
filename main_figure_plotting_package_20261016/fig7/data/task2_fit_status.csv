@@ -1,0 +1,6 @@
+model,n_fits,optimizer_success,median_MC_total_loglik_sd,max_MC_total_loglik_sd,all_finite_fits,any_DE_stop,any_local_stop,model_version,MC_dispersion_status
+ACL (gaze),75,75,0,0,,,,,
+Bayesian,80,80,0,0,,,,,
+DGEM,80,9,0.85698956474023391,12.665079752236499,,,,,
+fRL-decay,80,,,,80,77,77,rl_feature_item_20261012,not retained for all banks; independent full-bank reproducibility checked
+naiveRL,80,,,,80,80,80,rl_feature_item_20261012,not retained for all banks; independent full-bank reproducibility checked

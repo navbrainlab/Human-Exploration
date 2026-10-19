@@ -1,0 +1,5 @@
+task,group_a,group_b,n_plot_a,n_plot_b,n_test_a,n_test_b,statistic,p_display,stars,shown,multiplicity,test
+1,0,1,7,15,5,13,8.5,0.020337887421140392,*,True,"Unadjusted, as supplied",Two-sided Mann-Whitney U; within-group 5th-95th percentile test trimming
+1,0,2,7,82,5,73,25.5,0.0014062221834632196,**,False,"Unadjusted, as supplied",Two-sided Mann-Whitney U; within-group 5th-95th percentile test trimming
+1,1,2,15,82,13,73,272.5,0.015111278501027996,*,True,"Unadjusted, as supplied",Two-sided Mann-Whitney U; within-group 5th-95th percentile test trimming
+2,1,2,23,56,20,50,318.0,0.0182591216664244,*,True,"Unadjusted, as supplied",Two-sided Mann-Whitney U; within-group 5th-95th percentile test trimming

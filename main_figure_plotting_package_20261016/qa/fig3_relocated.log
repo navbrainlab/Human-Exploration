@@ -1,0 +1,25 @@
+{"status": "PASS", "png": "/tmp/mini_dg_independent_fig3_3j7fqr2w/fig3/output/fig3.png", "size_mm": [180.0, 196.1], "pixels": [4251, 4632], "fonts": [5.0, 5.685674305870756, 5.777481583023224, 5.889123467545729, 5.95507180995052, 5.969689902733181, 6.0, 6.102821933140712, 6.159001113929383, 6.242890228219284, 6.437903879808232, 6.5332143583519935, 6.617054379068579, 8.0]}
+{
+  "status": "PASS",
+  "figure": "fig3",
+  "rendered": "output/fig3.png",
+  "reference": "reference/fig3.png",
+  "decoded_rgb_pixels_identical": true,
+  "png_sha256": "00bd120d231a4c6d7e860f55f80fc7a2f51434e4ad980139abce2a27e330515d",
+  "reference_sha256": "00bd120d231a4c6d7e860f55f80fc7a2f51434e4ad980139abce2a27e330515d",
+  "png": {
+    "mode": "RGB",
+    "pixels": [
+      4251,
+      4632
+    ],
+    "dpi": [
+      599.9988,
+      599.9988
+    ]
+  },
+  "external_project_access": "Denied by Python audit hook; rendering succeeded without it",
+  "statistical_analysis_rerun": false,
+  "fitting_or_simulation_rerun": false,
+  "different_pixel_count": 0
+}

@@ -1,0 +1,3 @@
+task,statistic,p_raw,n_DIS_units,n_other_units,n_units_with_both,n_DIS_triggers,n_other_triggers,test,alternative,correction_family,trigger_definition,p_fdr_bh,stars
+1,6448,2.480535634698347e-05,105,91,91,1516,1516,Mann-Whitney U,two-sided,Panel c: two tasks,Every DIS trial; source progress-matched controls,4.961071269396694e-05,***
+2,3996,0.0013246246188378854,79,78,77,1849,1849,Mann-Whitney U,two-sided,Panel c: two tasks,Every DIS trial; source progress-matched controls,0.0013246246188378854,**

@@ -1,0 +1,6 @@
+model,n,all_original_DE,any_global,any_local,model_version
+ACL (gaze),75,75,75,75,
+Bayesian,80,80,80,0,
+DGEM,80,9,18,80,
+fRL-decay,80,71,77,77,rl_feature_item_20261012
+naiveRL,80,80,80,80,rl_feature_item_20261012

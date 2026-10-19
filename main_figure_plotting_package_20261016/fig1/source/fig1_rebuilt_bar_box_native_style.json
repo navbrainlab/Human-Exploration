@@ -1,0 +1,580 @@
+{
+  "status": "PASS",
+  "source_type": "behavior and illustrative task schematics",
+  "canvas_mm": [
+    180,
+    186.696
+  ],
+  "font_sizes_pt": [
+    5.0,
+    6.0,
+    8.0
+  ],
+  "public_panel_map": {
+    "a": [
+      "a",
+      "c"
+    ],
+    "b": [
+      "b",
+      "d"
+    ],
+    "c": [
+      "e",
+      "g"
+    ],
+    "e": [
+      "h",
+      "j"
+    ]
+  },
+  "internal_source_panel_map": {
+    "a": "a",
+    "b": "b",
+    "c": "c",
+    "d": "d",
+    "e": "e",
+    "f": "g",
+    "g": "h",
+    "h": "j"
+  },
+  "display_panel_map": {
+    "a": "a",
+    "b": "b",
+    "c": "a",
+    "d": "b",
+    "e": "c",
+    "f": "c",
+    "g": "e",
+    "h": "e"
+  },
+  "public_panel_letters": [
+    "a",
+    "b",
+    "c",
+    "e"
+  ],
+  "compound_panels": {
+    "a": [
+      "a"
+    ],
+    "b": [
+      "b"
+    ],
+    "c": [
+      "e",
+      "f"
+    ],
+    "e": [
+      "g",
+      "h"
+    ]
+  },
+  "source_icons": {
+    "c": {
+      "kind": "task_behavior",
+      "size_mm": [
+        4.8,
+        4.800000000000005
+      ],
+      "letter_offset_mm": [
+        3.8,
+        0.0
+      ],
+      "native_render": true,
+      "embedded_raster_images": 0,
+      "code": "assets/approved_source_icons.py",
+      "code_sha256": "d950202531ce5e35ff356274fdc8e961125d994cb18a76aa8569ae756c7ab68d"
+    },
+    "e": {
+      "kind": "task_behavior",
+      "size_mm": [
+        4.7999999999999865,
+        4.799999999999996
+      ],
+      "letter_offset_mm": [
+        3.8000000000000025,
+        -9.62548559376349e-15
+      ],
+      "native_render": true,
+      "embedded_raster_images": 0,
+      "code": "assets/approved_source_icons.py",
+      "code_sha256": "d950202531ce5e35ff356274fdc8e961125d994cb18a76aa8569ae756c7ab68d"
+    }
+  },
+  "outcome_titles_removed": true,
+  "preceding_layout_spacing": {
+    "before": {
+      "bounds_mm": {
+        "e": [
+          2.8500000000000005,
+          8.853277777777784,
+          49.971833333333336,
+          55.98833333333336
+        ],
+        "f": [
+          48.85,
+          12.54333333333334,
+          86.75000000000001,
+          55.98833333333336
+        ],
+        "g": [
+          91.84999999999998,
+          8.853277777777784,
+          135.97183333333334,
+          55.98833333333336
+        ],
+        "h": [
+          137.84999999999997,
+          12.54333333333334,
+          175.75,
+          55.98833333333336
+        ]
+      },
+      "gaps_mm": [
+        -1.1218333333333348,
+        5.099999999999966,
+        1.8781666666666297
+      ]
+    },
+    "after": {
+      "bounds_mm": {
+        "e": [
+          2.8500000000000005,
+          8.853277777777784,
+          49.971833333333336,
+          55.98833333333336
+        ],
+        "f": [
+          51.97183333333333,
+          12.54333333333334,
+          89.87183333333333,
+          55.98833333333336
+        ],
+        "g": [
+          94.87183333333334,
+          8.853277777777784,
+          138.9936666666667,
+          55.98833333333336
+        ],
+        "h": [
+          140.9936666666667,
+          12.54333333333334,
+          178.89366666666672,
+          55.98833333333336
+        ]
+      },
+      "gaps_mm": [
+        1.999999999999993,
+        5.000000000000014,
+        2.0
+      ]
+    },
+    "shifts_mm": {
+      "e": 0.0,
+      "f": 3.121833333333335,
+      "g": 3.021833333333362,
+      "h": 3.143666666666718
+    },
+    "page_margins_mm": [
+      2.8500000000000005,
+      1.106333333333282
+    ],
+    "definition": "Visible axes/ticks/labels/legends/headings, not just plot rectangles"
+  },
+  "quantitative_row_shift_down_mm": 34.71333333333333,
+  "source_panel_shift_right_mm": 1.0159999999999998,
+  "source_typography": "PPTX typography is preserved by user request; native 5/6/8-pt audit covers only surrounding figure and quantitative panels",
+  "source_font_substitutions": {
+    "Calibri": "Carlito (metric compatible)",
+    "Calibri Light": "Carlito",
+    "Arial": "Liberation Sans (metric compatible)",
+    "-apple-system": "Carlito"
+  },
+  "task_design_geometry": "Complete source slides; common uniform scale and bottom whitespace crop",
+  "global_x_shift_mm": 0.85,
+  "geometry_mm": {
+    "a": {
+      "left_mm": 4.866,
+      "top_mm": 8.50000000000002,
+      "width_mm": 83.0,
+      "height_mm": 116.15219408758111
+    },
+    "b": {
+      "left_mm": 95.866,
+      "top_mm": 8.50000000000002,
+      "width_mm": 83.0,
+      "height_mm": 116.15219408758111
+    },
+    "e": {
+      "left_mm": 12.85,
+      "top_mm": 139.70766666666665,
+      "width_mm": 36.0,
+      "height_mm": 30.000000000000007
+    },
+    "f": {
+      "left_mm": 61.971833333333336,
+      "top_mm": 139.70766666666665,
+      "width_mm": 27.899999999999995,
+      "height_mm": 30.000000000000007
+    },
+    "g": {
+      "left_mm": 104.87183333333336,
+      "top_mm": 139.70766666666665,
+      "width_mm": 33.0,
+      "height_mm": 30.000000000000007
+    },
+    "h": {
+      "left_mm": 150.9936666666667,
+      "top_mm": 139.70766666666665,
+      "width_mm": 27.900000000000006,
+      "height_mm": 30.000000000000007
+    }
+  },
+  "spacing": {
+    "visible": {
+      "bounds_mm": {
+        "e": [
+          2.8500000000000005,
+          7.79494444444445,
+          49.971833333333336,
+          55.98833333333336
+        ],
+        "f": [
+          53.28644444444445,
+          12.54333333333334,
+          89.87183333333333,
+          51.66033333333336
+        ],
+        "g": [
+          94.87183333333334,
+          7.79494444444445,
+          138.9936666666667,
+          55.98833333333336
+        ],
+        "h": [
+          142.30827777777782,
+          12.54333333333334,
+          178.89366666666672,
+          51.66033333333336
+        ]
+      },
+      "gaps_mm": [
+        3.3146111111111125,
+        5.000000000000014,
+        3.3146111111111054
+      ]
+    },
+    "physical_plot_positions_preserved": true,
+    "definition": "Final detached axes/ticks/labels/legends and shared c/e letters"
+  },
+  "text_collisions": [],
+  "personal_best_counts": {
+    "f": [
+      51,
+      51,
+      54
+    ],
+    "h": [
+      40,
+      40
+    ]
+  },
+  "tests": {
+    "f": {
+      "test": "Mann\u2013Whitney U",
+      "groups": [
+        "P2",
+        "P2-only"
+      ],
+      "n": [
+        51,
+        54
+      ],
+      "U": 1016.0,
+      "p_raw": 0.020714828307657238,
+      "displayed": true,
+      "alternative": "two-sided",
+      "adjustment": "none",
+      "method": "SciPy auto: asymptotic tie-corrected with continuity correction",
+      "previous_panel": "g"
+    },
+    "h": {
+      "test": "Mann\u2013Whitney U",
+      "groups": [
+        "FDS-Obs",
+        "FDS-NoObs"
+      ],
+      "n": [
+        40,
+        40
+      ],
+      "U": 591.5,
+      "p_raw": 0.045259782513881706,
+      "displayed": true,
+      "alternative": "two-sided",
+      "adjustment": "none",
+      "method": "SciPy auto: asymptotic tie-corrected with continuity correction",
+      "previous_panel": "j"
+    }
+  },
+  "box_widths_mm": {
+    "f": [
+      4.949999999999991,
+      4.949999999999991,
+      4.950000000000001
+    ],
+    "h": [
+      4.95000000000001,
+      4.95000000000001
+    ]
+  },
+  "public_personal_best_counts": {
+    "c": [
+      51,
+      51,
+      54
+    ],
+    "e": [
+      40,
+      40
+    ]
+  },
+  "public_tests": {
+    "c": {
+      "test": "Mann\u2013Whitney U",
+      "groups": [
+        "P2",
+        "P2-only"
+      ],
+      "n": [
+        51,
+        54
+      ],
+      "U": 1016.0,
+      "p_raw": 0.020714828307657238,
+      "displayed": true,
+      "alternative": "two-sided",
+      "adjustment": "none",
+      "method": "SciPy auto: asymptotic tie-corrected with continuity correction",
+      "previous_panel": "g"
+    },
+    "e": {
+      "test": "Mann\u2013Whitney U",
+      "groups": [
+        "FDS-Obs",
+        "FDS-NoObs"
+      ],
+      "n": [
+        40,
+        40
+      ],
+      "U": 591.5,
+      "p_raw": 0.045259782513881706,
+      "displayed": true,
+      "alternative": "two-sided",
+      "adjustment": "none",
+      "method": "SciPy auto: asymptotic tie-corrected with continuity correction",
+      "previous_panel": "j"
+    }
+  },
+  "learning_artist_fingerprints": {
+    "e": [
+      {
+        "group": "P1",
+        "line_sha256": "303e1a24c38793040f27470f44bb9fe165e7e753b2018fd0c49e1eec2ec1323b",
+        "band_sha256": "0d806014a1d72d78f7ab890113d01c82147d86d0496be272654d8b406658e1e3"
+      },
+      {
+        "group": "P2",
+        "line_sha256": "2f0fad1d30cac75c1e783f1432b8c26aababb96b44ba2cd2930114ee32e4b084",
+        "band_sha256": "b81931f1b29b52725ce80045d5fa1153da7e9850d4025639235ed65bd2230649"
+      },
+      {
+        "group": "P2-only",
+        "line_sha256": "577e0bfd30c7892a8cafac8f97032ee6912ddcf74ddf6f488c4fa9150ad9ce9c",
+        "band_sha256": "1cad7c7dafd693d1d2d9c7689f035dcf0070b012d4f468de4dcf700d59002549"
+      }
+    ],
+    "g": [
+      {
+        "group": "FDS-Obs",
+        "line_sha256": "bb7434758ca6299492eb7dc19b7a96a35c161187a718bee03b3c6cf2f645d676",
+        "band_sha256": "630f23bf471cb55c1840a9bdac5247b86890f93243e4fc09df1e982e9dd781bb"
+      },
+      {
+        "group": "FDS-NoObs",
+        "line_sha256": "3284eecd26d90df0d9f8d6b91fd1f6e99b2813ddd29fdad6986551229b89a8b7",
+        "band_sha256": "46739e1e12258e3524245d2c39a99c59771a239d50828746105e404370da655b"
+      }
+    ]
+  },
+  "learning_sem": "Across individually smoothed participant trajectories",
+  "fullscore_panels_moved_to": "supplementary_figure/figS1_fullscore_rates_20261013.png",
+  "time_estimand": "First trial attaining each participant's observed personal maximum; includes non-completers",
+  "inherited_inputs_sha256": {
+    "fig2_task1_human_random_statistics.csv": "546c237ad626db93ecd60d8bf06e3d2ea57050d6f0dc3e16dc2a3fc7fc21cab9",
+    "fig1_task1_learning_extended.csv": "f0f625238ba4a9434e3c74d6c85fffc76542f87808e30c1d15dfb473e87e8569",
+    "fig1_task1_fullscore_time.csv": "24820a20895bfa7b22f3b1f3cf391fdaa2b04aca6c625f17e90f7879bb810993",
+    "fig1_learning_display.csv": "44aaa8080dbafd93bee615c612fa703597e487da9d5e02d702a80e9d30024a61",
+    "fig1_statistics.json": "dadcb43ad7f8427209e72f0f382d7c161250359111f2f10c05b346e36b09d8da",
+    "fig2_task1_human_random_subject.csv": "3e1ea4d4a32fcda06b7853b182b9150eecb706ba88c8bfcee22a8b0d84d4f9b5",
+    "fig1_task1_learning_clusters.csv": "8e323a6190ae4f61c925c7691d4f3b64d66295a28b1d8abb878f2bbe3a2f42cd",
+    "fig1_risk_differences.csv": "3200fcb77c3ddfa0b7179c7cbfad8675f91fd838821936078e5ccda2b5c4b985",
+    "fig1_task2_observed_scores.csv": "b0db295f830bd65451a8236bbc73dbebf8414e0c03d92b451b6014b67f673b07",
+    "fig1_reference_personal_best.csv": "b4068728965e20ea9c03d92034250fc357f0d1a9048445eacabcfc049254efcb",
+    "fig2a_clusters.csv": "fcc14ff7fed9e85cd58fe1fb6bef721bb3b76feba85ef5c5be4c4a1f28fdce32",
+    "fig1_task1_learning.csv": "d2e0abca7ac0fa171f486fed380152e3c9abca78879b691e8939358b2f0ac222",
+    "fig2_task1_enrichment_trials.csv": "733c24bed4becaed33880d628223fc2befb37cb5a7c0a97350e98bf57b3e7d71",
+    "fig1_all_cohort_statistics.json": "000f3173dbb79f25038dd4e3c7fdf6300a5e2bc3a0f898f62fabd874517e266d",
+    "fig1_task2_learning_extended.csv": "b60240f6f9b8d3dffa736962afd31449fbff859db850faa7cd0d95492e8dafcb",
+    "fig2_task2_term_frequency_statistics.csv": "a5d5f5bc3e50893c57be8e700064f28261b755f501347e99ee9903a42bf5d40e",
+    "fig1_task1_learning_trial_statistics.csv": "3ea2f04cc20a52395f627bc594f85ee451ac01e71d83a4fcf61aea58aea7e933",
+    "fig1_task1_personal_best.csv": "928cdce84e31784563d90dbe0bcaf42294086852c685cd5b91c0c8b45fe09a73",
+    "fig2_mode_enrichment_24bins.csv": "4ac06da262ca6d345f8dd1f1ee42978b8a76678c7ec43429aaecbe690515d71f",
+    "fig2_task2_term_frequency_subject.csv": "102ae09f5e566d10c64774f6c5077245733bd700bbba78aa029f0394c8b50272",
+    "fig2_task2_enrichment_available79.csv": "d52c5787c9b538a0b0a7cfac7ba54eecd5c3dcbfc4224e6ee4d20832744265e1",
+    "fig2_task1_identification_available_surveys.csv": "bf68cda8311a67d542e329c32034c6f553371de215a9ae5946f0459664669687",
+    "fig1_reference_panel_statistics.json": "2c514eb1b0ebd04be040576e1bad05e3076062d8e0dc73f91c185dc3dc0c101f",
+    "fig1_all_cohort_cumulative.csv": "a4f47f2845dcfc5b42d9494cea46f6c05572221bebb085329ae689d8b7bd527f",
+    "fig1_task2_fullscore_time.csv": "28795aa3437b31143af568a2f34f6133c3d2eb1f08a10466d6523d49d91cd830",
+    "fig2_task2_balanced_correct_evidence.csv": "6647e74a8393c0bbd7e9fa0a461a96d4ef43065813920df9128c9d797554c9cd",
+    "fig1_task2_learning.csv": "56968f2fb5591d1942fded6ddb6118497ec69588d8c7324893a4de64a0ab2079",
+    "fig1_task1_perfect_rate.csv": "16e5adac52e7b6f2e178f97073c21caacfa74ab0d2b75c2b1ca3f155ddaf8ead",
+    "fig1_task2_perfect_rate.csv": "b073ed7a83496d917124e43f1577d6bb1319f2ff506f345e9cdefdc4f525fe9e"
+  },
+  "task_design_pptx_sha256": "0223edc5dd2a4b6ef90f41ededc7ffd62b355b1daf8d916fed9fef16d057243a",
+  "task_design_source_image_count": 2,
+  "y_axis_breaks": {
+    "e": {
+      "panel": "e",
+      "ylim": [
+        50.0,
+        100.0
+      ],
+      "scale": "linear",
+      "version": "fig5f-double-slash-20261012",
+      "marked": true,
+      "slash_count": 2,
+      "width_mm": 1.2276,
+      "slash_height_mm": 0.6,
+      "centers_mm": [
+        -1.95,
+        -1.11
+      ],
+      "extension_mm": 2.7,
+      "x_tick_pad_pt": 7.0,
+      "meaning": "Zero-to-lower-bound interval omitted below first displayed y value",
+      "left_spine_outward_pt": 5.0,
+      "x_tick_text_collisions": [],
+      "rendered_strokes": [
+        {
+          "width_mm": 1.2275999999999991,
+          "height_mm": 0.6000000000000006,
+          "center_mm": -1.9499999999999993
+        },
+        {
+          "width_mm": 1.2275999999999991,
+          "height_mm": 0.5999999999999983,
+          "center_mm": -1.11
+        }
+      ],
+      "geometry_verdict": "PASS"
+    },
+    "g": {
+      "panel": "g",
+      "ylim": [
+        45.0,
+        90.0
+      ],
+      "scale": "linear",
+      "version": "fig5f-double-slash-20261012",
+      "marked": true,
+      "slash_count": 2,
+      "width_mm": 1.2276,
+      "slash_height_mm": 0.6,
+      "centers_mm": [
+        -1.95,
+        -1.11
+      ],
+      "extension_mm": 2.7,
+      "x_tick_pad_pt": 7.0,
+      "meaning": "Zero-to-lower-bound interval omitted below first displayed y value",
+      "left_spine_outward_pt": 5.0,
+      "x_tick_text_collisions": [],
+      "rendered_strokes": [
+        {
+          "width_mm": 1.2276000000000173,
+          "height_mm": 0.6000000000000006,
+          "center_mm": -1.9499999999999993
+        },
+        {
+          "width_mm": 1.2276000000000173,
+          "height_mm": 0.5999999999999983,
+          "center_mm": -1.11
+        }
+      ],
+      "geometry_verdict": "PASS"
+    }
+  },
+  "detached_axes": {
+    "e": {
+      "status": "PASS",
+      "left_position": [
+        "outward",
+        5.0
+      ],
+      "bottom_position": [
+        "outward",
+        3.0
+      ],
+      "corner_endpoint_distance_mm": 2.057030251792648,
+      "conservative_visible_corner_gap_mm": 1.8100858073482038,
+      "slash_to_x_endpoint_visible_gap_mm": 0.9031444444444454,
+      "slash_tick_text_collisions": []
+    },
+    "f": {
+      "status": "PASS",
+      "left_position": [
+        "outward",
+        5.0
+      ],
+      "bottom_position": [
+        "outward",
+        3.0
+      ],
+      "corner_endpoint_distance_mm": 6.500618441614371,
+      "conservative_visible_corner_gap_mm": 6.253673997169926
+    },
+    "g": {
+      "status": "PASS",
+      "left_position": [
+        "outward",
+        5.0
+      ],
+      "bottom_position": [
+        "outward",
+        3.0
+      ],
+      "corner_endpoint_distance_mm": 2.0570302517926424,
+      "conservative_visible_corner_gap_mm": 1.810085807348198,
+      "slash_to_x_endpoint_visible_gap_mm": 0.9031444444444359,
+      "slash_tick_text_collisions": []
+    },
+    "h": {
+      "status": "PASS",
+      "left_position": [
+        "outward",
+        5.0
+      ],
+      "bottom_position": [
+        "outward",
+        3.0
+      ],
+      "corner_endpoint_distance_mm": 11.577363622897488,
+      "conservative_visible_corner_gap_mm": 11.330419178453043
+    }
+  },
+  "detached_axes_helper_sha256": "396b19a65a567158bd9c8a6c6336e4fdf3f9b5ef704c4612c39badf2193a63a9",
+  "no_fitting_or_simulation": true
+}

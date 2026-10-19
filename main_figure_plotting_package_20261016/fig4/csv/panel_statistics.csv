@@ -1,0 +1,14 @@
+﻿analysis,n,beta_full_range,ci_low_95,ci_high_95,p,early_window,late_window,late_window_trials_min,late_window_trials_max,note,sample,n_participants,n_rows_after_fill,uncertainty,data_rule,events,rate,rate_difference,test,n_rows,wald_chi2,df,model,mean,ci_low_95_bootstrap,ci_high_95_bootstrap,mean_difference,lr_chi2,random_intercept_variance
+01a_early_dis_late_score_task1,105.0,12.649592600646482,6.5891552228974595,18.710029978395504,4.296710116626994e-05,first floor(50% x observed trials),final ceil(5% x observed trials); observed trials only,1.0,3.0,,,,,,,,,,,,,,,,,,,,
+01b_early_dis_late_score_task2,80.0,16.744417760847938,1.7408101235718725,31.748025398124003,0.028715453811434016,first floor(50% x observed trials),final ceil(5% x observed trials); observed trials only,1.0,3.0,,,,,,,,,,,,,,,,,,,,
+02_p1_to_early_p2_dis,51.0,0.6201716714535519,0.30273659097949474,0.937606751927609,0.00012857410640989409,,,,,within Task 1: P1 3D-NE to early P2 4D-E; not Task 1 to Task 2,,,,,,,,,,,,,,,,,,,
+04_learning_curve_descriptive,,,,,,,,,,,Observation,40.0,2400.0,smoothed +/-1 SEM,"after first score=100, missing scheduled trials through 60 are filled with 100",,,,,,,,,,,,,,
+04_learning_curve_descriptive,,,,,,,,,,,DIS-blocked,40.0,2400.0,smoothed +/-1 SEM,"after first score=100, missing scheduled trials through 60 are filled with 100",,,,,,,,,,,,,,
+05_ever_full_score,40.0,,0.3070530781090492,0.6017090820106794,,,,,,,Observation,,,,,18.0,0.45,,,,,,,,,,,,
+05_ever_full_score,40.0,,0.12316091323540743,0.37503096742310027,,,,,,,DIS-blocked,,,,,9.0,0.225,,,,,,,,,,,,
+05_full_score_rate_difference,80.0,,,,0.03989111970448495,,,,,,Observation versus DIS-blocked,,,,,,,0.225,two-sided Barnard unconditional exact test,,,,,,,,,,
+06_condition_by_trial_progress_GEE,,,,,0.02018363396061409,,,,,,,80.0,,,"after first score=100, missing scheduled trials through 60 are filled with 100",,,,,4800.0,11.646427589375037,4.0,"Gaussian GEE, exchangeable working correlation, cubic spline df=4",,,,,,
+07_relevance_classification_accuracy,40.0,,,,,,,,,,Observation,,,,,,,,,,,,,0.595,0.505,0.6900000000000001,,,
+07_relevance_classification_accuracy,39.0,,,,,,,,,,DIS-blocked,,,,,,,,,,,,,0.3641025641025641,0.3230769230769231,0.4051282051282051,,,
+07_relevance_accuracy_difference,79.0,,,,0.00036589285526049723,,,,,,Observation versus DIS-blocked,,,,,,,,two-sided Mann-Whitney U,,,,,,,,0.2308974358974359,,
+08_condition_by_phase_mixed_model,,,,,0.141106658793177,,,,,,,80.0,,,,,,,,,,3.0,linear mixed model with participant random intercept; LR interaction test,,,,,5.459080267651643,9.941702805140508

@@ -1,0 +1,355 @@
+{
+  "a1": {
+    "bottom": {
+      "status": "PASS",
+      "bounds": [
+        0.0,
+        1.0
+      ],
+      "outer_displayed_major_ticks": [
+        0.0,
+        1.0
+      ]
+    },
+    "left": {
+      "status": "PASS",
+      "bounds": [
+        0.0,
+        90.0
+      ],
+      "outer_displayed_major_ticks": [
+        0.0,
+        90.0
+      ]
+    }
+  },
+  "a2": {
+    "bottom": {
+      "status": "PASS",
+      "bounds": [
+        0.0,
+        1.0
+      ],
+      "outer_displayed_major_ticks": [
+        0.0,
+        1.0
+      ]
+    },
+    "left": {
+      "status": "PASS",
+      "bounds": [
+        0.0,
+        150.0
+      ],
+      "outer_displayed_major_ticks": [
+        0.0,
+        150.0
+      ]
+    }
+  },
+  "b1": {
+    "bottom": {
+      "status": "PASS",
+      "bounds": [
+        1.0,
+        4.0
+      ],
+      "outer_displayed_major_ticks": [
+        1.0,
+        4.0
+      ]
+    },
+    "left": {
+      "status": "PASS",
+      "bounds": [
+        0.0,
+        0.3
+      ],
+      "outer_displayed_major_ticks": [
+        0.0,
+        0.3
+      ]
+    }
+  },
+  "b2": {
+    "bottom": {
+      "status": "PASS",
+      "bounds": [
+        1.0,
+        5.0
+      ],
+      "outer_displayed_major_ticks": [
+        1.0,
+        5.0
+      ]
+    },
+    "left": {
+      "status": "PASS",
+      "bounds": [
+        0.0,
+        0.3
+      ],
+      "outer_displayed_major_ticks": [
+        0.0,
+        0.3
+      ]
+    }
+  },
+  "c1": {
+    "bottom": {
+      "status": "PASS",
+      "bounds": [
+        -3.0,
+        3.0
+      ],
+      "outer_displayed_major_ticks": [
+        -3.0,
+        3.0
+      ]
+    },
+    "left": {
+      "status": "PASS",
+      "bounds": [
+        3.0,
+        9.0
+      ],
+      "outer_displayed_major_ticks": [
+        3.0,
+        9.0
+      ]
+    }
+  },
+  "c1_reduction": {
+    "bottom": {
+      "status": "PASS",
+      "bounds": [
+        0.0,
+        1.0
+      ],
+      "outer_displayed_major_ticks": [
+        0.0,
+        1.0
+      ]
+    },
+    "left": {
+      "status": "PASS",
+      "bounds": [
+        2.2,
+        4.0
+      ],
+      "outer_displayed_major_ticks": [
+        2.2,
+        4.0
+      ]
+    }
+  },
+  "c2": {
+    "bottom": {
+      "status": "PASS",
+      "bounds": [
+        -3.0,
+        3.0
+      ],
+      "outer_displayed_major_ticks": [
+        -3.0,
+        3.0
+      ]
+    },
+    "left": {
+      "status": "PASS",
+      "bounds": [
+        8.0,
+        14.0
+      ],
+      "outer_displayed_major_ticks": [
+        8.0,
+        14.0
+      ]
+    }
+  },
+  "c2_reduction": {
+    "bottom": {
+      "status": "PASS",
+      "bounds": [
+        0.0,
+        1.0
+      ],
+      "outer_displayed_major_ticks": [
+        0.0,
+        1.0
+      ]
+    },
+    "left": {
+      "status": "PASS",
+      "bounds": [
+        2.0,
+        3.6
+      ],
+      "outer_displayed_major_ticks": [
+        2.0,
+        3.6
+      ]
+    }
+  },
+  "e1": {
+    "bottom": {
+      "status": "PASS",
+      "bounds": [
+        0.0,
+        1.0
+      ],
+      "outer_displayed_major_ticks": [
+        0.0,
+        1.0
+      ]
+    },
+    "left": {
+      "status": "PASS",
+      "bounds": [
+        10.0,
+        28.0
+      ],
+      "outer_displayed_major_ticks": [
+        10.0,
+        28.0
+      ]
+    }
+  },
+  "e2": {
+    "bottom": {
+      "status": "PASS",
+      "bounds": [
+        0.0,
+        1.0
+      ],
+      "outer_displayed_major_ticks": [
+        0.0,
+        1.0
+      ]
+    },
+    "left": {
+      "status": "PASS",
+      "bounds": [
+        3.9,
+        4.8
+      ],
+      "outer_displayed_major_ticks": [
+        3.9,
+        4.8
+      ]
+    }
+  },
+  "f1": {
+    "bottom": {
+      "status": "PASS",
+      "bounds": [
+        0.0,
+        1500.0
+      ],
+      "outer_displayed_major_ticks": [
+        0.0,
+        1500.0
+      ]
+    },
+    "left": {
+      "status": "PASS",
+      "bounds": [
+        0.0,
+        2.0
+      ],
+      "outer_displayed_major_ticks": [
+        0.0,
+        2.0
+      ]
+    }
+  },
+  "f2": {
+    "bottom": {
+      "status": "PASS",
+      "bounds": [
+        0.0,
+        32.0
+      ],
+      "outer_displayed_major_ticks": [
+        0.0,
+        32.0
+      ]
+    },
+    "left": {
+      "status": "PASS",
+      "bounds": [
+        0.0,
+        0.06
+      ],
+      "outer_displayed_major_ticks": [
+        0.0,
+        0.06
+      ]
+    }
+  },
+  "g_effect": {
+    "bottom": {
+      "status": "PASS",
+      "bounds": [
+        0.0,
+        75.0
+      ],
+      "outer_displayed_major_ticks": [
+        0.0,
+        75.0
+      ]
+    }
+  },
+  "a1_probability": {
+    "right": {
+      "status": "PASS",
+      "bounds": [
+        0.0,
+        0.9
+      ],
+      "outer_displayed_major_ticks": [
+        0.0,
+        0.9
+      ]
+    }
+  },
+  "a2_probability": {
+    "right": {
+      "status": "PASS",
+      "bounds": [
+        0.0,
+        0.9
+      ],
+      "outer_displayed_major_ticks": [
+        0.0,
+        0.9
+      ]
+    }
+  },
+  "e1_probability": {
+    "right": {
+      "status": "PASS",
+      "bounds": [
+        0.0,
+        0.9
+      ],
+      "outer_displayed_major_ticks": [
+        0.0,
+        0.9
+      ]
+    }
+  },
+  "e2_probability": {
+    "right": {
+      "status": "PASS",
+      "bounds": [
+        0.0,
+        0.9
+      ],
+      "outer_displayed_major_ticks": [
+        0.0,
+        0.9
+      ]
+    }
+  }
+}

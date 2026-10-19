@@ -1,0 +1,23 @@
+{
+  "output": "/tmp/mini_dg_independent_fig7_vdd3s_xb/fig7/output/fig7.png",
+  "manifest": "/tmp/mini_dg_independent_fig7_vdd3s_xb/fig7/output/fig7/fig7_manifest.json"
+}
+{
+  "figure": 7,
+  "output": "/tmp/mini_dg_independent_fig7_vdd3s_xb/fig7/output/fig7.png",
+  "reference": "/tmp/mini_dg_independent_fig7_vdd3s_xb/fig7/reference/fig7.png",
+  "pixels": [
+    4251,
+    4255
+  ],
+  "mode": "RGB",
+  "dpi": [
+    599.9988,
+    599.9988
+  ],
+  "same_shape": true,
+  "different_pixels": 0,
+  "pixel_identical": true,
+  "file_identical": true,
+  "scope": "Frozen plotting tables only; no model fitting, simulation or statistical tests."
+}

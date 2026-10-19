@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "command": "python verify.py",
+  "original_project_access_denied": true,
+  "denied_access_attempts": [],
+  "pixel_identical": true,
+  "differing_pixels": 0,
+  "shape": [
+    2338,
+    4251,
+    3
+  ],
+  "mode": "RGB",
+  "dpi": [
+    599.9988,
+    599.9988
+  ],
+  "reference_sha256": "39dd3585f95e01dde1e6618162d0dbcdf07a5d31a4b7fe834391465bd52e2402",
+  "output_sha256": "39dd3585f95e01dde1e6618162d0dbcdf07a5d31a4b7fe834391465bd52e2402",
+  "scope": "Exact frozen-data rendering only; no fitting, simulation or new statistical tests."
+}

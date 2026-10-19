@@ -1,0 +1,3 @@
+plot_group,n,n_perfect,rate,lower,upper
+FDS-Obs,40,18,0.45,0.307050752809,0.601711701116
+FDS-NoObs,40,12,0.3,0.180746709157,0.454303106543

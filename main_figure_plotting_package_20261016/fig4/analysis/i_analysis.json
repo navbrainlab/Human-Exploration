@@ -1,0 +1,27 @@
+{
+  "scope": "Exploratory user-requested four-stage independent-group contrasts; not an interaction test",
+  "stage_fields": {
+    "Post-observation": "previously exported coded observation counts",
+    "Early": "q2_1",
+    "Mid": "q2_2",
+    "Late": "q2_3"
+  },
+  "excluded_endpoint": "q2_4 union of reward-related/unrelated elements",
+  "experimental_unit": "participant; 40 per group, same 80 people at each stage",
+  "summary": "observed arithmetic mean \u00b11 SEM",
+  "test": "two-sided Mann\u2013Whitney U; asymptotic, tie-corrected, continuity correction",
+  "multiplicity": "Holm correction across all four stage comparisons",
+  "source_discrepancies": 2,
+  "post_observation_coding": "Reused existing participant export; original coder/protocol not supplied, no new NLP coding",
+  "source_inputs_sha256": {
+    "source/i_reference_subject_values.csv": "4666816ca91e913b58709db56049b40f32db8b1d93435fd0127d7ee9f8dd0b06",
+    "source/i_questionnaire_lists.csv": "db9a85ba6bfe07875217cb749cea15e06ecd2147fa91d3cbe89bf687c7d1241c"
+  },
+  "derived_files_sha256": {
+    "analysis/i_noticed_subjects.csv": "4a482525833bc8b804b1528633d9ff6994ec9770a030f9d24fb538c3fac0f181",
+    "analysis/i_noticed_summary.csv": "3f16684fffdd5348ac0fb0915400bdc58437c1ea2ff66c214cf6240116abefef",
+    "analysis/i_stage_contrasts.csv": "6a64ad5db9c84513457af4917d6ace51cd0f006ab9685f6970ab0488aa422a43",
+    "analysis/i_source_discrepancies.csv": "a3ecb5b7015ddad043d201d3ec234b2d1a34598c2900b19e088f93c5f244fbe5"
+  },
+  "historical_interaction": "P=.1411 concerns the previous differently mapped endpoint; not used here"
+}

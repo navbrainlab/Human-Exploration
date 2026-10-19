@@ -1,0 +1,6 @@
+task,model,mean,se,n_subjects,n_trials_total,n_parameters,p_vs_dgem,significance,test_family,choice_policy,source_version,gaze_conditioned,likelihood_event,chance
+Task 2,DGEM,0.012465236978631906,0.0022636407060407709,80,4111,7,,,,particle grouped-PL,current_free_beta_7,False,unordered 16-choose-4,0.00054945054945054945
+Task 2,fRL-decay,0.0029533951322577448,0.0011761189675255426,80,4111,4,2.9132921146948362e-14,***,behavioural Holm(3),1820-set ActionScore-softmax,V2_combo_softmax,False,unordered 16-choose-4,0.00054945054945054945
+Task 2,naiveRL,0.00090789187325354508,0.00010741484407100367,80,4111,3,2.4457076640945737e-14,***,behavioural Holm(3),1820-set ActionScore-softmax,V2_combo_softmax,False,unordered 16-choose-4,0.00054945054945054945
+Task 2,Bayesian,0.0017195686293890212,0.00037796958355370126,80,4111,1,2.4457076640945737e-14,***,behavioural Holm(3),1820-set ActionScore-softmax,V2_combo_softmax,False,unordered 16-choose-4,0.00054945054945054945
+Task 2,ACL,0.0030924030727003376,0.0011759535246783788,80,4111,5,3.9162741888107482e-14,***,separate gaze-conditional/fallback comparison,1820-set ActionScore-softmax,V2_combo_softmax,True,unordered 16-choose-4,0.00054945054945054945

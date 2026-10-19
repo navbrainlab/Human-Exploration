@@ -1,0 +1,479 @@
+﻿plot_id,subject_id,group_label,color,legend_label,stage_order,stage_label,value
+03_obs_vs_nobs_score_relevance,26050701,Obs,#E67E28,Obs (*),1,Initial,5.0
+03_obs_vs_nobs_score_relevance,26050702,Obs,#E67E28,Obs (*),1,Initial,9.0
+03_obs_vs_nobs_score_relevance,26050801,Obs,#E67E28,Obs (*),1,Initial,2.0
+03_obs_vs_nobs_score_relevance,26050901,Obs,#E67E28,Obs (*),1,Initial,5.0
+03_obs_vs_nobs_score_relevance,26050902,Obs,#E67E28,Obs (*),1,Initial,5.0
+03_obs_vs_nobs_score_relevance,26050903,Obs,#E67E28,Obs (*),1,Initial,3.0
+03_obs_vs_nobs_score_relevance,26051101,Obs,#E67E28,Obs (*),1,Initial,8.0
+03_obs_vs_nobs_score_relevance,26051102,Obs,#E67E28,Obs (*),1,Initial,3.0
+03_obs_vs_nobs_score_relevance,26051103,Obs,#E67E28,Obs (*),1,Initial,2.0
+03_obs_vs_nobs_score_relevance,26051104,Obs,#E67E28,Obs (*),1,Initial,8.0
+03_obs_vs_nobs_score_relevance,26051105,Obs,#E67E28,Obs (*),1,Initial,9.0
+03_obs_vs_nobs_score_relevance,26051201,Obs,#E67E28,Obs (*),1,Initial,5.0
+03_obs_vs_nobs_score_relevance,26051202,Obs,#E67E28,Obs (*),1,Initial,9.0
+03_obs_vs_nobs_score_relevance,26051203,Obs,#E67E28,Obs (*),1,Initial,5.0
+03_obs_vs_nobs_score_relevance,26051204,Obs,#E67E28,Obs (*),1,Initial,5.0
+03_obs_vs_nobs_score_relevance,26051301,Obs,#E67E28,Obs (*),1,Initial,5.0
+03_obs_vs_nobs_score_relevance,26051302,Obs,#E67E28,Obs (*),1,Initial,9.0
+03_obs_vs_nobs_score_relevance,26051303,Obs,#E67E28,Obs (*),1,Initial,2.0
+03_obs_vs_nobs_score_relevance,26051304,Obs,#E67E28,Obs (*),1,Initial,5.0
+03_obs_vs_nobs_score_relevance,26051402,Obs,#E67E28,Obs (*),1,Initial,4.0
+03_obs_vs_nobs_score_relevance,26051403,Obs,#E67E28,Obs (*),1,Initial,11.0
+03_obs_vs_nobs_score_relevance,26051404,Obs,#E67E28,Obs (*),1,Initial,16.0
+03_obs_vs_nobs_score_relevance,26051501,Obs,#E67E28,Obs (*),1,Initial,6.0
+03_obs_vs_nobs_score_relevance,26051502,Obs,#E67E28,Obs (*),1,Initial,6.0
+03_obs_vs_nobs_score_relevance,26051503,Obs,#E67E28,Obs (*),1,Initial,4.0
+03_obs_vs_nobs_score_relevance,26051801,Obs,#E67E28,Obs (*),1,Initial,1.0
+03_obs_vs_nobs_score_relevance,26051802,Obs,#E67E28,Obs (*),1,Initial,4.0
+03_obs_vs_nobs_score_relevance,26061202,Obs,#E67E28,Obs (*),1,Initial,3.0
+03_obs_vs_nobs_score_relevance,26061402,Obs,#E67E28,Obs (*),1,Initial,4.0
+03_obs_vs_nobs_score_relevance,26061503,Obs,#E67E28,Obs (*),1,Initial,2.0
+03_obs_vs_nobs_score_relevance,26062201,Obs,#E67E28,Obs (*),1,Initial,17.0
+03_obs_vs_nobs_score_relevance,26062202,Obs,#E67E28,Obs (*),1,Initial,2.0
+03_obs_vs_nobs_score_relevance,26062301,Obs,#E67E28,Obs (*),1,Initial,3.0
+03_obs_vs_nobs_score_relevance,26062302,Obs,#E67E28,Obs (*),1,Initial,12.0
+03_obs_vs_nobs_score_relevance,26062503,Obs,#E67E28,Obs (*),1,Initial,3.0
+03_obs_vs_nobs_score_relevance,26062504,Obs,#E67E28,Obs (*),1,Initial,6.0
+03_obs_vs_nobs_score_relevance,26062701,Obs,#E67E28,Obs (*),1,Initial,5.0
+03_obs_vs_nobs_score_relevance,26070101,Obs,#E67E28,Obs (*),1,Initial,4.0
+03_obs_vs_nobs_score_relevance,26070601,Obs,#E67E28,Obs (*),1,Initial,2.0
+03_obs_vs_nobs_score_relevance,26050701,Obs,#E67E28,Obs (*),2,Final,2.0
+03_obs_vs_nobs_score_relevance,26050702,Obs,#E67E28,Obs (*),2,Final,2.0
+03_obs_vs_nobs_score_relevance,26050801,Obs,#E67E28,Obs (*),2,Final,4.0
+03_obs_vs_nobs_score_relevance,26050901,Obs,#E67E28,Obs (*),2,Final,4.0
+03_obs_vs_nobs_score_relevance,26050902,Obs,#E67E28,Obs (*),2,Final,1.0
+03_obs_vs_nobs_score_relevance,26050903,Obs,#E67E28,Obs (*),2,Final,5.0
+03_obs_vs_nobs_score_relevance,26051101,Obs,#E67E28,Obs (*),2,Final,3.0
+03_obs_vs_nobs_score_relevance,26051102,Obs,#E67E28,Obs (*),2,Final,6.0
+03_obs_vs_nobs_score_relevance,26051103,Obs,#E67E28,Obs (*),2,Final,4.0
+03_obs_vs_nobs_score_relevance,26051104,Obs,#E67E28,Obs (*),2,Final,2.0
+03_obs_vs_nobs_score_relevance,26051105,Obs,#E67E28,Obs (*),2,Final,4.0
+03_obs_vs_nobs_score_relevance,26051201,Obs,#E67E28,Obs (*),2,Final,3.0
+03_obs_vs_nobs_score_relevance,26051202,Obs,#E67E28,Obs (*),2,Final,10.0
+03_obs_vs_nobs_score_relevance,26051203,Obs,#E67E28,Obs (*),2,Final,9.0
+03_obs_vs_nobs_score_relevance,26051204,Obs,#E67E28,Obs (*),2,Final,2.0
+03_obs_vs_nobs_score_relevance,26051301,Obs,#E67E28,Obs (*),2,Final,2.0
+03_obs_vs_nobs_score_relevance,26051302,Obs,#E67E28,Obs (*),2,Final,6.0
+03_obs_vs_nobs_score_relevance,26051303,Obs,#E67E28,Obs (*),2,Final,5.0
+03_obs_vs_nobs_score_relevance,26051304,Obs,#E67E28,Obs (*),2,Final,2.0
+03_obs_vs_nobs_score_relevance,26051402,Obs,#E67E28,Obs (*),2,Final,2.0
+03_obs_vs_nobs_score_relevance,26051403,Obs,#E67E28,Obs (*),2,Final,6.0
+03_obs_vs_nobs_score_relevance,26051404,Obs,#E67E28,Obs (*),2,Final,4.0
+03_obs_vs_nobs_score_relevance,26051501,Obs,#E67E28,Obs (*),2,Final,4.0
+03_obs_vs_nobs_score_relevance,26051502,Obs,#E67E28,Obs (*),2,Final,2.0
+03_obs_vs_nobs_score_relevance,26051503,Obs,#E67E28,Obs (*),2,Final,2.0
+03_obs_vs_nobs_score_relevance,26051801,Obs,#E67E28,Obs (*),2,Final,2.0
+03_obs_vs_nobs_score_relevance,26051802,Obs,#E67E28,Obs (*),2,Final,4.0
+03_obs_vs_nobs_score_relevance,26061202,Obs,#E67E28,Obs (*),2,Final,3.0
+03_obs_vs_nobs_score_relevance,26061402,Obs,#E67E28,Obs (*),2,Final,4.0
+03_obs_vs_nobs_score_relevance,26061503,Obs,#E67E28,Obs (*),2,Final,4.0
+03_obs_vs_nobs_score_relevance,26062201,Obs,#E67E28,Obs (*),2,Final,11.0
+03_obs_vs_nobs_score_relevance,26062202,Obs,#E67E28,Obs (*),2,Final,2.0
+03_obs_vs_nobs_score_relevance,26062301,Obs,#E67E28,Obs (*),2,Final,4.0
+03_obs_vs_nobs_score_relevance,26062302,Obs,#E67E28,Obs (*),2,Final,1.0
+03_obs_vs_nobs_score_relevance,26062503,Obs,#E67E28,Obs (*),2,Final,2.0
+03_obs_vs_nobs_score_relevance,26062504,Obs,#E67E28,Obs (*),2,Final,5.0
+03_obs_vs_nobs_score_relevance,26062701,Obs,#E67E28,Obs (*),2,Final,6.0
+03_obs_vs_nobs_score_relevance,26070101,Obs,#E67E28,Obs (*),2,Final,3.0
+03_obs_vs_nobs_score_relevance,26070601,Obs,#E67E28,Obs (*),2,Final,2.0
+03_obs_vs_nobs_score_relevance,26051901,NObs,#F7BA00,NObs (n.s.),1,Initial,6.0
+03_obs_vs_nobs_score_relevance,26051902,NObs,#F7BA00,NObs (n.s.),1,Initial,3.0
+03_obs_vs_nobs_score_relevance,26052001,NObs,#F7BA00,NObs (n.s.),1,Initial,2.0
+03_obs_vs_nobs_score_relevance,26052002,NObs,#F7BA00,NObs (n.s.),1,Initial,5.0
+03_obs_vs_nobs_score_relevance,26052003,NObs,#F7BA00,NObs (n.s.),1,Initial,5.0
+03_obs_vs_nobs_score_relevance,26052102,NObs,#F7BA00,NObs (n.s.),1,Initial,3.0
+03_obs_vs_nobs_score_relevance,26052103,NObs,#F7BA00,NObs (n.s.),1,Initial,2.0
+03_obs_vs_nobs_score_relevance,26052201,NObs,#F7BA00,NObs (n.s.),1,Initial,3.0
+03_obs_vs_nobs_score_relevance,26052202,NObs,#F7BA00,NObs (n.s.),1,Initial,2.0
+03_obs_vs_nobs_score_relevance,26052301,NObs,#F7BA00,NObs (n.s.),1,Initial,5.0
+03_obs_vs_nobs_score_relevance,26052302,NObs,#F7BA00,NObs (n.s.),1,Initial,3.0
+03_obs_vs_nobs_score_relevance,26052303,NObs,#F7BA00,NObs (n.s.),1,Initial,5.0
+03_obs_vs_nobs_score_relevance,26060301,NObs,#F7BA00,NObs (n.s.),1,Initial,2.0
+03_obs_vs_nobs_score_relevance,26060302,NObs,#F7BA00,NObs (n.s.),1,Initial,5.0
+03_obs_vs_nobs_score_relevance,26060401,NObs,#F7BA00,NObs (n.s.),1,Initial,4.0
+03_obs_vs_nobs_score_relevance,26060402,NObs,#F7BA00,NObs (n.s.),1,Initial,2.0
+03_obs_vs_nobs_score_relevance,26060403,NObs,#F7BA00,NObs (n.s.),1,Initial,2.0
+03_obs_vs_nobs_score_relevance,26060404,NObs,#F7BA00,NObs (n.s.),1,Initial,5.0
+03_obs_vs_nobs_score_relevance,26060405,NObs,#F7BA00,NObs (n.s.),1,Initial,3.0
+03_obs_vs_nobs_score_relevance,26060501,NObs,#F7BA00,NObs (n.s.),1,Initial,5.0
+03_obs_vs_nobs_score_relevance,26060502,NObs,#F7BA00,NObs (n.s.),1,Initial,1.0
+03_obs_vs_nobs_score_relevance,26060503,NObs,#F7BA00,NObs (n.s.),1,Initial,3.0
+03_obs_vs_nobs_score_relevance,26060601,NObs,#F7BA00,NObs (n.s.),1,Initial,4.0
+03_obs_vs_nobs_score_relevance,26060602,NObs,#F7BA00,NObs (n.s.),1,Initial,4.0
+03_obs_vs_nobs_score_relevance,26060603,NObs,#F7BA00,NObs (n.s.),1,Initial,2.0
+03_obs_vs_nobs_score_relevance,26060801,NObs,#F7BA00,NObs (n.s.),1,Initial,4.0
+03_obs_vs_nobs_score_relevance,26060802,NObs,#F7BA00,NObs (n.s.),1,Initial,3.0
+03_obs_vs_nobs_score_relevance,26060901,NObs,#F7BA00,NObs (n.s.),1,Initial,10.0
+03_obs_vs_nobs_score_relevance,26060902,NObs,#F7BA00,NObs (n.s.),1,Initial,11.0
+03_obs_vs_nobs_score_relevance,26060903,NObs,#F7BA00,NObs (n.s.),1,Initial,5.0
+03_obs_vs_nobs_score_relevance,26060904,NObs,#F7BA00,NObs (n.s.),1,Initial,4.0
+03_obs_vs_nobs_score_relevance,26061001,NObs,#F7BA00,NObs (n.s.),1,Initial,2.0
+03_obs_vs_nobs_score_relevance,26061101,NObs,#F7BA00,NObs (n.s.),1,Initial,3.0
+03_obs_vs_nobs_score_relevance,26061102,NObs,#F7BA00,NObs (n.s.),1,Initial,2.0
+03_obs_vs_nobs_score_relevance,26061103,NObs,#F7BA00,NObs (n.s.),1,Initial,3.0
+03_obs_vs_nobs_score_relevance,26061201,NObs,#F7BA00,NObs (n.s.),1,Initial,5.0
+03_obs_vs_nobs_score_relevance,26061401,NObs,#F7BA00,NObs (n.s.),1,Initial,5.0
+03_obs_vs_nobs_score_relevance,26061501,NObs,#F7BA00,NObs (n.s.),1,Initial,7.0
+03_obs_vs_nobs_score_relevance,26061502,NObs,#F7BA00,NObs (n.s.),1,Initial,4.0
+03_obs_vs_nobs_score_relevance,26062501,NObs,#F7BA00,NObs (n.s.),1,Initial,5.0
+03_obs_vs_nobs_score_relevance,26051901,NObs,#F7BA00,NObs (n.s.),2,Final,2.0
+03_obs_vs_nobs_score_relevance,26051902,NObs,#F7BA00,NObs (n.s.),2,Final,1.0
+03_obs_vs_nobs_score_relevance,26052001,NObs,#F7BA00,NObs (n.s.),2,Final,2.0
+03_obs_vs_nobs_score_relevance,26052002,NObs,#F7BA00,NObs (n.s.),2,Final,4.0
+03_obs_vs_nobs_score_relevance,26052003,NObs,#F7BA00,NObs (n.s.),2,Final,2.0
+03_obs_vs_nobs_score_relevance,26052102,NObs,#F7BA00,NObs (n.s.),2,Final,2.0
+03_obs_vs_nobs_score_relevance,26052103,NObs,#F7BA00,NObs (n.s.),2,Final,9.0
+03_obs_vs_nobs_score_relevance,26052201,NObs,#F7BA00,NObs (n.s.),2,Final,2.0
+03_obs_vs_nobs_score_relevance,26052202,NObs,#F7BA00,NObs (n.s.),2,Final,5.0
+03_obs_vs_nobs_score_relevance,26052301,NObs,#F7BA00,NObs (n.s.),2,Final,2.0
+03_obs_vs_nobs_score_relevance,26052302,NObs,#F7BA00,NObs (n.s.),2,Final,3.0
+03_obs_vs_nobs_score_relevance,26052303,NObs,#F7BA00,NObs (n.s.),2,Final,2.0
+03_obs_vs_nobs_score_relevance,26060301,NObs,#F7BA00,NObs (n.s.),2,Final,1.0
+03_obs_vs_nobs_score_relevance,26060302,NObs,#F7BA00,NObs (n.s.),2,Final,2.0
+03_obs_vs_nobs_score_relevance,26060401,NObs,#F7BA00,NObs (n.s.),2,Final,9.0
+03_obs_vs_nobs_score_relevance,26060402,NObs,#F7BA00,NObs (n.s.),2,Final,5.0
+03_obs_vs_nobs_score_relevance,26060403,NObs,#F7BA00,NObs (n.s.),2,Final,5.0
+03_obs_vs_nobs_score_relevance,26060404,NObs,#F7BA00,NObs (n.s.),2,Final,5.0
+03_obs_vs_nobs_score_relevance,26060405,NObs,#F7BA00,NObs (n.s.),2,Final,3.0
+03_obs_vs_nobs_score_relevance,26060501,NObs,#F7BA00,NObs (n.s.),2,Final,2.0
+03_obs_vs_nobs_score_relevance,26060502,NObs,#F7BA00,NObs (n.s.),2,Final,3.0
+03_obs_vs_nobs_score_relevance,26060503,NObs,#F7BA00,NObs (n.s.),2,Final,6.0
+03_obs_vs_nobs_score_relevance,26060601,NObs,#F7BA00,NObs (n.s.),2,Final,5.0
+03_obs_vs_nobs_score_relevance,26060602,NObs,#F7BA00,NObs (n.s.),2,Final,3.0
+03_obs_vs_nobs_score_relevance,26060603,NObs,#F7BA00,NObs (n.s.),2,Final,3.0
+03_obs_vs_nobs_score_relevance,26060801,NObs,#F7BA00,NObs (n.s.),2,Final,4.0
+03_obs_vs_nobs_score_relevance,26060802,NObs,#F7BA00,NObs (n.s.),2,Final,5.0
+03_obs_vs_nobs_score_relevance,26060901,NObs,#F7BA00,NObs (n.s.),2,Final,7.0
+03_obs_vs_nobs_score_relevance,26060902,NObs,#F7BA00,NObs (n.s.),2,Final,12.0
+03_obs_vs_nobs_score_relevance,26060903,NObs,#F7BA00,NObs (n.s.),2,Final,2.0
+03_obs_vs_nobs_score_relevance,26060904,NObs,#F7BA00,NObs (n.s.),2,Final,3.0
+03_obs_vs_nobs_score_relevance,26061001,NObs,#F7BA00,NObs (n.s.),2,Final,5.0
+03_obs_vs_nobs_score_relevance,26061101,NObs,#F7BA00,NObs (n.s.),2,Final,2.0
+03_obs_vs_nobs_score_relevance,26061102,NObs,#F7BA00,NObs (n.s.),2,Final,5.0
+03_obs_vs_nobs_score_relevance,26061103,NObs,#F7BA00,NObs (n.s.),2,Final,13.0
+03_obs_vs_nobs_score_relevance,26061201,NObs,#F7BA00,NObs (n.s.),2,Final,14.0
+03_obs_vs_nobs_score_relevance,26061401,NObs,#F7BA00,NObs (n.s.),2,Final,6.0
+03_obs_vs_nobs_score_relevance,26061501,NObs,#F7BA00,NObs (n.s.),2,Final,7.0
+03_obs_vs_nobs_score_relevance,26061502,NObs,#F7BA00,NObs (n.s.),2,Final,4.0
+03_obs_vs_nobs_score_relevance,26062501,NObs,#F7BA00,NObs (n.s.),2,Final,9.0
+05_obs_vs_disd_noticed_dimensions,26050701,Obs,#E67E28,Obs,1,Post-obs.,9.0
+05_obs_vs_disd_noticed_dimensions,26050702,Obs,#E67E28,Obs,1,Post-obs.,7.0
+05_obs_vs_disd_noticed_dimensions,26050801,Obs,#E67E28,Obs,1,Post-obs.,10.0
+05_obs_vs_disd_noticed_dimensions,26050901,Obs,#E67E28,Obs,1,Post-obs.,6.0
+05_obs_vs_disd_noticed_dimensions,26050902,Obs,#E67E28,Obs,1,Post-obs.,9.0
+05_obs_vs_disd_noticed_dimensions,26050903,Obs,#E67E28,Obs,1,Post-obs.,2.0
+05_obs_vs_disd_noticed_dimensions,26051101,Obs,#E67E28,Obs,1,Post-obs.,10.0
+05_obs_vs_disd_noticed_dimensions,26051102,Obs,#E67E28,Obs,1,Post-obs.,5.0
+05_obs_vs_disd_noticed_dimensions,26051103,Obs,#E67E28,Obs,1,Post-obs.,0.0
+05_obs_vs_disd_noticed_dimensions,26051104,Obs,#E67E28,Obs,1,Post-obs.,13.0
+05_obs_vs_disd_noticed_dimensions,26051105,Obs,#E67E28,Obs,1,Post-obs.,10.0
+05_obs_vs_disd_noticed_dimensions,26051201,Obs,#E67E28,Obs,1,Post-obs.,9.0
+05_obs_vs_disd_noticed_dimensions,26051202,Obs,#E67E28,Obs,1,Post-obs.,8.0
+05_obs_vs_disd_noticed_dimensions,26051203,Obs,#E67E28,Obs,1,Post-obs.,9.0
+05_obs_vs_disd_noticed_dimensions,26051204,Obs,#E67E28,Obs,1,Post-obs.,6.0
+05_obs_vs_disd_noticed_dimensions,26051301,Obs,#E67E28,Obs,1,Post-obs.,12.0
+05_obs_vs_disd_noticed_dimensions,26051302,Obs,#E67E28,Obs,1,Post-obs.,11.0
+05_obs_vs_disd_noticed_dimensions,26051303,Obs,#E67E28,Obs,1,Post-obs.,4.0
+05_obs_vs_disd_noticed_dimensions,26051304,Obs,#E67E28,Obs,1,Post-obs.,1.0
+05_obs_vs_disd_noticed_dimensions,26051402,Obs,#E67E28,Obs,1,Post-obs.,4.0
+05_obs_vs_disd_noticed_dimensions,26051403,Obs,#E67E28,Obs,1,Post-obs.,9.0
+05_obs_vs_disd_noticed_dimensions,26051404,Obs,#E67E28,Obs,1,Post-obs.,9.0
+05_obs_vs_disd_noticed_dimensions,26051501,Obs,#E67E28,Obs,1,Post-obs.,5.0
+05_obs_vs_disd_noticed_dimensions,26051502,Obs,#E67E28,Obs,1,Post-obs.,7.0
+05_obs_vs_disd_noticed_dimensions,26051503,Obs,#E67E28,Obs,1,Post-obs.,5.0
+05_obs_vs_disd_noticed_dimensions,26051801,Obs,#E67E28,Obs,1,Post-obs.,3.0
+05_obs_vs_disd_noticed_dimensions,26051802,Obs,#E67E28,Obs,1,Post-obs.,9.0
+05_obs_vs_disd_noticed_dimensions,26061202,Obs,#E67E28,Obs,1,Post-obs.,5.0
+05_obs_vs_disd_noticed_dimensions,26061402,Obs,#E67E28,Obs,1,Post-obs.,6.0
+05_obs_vs_disd_noticed_dimensions,26061503,Obs,#E67E28,Obs,1,Post-obs.,7.0
+05_obs_vs_disd_noticed_dimensions,26062201,Obs,#E67E28,Obs,1,Post-obs.,8.0
+05_obs_vs_disd_noticed_dimensions,26062202,Obs,#E67E28,Obs,1,Post-obs.,7.0
+05_obs_vs_disd_noticed_dimensions,26062301,Obs,#E67E28,Obs,1,Post-obs.,5.0
+05_obs_vs_disd_noticed_dimensions,26062302,Obs,#E67E28,Obs,1,Post-obs.,5.0
+05_obs_vs_disd_noticed_dimensions,26062503,Obs,#E67E28,Obs,1,Post-obs.,5.0
+05_obs_vs_disd_noticed_dimensions,26062504,Obs,#E67E28,Obs,1,Post-obs.,7.0
+05_obs_vs_disd_noticed_dimensions,26062701,Obs,#E67E28,Obs,1,Post-obs.,2.0
+05_obs_vs_disd_noticed_dimensions,26070101,Obs,#E67E28,Obs,1,Post-obs.,2.0
+05_obs_vs_disd_noticed_dimensions,26070601,Obs,#E67E28,Obs,1,Post-obs.,8.0
+05_obs_vs_disd_noticed_dimensions,26072203,Obs,#E67E28,Obs,1,Post-obs.,5.0
+05_obs_vs_disd_noticed_dimensions,26050701,Obs,#E67E28,Obs,2,Early,9.0
+05_obs_vs_disd_noticed_dimensions,26050702,Obs,#E67E28,Obs,2,Early,18.0
+05_obs_vs_disd_noticed_dimensions,26050801,Obs,#E67E28,Obs,2,Early,3.0
+05_obs_vs_disd_noticed_dimensions,26050901,Obs,#E67E28,Obs,2,Early,7.0
+05_obs_vs_disd_noticed_dimensions,26050902,Obs,#E67E28,Obs,2,Early,11.0
+05_obs_vs_disd_noticed_dimensions,26050903,Obs,#E67E28,Obs,2,Early,3.0
+05_obs_vs_disd_noticed_dimensions,26051101,Obs,#E67E28,Obs,2,Early,10.0
+05_obs_vs_disd_noticed_dimensions,26051102,Obs,#E67E28,Obs,2,Early,5.0
+05_obs_vs_disd_noticed_dimensions,26051103,Obs,#E67E28,Obs,2,Early,8.0
+05_obs_vs_disd_noticed_dimensions,26051104,Obs,#E67E28,Obs,2,Early,12.0
+05_obs_vs_disd_noticed_dimensions,26051105,Obs,#E67E28,Obs,2,Early,13.0
+05_obs_vs_disd_noticed_dimensions,26051201,Obs,#E67E28,Obs,2,Early,9.0
+05_obs_vs_disd_noticed_dimensions,26051202,Obs,#E67E28,Obs,2,Early,16.0
+05_obs_vs_disd_noticed_dimensions,26051203,Obs,#E67E28,Obs,2,Early,8.0
+05_obs_vs_disd_noticed_dimensions,26051204,Obs,#E67E28,Obs,2,Early,8.0
+05_obs_vs_disd_noticed_dimensions,26051301,Obs,#E67E28,Obs,2,Early,15.0
+05_obs_vs_disd_noticed_dimensions,26051302,Obs,#E67E28,Obs,2,Early,15.0
+05_obs_vs_disd_noticed_dimensions,26051303,Obs,#E67E28,Obs,2,Early,4.0
+05_obs_vs_disd_noticed_dimensions,26051304,Obs,#E67E28,Obs,2,Early,7.0
+05_obs_vs_disd_noticed_dimensions,26051402,Obs,#E67E28,Obs,2,Early,6.0
+05_obs_vs_disd_noticed_dimensions,26051403,Obs,#E67E28,Obs,2,Early,15.0
+05_obs_vs_disd_noticed_dimensions,26051404,Obs,#E67E28,Obs,2,Early,16.0
+05_obs_vs_disd_noticed_dimensions,26051501,Obs,#E67E28,Obs,2,Early,16.0
+05_obs_vs_disd_noticed_dimensions,26051502,Obs,#E67E28,Obs,2,Early,8.0
+05_obs_vs_disd_noticed_dimensions,26051503,Obs,#E67E28,Obs,2,Early,7.0
+05_obs_vs_disd_noticed_dimensions,26051801,Obs,#E67E28,Obs,2,Early,4.0
+05_obs_vs_disd_noticed_dimensions,26051802,Obs,#E67E28,Obs,2,Early,9.0
+05_obs_vs_disd_noticed_dimensions,26061202,Obs,#E67E28,Obs,2,Early,5.0
+05_obs_vs_disd_noticed_dimensions,26061402,Obs,#E67E28,Obs,2,Early,4.0
+05_obs_vs_disd_noticed_dimensions,26061503,Obs,#E67E28,Obs,2,Early,2.0
+05_obs_vs_disd_noticed_dimensions,26062201,Obs,#E67E28,Obs,2,Early,17.0
+05_obs_vs_disd_noticed_dimensions,26062202,Obs,#E67E28,Obs,2,Early,9.0
+05_obs_vs_disd_noticed_dimensions,26062301,Obs,#E67E28,Obs,2,Early,9.0
+05_obs_vs_disd_noticed_dimensions,26062302,Obs,#E67E28,Obs,2,Early,15.0
+05_obs_vs_disd_noticed_dimensions,26062503,Obs,#E67E28,Obs,2,Early,7.0
+05_obs_vs_disd_noticed_dimensions,26062504,Obs,#E67E28,Obs,2,Early,9.0
+05_obs_vs_disd_noticed_dimensions,26062701,Obs,#E67E28,Obs,2,Early,7.0
+05_obs_vs_disd_noticed_dimensions,26070101,Obs,#E67E28,Obs,2,Early,9.0
+05_obs_vs_disd_noticed_dimensions,26070601,Obs,#E67E28,Obs,2,Early,5.0
+05_obs_vs_disd_noticed_dimensions,26072203,Obs,#E67E28,Obs,2,Early,6.0
+05_obs_vs_disd_noticed_dimensions,26050701,Obs,#E67E28,Obs,3,Mid,5.0
+05_obs_vs_disd_noticed_dimensions,26050702,Obs,#E67E28,Obs,3,Mid,18.0
+05_obs_vs_disd_noticed_dimensions,26050801,Obs,#E67E28,Obs,3,Mid,9.0
+05_obs_vs_disd_noticed_dimensions,26050901,Obs,#E67E28,Obs,3,Mid,8.0
+05_obs_vs_disd_noticed_dimensions,26050902,Obs,#E67E28,Obs,3,Mid,7.0
+05_obs_vs_disd_noticed_dimensions,26050903,Obs,#E67E28,Obs,3,Mid,2.0
+05_obs_vs_disd_noticed_dimensions,26051101,Obs,#E67E28,Obs,3,Mid,4.0
+05_obs_vs_disd_noticed_dimensions,26051102,Obs,#E67E28,Obs,3,Mid,6.0
+05_obs_vs_disd_noticed_dimensions,26051103,Obs,#E67E28,Obs,3,Mid,5.0
+05_obs_vs_disd_noticed_dimensions,26051104,Obs,#E67E28,Obs,3,Mid,11.0
+05_obs_vs_disd_noticed_dimensions,26051105,Obs,#E67E28,Obs,3,Mid,9.0
+05_obs_vs_disd_noticed_dimensions,26051201,Obs,#E67E28,Obs,3,Mid,5.0
+05_obs_vs_disd_noticed_dimensions,26051202,Obs,#E67E28,Obs,3,Mid,13.0
+05_obs_vs_disd_noticed_dimensions,26051203,Obs,#E67E28,Obs,3,Mid,6.0
+05_obs_vs_disd_noticed_dimensions,26051204,Obs,#E67E28,Obs,3,Mid,11.0
+05_obs_vs_disd_noticed_dimensions,26051301,Obs,#E67E28,Obs,3,Mid,5.0
+05_obs_vs_disd_noticed_dimensions,26051302,Obs,#E67E28,Obs,3,Mid,15.0
+05_obs_vs_disd_noticed_dimensions,26051303,Obs,#E67E28,Obs,3,Mid,3.0
+05_obs_vs_disd_noticed_dimensions,26051304,Obs,#E67E28,Obs,3,Mid,9.0
+05_obs_vs_disd_noticed_dimensions,26051402,Obs,#E67E28,Obs,3,Mid,8.0
+05_obs_vs_disd_noticed_dimensions,26051403,Obs,#E67E28,Obs,3,Mid,4.0
+05_obs_vs_disd_noticed_dimensions,26051404,Obs,#E67E28,Obs,3,Mid,17.0
+05_obs_vs_disd_noticed_dimensions,26051501,Obs,#E67E28,Obs,3,Mid,7.0
+05_obs_vs_disd_noticed_dimensions,26051502,Obs,#E67E28,Obs,3,Mid,4.0
+05_obs_vs_disd_noticed_dimensions,26051503,Obs,#E67E28,Obs,3,Mid,6.0
+05_obs_vs_disd_noticed_dimensions,26051801,Obs,#E67E28,Obs,3,Mid,5.0
+05_obs_vs_disd_noticed_dimensions,26051802,Obs,#E67E28,Obs,3,Mid,4.0
+05_obs_vs_disd_noticed_dimensions,26061202,Obs,#E67E28,Obs,3,Mid,5.0
+05_obs_vs_disd_noticed_dimensions,26061402,Obs,#E67E28,Obs,3,Mid,6.0
+05_obs_vs_disd_noticed_dimensions,26061503,Obs,#E67E28,Obs,3,Mid,2.0
+05_obs_vs_disd_noticed_dimensions,26062201,Obs,#E67E28,Obs,3,Mid,17.0
+05_obs_vs_disd_noticed_dimensions,26062202,Obs,#E67E28,Obs,3,Mid,3.0
+05_obs_vs_disd_noticed_dimensions,26062301,Obs,#E67E28,Obs,3,Mid,7.0
+05_obs_vs_disd_noticed_dimensions,26062302,Obs,#E67E28,Obs,3,Mid,2.0
+05_obs_vs_disd_noticed_dimensions,26062503,Obs,#E67E28,Obs,3,Mid,5.0
+05_obs_vs_disd_noticed_dimensions,26062504,Obs,#E67E28,Obs,3,Mid,5.0
+05_obs_vs_disd_noticed_dimensions,26062701,Obs,#E67E28,Obs,3,Mid,13.0
+05_obs_vs_disd_noticed_dimensions,26070101,Obs,#E67E28,Obs,3,Mid,1.0
+05_obs_vs_disd_noticed_dimensions,26070601,Obs,#E67E28,Obs,3,Mid,5.0
+05_obs_vs_disd_noticed_dimensions,26072203,Obs,#E67E28,Obs,3,Mid,8.0
+05_obs_vs_disd_noticed_dimensions,26050701,Obs,#E67E28,Obs,4,Late,2.0
+05_obs_vs_disd_noticed_dimensions,26050702,Obs,#E67E28,Obs,4,Late,20.0
+05_obs_vs_disd_noticed_dimensions,26050801,Obs,#E67E28,Obs,4,Late,3.0
+05_obs_vs_disd_noticed_dimensions,26050901,Obs,#E67E28,Obs,4,Late,12.0
+05_obs_vs_disd_noticed_dimensions,26050902,Obs,#E67E28,Obs,4,Late,5.0
+05_obs_vs_disd_noticed_dimensions,26050903,Obs,#E67E28,Obs,4,Late,5.0
+05_obs_vs_disd_noticed_dimensions,26051101,Obs,#E67E28,Obs,4,Late,3.0
+05_obs_vs_disd_noticed_dimensions,26051102,Obs,#E67E28,Obs,4,Late,4.0
+05_obs_vs_disd_noticed_dimensions,26051103,Obs,#E67E28,Obs,4,Late,4.0
+05_obs_vs_disd_noticed_dimensions,26051104,Obs,#E67E28,Obs,4,Late,5.0
+05_obs_vs_disd_noticed_dimensions,26051105,Obs,#E67E28,Obs,4,Late,4.0
+05_obs_vs_disd_noticed_dimensions,26051201,Obs,#E67E28,Obs,4,Late,3.0
+05_obs_vs_disd_noticed_dimensions,26051202,Obs,#E67E28,Obs,4,Late,6.0
+05_obs_vs_disd_noticed_dimensions,26051203,Obs,#E67E28,Obs,4,Late,4.0
+05_obs_vs_disd_noticed_dimensions,26051204,Obs,#E67E28,Obs,4,Late,2.0
+05_obs_vs_disd_noticed_dimensions,26051301,Obs,#E67E28,Obs,4,Late,5.0
+05_obs_vs_disd_noticed_dimensions,26051302,Obs,#E67E28,Obs,4,Late,5.0
+05_obs_vs_disd_noticed_dimensions,26051303,Obs,#E67E28,Obs,4,Late,3.0
+05_obs_vs_disd_noticed_dimensions,26051304,Obs,#E67E28,Obs,4,Late,9.0
+05_obs_vs_disd_noticed_dimensions,26051402,Obs,#E67E28,Obs,4,Late,5.0
+05_obs_vs_disd_noticed_dimensions,26051403,Obs,#E67E28,Obs,4,Late,2.0
+05_obs_vs_disd_noticed_dimensions,26051404,Obs,#E67E28,Obs,4,Late,21.0
+05_obs_vs_disd_noticed_dimensions,26051501,Obs,#E67E28,Obs,4,Late,3.0
+05_obs_vs_disd_noticed_dimensions,26051502,Obs,#E67E28,Obs,4,Late,2.0
+05_obs_vs_disd_noticed_dimensions,26051503,Obs,#E67E28,Obs,4,Late,2.0
+05_obs_vs_disd_noticed_dimensions,26051801,Obs,#E67E28,Obs,4,Late,5.0
+05_obs_vs_disd_noticed_dimensions,26051802,Obs,#E67E28,Obs,4,Late,8.0
+05_obs_vs_disd_noticed_dimensions,26061202,Obs,#E67E28,Obs,4,Late,5.0
+05_obs_vs_disd_noticed_dimensions,26061402,Obs,#E67E28,Obs,4,Late,4.0
+05_obs_vs_disd_noticed_dimensions,26061503,Obs,#E67E28,Obs,4,Late,2.0
+05_obs_vs_disd_noticed_dimensions,26062201,Obs,#E67E28,Obs,4,Late,16.0
+05_obs_vs_disd_noticed_dimensions,26062202,Obs,#E67E28,Obs,4,Late,1.0
+05_obs_vs_disd_noticed_dimensions,26062301,Obs,#E67E28,Obs,4,Late,6.0
+05_obs_vs_disd_noticed_dimensions,26062302,Obs,#E67E28,Obs,4,Late,8.0
+05_obs_vs_disd_noticed_dimensions,26062503,Obs,#E67E28,Obs,4,Late,2.0
+05_obs_vs_disd_noticed_dimensions,26062504,Obs,#E67E28,Obs,4,Late,5.0
+05_obs_vs_disd_noticed_dimensions,26062701,Obs,#E67E28,Obs,4,Late,10.0
+05_obs_vs_disd_noticed_dimensions,26070101,Obs,#E67E28,Obs,4,Late,1.0
+05_obs_vs_disd_noticed_dimensions,26070601,Obs,#E67E28,Obs,4,Late,2.0
+05_obs_vs_disd_noticed_dimensions,26072203,Obs,#E67E28,Obs,4,Late,10.0
+05_obs_vs_disd_noticed_dimensions,26062901,DIS-D,#8657BE,DIS-D,1,Post-obs.,5.0
+05_obs_vs_disd_noticed_dimensions,26063001,DIS-D,#8657BE,DIS-D,1,Post-obs.,8.0
+05_obs_vs_disd_noticed_dimensions,26063002,DIS-D,#8657BE,DIS-D,1,Post-obs.,7.0
+05_obs_vs_disd_noticed_dimensions,26070102,DIS-D,#8657BE,DIS-D,1,Post-obs.,11.0
+05_obs_vs_disd_noticed_dimensions,26070103,DIS-D,#8657BE,DIS-D,1,Post-obs.,7.0
+05_obs_vs_disd_noticed_dimensions,26070201,DIS-D,#8657BE,DIS-D,1,Post-obs.,4.0
+05_obs_vs_disd_noticed_dimensions,26070202,DIS-D,#8657BE,DIS-D,1,Post-obs.,12.0
+05_obs_vs_disd_noticed_dimensions,26070301,DIS-D,#8657BE,DIS-D,1,Post-obs.,7.0
+05_obs_vs_disd_noticed_dimensions,26070302,DIS-D,#8657BE,DIS-D,1,Post-obs.,7.0
+05_obs_vs_disd_noticed_dimensions,26070401,DIS-D,#8657BE,DIS-D,1,Post-obs.,8.0
+05_obs_vs_disd_noticed_dimensions,26070602,DIS-D,#8657BE,DIS-D,1,Post-obs.,8.0
+05_obs_vs_disd_noticed_dimensions,26070701,DIS-D,#8657BE,DIS-D,1,Post-obs.,9.0
+05_obs_vs_disd_noticed_dimensions,26070702,DIS-D,#8657BE,DIS-D,1,Post-obs.,6.0
+05_obs_vs_disd_noticed_dimensions,26070703,DIS-D,#8657BE,DIS-D,1,Post-obs.,7.0
+05_obs_vs_disd_noticed_dimensions,26070801,DIS-D,#8657BE,DIS-D,1,Post-obs.,7.0
+05_obs_vs_disd_noticed_dimensions,26070802,DIS-D,#8657BE,DIS-D,1,Post-obs.,9.0
+05_obs_vs_disd_noticed_dimensions,26070803,DIS-D,#8657BE,DIS-D,1,Post-obs.,6.0
+05_obs_vs_disd_noticed_dimensions,26070901,DIS-D,#8657BE,DIS-D,1,Post-obs.,1.0
+05_obs_vs_disd_noticed_dimensions,26070902,DIS-D,#8657BE,DIS-D,1,Post-obs.,10.0
+05_obs_vs_disd_noticed_dimensions,26071001,DIS-D,#8657BE,DIS-D,1,Post-obs.,10.0
+05_obs_vs_disd_noticed_dimensions,26071101,DIS-D,#8657BE,DIS-D,1,Post-obs.,7.0
+05_obs_vs_disd_noticed_dimensions,26071102,DIS-D,#8657BE,DIS-D,1,Post-obs.,7.0
+05_obs_vs_disd_noticed_dimensions,26071103,DIS-D,#8657BE,DIS-D,1,Post-obs.,2.0
+05_obs_vs_disd_noticed_dimensions,26071104,DIS-D,#8657BE,DIS-D,1,Post-obs.,6.0
+05_obs_vs_disd_noticed_dimensions,26071301,DIS-D,#8657BE,DIS-D,1,Post-obs.,11.0
+05_obs_vs_disd_noticed_dimensions,26071302,DIS-D,#8657BE,DIS-D,1,Post-obs.,6.0
+05_obs_vs_disd_noticed_dimensions,26071303,DIS-D,#8657BE,DIS-D,1,Post-obs.,8.0
+05_obs_vs_disd_noticed_dimensions,26071401,DIS-D,#8657BE,DIS-D,1,Post-obs.,7.0
+05_obs_vs_disd_noticed_dimensions,26071402,DIS-D,#8657BE,DIS-D,1,Post-obs.,4.0
+05_obs_vs_disd_noticed_dimensions,26071403,DIS-D,#8657BE,DIS-D,1,Post-obs.,9.0
+05_obs_vs_disd_noticed_dimensions,26071501,DIS-D,#8657BE,DIS-D,1,Post-obs.,6.0
+05_obs_vs_disd_noticed_dimensions,26071502,DIS-D,#8657BE,DIS-D,1,Post-obs.,5.0
+05_obs_vs_disd_noticed_dimensions,26071601,DIS-D,#8657BE,DIS-D,1,Post-obs.,9.0
+05_obs_vs_disd_noticed_dimensions,26071602,DIS-D,#8657BE,DIS-D,1,Post-obs.,8.0
+05_obs_vs_disd_noticed_dimensions,26071701,DIS-D,#8657BE,DIS-D,1,Post-obs.,4.0
+05_obs_vs_disd_noticed_dimensions,26071702,DIS-D,#8657BE,DIS-D,1,Post-obs.,9.0
+05_obs_vs_disd_noticed_dimensions,26071703,DIS-D,#8657BE,DIS-D,1,Post-obs.,6.0
+05_obs_vs_disd_noticed_dimensions,26071704,DIS-D,#8657BE,DIS-D,1,Post-obs.,9.0
+05_obs_vs_disd_noticed_dimensions,26072201,DIS-D,#8657BE,DIS-D,1,Post-obs.,8.0
+05_obs_vs_disd_noticed_dimensions,26072202,DIS-D,#8657BE,DIS-D,1,Post-obs.,9.0
+05_obs_vs_disd_noticed_dimensions,26062901,DIS-D,#8657BE,DIS-D,2,Early,6.0
+05_obs_vs_disd_noticed_dimensions,26063001,DIS-D,#8657BE,DIS-D,2,Early,1.0
+05_obs_vs_disd_noticed_dimensions,26063002,DIS-D,#8657BE,DIS-D,2,Early,13.0
+05_obs_vs_disd_noticed_dimensions,26070102,DIS-D,#8657BE,DIS-D,2,Early,15.0
+05_obs_vs_disd_noticed_dimensions,26070103,DIS-D,#8657BE,DIS-D,2,Early,7.0
+05_obs_vs_disd_noticed_dimensions,26070201,DIS-D,#8657BE,DIS-D,2,Early,12.0
+05_obs_vs_disd_noticed_dimensions,26070202,DIS-D,#8657BE,DIS-D,2,Early,16.0
+05_obs_vs_disd_noticed_dimensions,26070301,DIS-D,#8657BE,DIS-D,2,Early,13.0
+05_obs_vs_disd_noticed_dimensions,26070302,DIS-D,#8657BE,DIS-D,2,Early,6.0
+05_obs_vs_disd_noticed_dimensions,26070401,DIS-D,#8657BE,DIS-D,2,Early,10.0
+05_obs_vs_disd_noticed_dimensions,26070602,DIS-D,#8657BE,DIS-D,2,Early,16.0
+05_obs_vs_disd_noticed_dimensions,26070701,DIS-D,#8657BE,DIS-D,2,Early,19.0
+05_obs_vs_disd_noticed_dimensions,26070702,DIS-D,#8657BE,DIS-D,2,Early,14.0
+05_obs_vs_disd_noticed_dimensions,26070703,DIS-D,#8657BE,DIS-D,2,Early,18.0
+05_obs_vs_disd_noticed_dimensions,26070801,DIS-D,#8657BE,DIS-D,2,Early,17.0
+05_obs_vs_disd_noticed_dimensions,26070802,DIS-D,#8657BE,DIS-D,2,Early,8.0
+05_obs_vs_disd_noticed_dimensions,26070803,DIS-D,#8657BE,DIS-D,2,Early,14.0
+05_obs_vs_disd_noticed_dimensions,26070901,DIS-D,#8657BE,DIS-D,2,Early,9.0
+05_obs_vs_disd_noticed_dimensions,26070902,DIS-D,#8657BE,DIS-D,2,Early,11.0
+05_obs_vs_disd_noticed_dimensions,26071001,DIS-D,#8657BE,DIS-D,2,Early,2.0
+05_obs_vs_disd_noticed_dimensions,26071101,DIS-D,#8657BE,DIS-D,2,Early,16.0
+05_obs_vs_disd_noticed_dimensions,26071102,DIS-D,#8657BE,DIS-D,2,Early,5.0
+05_obs_vs_disd_noticed_dimensions,26071103,DIS-D,#8657BE,DIS-D,2,Early,8.0
+05_obs_vs_disd_noticed_dimensions,26071104,DIS-D,#8657BE,DIS-D,2,Early,9.0
+05_obs_vs_disd_noticed_dimensions,26071301,DIS-D,#8657BE,DIS-D,2,Early,8.0
+05_obs_vs_disd_noticed_dimensions,26071302,DIS-D,#8657BE,DIS-D,2,Early,2.0
+05_obs_vs_disd_noticed_dimensions,26071303,DIS-D,#8657BE,DIS-D,2,Early,13.0
+05_obs_vs_disd_noticed_dimensions,26071401,DIS-D,#8657BE,DIS-D,2,Early,2.0
+05_obs_vs_disd_noticed_dimensions,26071402,DIS-D,#8657BE,DIS-D,2,Early,6.0
+05_obs_vs_disd_noticed_dimensions,26071403,DIS-D,#8657BE,DIS-D,2,Early,13.0
+05_obs_vs_disd_noticed_dimensions,26071501,DIS-D,#8657BE,DIS-D,2,Early,8.0
+05_obs_vs_disd_noticed_dimensions,26071502,DIS-D,#8657BE,DIS-D,2,Early,7.0
+05_obs_vs_disd_noticed_dimensions,26071601,DIS-D,#8657BE,DIS-D,2,Early,16.0
+05_obs_vs_disd_noticed_dimensions,26071602,DIS-D,#8657BE,DIS-D,2,Early,12.0
+05_obs_vs_disd_noticed_dimensions,26071701,DIS-D,#8657BE,DIS-D,2,Early,12.0
+05_obs_vs_disd_noticed_dimensions,26071702,DIS-D,#8657BE,DIS-D,2,Early,12.0
+05_obs_vs_disd_noticed_dimensions,26071703,DIS-D,#8657BE,DIS-D,2,Early,6.0
+05_obs_vs_disd_noticed_dimensions,26071704,DIS-D,#8657BE,DIS-D,2,Early,8.0
+05_obs_vs_disd_noticed_dimensions,26072201,DIS-D,#8657BE,DIS-D,2,Early,9.0
+05_obs_vs_disd_noticed_dimensions,26072202,DIS-D,#8657BE,DIS-D,2,Early,13.0
+05_obs_vs_disd_noticed_dimensions,26062901,DIS-D,#8657BE,DIS-D,3,Mid,8.0
+05_obs_vs_disd_noticed_dimensions,26063001,DIS-D,#8657BE,DIS-D,3,Mid,10.0
+05_obs_vs_disd_noticed_dimensions,26063002,DIS-D,#8657BE,DIS-D,3,Mid,2.0
+05_obs_vs_disd_noticed_dimensions,26070102,DIS-D,#8657BE,DIS-D,3,Mid,12.0
+05_obs_vs_disd_noticed_dimensions,26070103,DIS-D,#8657BE,DIS-D,3,Mid,16.0
+05_obs_vs_disd_noticed_dimensions,26070201,DIS-D,#8657BE,DIS-D,3,Mid,6.0
+05_obs_vs_disd_noticed_dimensions,26070202,DIS-D,#8657BE,DIS-D,3,Mid,17.0
+05_obs_vs_disd_noticed_dimensions,26070301,DIS-D,#8657BE,DIS-D,3,Mid,15.0
+05_obs_vs_disd_noticed_dimensions,26070302,DIS-D,#8657BE,DIS-D,3,Mid,5.0
+05_obs_vs_disd_noticed_dimensions,26070401,DIS-D,#8657BE,DIS-D,3,Mid,12.0
+05_obs_vs_disd_noticed_dimensions,26070602,DIS-D,#8657BE,DIS-D,3,Mid,13.0
+05_obs_vs_disd_noticed_dimensions,26070701,DIS-D,#8657BE,DIS-D,3,Mid,21.0
+05_obs_vs_disd_noticed_dimensions,26070702,DIS-D,#8657BE,DIS-D,3,Mid,13.0
+05_obs_vs_disd_noticed_dimensions,26070703,DIS-D,#8657BE,DIS-D,3,Mid,14.0
+05_obs_vs_disd_noticed_dimensions,26070801,DIS-D,#8657BE,DIS-D,3,Mid,15.0
+05_obs_vs_disd_noticed_dimensions,26070802,DIS-D,#8657BE,DIS-D,3,Mid,4.0
+05_obs_vs_disd_noticed_dimensions,26070803,DIS-D,#8657BE,DIS-D,3,Mid,13.0
+05_obs_vs_disd_noticed_dimensions,26070901,DIS-D,#8657BE,DIS-D,3,Mid,17.0
+05_obs_vs_disd_noticed_dimensions,26070902,DIS-D,#8657BE,DIS-D,3,Mid,7.0
+05_obs_vs_disd_noticed_dimensions,26071001,DIS-D,#8657BE,DIS-D,3,Mid,4.0
+05_obs_vs_disd_noticed_dimensions,26071101,DIS-D,#8657BE,DIS-D,3,Mid,14.0
+05_obs_vs_disd_noticed_dimensions,26071102,DIS-D,#8657BE,DIS-D,3,Mid,15.0
+05_obs_vs_disd_noticed_dimensions,26071103,DIS-D,#8657BE,DIS-D,3,Mid,3.0
+05_obs_vs_disd_noticed_dimensions,26071104,DIS-D,#8657BE,DIS-D,3,Mid,6.0
+05_obs_vs_disd_noticed_dimensions,26071301,DIS-D,#8657BE,DIS-D,3,Mid,7.0
+05_obs_vs_disd_noticed_dimensions,26071302,DIS-D,#8657BE,DIS-D,3,Mid,6.0
+05_obs_vs_disd_noticed_dimensions,26071303,DIS-D,#8657BE,DIS-D,3,Mid,13.0
+05_obs_vs_disd_noticed_dimensions,26071401,DIS-D,#8657BE,DIS-D,3,Mid,2.0
+05_obs_vs_disd_noticed_dimensions,26071402,DIS-D,#8657BE,DIS-D,3,Mid,9.0
+05_obs_vs_disd_noticed_dimensions,26071403,DIS-D,#8657BE,DIS-D,3,Mid,16.0
+05_obs_vs_disd_noticed_dimensions,26071501,DIS-D,#8657BE,DIS-D,3,Mid,9.0
+05_obs_vs_disd_noticed_dimensions,26071502,DIS-D,#8657BE,DIS-D,3,Mid,7.0
+05_obs_vs_disd_noticed_dimensions,26071601,DIS-D,#8657BE,DIS-D,3,Mid,14.0
+05_obs_vs_disd_noticed_dimensions,26071602,DIS-D,#8657BE,DIS-D,3,Mid,10.0
+05_obs_vs_disd_noticed_dimensions,26071701,DIS-D,#8657BE,DIS-D,3,Mid,17.0
+05_obs_vs_disd_noticed_dimensions,26071702,DIS-D,#8657BE,DIS-D,3,Mid,5.0
+05_obs_vs_disd_noticed_dimensions,26071703,DIS-D,#8657BE,DIS-D,3,Mid,5.0
+05_obs_vs_disd_noticed_dimensions,26071704,DIS-D,#8657BE,DIS-D,3,Mid,14.0
+05_obs_vs_disd_noticed_dimensions,26072201,DIS-D,#8657BE,DIS-D,3,Mid,5.0
+05_obs_vs_disd_noticed_dimensions,26072202,DIS-D,#8657BE,DIS-D,3,Mid,8.0
+05_obs_vs_disd_noticed_dimensions,26062901,DIS-D,#8657BE,DIS-D,4,Late,3.0
+05_obs_vs_disd_noticed_dimensions,26063001,DIS-D,#8657BE,DIS-D,4,Late,4.0
+05_obs_vs_disd_noticed_dimensions,26063002,DIS-D,#8657BE,DIS-D,4,Late,2.0
+05_obs_vs_disd_noticed_dimensions,26070102,DIS-D,#8657BE,DIS-D,4,Late,15.0
+05_obs_vs_disd_noticed_dimensions,26070103,DIS-D,#8657BE,DIS-D,4,Late,19.0
+05_obs_vs_disd_noticed_dimensions,26070201,DIS-D,#8657BE,DIS-D,4,Late,16.0
+05_obs_vs_disd_noticed_dimensions,26070202,DIS-D,#8657BE,DIS-D,4,Late,17.0
+05_obs_vs_disd_noticed_dimensions,26070301,DIS-D,#8657BE,DIS-D,4,Late,14.0
+05_obs_vs_disd_noticed_dimensions,26070302,DIS-D,#8657BE,DIS-D,4,Late,3.0
+05_obs_vs_disd_noticed_dimensions,26070401,DIS-D,#8657BE,DIS-D,4,Late,14.0
+05_obs_vs_disd_noticed_dimensions,26070602,DIS-D,#8657BE,DIS-D,4,Late,16.0
+05_obs_vs_disd_noticed_dimensions,26070701,DIS-D,#8657BE,DIS-D,4,Late,21.0
+05_obs_vs_disd_noticed_dimensions,26070702,DIS-D,#8657BE,DIS-D,4,Late,8.0
+05_obs_vs_disd_noticed_dimensions,26070703,DIS-D,#8657BE,DIS-D,4,Late,18.0
+05_obs_vs_disd_noticed_dimensions,26070801,DIS-D,#8657BE,DIS-D,4,Late,6.0
+05_obs_vs_disd_noticed_dimensions,26070802,DIS-D,#8657BE,DIS-D,4,Late,4.0
+05_obs_vs_disd_noticed_dimensions,26070803,DIS-D,#8657BE,DIS-D,4,Late,6.0
+05_obs_vs_disd_noticed_dimensions,26070901,DIS-D,#8657BE,DIS-D,4,Late,19.0
+05_obs_vs_disd_noticed_dimensions,26070902,DIS-D,#8657BE,DIS-D,4,Late,4.0
+05_obs_vs_disd_noticed_dimensions,26071001,DIS-D,#8657BE,DIS-D,4,Late,4.0
+05_obs_vs_disd_noticed_dimensions,26071101,DIS-D,#8657BE,DIS-D,4,Late,15.0
+05_obs_vs_disd_noticed_dimensions,26071102,DIS-D,#8657BE,DIS-D,4,Late,16.0
+05_obs_vs_disd_noticed_dimensions,26071103,DIS-D,#8657BE,DIS-D,4,Late,3.0
+05_obs_vs_disd_noticed_dimensions,26071104,DIS-D,#8657BE,DIS-D,4,Late,5.0
+05_obs_vs_disd_noticed_dimensions,26071301,DIS-D,#8657BE,DIS-D,4,Late,4.0
+05_obs_vs_disd_noticed_dimensions,26071302,DIS-D,#8657BE,DIS-D,4,Late,2.0
+05_obs_vs_disd_noticed_dimensions,26071303,DIS-D,#8657BE,DIS-D,4,Late,14.0
+05_obs_vs_disd_noticed_dimensions,26071401,DIS-D,#8657BE,DIS-D,4,Late,5.0
+05_obs_vs_disd_noticed_dimensions,26071402,DIS-D,#8657BE,DIS-D,4,Late,11.0
+05_obs_vs_disd_noticed_dimensions,26071403,DIS-D,#8657BE,DIS-D,4,Late,19.0
+05_obs_vs_disd_noticed_dimensions,26071501,DIS-D,#8657BE,DIS-D,4,Late,2.0
+05_obs_vs_disd_noticed_dimensions,26071502,DIS-D,#8657BE,DIS-D,4,Late,5.0
+05_obs_vs_disd_noticed_dimensions,26071601,DIS-D,#8657BE,DIS-D,4,Late,3.0
+05_obs_vs_disd_noticed_dimensions,26071602,DIS-D,#8657BE,DIS-D,4,Late,7.0
+05_obs_vs_disd_noticed_dimensions,26071701,DIS-D,#8657BE,DIS-D,4,Late,16.0
+05_obs_vs_disd_noticed_dimensions,26071702,DIS-D,#8657BE,DIS-D,4,Late,5.0
+05_obs_vs_disd_noticed_dimensions,26071703,DIS-D,#8657BE,DIS-D,4,Late,5.0
+05_obs_vs_disd_noticed_dimensions,26071704,DIS-D,#8657BE,DIS-D,4,Late,14.0
+05_obs_vs_disd_noticed_dimensions,26072201,DIS-D,#8657BE,DIS-D,4,Late,4.0
+05_obs_vs_disd_noticed_dimensions,26072202,DIS-D,#8657BE,DIS-D,4,Late,5.0

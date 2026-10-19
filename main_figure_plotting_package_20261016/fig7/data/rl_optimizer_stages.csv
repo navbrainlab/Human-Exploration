@@ -1,0 +1,945 @@
+task,phase,subject,model,restart,DE_success,DE_message,DE_nfev,refine_success,refine_nfev
+1,4D-E,2024111402,naiveRL,0,True,Optimization terminated successfully.,448,True,31
+1,4D-E,2024111402,naiveRL,1,True,Optimization terminated successfully.,384,True,29
+2,Task2,26051104,naiveRL,0,True,Optimization terminated successfully.,528,True,31
+2,Task2,26051104,naiveRL,1,True,Optimization terminated successfully.,432,True,32
+1,3D,2025061901,fRL-decay,0,False,Maximum number of iterations has been exceeded.,512,True,95
+1,3D,2025061901,fRL-decay,1,True,Optimization terminated successfully.,512,False,128
+1,4D-E,2024110704,naiveRL,0,True,Optimization terminated successfully.,352,True,29
+1,4D-E,2024110704,naiveRL,1,True,Optimization terminated successfully.,224,True,56
+1,4D-E,2024102201,fRL-decay,0,False,Maximum number of iterations has been exceeded.,512,True,115
+1,4D-E,2024102201,fRL-decay,1,False,Maximum number of iterations has been exceeded.,512,True,78
+2,Task2,26051501,naiveRL,0,True,Optimization terminated successfully.,864,True,31
+2,Task2,26051501,naiveRL,1,True,Optimization terminated successfully.,768,True,31
+1,4D-E,2024110704,fRL-decay,0,False,Maximum number of iterations has been exceeded.,512,False,128
+1,4D-E,2024110704,fRL-decay,1,False,Maximum number of iterations has been exceeded.,512,False,128
+1,4D-E,2024103103,fRL-decay,0,False,Maximum number of iterations has been exceeded.,512,True,94
+1,4D-E,2024103103,fRL-decay,1,False,Maximum number of iterations has been exceeded.,512,True,82
+1,4D-NE,2025051601,naiveRL,0,True,Optimization terminated successfully.,448,True,30
+1,4D-NE,2025051601,naiveRL,1,False,Maximum number of iterations has been exceeded.,512,True,62
+2,Task2,26061102,naiveRL,0,True,Optimization terminated successfully.,816,True,106
+2,Task2,26061102,naiveRL,1,True,Optimization terminated successfully.,864,True,36
+1,3D,2024102603,naiveRL,0,True,Optimization terminated successfully.,416,True,33
+1,3D,2024102603,naiveRL,1,True,Optimization terminated successfully.,384,True,30
+2,Task2,26050801,fRL-decay,0,True,Optimization terminated successfully.,960,True,123
+2,Task2,26050801,fRL-decay,1,True,Optimization terminated successfully.,864,True,82
+2,Task2,26061502,fRL-decay,0,False,Maximum number of iterations has been exceeded.,1968,False,180
+2,Task2,26061502,fRL-decay,1,True,Optimization terminated successfully.,1488,True,88
+1,4D-NE,2025031901,naiveRL,0,True,Optimization terminated successfully.,416,True,81
+1,4D-NE,2025031901,naiveRL,1,True,Optimization terminated successfully.,416,True,28
+2,Task2,26050701,fRL-decay,0,True,Optimization terminated successfully.,480,True,91
+2,Task2,26050701,fRL-decay,1,True,Optimization terminated successfully.,480,True,126
+1,4D-NE,2025051402,fRL-decay,0,False,Maximum number of iterations has been exceeded.,512,True,120
+1,4D-NE,2025051402,fRL-decay,1,False,Maximum number of iterations has been exceeded.,512,False,128
+2,Task2,26051204,naiveRL,0,True,Optimization terminated successfully.,240,True,79
+2,Task2,26051204,naiveRL,1,True,Optimization terminated successfully.,192,True,74
+2,Task2,26051302,naiveRL,0,True,Optimization terminated successfully.,336,True,32
+2,Task2,26051302,naiveRL,1,True,Optimization terminated successfully.,192,True,31
+1,4D-E,2024102202,fRL-decay,0,False,Maximum number of iterations has been exceeded.,512,True,42
+1,4D-E,2024102202,fRL-decay,1,False,Maximum number of iterations has been exceeded.,512,False,128
+1,4D-E,2024102602,fRL-decay,0,False,Maximum number of iterations has been exceeded.,512,True,108
+1,4D-E,2024102602,fRL-decay,1,False,Maximum number of iterations has been exceeded.,512,True,96
+1,4D-NE,2024111202,fRL-decay,0,False,Maximum number of iterations has been exceeded.,512,True,79
+1,4D-NE,2024111202,fRL-decay,1,False,Maximum number of iterations has been exceeded.,512,False,128
+2,Task2,26050702,fRL-decay,0,True,Optimization terminated successfully.,1200,True,85
+2,Task2,26050702,fRL-decay,1,True,Optimization terminated successfully.,672,True,82
+1,4D-NE,2024103004,naiveRL,0,True,Optimization terminated successfully.,320,True,27
+1,4D-NE,2024103004,naiveRL,1,True,Optimization terminated successfully.,320,True,28
+1,3D,2024102801,naiveRL,0,True,Optimization terminated successfully.,320,True,28
+1,3D,2024102801,naiveRL,1,True,Optimization terminated successfully.,480,True,56
+2,Task2,26061001,naiveRL,0,True,Optimization terminated successfully.,96,True,43
+2,Task2,26061001,naiveRL,1,True,Optimization terminated successfully.,96,True,43
+1,4D-E,2024110502,fRL-decay,0,False,Maximum number of iterations has been exceeded.,512,True,79
+1,4D-E,2024110502,fRL-decay,1,False,Maximum number of iterations has been exceeded.,512,False,128
+1,4D-E,2025022101,fRL-decay,0,True,Optimization terminated successfully.,448,True,110
+1,4D-E,2025022101,fRL-decay,1,False,Maximum number of iterations has been exceeded.,512,True,100
+2,Task2,26060503,naiveRL,0,True,Optimization terminated successfully.,336,True,31
+2,Task2,26060503,naiveRL,1,True,Optimization terminated successfully.,480,True,32
+2,Task2,26060602,fRL-decay,0,True,Optimization terminated successfully.,480,True,126
+2,Task2,26060602,fRL-decay,1,True,Optimization terminated successfully.,384,False,180
+1,4D-E,2024102405,naiveRL,0,False,Maximum number of iterations has been exceeded.,512,True,33
+1,4D-E,2024102405,naiveRL,1,True,Optimization terminated successfully.,320,True,32
+1,4D-E,2024102805,naiveRL,0,True,Optimization terminated successfully.,256,True,35
+1,4D-E,2024102805,naiveRL,1,True,Optimization terminated successfully.,288,True,29
+1,3D,2025022101,fRL-decay,0,False,Maximum number of iterations has been exceeded.,512,False,128
+1,3D,2025022101,fRL-decay,1,False,Maximum number of iterations has been exceeded.,512,True,127
+2,Task2,26051201,fRL-decay,0,True,Optimization terminated successfully.,1056,False,180
+2,Task2,26051201,fRL-decay,1,True,Optimization terminated successfully.,1248,True,91
+1,4D-NE,2024102301,naiveRL,0,False,Maximum number of iterations has been exceeded.,512,True,64
+1,4D-NE,2024102301,naiveRL,1,False,Maximum number of iterations has been exceeded.,512,True,83
+1,4D-NE,2024103001,naiveRL,0,True,Optimization terminated successfully.,512,True,106
+1,4D-NE,2024103001,naiveRL,1,True,Optimization terminated successfully.,416,True,28
+1,4D-NE,2025051402,naiveRL,0,True,Optimization terminated successfully.,192,True,60
+1,4D-NE,2025051402,naiveRL,1,True,Optimization terminated successfully.,192,True,29
+1,4D-NE,2024103001,fRL-decay,0,True,Optimization terminated successfully.,480,False,128
+1,4D-NE,2024103001,fRL-decay,1,False,Maximum number of iterations has been exceeded.,512,True,109
+1,3D,2024110701,naiveRL,0,False,Maximum number of iterations has been exceeded.,512,True,69
+1,3D,2024110701,naiveRL,1,False,Maximum number of iterations has been exceeded.,512,True,35
+2,Task2,26062201,fRL-decay,0,True,Optimization terminated successfully.,768,True,80
+2,Task2,26062201,fRL-decay,1,True,Optimization terminated successfully.,912,True,76
+1,4D-NE,2025062401,fRL-decay,0,True,Optimization terminated successfully.,512,False,128
+1,4D-NE,2025062401,fRL-decay,1,False,Maximum number of iterations has been exceeded.,512,True,45
+2,Task2,26052201,fRL-decay,0,True,Optimization terminated successfully.,816,False,180
+2,Task2,26052201,fRL-decay,1,True,Optimization terminated successfully.,1152,True,162
+1,4D-NE,2024111201,fRL-decay,0,False,Maximum number of iterations has been exceeded.,512,False,128
+1,4D-NE,2024111201,fRL-decay,1,True,Optimization terminated successfully.,384,False,128
+1,4D-E,2024102203,naiveRL,0,True,Optimization terminated successfully.,192,True,57
+1,4D-E,2024102203,naiveRL,1,True,Optimization terminated successfully.,192,True,29
+2,Task2,26062302,fRL-decay,0,True,Optimization terminated successfully.,1632,True,89
+2,Task2,26062302,fRL-decay,1,False,Maximum number of iterations has been exceeded.,1968,True,99
+2,Task2,26052303,naiveRL,0,True,Optimization terminated successfully.,624,True,83
+2,Task2,26052303,naiveRL,1,True,Optimization terminated successfully.,672,True,34
+2,Task2,26070101,naiveRL,0,True,Optimization terminated successfully.,624,True,29
+2,Task2,26070101,naiveRL,1,True,Optimization terminated successfully.,528,True,30
+2,Task2,26062503,naiveRL,0,True,Optimization terminated successfully.,672,True,29
+2,Task2,26062503,naiveRL,1,True,Optimization terminated successfully.,720,True,31
+1,3D,2025052304,fRL-decay,0,True,Optimization terminated successfully.,384,False,128
+1,3D,2025052304,fRL-decay,1,True,Optimization terminated successfully.,448,False,128
+1,4D-NE,2025051702,fRL-decay,0,False,Maximum number of iterations has been exceeded.,512,True,102
+1,4D-NE,2025051702,fRL-decay,1,True,Optimization terminated successfully.,512,True,125
+1,4D-E,2024102803,naiveRL,0,False,Maximum number of iterations has been exceeded.,512,True,32
+1,4D-E,2024102803,naiveRL,1,True,Optimization terminated successfully.,512,True,30
+1,4D-NE,2024102303,naiveRL,0,True,Optimization terminated successfully.,448,True,29
+1,4D-NE,2024102303,naiveRL,1,True,Optimization terminated successfully.,480,True,29
+2,Task2,26060902,fRL-decay,0,True,Optimization terminated successfully.,1248,True,42
+2,Task2,26060902,fRL-decay,1,True,Optimization terminated successfully.,1296,True,169
+1,4D-NE,2025061601,naiveRL,0,True,Optimization terminated successfully.,352,True,31
+1,4D-NE,2025061601,naiveRL,1,False,Maximum number of iterations has been exceeded.,512,True,72
+1,3D,2024102601,naiveRL,0,False,Maximum number of iterations has been exceeded.,512,True,74
+1,3D,2024102601,naiveRL,1,True,Optimization terminated successfully.,384,True,31
+1,4D-NE,2024102501,naiveRL,0,True,Optimization terminated successfully.,416,True,28
+1,4D-NE,2024102501,naiveRL,1,False,Maximum number of iterations has been exceeded.,512,False,128
+1,4D-NE,2024103005,fRL-decay,0,False,Maximum number of iterations has been exceeded.,512,False,128
+1,4D-NE,2024103005,fRL-decay,1,False,Maximum number of iterations has been exceeded.,512,False,128
+1,3D,2025062002,fRL-decay,0,False,Maximum number of iterations has been exceeded.,512,False,128
+1,3D,2025062002,fRL-decay,1,True,Optimization terminated successfully.,416,False,128
+1,4D-NE,2024102503,fRL-decay,0,False,Maximum number of iterations has been exceeded.,512,False,128
+1,4D-NE,2024102503,fRL-decay,1,False,Maximum number of iterations has been exceeded.,512,True,107
+1,4D-E,2024110801,fRL-decay,0,False,Maximum number of iterations has been exceeded.,512,False,128
+1,4D-E,2024110801,fRL-decay,1,False,Maximum number of iterations has been exceeded.,512,False,128
+1,4D-NE,2025031901,fRL-decay,0,False,Maximum number of iterations has been exceeded.,512,True,94
+1,4D-NE,2025031901,fRL-decay,1,False,Maximum number of iterations has been exceeded.,512,True,120
+1,4D-E,2024102605,naiveRL,0,True,Optimization terminated successfully.,160,True,56
+1,4D-E,2024102605,naiveRL,1,True,Optimization terminated successfully.,256,True,34
+2,Task2,26060403,fRL-decay,0,True,Optimization terminated successfully.,576,True,102
+2,Task2,26060403,fRL-decay,1,True,Optimization terminated successfully.,288,False,180
+1,4D-E,2024102803,fRL-decay,0,False,Maximum number of iterations has been exceeded.,512,True,108
+1,4D-E,2024102803,fRL-decay,1,False,Maximum number of iterations has been exceeded.,512,True,39
+1,3D,2024103103,naiveRL,0,True,Optimization terminated successfully.,384,True,31
+1,3D,2024103103,naiveRL,1,True,Optimization terminated successfully.,416,True,30
+1,4D-NE,2024110201,naiveRL,0,True,Optimization terminated successfully.,384,True,28
+1,4D-NE,2024110201,naiveRL,1,True,Optimization terminated successfully.,352,True,31
+1,4D-NE,2024103003,naiveRL,0,True,Optimization terminated successfully.,384,True,78
+1,4D-NE,2024103003,naiveRL,1,True,Optimization terminated successfully.,192,True,81
+1,4D-E,2025062102,naiveRL,0,True,Optimization terminated successfully.,160,True,68
+1,4D-E,2025062102,naiveRL,1,True,Optimization terminated successfully.,160,True,28
+1,4D-NE,2024111601,naiveRL,0,False,Maximum number of iterations has been exceeded.,512,True,74
+1,4D-NE,2024111601,naiveRL,1,True,Optimization terminated successfully.,480,True,30
+2,Task2,26051402,fRL-decay,0,True,Optimization terminated successfully.,1680,True,173
+2,Task2,26051402,fRL-decay,1,True,Optimization terminated successfully.,1296,True,84
+2,Task2,26051203,naiveRL,0,True,Optimization terminated successfully.,480,True,108
+2,Task2,26051203,naiveRL,1,True,Optimization terminated successfully.,576,True,29
+2,Task2,26070601,naiveRL,0,True,Optimization terminated successfully.,240,True,31
+2,Task2,26070601,naiveRL,1,True,Optimization terminated successfully.,192,True,33
+1,4D-E,2024110803,fRL-decay,0,False,Maximum number of iterations has been exceeded.,512,True,95
+1,4D-E,2024110803,fRL-decay,1,False,Maximum number of iterations has been exceeded.,512,True,109
+1,4D-E,2024102804,naiveRL,0,True,Optimization terminated successfully.,480,True,31
+1,4D-E,2024102804,naiveRL,1,False,Maximum number of iterations has been exceeded.,512,True,28
+1,4D-E,2024111801,naiveRL,0,False,Maximum number of iterations has been exceeded.,512,True,33
+1,4D-E,2024111801,naiveRL,1,True,Optimization terminated successfully.,512,True,30
+2,Task2,26060302,naiveRL,0,True,Optimization terminated successfully.,336,True,57
+2,Task2,26060302,naiveRL,1,True,Optimization terminated successfully.,288,True,29
+1,4D-NE,2025051601,fRL-decay,0,False,Maximum number of iterations has been exceeded.,512,True,103
+1,4D-NE,2025051601,fRL-decay,1,False,Maximum number of iterations has been exceeded.,512,False,128
+2,Task2,26060401,naiveRL,0,True,Optimization terminated successfully.,240,True,28
+2,Task2,26060401,naiveRL,1,True,Optimization terminated successfully.,192,True,57
+2,Task2,26050901,fRL-decay,0,True,Optimization terminated successfully.,336,True,71
+2,Task2,26050901,fRL-decay,1,True,Optimization terminated successfully.,384,True,95
+1,4D-NE,2025062001,fRL-decay,0,False,Maximum number of iterations has been exceeded.,512,False,128
+1,4D-NE,2025062001,fRL-decay,1,False,Maximum number of iterations has been exceeded.,512,False,128
+1,4D-NE,2024101801,fRL-decay,0,False,Maximum number of iterations has been exceeded.,512,False,128
+1,4D-NE,2024101801,fRL-decay,1,False,Maximum number of iterations has been exceeded.,512,True,81
+2,Task2,26050801,naiveRL,0,True,Optimization terminated successfully.,624,True,32
+2,Task2,26050801,naiveRL,1,True,Optimization terminated successfully.,768,True,31
+2,Task2,26051503,naiveRL,0,True,Optimization terminated successfully.,240,True,64
+2,Task2,26051503,naiveRL,1,True,Optimization terminated successfully.,288,True,79
+1,4D-E,2024102804,fRL-decay,0,False,Maximum number of iterations has been exceeded.,512,False,128
+1,4D-E,2024102804,fRL-decay,1,False,Maximum number of iterations has been exceeded.,512,False,128
+1,4D-NE,2024102504,fRL-decay,0,False,Maximum number of iterations has been exceeded.,512,False,128
+1,4D-NE,2024102504,fRL-decay,1,False,Maximum number of iterations has been exceeded.,512,False,128
+1,3D,2024102204,fRL-decay,0,True,Optimization terminated successfully.,480,True,82
+1,3D,2024102204,fRL-decay,1,False,Maximum number of iterations has been exceeded.,512,False,128
+1,4D-NE,2024102302,fRL-decay,0,False,Maximum number of iterations has been exceeded.,512,False,128
+1,4D-NE,2024102302,fRL-decay,1,False,Maximum number of iterations has been exceeded.,512,False,128
+1,4D-E,2024102203,fRL-decay,0,False,Maximum number of iterations has been exceeded.,512,True,96
+1,4D-E,2024102203,fRL-decay,1,False,Maximum number of iterations has been exceeded.,512,True,73
+2,Task2,26051202,naiveRL,0,True,Optimization terminated successfully.,768,True,40
+2,Task2,26051202,naiveRL,1,True,Optimization terminated successfully.,528,True,33
+1,4D-E,2024102604,fRL-decay,0,False,Maximum number of iterations has been exceeded.,512,False,128
+1,4D-E,2024102604,fRL-decay,1,False,Maximum number of iterations has been exceeded.,512,True,87
+1,4D-NE,2024111302,naiveRL,0,True,Optimization terminated successfully.,352,True,28
+1,4D-NE,2024111302,naiveRL,1,True,Optimization terminated successfully.,352,True,66
+1,4D-E,2025052204,naiveRL,0,True,Optimization terminated successfully.,416,True,30
+1,4D-E,2025052204,naiveRL,1,False,Maximum number of iterations has been exceeded.,512,True,32
+1,4D-E,2025051301,fRL-decay,0,True,Optimization terminated successfully.,448,True,118
+1,4D-E,2025051301,fRL-decay,1,True,Optimization terminated successfully.,512,True,125
+1,4D-E,2025052304,fRL-decay,0,False,Maximum number of iterations has been exceeded.,512,True,82
+1,4D-E,2025052304,fRL-decay,1,True,Optimization terminated successfully.,448,False,128
+2,Task2,26060301,fRL-decay,0,True,Optimization terminated successfully.,960,True,43
+2,Task2,26060301,fRL-decay,1,True,Optimization terminated successfully.,1296,True,89
+2,Task2,26051401,fRL-decay,0,True,Optimization terminated successfully.,768,True,141
+2,Task2,26051401,fRL-decay,1,True,Optimization terminated successfully.,864,True,146
+1,4D-NE,2024102305,fRL-decay,0,True,Optimization terminated successfully.,480,True,122
+1,4D-NE,2024102305,fRL-decay,1,False,Maximum number of iterations has been exceeded.,512,True,106
+1,3D,2024102805,naiveRL,0,True,Optimization terminated successfully.,480,True,31
+1,3D,2024102805,naiveRL,1,True,Optimization terminated successfully.,448,True,31
+2,Task2,26051303,fRL-decay,0,True,Optimization terminated successfully.,1152,True,112
+2,Task2,26051303,fRL-decay,1,True,Optimization terminated successfully.,864,True,78
+2,Task2,26062202,fRL-decay,0,True,Optimization terminated successfully.,912,True,84
+2,Task2,26062202,fRL-decay,1,True,Optimization terminated successfully.,912,True,129
+1,3D,2025051301,fRL-decay,0,False,Maximum number of iterations has been exceeded.,512,False,128
+1,3D,2025051301,fRL-decay,1,False,Maximum number of iterations has been exceeded.,512,False,128
+1,4D-NE,2024102702,naiveRL,0,True,Optimization terminated successfully.,192,True,32
+1,4D-NE,2024102702,naiveRL,1,True,Optimization terminated successfully.,288,True,30
+2,Task2,26060501,naiveRL,0,True,Optimization terminated successfully.,624,True,30
+2,Task2,26060501,naiveRL,1,True,Optimization terminated successfully.,528,True,29
+1,4D-E,2024102802,fRL-decay,0,False,Maximum number of iterations has been exceeded.,512,False,128
+1,4D-E,2024102802,fRL-decay,1,False,Maximum number of iterations has been exceeded.,512,True,77
+1,4D-E,2025052204,fRL-decay,0,False,Maximum number of iterations has been exceeded.,512,True,70
+1,4D-E,2025052204,fRL-decay,1,False,Maximum number of iterations has been exceeded.,512,True,75
+2,Task2,26060602,naiveRL,0,True,Optimization terminated successfully.,288,True,106
+2,Task2,26060602,naiveRL,1,True,Optimization terminated successfully.,240,True,36
+1,3D,2024110503,naiveRL,0,True,Optimization terminated successfully.,448,True,28
+1,3D,2024110503,naiveRL,1,False,Maximum number of iterations has been exceeded.,512,True,32
+1,4D-NE,2025052203,fRL-decay,0,False,Maximum number of iterations has been exceeded.,512,False,128
+1,4D-NE,2025052203,fRL-decay,1,False,Maximum number of iterations has been exceeded.,512,True,117
+2,Task2,26051304,fRL-decay,0,True,Optimization terminated successfully.,768,False,180
+2,Task2,26051304,fRL-decay,1,False,Maximum number of iterations has been exceeded.,1968,True,89
+2,Task2,26070101,fRL-decay,0,True,Optimization terminated successfully.,1680,True,82
+2,Task2,26070101,fRL-decay,1,True,Optimization terminated successfully.,1152,True,131
+2,Task2,26051403,naiveRL,0,True,Optimization terminated successfully.,768,True,64
+2,Task2,26051403,naiveRL,1,True,Optimization terminated successfully.,864,True,31
+1,3D,2025022001,naiveRL,0,True,Optimization terminated successfully.,480,True,77
+1,3D,2025022001,naiveRL,1,True,Optimization terminated successfully.,480,True,33
+1,3D,2025052302,naiveRL,0,False,Maximum number of iterations has been exceeded.,512,True,29
+1,3D,2025052302,naiveRL,1,True,Optimization terminated successfully.,480,True,27
+2,Task2,26062301,fRL-decay,0,True,Optimization terminated successfully.,1008,False,180
+2,Task2,26062301,fRL-decay,1,True,Optimization terminated successfully.,1200,True,82
+1,4D-NE,2024102705,naiveRL,0,False,Maximum number of iterations has been exceeded.,512,True,64
+1,4D-NE,2024102705,naiveRL,1,True,Optimization terminated successfully.,416,True,75
+1,4D-E,2024111401,fRL-decay,0,False,Maximum number of iterations has been exceeded.,512,True,78
+1,4D-E,2024111401,fRL-decay,1,False,Maximum number of iterations has been exceeded.,512,False,128
+2,Task2,26051301,naiveRL,0,True,Optimization terminated successfully.,240,True,30
+2,Task2,26051301,naiveRL,1,True,Optimization terminated successfully.,288,True,30
+1,4D-E,2025062002,naiveRL,0,True,Optimization terminated successfully.,416,True,37
+1,4D-E,2025062002,naiveRL,1,True,Optimization terminated successfully.,288,True,33
+1,3D,2024111103,fRL-decay,0,False,Maximum number of iterations has been exceeded.,512,False,128
+1,3D,2024111103,fRL-decay,1,False,Maximum number of iterations has been exceeded.,512,False,128
+1,4D-E,2024102805,fRL-decay,0,False,Maximum number of iterations has been exceeded.,512,False,128
+1,4D-E,2024102805,fRL-decay,1,False,Maximum number of iterations has been exceeded.,512,True,52
+1,4D-NE,2024102705,fRL-decay,0,False,Maximum number of iterations has been exceeded.,512,False,128
+1,4D-NE,2024102705,fRL-decay,1,False,Maximum number of iterations has been exceeded.,512,True,90
+2,Task2,26060601,fRL-decay,0,True,Optimization terminated successfully.,1104,True,138
+2,Task2,26060601,fRL-decay,1,True,Optimization terminated successfully.,1296,True,134
+1,3D,2024102803,naiveRL,0,True,Optimization terminated successfully.,480,True,63
+1,3D,2024102803,naiveRL,1,True,Optimization terminated successfully.,288,True,28
+1,4D-NE,2024102505,naiveRL,0,True,Optimization terminated successfully.,480,True,32
+1,4D-NE,2024102505,naiveRL,1,True,Optimization terminated successfully.,384,True,73
+1,3D,2024102403,fRL-decay,0,False,Maximum number of iterations has been exceeded.,512,True,82
+1,3D,2024102403,fRL-decay,1,False,Maximum number of iterations has been exceeded.,512,True,77
+1,4D-E,2025051501,fRL-decay,0,False,Maximum number of iterations has been exceeded.,512,False,128
+1,4D-E,2025051501,fRL-decay,1,False,Maximum number of iterations has been exceeded.,512,False,128
+2,Task2,26062504,naiveRL,0,True,Optimization terminated successfully.,528,True,31
+2,Task2,26062504,naiveRL,1,True,Optimization terminated successfully.,720,True,33
+2,Task2,26052301,naiveRL,0,True,Optimization terminated successfully.,576,True,30
+2,Task2,26052301,naiveRL,1,True,Optimization terminated successfully.,624,True,31
+1,4D-NE,2024102303,fRL-decay,0,False,Maximum number of iterations has been exceeded.,512,True,99
+1,4D-NE,2024102303,fRL-decay,1,False,Maximum number of iterations has been exceeded.,512,False,128
+2,Task2,26051802,naiveRL,0,True,Optimization terminated successfully.,768,True,29
+2,Task2,26051802,naiveRL,1,True,Optimization terminated successfully.,624,True,29
+2,Task2,26062501,fRL-decay,0,True,Optimization terminated successfully.,1536,True,81
+2,Task2,26062501,fRL-decay,1,True,Optimization terminated successfully.,1536,True,145
+1,3D,2024110703,fRL-decay,0,False,Maximum number of iterations has been exceeded.,512,False,128
+1,3D,2024110703,fRL-decay,1,True,Optimization terminated successfully.,416,True,92
+2,Task2,26051303,naiveRL,0,True,Optimization terminated successfully.,480,True,30
+2,Task2,26051303,naiveRL,1,True,Optimization terminated successfully.,480,True,31
+1,4D-E,2025051403,naiveRL,0,True,Optimization terminated successfully.,288,True,30
+1,4D-E,2025051403,naiveRL,1,True,Optimization terminated successfully.,512,True,33
+1,4D-NE,2024110301,naiveRL,0,True,Optimization terminated successfully.,480,True,54
+1,4D-NE,2024110301,naiveRL,1,True,Optimization terminated successfully.,352,True,34
+1,3D,2024110502,fRL-decay,0,False,Maximum number of iterations has been exceeded.,512,True,85
+1,3D,2024110502,fRL-decay,1,False,Maximum number of iterations has been exceeded.,512,False,128
+2,Task2,26051102,fRL-decay,0,True,Optimization terminated successfully.,336,False,180
+2,Task2,26051102,fRL-decay,1,True,Optimization terminated successfully.,624,True,127
+1,4D-E,2024110703,naiveRL,0,True,Optimization terminated successfully.,384,True,30
+1,4D-E,2024110703,naiveRL,1,True,Optimization terminated successfully.,512,True,31
+2,Task2,26052001,naiveRL,0,True,Optimization terminated successfully.,816,True,32
+2,Task2,26052001,naiveRL,1,True,Optimization terminated successfully.,768,True,65
+1,4D-E,2024102403,fRL-decay,0,False,Maximum number of iterations has been exceeded.,512,True,82
+1,4D-E,2024102403,fRL-decay,1,False,Maximum number of iterations has been exceeded.,512,True,84
+1,3D,2024102605,fRL-decay,0,False,Maximum number of iterations has been exceeded.,512,False,128
+1,3D,2024102605,fRL-decay,1,False,Maximum number of iterations has been exceeded.,512,False,128
+1,4D-NE,2025061601,fRL-decay,0,False,Maximum number of iterations has been exceeded.,512,False,128
+1,4D-NE,2025061601,fRL-decay,1,False,Maximum number of iterations has been exceeded.,512,True,104
+2,Task2,26061101,fRL-decay,0,True,Optimization terminated successfully.,864,True,176
+2,Task2,26061101,fRL-decay,1,True,Optimization terminated successfully.,1104,True,135
+1,4D-E,2024102602,naiveRL,0,True,Optimization terminated successfully.,480,True,33
+1,4D-E,2024102602,naiveRL,1,False,Maximum number of iterations has been exceeded.,512,True,63
+2,Task2,26060903,naiveRL,0,True,Optimization terminated successfully.,624,True,29
+2,Task2,26060903,naiveRL,1,True,Optimization terminated successfully.,672,True,28
+1,4D-NE,2024110601,naiveRL,0,True,Optimization terminated successfully.,224,True,65
+1,4D-NE,2024110601,naiveRL,1,True,Optimization terminated successfully.,384,True,33
+1,3D,2024102201,naiveRL,0,True,Optimization terminated successfully.,384,True,31
+1,3D,2024102201,naiveRL,1,True,Optimization terminated successfully.,512,True,30
+2,Task2,26051901,fRL-decay,0,True,Optimization terminated successfully.,1728,True,112
+2,Task2,26051901,fRL-decay,1,True,Optimization terminated successfully.,672,True,47
+2,Task2,26052103,naiveRL,0,True,Optimization terminated successfully.,432,True,32
+2,Task2,26052103,naiveRL,1,True,Optimization terminated successfully.,384,True,31
+1,4D-E,2024102801,fRL-decay,0,False,Maximum number of iterations has been exceeded.,512,False,128
+1,4D-E,2024102801,fRL-decay,1,False,Maximum number of iterations has been exceeded.,512,True,87
+1,4D-NE,2024110602,naiveRL,0,True,Optimization terminated successfully.,256,True,31
+1,4D-NE,2024110602,naiveRL,1,True,Optimization terminated successfully.,448,True,31
+1,3D,2024102204,naiveRL,0,True,Optimization terminated successfully.,320,True,30
+1,3D,2024102204,naiveRL,1,True,Optimization terminated successfully.,352,True,33
+2,Task2,26060904,fRL-decay,0,False,Maximum number of iterations has been exceeded.,1968,True,100
+2,Task2,26060904,fRL-decay,1,False,Maximum number of iterations has been exceeded.,1968,True,51
+1,4D-NE,2024111202,naiveRL,0,True,Optimization terminated successfully.,448,True,29
+1,4D-NE,2024111202,naiveRL,1,True,Optimization terminated successfully.,448,True,31
+1,4D-NE,2024102502,fRL-decay,0,True,Optimization terminated successfully.,352,False,128
+1,4D-NE,2024102502,fRL-decay,1,True,Optimization terminated successfully.,384,True,107
+1,4D-E,2024111101,fRL-decay,0,False,Maximum number of iterations has been exceeded.,512,True,112
+1,4D-E,2024111101,fRL-decay,1,True,Optimization terminated successfully.,512,False,128
+1,4D-NE,2024110203,naiveRL,0,True,Optimization terminated successfully.,448,True,37
+1,4D-NE,2024110203,naiveRL,1,True,Optimization terminated successfully.,448,True,36
+2,Task2,26062302,naiveRL,0,True,Optimization terminated successfully.,960,True,35
+2,Task2,26062302,naiveRL,1,True,Optimization terminated successfully.,1152,True,35
+1,3D,2025050701,fRL-decay,0,True,Optimization terminated successfully.,512,True,107
+1,3D,2025050701,fRL-decay,1,False,Maximum number of iterations has been exceeded.,512,False,128
+1,4D-E,2024102204,naiveRL,0,True,Optimization terminated successfully.,448,True,67
+1,4D-E,2024102204,naiveRL,1,True,Optimization terminated successfully.,320,True,31
+2,Task2,26050901,naiveRL,0,True,Optimization terminated successfully.,672,True,28
+2,Task2,26050901,naiveRL,1,True,Optimization terminated successfully.,528,True,32
+2,Task2,26060802,fRL-decay,0,True,Optimization terminated successfully.,1488,True,100
+2,Task2,26060802,fRL-decay,1,True,Optimization terminated successfully.,1680,True,159
+1,4D-NE,2024102304,fRL-decay,0,False,Maximum number of iterations has been exceeded.,512,True,82
+1,4D-NE,2024102304,fRL-decay,1,False,Maximum number of iterations has been exceeded.,512,False,128
+2,Task2,26052302,fRL-decay,0,True,Optimization terminated successfully.,960,True,88
+2,Task2,26052302,fRL-decay,1,True,Optimization terminated successfully.,912,False,180
+1,4D-NE,2024101801,naiveRL,0,False,Maximum number of iterations has been exceeded.,512,True,30
+1,4D-NE,2024101801,naiveRL,1,False,Maximum number of iterations has been exceeded.,512,True,64
+1,3D,2024110801,naiveRL,0,True,Optimization terminated successfully.,480,True,29
+1,3D,2024110801,naiveRL,1,False,Maximum number of iterations has been exceeded.,512,True,30
+2,Task2,26061503,fRL-decay,0,True,Optimization terminated successfully.,1872,True,150
+2,Task2,26061503,fRL-decay,1,True,Optimization terminated successfully.,1296,True,140
+1,4D-NE,2025051701,naiveRL,0,True,Optimization terminated successfully.,512,True,29
+1,4D-NE,2025051701,naiveRL,1,True,Optimization terminated successfully.,512,True,30
+2,Task2,26052201,naiveRL,0,True,Optimization terminated successfully.,720,True,29
+2,Task2,26052201,naiveRL,1,True,Optimization terminated successfully.,720,True,29
+1,3D,2025052204,fRL-decay,0,True,Optimization terminated successfully.,384,True,123
+1,3D,2025052204,fRL-decay,1,True,Optimization terminated successfully.,512,True,75
+1,4D-NE,2025052201,fRL-decay,0,False,Maximum number of iterations has been exceeded.,512,False,128
+1,4D-NE,2025052201,fRL-decay,1,True,Optimization terminated successfully.,352,True,91
+1,4D-E,2024111801,fRL-decay,0,False,Maximum number of iterations has been exceeded.,512,False,128
+1,4D-E,2024111801,fRL-decay,1,False,Maximum number of iterations has been exceeded.,512,True,108
+2,Task2,26051103,fRL-decay,0,True,Optimization terminated successfully.,672,True,86
+2,Task2,26051103,fRL-decay,1,True,Optimization terminated successfully.,432,True,174
+1,4D-E,2024111401,naiveRL,0,False,Maximum number of iterations has been exceeded.,512,True,30
+1,4D-E,2024111401,naiveRL,1,True,Optimization terminated successfully.,480,True,30
+1,4D-NE,2024102503,naiveRL,0,True,Optimization terminated successfully.,384,True,28
+1,4D-NE,2024102503,naiveRL,1,True,Optimization terminated successfully.,480,True,30
+2,Task2,26062503,fRL-decay,0,True,Optimization terminated successfully.,1056,True,79
+2,Task2,26062503,fRL-decay,1,True,Optimization terminated successfully.,1296,False,180
+1,4D-E,2024110803,naiveRL,0,True,Optimization terminated successfully.,448,True,31
+1,4D-E,2024110803,naiveRL,1,True,Optimization terminated successfully.,416,True,29
+1,4D-E,2024103104,naiveRL,0,True,Optimization terminated successfully.,256,True,34
+1,4D-E,2024103104,naiveRL,1,True,Optimization terminated successfully.,256,True,35
+1,3D,2025051501,fRL-decay,0,True,Optimization terminated successfully.,224,True,84
+1,3D,2025051501,fRL-decay,1,True,Optimization terminated successfully.,256,False,128
+1,3D,2024110702,naiveRL,0,True,Optimization terminated successfully.,416,True,31
+1,3D,2024110702,naiveRL,1,True,Optimization terminated successfully.,480,True,32
+1,4D-NE,2024111303,fRL-decay,0,True,Optimization terminated successfully.,480,False,128
+1,4D-NE,2024111303,fRL-decay,1,False,Maximum number of iterations has been exceeded.,512,True,41
+2,Task2,26060801,fRL-decay,0,True,Optimization terminated successfully.,336,True,178
+2,Task2,26060801,fRL-decay,1,True,Optimization terminated successfully.,480,True,132
+2,Task2,26050902,fRL-decay,0,True,Optimization terminated successfully.,1248,True,140
+2,Task2,26050902,fRL-decay,1,True,Optimization terminated successfully.,816,True,141
+1,3D,2025052302,fRL-decay,0,False,Maximum number of iterations has been exceeded.,512,False,128
+1,3D,2025052302,fRL-decay,1,False,Maximum number of iterations has been exceeded.,512,True,88
+1,4D-E,2024102802,naiveRL,0,False,Maximum number of iterations has been exceeded.,512,True,33
+1,4D-E,2024102802,naiveRL,1,False,Maximum number of iterations has been exceeded.,512,True,63
+1,3D,2024102404,naiveRL,0,True,Optimization terminated successfully.,224,True,42
+1,3D,2024102404,naiveRL,1,True,Optimization terminated successfully.,224,True,32
+2,Task2,26051104,fRL-decay,0,True,Optimization terminated successfully.,960,True,146
+2,Task2,26051104,fRL-decay,1,False,Maximum number of iterations has been exceeded.,1968,True,121
+2,Task2,26051105,fRL-decay,0,False,Maximum number of iterations has been exceeded.,1968,False,180
+2,Task2,26051105,fRL-decay,1,False,Maximum number of iterations has been exceeded.,1968,False,180
+2,Task2,26061201,naiveRL,0,True,Optimization terminated successfully.,240,True,63
+2,Task2,26061201,naiveRL,1,True,Optimization terminated successfully.,240,True,33
+1,3D,2024111103,naiveRL,0,True,Optimization terminated successfully.,352,True,31
+1,3D,2024111103,naiveRL,1,True,Optimization terminated successfully.,288,True,32
+1,4D-NE,2024102703,fRL-decay,0,False,Maximum number of iterations has been exceeded.,512,True,108
+1,4D-NE,2024102703,fRL-decay,1,False,Maximum number of iterations has been exceeded.,512,True,88
+1,4D-NE,2025061702,naiveRL,0,True,Optimization terminated successfully.,256,True,65
+1,4D-NE,2025061702,naiveRL,1,True,Optimization terminated successfully.,224,True,73
+2,Task2,26061103,fRL-decay,0,True,Optimization terminated successfully.,1008,True,159
+2,Task2,26061103,fRL-decay,1,True,Optimization terminated successfully.,1056,True,145
+2,Task2,26051404,naiveRL,0,True,Optimization terminated successfully.,288,True,59
+2,Task2,26051404,naiveRL,1,True,Optimization terminated successfully.,240,True,84
+1,4D-E,2025022101,naiveRL,0,False,Maximum number of iterations has been exceeded.,512,True,34
+1,4D-E,2025022101,naiveRL,1,True,Optimization terminated successfully.,512,True,33
+2,Task2,26051304,naiveRL,0,True,Optimization terminated successfully.,240,True,124
+2,Task2,26051304,naiveRL,1,True,Optimization terminated successfully.,240,True,37
+1,3D,2024111102,naiveRL,0,True,Optimization terminated successfully.,384,True,29
+1,3D,2024111102,naiveRL,1,True,Optimization terminated successfully.,448,True,29
+1,3D,2024111401,fRL-decay,0,False,Maximum number of iterations has been exceeded.,512,False,128
+1,3D,2024111401,fRL-decay,1,True,Optimization terminated successfully.,448,False,128
+2,Task2,26051105,naiveRL,0,True,Optimization terminated successfully.,96,True,43
+2,Task2,26051105,naiveRL,1,True,Optimization terminated successfully.,96,True,43
+2,Task2,26051802,fRL-decay,0,True,Optimization terminated successfully.,1728,True,106
+2,Task2,26051802,fRL-decay,1,True,Optimization terminated successfully.,912,True,169
+1,4D-NE,2025052201,naiveRL,0,False,Maximum number of iterations has been exceeded.,512,True,31
+1,4D-NE,2025052201,naiveRL,1,True,Optimization terminated successfully.,480,True,30
+2,Task2,26050903,fRL-decay,0,True,Optimization terminated successfully.,864,True,150
+2,Task2,26050903,fRL-decay,1,True,Optimization terminated successfully.,1152,True,100
+1,4D-E,2024102601,naiveRL,0,True,Optimization terminated successfully.,320,True,27
+1,4D-E,2024102601,naiveRL,1,True,Optimization terminated successfully.,384,True,35
+1,3D,2024110703,naiveRL,0,False,Maximum number of iterations has been exceeded.,512,True,29
+1,3D,2024110703,naiveRL,1,True,Optimization terminated successfully.,512,True,62
+2,Task2,26061202,naiveRL,0,True,Optimization terminated successfully.,240,True,142
+2,Task2,26061202,naiveRL,1,True,Optimization terminated successfully.,192,True,72
+1,3D,2024102202,fRL-decay,0,False,Maximum number of iterations has been exceeded.,512,False,128
+1,3D,2024102202,fRL-decay,1,False,Maximum number of iterations has been exceeded.,512,True,122
+1,4D-E,2024102202,naiveRL,0,True,Optimization terminated successfully.,384,True,32
+1,4D-E,2024102202,naiveRL,1,True,Optimization terminated successfully.,352,True,32
+1,4D-NE,2024110601,fRL-decay,0,True,Optimization terminated successfully.,512,True,122
+1,4D-NE,2024110601,fRL-decay,1,True,Optimization terminated successfully.,320,True,118
+2,Task2,26051302,fRL-decay,0,True,Optimization terminated successfully.,864,True,81
+2,Task2,26051302,fRL-decay,1,True,Optimization terminated successfully.,768,True,84
+1,4D-NE,2025052101,naiveRL,0,True,Optimization terminated successfully.,512,True,32
+1,4D-NE,2025052101,naiveRL,1,True,Optimization terminated successfully.,480,True,32
+1,4D-E,2024103104,fRL-decay,0,True,Optimization terminated successfully.,320,False,128
+1,4D-E,2024103104,fRL-decay,1,True,Optimization terminated successfully.,256,False,128
+1,4D-NE,2024102502,naiveRL,0,True,Optimization terminated successfully.,288,True,81
+1,4D-NE,2024102502,naiveRL,1,True,Optimization terminated successfully.,192,True,30
+1,4D-E,2024102404,fRL-decay,0,False,Maximum number of iterations has been exceeded.,512,False,128
+1,4D-E,2024102404,fRL-decay,1,False,Maximum number of iterations has been exceeded.,512,False,128
+2,Task2,26052002,naiveRL,0,True,Optimization terminated successfully.,192,True,105
+2,Task2,26052002,naiveRL,1,True,Optimization terminated successfully.,240,True,39
+1,4D-E,2024102605,fRL-decay,0,False,Maximum number of iterations has been exceeded.,512,False,128
+1,4D-E,2024102605,fRL-decay,1,False,Maximum number of iterations has been exceeded.,512,True,39
+1,4D-NE,2024111201,naiveRL,0,True,Optimization terminated successfully.,192,True,61
+1,4D-NE,2024111201,naiveRL,1,True,Optimization terminated successfully.,256,True,30
+1,4D-E,2024102204,fRL-decay,0,True,Optimization terminated successfully.,384,False,128
+1,4D-E,2024102204,fRL-decay,1,False,Maximum number of iterations has been exceeded.,512,False,128
+1,4D-E,2024102604,naiveRL,0,True,Optimization terminated successfully.,224,True,61
+1,4D-E,2024102604,naiveRL,1,True,Optimization terminated successfully.,224,True,60
+1,4D-NE,2025051702,naiveRL,0,True,Optimization terminated successfully.,384,True,29
+1,4D-NE,2025051702,naiveRL,1,True,Optimization terminated successfully.,384,True,28
+1,4D-E,2025051301,naiveRL,0,False,Maximum number of iterations has been exceeded.,512,True,74
+1,4D-E,2025051301,naiveRL,1,True,Optimization terminated successfully.,416,True,29
+1,4D-E,2024110701,naiveRL,0,True,Optimization terminated successfully.,512,True,31
+1,4D-E,2024110701,naiveRL,1,False,Maximum number of iterations has been exceeded.,512,True,29
+1,3D,2024111801,fRL-decay,0,False,Maximum number of iterations has been exceeded.,512,False,128
+1,3D,2024111801,fRL-decay,1,False,Maximum number of iterations has been exceeded.,512,False,128
+1,4D-E,2025050701,naiveRL,0,True,Optimization terminated successfully.,416,True,33
+1,4D-E,2025050701,naiveRL,1,True,Optimization terminated successfully.,416,True,39
+2,Task2,26061201,fRL-decay,0,True,Optimization terminated successfully.,384,True,127
+2,Task2,26061201,fRL-decay,1,True,Optimization terminated successfully.,288,True,123
+1,4D-NE,2024111302,fRL-decay,0,False,Maximum number of iterations has been exceeded.,512,False,128
+1,4D-NE,2024111302,fRL-decay,1,True,Optimization terminated successfully.,512,False,128
+2,Task2,26060501,fRL-decay,0,True,Optimization terminated successfully.,1344,False,180
+2,Task2,26060501,fRL-decay,1,True,Optimization terminated successfully.,1152,False,180
+1,4D-NE,2024102703,naiveRL,0,True,Optimization terminated successfully.,480,True,32
+1,4D-NE,2024102703,naiveRL,1,True,Optimization terminated successfully.,480,True,30
+1,4D-E,2024102801,naiveRL,0,True,Optimization terminated successfully.,224,True,33
+1,4D-E,2024102801,naiveRL,1,True,Optimization terminated successfully.,192,True,64
+2,Task2,26061503,naiveRL,0,True,Optimization terminated successfully.,672,True,31
+2,Task2,26061503,naiveRL,1,True,Optimization terminated successfully.,576,True,31
+1,4D-NE,2025031802,fRL-decay,0,False,Maximum number of iterations has been exceeded.,512,True,121
+1,4D-NE,2025031802,fRL-decay,1,False,Maximum number of iterations has been exceeded.,512,True,88
+2,Task2,26051401,naiveRL,0,True,Optimization terminated successfully.,912,True,31
+2,Task2,26051401,naiveRL,1,True,Optimization terminated successfully.,768,True,29
+1,3D,2025062101,fRL-decay,0,True,Optimization terminated successfully.,448,False,128
+1,3D,2025062101,fRL-decay,1,False,Maximum number of iterations has been exceeded.,512,True,124
+1,3D,2024110503,fRL-decay,0,False,Maximum number of iterations has been exceeded.,512,True,122
+1,3D,2024110503,fRL-decay,1,True,Optimization terminated successfully.,480,False,128
+1,4D-E,2024103103,naiveRL,0,True,Optimization terminated successfully.,448,True,28
+1,4D-E,2024103103,naiveRL,1,True,Optimization terminated successfully.,384,True,72
+1,4D-E,2024110702,naiveRL,0,True,Optimization terminated successfully.,352,True,33
+1,4D-E,2024110702,naiveRL,1,True,Optimization terminated successfully.,288,True,30
+2,Task2,26061001,fRL-decay,0,True,Optimization terminated successfully.,1584,True,88
+2,Task2,26061001,fRL-decay,1,False,Maximum number of iterations has been exceeded.,1968,False,180
+2,Task2,26060401,fRL-decay,0,True,Optimization terminated successfully.,864,True,172
+2,Task2,26060401,fRL-decay,1,True,Optimization terminated successfully.,864,False,180
+1,3D,2024102201,fRL-decay,0,False,Maximum number of iterations has been exceeded.,512,True,83
+1,3D,2024102201,fRL-decay,1,True,Optimization terminated successfully.,512,True,37
+1,3D,2024102802,naiveRL,0,True,Optimization terminated successfully.,448,True,43
+1,3D,2024102802,naiveRL,1,True,Optimization terminated successfully.,448,True,42
+1,4D-NE,2025052001,naiveRL,0,True,Optimization terminated successfully.,192,True,76
+1,4D-NE,2025052001,naiveRL,1,True,Optimization terminated successfully.,160,True,58
+2,Task2,26052102,fRL-decay,0,True,Optimization terminated successfully.,720,True,41
+2,Task2,26052102,fRL-decay,1,True,Optimization terminated successfully.,576,True,111
+2,Task2,26052002,fRL-decay,0,True,Optimization terminated successfully.,384,True,178
+2,Task2,26052002,fRL-decay,1,True,Optimization terminated successfully.,384,True,119
+2,Task2,26050702,naiveRL,0,True,Optimization terminated successfully.,720,True,30
+2,Task2,26050702,naiveRL,1,True,Optimization terminated successfully.,672,True,27
+1,4D-E,2024110703,fRL-decay,0,True,Optimization terminated successfully.,512,True,91
+1,4D-E,2024110703,fRL-decay,1,False,Maximum number of iterations has been exceeded.,512,True,110
+2,Task2,26061101,naiveRL,0,True,Optimization terminated successfully.,240,True,60
+2,Task2,26061101,naiveRL,1,True,Optimization terminated successfully.,288,True,78
+1,4D-NE,2024102704,naiveRL,0,True,Optimization terminated successfully.,384,True,30
+1,4D-NE,2024102704,naiveRL,1,True,Optimization terminated successfully.,352,True,30
+1,3D,2024110801,fRL-decay,0,False,Maximum number of iterations has been exceeded.,512,True,117
+1,3D,2024110801,fRL-decay,1,False,Maximum number of iterations has been exceeded.,512,True,78
+1,4D-NE,2024102702,fRL-decay,0,True,Optimization terminated successfully.,320,False,128
+1,4D-NE,2024102702,fRL-decay,1,True,Optimization terminated successfully.,352,True,105
+2,Task2,26060503,fRL-decay,0,False,Maximum number of iterations has been exceeded.,1968,True,92
+2,Task2,26060503,fRL-decay,1,False,Maximum number of iterations has been exceeded.,1968,False,180
+1,4D-E,2025052302,naiveRL,0,True,Optimization terminated successfully.,448,True,32
+1,4D-E,2025052302,naiveRL,1,True,Optimization terminated successfully.,416,True,29
+2,Task2,26052301,fRL-decay,0,True,Optimization terminated successfully.,960,True,120
+2,Task2,26052301,fRL-decay,1,True,Optimization terminated successfully.,768,True,117
+1,3D,2025051301,naiveRL,0,False,Maximum number of iterations has been exceeded.,512,False,128
+1,3D,2025051301,naiveRL,1,False,Maximum number of iterations has been exceeded.,512,False,128
+1,4D-NE,2024103005,naiveRL,0,True,Optimization terminated successfully.,384,True,30
+1,4D-NE,2024103005,naiveRL,1,True,Optimization terminated successfully.,512,True,34
+1,3D,2024102602,fRL-decay,0,False,Maximum number of iterations has been exceeded.,512,False,128
+1,3D,2024102602,fRL-decay,1,False,Maximum number of iterations has been exceeded.,512,False,128
+2,Task2,26051204,fRL-decay,0,True,Optimization terminated successfully.,1152,False,180
+2,Task2,26051204,fRL-decay,1,True,Optimization terminated successfully.,1536,True,138
+1,4D-NE,2025031802,naiveRL,0,True,Optimization terminated successfully.,416,True,32
+1,4D-NE,2025031802,naiveRL,1,True,Optimization terminated successfully.,448,True,31
+2,Task2,26060502,fRL-decay,0,True,Optimization terminated successfully.,1056,True,109
+2,Task2,26060502,fRL-decay,1,True,Optimization terminated successfully.,1104,True,116
+1,4D-E,2024102601,fRL-decay,0,False,Maximum number of iterations has been exceeded.,512,False,128
+1,4D-E,2024102601,fRL-decay,1,False,Maximum number of iterations has been exceeded.,512,True,98
+2,Task2,26051201,naiveRL,0,True,Optimization terminated successfully.,192,True,57
+2,Task2,26051201,naiveRL,1,True,Optimization terminated successfully.,288,True,60
+2,Task2,26060402,naiveRL,0,True,Optimization terminated successfully.,192,True,92
+2,Task2,26060402,naiveRL,1,True,Optimization terminated successfully.,192,True,91
+1,4D-NE,2025061702,fRL-decay,0,True,Optimization terminated successfully.,480,True,75
+1,4D-NE,2025061702,fRL-decay,1,False,Maximum number of iterations has been exceeded.,512,True,104
+2,Task2,26051402,naiveRL,0,True,Optimization terminated successfully.,528,True,30
+2,Task2,26051402,naiveRL,1,True,Optimization terminated successfully.,624,True,31
+1,4D-NE,2025052202,fRL-decay,0,True,Optimization terminated successfully.,256,False,128
+1,4D-NE,2025052202,fRL-decay,1,True,Optimization terminated successfully.,288,True,97
+2,Task2,26060603,naiveRL,0,True,Optimization terminated successfully.,336,True,62
+2,Task2,26060603,naiveRL,1,True,Optimization terminated successfully.,528,True,29
+2,Task2,26050903,naiveRL,0,True,Optimization terminated successfully.,576,True,77
+2,Task2,26050903,naiveRL,1,True,Optimization terminated successfully.,432,True,31
+1,4D-E,2024110702,fRL-decay,0,True,Optimization terminated successfully.,480,True,86
+1,4D-E,2024110702,fRL-decay,1,True,Optimization terminated successfully.,480,False,128
+1,4D-E,2024111102,fRL-decay,0,True,Optimization terminated successfully.,288,True,120
+1,4D-E,2024111102,fRL-decay,1,True,Optimization terminated successfully.,384,True,84
+1,4D-E,2025061901,naiveRL,0,True,Optimization terminated successfully.,224,True,30
+1,4D-E,2025061901,naiveRL,1,True,Optimization terminated successfully.,224,True,26
+1,4D-NE,2025051901,naiveRL,0,True,Optimization terminated successfully.,512,True,30
+1,4D-NE,2025051901,naiveRL,1,True,Optimization terminated successfully.,384,True,30
+1,4D-NE,2024103004,fRL-decay,0,False,Maximum number of iterations has been exceeded.,512,False,128
+1,4D-NE,2024103004,fRL-decay,1,False,Maximum number of iterations has been exceeded.,512,True,81
+2,Task2,26061502,naiveRL,0,True,Optimization terminated successfully.,624,True,28
+2,Task2,26061502,naiveRL,1,True,Optimization terminated successfully.,768,True,31
+2,Task2,26060404,fRL-decay,0,True,Optimization terminated successfully.,768,False,180
+2,Task2,26060404,fRL-decay,1,True,Optimization terminated successfully.,1008,True,81
+1,4D-NE,2024101803,naiveRL,0,True,Optimization terminated successfully.,448,True,29
+1,4D-NE,2024101803,naiveRL,1,True,Optimization terminated successfully.,480,True,29
+1,4D-NE,2024102704,fRL-decay,0,False,Maximum number of iterations has been exceeded.,512,False,128
+1,4D-NE,2024102704,fRL-decay,1,False,Maximum number of iterations has been exceeded.,512,True,76
+1,3D,2025050701,naiveRL,0,True,Optimization terminated successfully.,384,True,29
+1,3D,2025050701,naiveRL,1,True,Optimization terminated successfully.,416,True,29
+2,Task2,26061501,naiveRL,0,True,Optimization terminated successfully.,768,True,38
+2,Task2,26061501,naiveRL,1,True,Optimization terminated successfully.,768,True,37
+1,4D-NE,2024111301,naiveRL,0,True,Optimization terminated successfully.,288,True,32
+1,4D-NE,2024111301,naiveRL,1,True,Optimization terminated successfully.,288,True,88
+2,Task2,26060601,naiveRL,0,True,Optimization terminated successfully.,672,True,28
+2,Task2,26060601,naiveRL,1,True,Optimization terminated successfully.,720,True,33
+2,Task2,26060603,fRL-decay,0,True,Optimization terminated successfully.,720,False,180
+2,Task2,26060603,fRL-decay,1,True,Optimization terminated successfully.,816,True,131
+2,Task2,26060904,naiveRL,0,True,Optimization terminated successfully.,672,True,33
+2,Task2,26060904,naiveRL,1,True,Optimization terminated successfully.,576,True,31
+1,3D,2024102403,naiveRL,0,True,Optimization terminated successfully.,288,True,31
+1,3D,2024102403,naiveRL,1,True,Optimization terminated successfully.,320,True,32
+1,4D-NE,2024102302,naiveRL,0,False,Maximum number of iterations has been exceeded.,512,True,79
+1,4D-NE,2024102302,naiveRL,1,True,Optimization terminated successfully.,416,True,29
+1,3D,2025051403,naiveRL,0,True,Optimization terminated successfully.,416,True,32
+1,3D,2025051403,naiveRL,1,True,Optimization terminated successfully.,384,True,61
+1,4D-E,2024103102,naiveRL,0,True,Optimization terminated successfully.,512,True,31
+1,4D-E,2024103102,naiveRL,1,True,Optimization terminated successfully.,448,True,79
+2,Task2,26052003,fRL-decay,0,True,Optimization terminated successfully.,960,True,86
+2,Task2,26052003,fRL-decay,1,True,Optimization terminated successfully.,912,False,180
+2,Task2,26052003,naiveRL,0,True,Optimization terminated successfully.,480,True,64
+2,Task2,26052003,naiveRL,1,True,Optimization terminated successfully.,528,True,77
+1,4D-NE,2025052101,fRL-decay,0,False,Maximum number of iterations has been exceeded.,512,True,92
+1,4D-NE,2025052101,fRL-decay,1,False,Maximum number of iterations has been exceeded.,512,False,128
+1,3D,2025051501,naiveRL,0,True,Optimization terminated successfully.,192,True,30
+1,3D,2025051501,naiveRL,1,True,Optimization terminated successfully.,160,True,33
+1,3D,2024110702,fRL-decay,0,False,Maximum number of iterations has been exceeded.,512,True,42
+1,3D,2024110702,fRL-decay,1,True,Optimization terminated successfully.,512,False,128
+2,Task2,26051404,fRL-decay,0,True,Optimization terminated successfully.,672,True,129
+2,Task2,26051404,fRL-decay,1,True,Optimization terminated successfully.,624,True,121
+2,Task2,26051801,naiveRL,0,True,Optimization terminated successfully.,240,True,33
+2,Task2,26051801,naiveRL,1,True,Optimization terminated successfully.,192,True,37
+1,4D-E,2025062101,fRL-decay,0,False,Maximum number of iterations has been exceeded.,512,False,128
+1,4D-E,2025062101,fRL-decay,1,False,Maximum number of iterations has been exceeded.,512,False,128
+1,4D-NE,2024110202,fRL-decay,0,False,Maximum number of iterations has been exceeded.,512,True,93
+1,4D-NE,2024110202,fRL-decay,1,False,Maximum number of iterations has been exceeded.,512,True,98
+1,4D-NE,2024102305,naiveRL,0,True,Optimization terminated successfully.,320,True,31
+1,4D-NE,2024102305,naiveRL,1,True,Optimization terminated successfully.,288,True,73
+1,3D,2024102203,naiveRL,0,True,Optimization terminated successfully.,320,True,33
+1,3D,2024102203,naiveRL,1,True,Optimization terminated successfully.,256,True,71
+1,3D,2024110401,fRL-decay,0,True,Optimization terminated successfully.,480,False,128
+1,3D,2024110401,fRL-decay,1,True,Optimization terminated successfully.,480,False,128
+2,Task2,26062202,naiveRL,0,True,Optimization terminated successfully.,192,True,59
+2,Task2,26062202,naiveRL,1,True,Optimization terminated successfully.,240,True,64
+1,4D-E,2024110401,fRL-decay,0,False,Maximum number of iterations has been exceeded.,512,True,126
+1,4D-E,2024110401,fRL-decay,1,False,Maximum number of iterations has been exceeded.,512,True,102
+1,4D-E,2024102603,fRL-decay,0,False,Maximum number of iterations has been exceeded.,512,False,128
+1,4D-E,2024102603,fRL-decay,1,False,Maximum number of iterations has been exceeded.,512,False,128
+1,3D,2024102805,fRL-decay,0,False,Maximum number of iterations has been exceeded.,512,True,88
+1,3D,2024102805,fRL-decay,1,False,Maximum number of iterations has been exceeded.,512,False,128
+2,Task2,26061402,naiveRL,0,True,Optimization terminated successfully.,432,True,34
+2,Task2,26061402,naiveRL,1,True,Optimization terminated successfully.,576,True,75
+1,3D,2024110803,naiveRL,0,True,Optimization terminated successfully.,448,True,32
+1,3D,2024110803,naiveRL,1,True,Optimization terminated successfully.,384,True,28
+1,3D,2024102603,fRL-decay,0,False,Maximum number of iterations has been exceeded.,512,False,128
+1,3D,2024102603,fRL-decay,1,False,Maximum number of iterations has been exceeded.,512,False,128
+1,4D-E,2025051403,fRL-decay,0,False,Maximum number of iterations has been exceeded.,512,True,103
+1,4D-E,2025051403,fRL-decay,1,False,Maximum number of iterations has been exceeded.,512,False,128
+1,3D,2024110401,naiveRL,0,False,Maximum number of iterations has been exceeded.,512,True,35
+1,3D,2024110401,naiveRL,1,True,Optimization terminated successfully.,512,True,31
+1,4D-NE,2025062401,naiveRL,0,True,Optimization terminated successfully.,352,True,29
+1,4D-NE,2025062401,naiveRL,1,True,Optimization terminated successfully.,288,True,33
+1,3D,2024102602,naiveRL,0,True,Optimization terminated successfully.,320,True,30
+1,3D,2024102602,naiveRL,1,True,Optimization terminated successfully.,512,True,34
+2,Task2,26060404,naiveRL,0,True,Optimization terminated successfully.,528,True,30
+2,Task2,26060404,naiveRL,1,True,Optimization terminated successfully.,576,True,31
+2,Task2,26061401,fRL-decay,0,True,Optimization terminated successfully.,720,True,47
+2,Task2,26061401,fRL-decay,1,True,Optimization terminated successfully.,1296,True,43
+1,4D-NE,2024102304,naiveRL,0,True,Optimization terminated successfully.,384,True,29
+1,4D-NE,2024102304,naiveRL,1,True,Optimization terminated successfully.,480,True,31
+1,3D,2024102405,naiveRL,0,True,Optimization terminated successfully.,416,True,32
+1,3D,2024102405,naiveRL,1,True,Optimization terminated successfully.,384,True,28
+1,3D,2024102203,fRL-decay,0,False,Maximum number of iterations has been exceeded.,512,True,85
+1,3D,2024102203,fRL-decay,1,False,Maximum number of iterations has been exceeded.,512,True,93
+1,4D-NE,2024103002,fRL-decay,0,False,Maximum number of iterations has been exceeded.,512,True,122
+1,4D-NE,2024103002,fRL-decay,1,False,Maximum number of iterations has been exceeded.,512,False,128
+1,3D,2024102601,fRL-decay,0,False,Maximum number of iterations has been exceeded.,512,True,126
+1,3D,2024102601,fRL-decay,1,False,Maximum number of iterations has been exceeded.,512,True,72
+1,4D-E,2025062102,fRL-decay,0,True,Optimization terminated successfully.,416,True,40
+1,4D-E,2025062102,fRL-decay,1,True,Optimization terminated successfully.,448,True,81
+1,3D,2024110704,naiveRL,0,True,Optimization terminated successfully.,512,True,64
+1,3D,2024110704,naiveRL,1,True,Optimization terminated successfully.,512,True,29
+1,3D,2025022101,naiveRL,0,True,Optimization terminated successfully.,448,True,30
+1,3D,2025022101,naiveRL,1,True,Optimization terminated successfully.,352,True,29
+1,3D,2024102804,fRL-decay,0,False,Maximum number of iterations has been exceeded.,512,True,85
+1,3D,2024102804,fRL-decay,1,False,Maximum number of iterations has been exceeded.,512,True,49
+2,Task2,26060901,naiveRL,0,True,Optimization terminated successfully.,240,True,34
+2,Task2,26060901,naiveRL,1,True,Optimization terminated successfully.,288,True,34
+1,4D-E,2024110503,fRL-decay,0,True,Optimization terminated successfully.,416,True,114
+1,4D-E,2024110503,fRL-decay,1,True,Optimization terminated successfully.,512,True,120
+1,4D-E,2024102404,naiveRL,0,True,Optimization terminated successfully.,512,True,31
+1,4D-E,2024102404,naiveRL,1,True,Optimization terminated successfully.,480,True,30
+1,3D,2024102404,fRL-decay,0,True,Optimization terminated successfully.,512,True,80
+1,3D,2024102404,fRL-decay,1,True,Optimization terminated successfully.,448,True,78
+2,Task2,26051203,fRL-decay,0,True,Optimization terminated successfully.,1056,True,167
+2,Task2,26051203,fRL-decay,1,True,Optimization terminated successfully.,816,True,79
+1,4D-E,2025050701,fRL-decay,0,True,Optimization terminated successfully.,448,True,88
+1,4D-E,2025050701,fRL-decay,1,True,Optimization terminated successfully.,480,True,43
+1,4D-E,2025062101,naiveRL,0,True,Optimization terminated successfully.,480,True,28
+1,4D-E,2025062101,naiveRL,1,True,Optimization terminated successfully.,448,True,31
+1,4D-E,2024111103,fRL-decay,0,False,Maximum number of iterations has been exceeded.,512,False,128
+1,4D-E,2024111103,fRL-decay,1,False,Maximum number of iterations has been exceeded.,512,False,128
+1,3D,2024111801,naiveRL,0,False,Maximum number of iterations has been exceeded.,512,True,34
+1,3D,2024111801,naiveRL,1,True,Optimization terminated successfully.,512,True,32
+2,Task2,26051901,naiveRL,0,True,Optimization terminated successfully.,768,True,57
+2,Task2,26051901,naiveRL,1,True,Optimization terminated successfully.,624,True,30
+1,4D-NE,2025061701,fRL-decay,0,False,Maximum number of iterations has been exceeded.,512,False,128
+1,4D-NE,2025061701,fRL-decay,1,False,Maximum number of iterations has been exceeded.,512,False,128
+2,Task2,26051202,fRL-decay,0,True,Optimization terminated successfully.,336,True,52
+2,Task2,26051202,fRL-decay,1,True,Optimization terminated successfully.,480,True,54
+1,4D-NE,2024110203,fRL-decay,0,True,Optimization terminated successfully.,416,True,113
+1,4D-NE,2024110203,fRL-decay,1,False,Maximum number of iterations has been exceeded.,512,True,125
+1,4D-NE,2024110602,fRL-decay,0,False,Maximum number of iterations has been exceeded.,512,True,80
+1,4D-NE,2024110602,fRL-decay,1,True,Optimization terminated successfully.,480,True,85
+1,4D-NE,2025051901,fRL-decay,0,True,Optimization terminated successfully.,416,True,94
+1,4D-NE,2025051901,fRL-decay,1,False,Maximum number of iterations has been exceeded.,512,False,128
+1,4D-E,2024103102,fRL-decay,0,False,Maximum number of iterations has been exceeded.,512,False,128
+1,4D-E,2024103102,fRL-decay,1,False,Maximum number of iterations has been exceeded.,512,False,128
+1,4D-E,2024110503,naiveRL,0,True,Optimization terminated successfully.,256,False,128
+1,4D-E,2024110503,naiveRL,1,True,Optimization terminated successfully.,160,True,107
+2,Task2,26051801,fRL-decay,0,True,Optimization terminated successfully.,1008,False,180
+2,Task2,26051801,fRL-decay,1,True,Optimization terminated successfully.,816,True,158
+1,3D,2025062102,fRL-decay,0,True,Optimization terminated successfully.,224,True,105
+1,3D,2025062102,fRL-decay,1,True,Optimization terminated successfully.,288,True,102
+2,Task2,26060502,naiveRL,0,True,Optimization terminated successfully.,480,True,32
+2,Task2,26060502,naiveRL,1,True,Optimization terminated successfully.,432,True,33
+1,3D,2024111101,fRL-decay,0,True,Optimization terminated successfully.,256,True,79
+1,3D,2024111101,fRL-decay,1,False,Maximum number of iterations has been exceeded.,512,True,95
+2,Task2,26051902,naiveRL,0,True,Optimization terminated successfully.,240,True,35
+2,Task2,26051902,naiveRL,1,True,Optimization terminated successfully.,144,True,42
+1,4D-E,2024103101,fRL-decay,0,True,Optimization terminated successfully.,512,True,117
+1,4D-E,2024103101,fRL-decay,1,False,Maximum number of iterations has been exceeded.,512,False,128
+2,Task2,26061202,fRL-decay,0,True,Optimization terminated successfully.,816,True,119
+2,Task2,26061202,fRL-decay,1,True,Optimization terminated successfully.,1008,True,105
+1,4D-E,2024110502,naiveRL,0,True,Optimization terminated successfully.,160,True,33
+1,4D-E,2024110502,naiveRL,1,True,Optimization terminated successfully.,160,True,26
+1,4D-E,2025051501,naiveRL,0,True,Optimization terminated successfully.,448,True,58
+1,4D-E,2025051501,naiveRL,1,True,Optimization terminated successfully.,480,True,27
+1,4D-NE,2024110202,naiveRL,0,False,Maximum number of iterations has been exceeded.,512,True,29
+1,4D-NE,2024110202,naiveRL,1,False,Maximum number of iterations has been exceeded.,512,True,30
+2,Task2,26050902,naiveRL,0,True,Optimization terminated successfully.,336,True,72
+2,Task2,26050902,naiveRL,1,True,Optimization terminated successfully.,528,True,82
+2,Task2,26060801,naiveRL,0,True,Optimization terminated successfully.,240,True,47
+2,Task2,26060801,naiveRL,1,True,Optimization terminated successfully.,192,True,47
+1,4D-E,2024102401,naiveRL,0,True,Optimization terminated successfully.,480,True,32
+1,4D-E,2024102401,naiveRL,1,True,Optimization terminated successfully.,448,True,68
+2,Task2,26052302,naiveRL,0,True,Optimization terminated successfully.,1008,True,59
+2,Task2,26052302,naiveRL,1,True,Optimization terminated successfully.,768,True,62
+2,Task2,26052103,fRL-decay,0,True,Optimization terminated successfully.,672,True,95
+2,Task2,26052103,fRL-decay,1,True,Optimization terminated successfully.,624,True,132
+1,4D-E,2024102201,naiveRL,0,True,Optimization terminated successfully.,160,True,63
+1,4D-E,2024102201,naiveRL,1,True,Optimization terminated successfully.,192,True,30
+1,4D-E,2024102405,fRL-decay,0,False,Maximum number of iterations has been exceeded.,512,True,127
+1,4D-E,2024102405,fRL-decay,1,False,Maximum number of iterations has been exceeded.,512,False,128
+1,4D-E,2025062002,fRL-decay,0,False,Maximum number of iterations has been exceeded.,512,True,123
+1,4D-E,2025062002,fRL-decay,1,False,Maximum number of iterations has been exceeded.,512,True,98
+2,Task2,26051102,naiveRL,0,True,Optimization terminated successfully.,384,True,78
+2,Task2,26051102,naiveRL,1,True,Optimization terminated successfully.,384,True,78
+2,Task2,26051902,fRL-decay,0,True,Optimization terminated successfully.,480,False,180
+2,Task2,26051902,fRL-decay,1,True,Optimization terminated successfully.,384,False,180
+1,4D-E,2024110801,naiveRL,0,True,Optimization terminated successfully.,512,True,29
+1,4D-E,2024110801,naiveRL,1,False,Maximum number of iterations has been exceeded.,512,True,26
+1,4D-E,2024111101,naiveRL,0,True,Optimization terminated successfully.,384,True,34
+1,4D-E,2024111101,naiveRL,1,True,Optimization terminated successfully.,384,True,29
+2,Task2,26060405,naiveRL,0,True,Optimization terminated successfully.,384,True,75
+2,Task2,26060405,naiveRL,1,True,Optimization terminated successfully.,288,True,87
+1,3D,2024102401,fRL-decay,0,True,Optimization terminated successfully.,448,True,78
+1,3D,2024102401,fRL-decay,1,True,Optimization terminated successfully.,480,True,79
+2,Task2,26060902,naiveRL,0,True,Optimization terminated successfully.,672,True,28
+2,Task2,26060902,naiveRL,1,True,Optimization terminated successfully.,864,True,28
+1,3D,2025062301,naiveRL,0,True,Optimization terminated successfully.,448,True,31
+1,3D,2025062301,naiveRL,1,True,Optimization terminated successfully.,320,True,32
+1,3D,2025022001,fRL-decay,0,True,Optimization terminated successfully.,416,True,90
+1,3D,2025022001,fRL-decay,1,False,Maximum number of iterations has been exceeded.,512,True,121
+1,4D-NE,2025031801,fRL-decay,0,True,Optimization terminated successfully.,256,False,128
+1,4D-NE,2025031801,fRL-decay,1,True,Optimization terminated successfully.,384,False,128
+2,Task2,26060301,naiveRL,0,True,Optimization terminated successfully.,720,True,32
+2,Task2,26060301,naiveRL,1,True,Optimization terminated successfully.,720,True,29
+1,4D-NE,2024102701,fRL-decay,0,False,Maximum number of iterations has been exceeded.,512,True,78
+1,4D-NE,2024102701,fRL-decay,1,False,Maximum number of iterations has been exceeded.,512,True,99
+2,Task2,26062301,naiveRL,0,True,Optimization terminated successfully.,768,True,28
+2,Task2,26062301,naiveRL,1,True,Optimization terminated successfully.,768,True,30
+2,Task2,26061103,naiveRL,0,True,Optimization terminated successfully.,480,True,31
+2,Task2,26061103,naiveRL,1,True,Optimization terminated successfully.,672,True,32
+1,3D,2024103104,naiveRL,0,False,Maximum number of iterations has been exceeded.,512,True,34
+1,3D,2024103104,naiveRL,1,False,Maximum number of iterations has been exceeded.,512,True,78
+2,Task2,26060903,fRL-decay,0,True,Optimization terminated successfully.,1104,True,130
+2,Task2,26060903,fRL-decay,1,True,Optimization terminated successfully.,912,True,83
+1,4D-NE,2024111303,naiveRL,0,True,Optimization terminated successfully.,512,True,28
+1,4D-NE,2024111303,naiveRL,1,True,Optimization terminated successfully.,288,True,32
+2,Task2,26052303,fRL-decay,0,True,Optimization terminated successfully.,912,True,80
+2,Task2,26052303,fRL-decay,1,True,Optimization terminated successfully.,816,True,97
+2,Task2,26062501,naiveRL,0,True,Optimization terminated successfully.,240,True,85
+2,Task2,26062501,naiveRL,1,True,Optimization terminated successfully.,288,True,32
+1,3D,2024102604,naiveRL,0,False,Maximum number of iterations has been exceeded.,512,True,33
+1,3D,2024102604,naiveRL,1,True,Optimization terminated successfully.,416,True,33
+1,3D,2024102405,fRL-decay,0,True,Optimization terminated successfully.,480,False,128
+1,3D,2024102405,fRL-decay,1,True,Optimization terminated successfully.,320,True,124
+1,3D,2024103101,fRL-decay,0,False,Maximum number of iterations has been exceeded.,512,False,128
+1,3D,2024103101,fRL-decay,1,True,Optimization terminated successfully.,480,False,128
+2,Task2,26070601,fRL-decay,0,True,Optimization terminated successfully.,1872,True,97
+2,Task2,26070601,fRL-decay,1,True,Optimization terminated successfully.,1584,True,144
+1,4D-E,2025022001,fRL-decay,0,True,Optimization terminated successfully.,256,False,128
+1,4D-E,2025022001,fRL-decay,1,False,Maximum number of iterations has been exceeded.,512,True,124
+1,4D-E,2025022001,naiveRL,0,True,Optimization terminated successfully.,224,True,30
+1,4D-E,2025022001,naiveRL,1,True,Optimization terminated successfully.,192,True,27
+2,Task2,26051403,fRL-decay,0,True,Optimization terminated successfully.,1200,True,96
+2,Task2,26051403,fRL-decay,1,True,Optimization terminated successfully.,1104,True,143
+1,4D-E,2025062301,naiveRL,0,True,Optimization terminated successfully.,224,True,63
+1,4D-E,2025062301,naiveRL,1,True,Optimization terminated successfully.,288,True,32
+1,4D-E,2024102403,naiveRL,0,True,Optimization terminated successfully.,416,True,66
+1,4D-E,2024102403,naiveRL,1,False,Maximum number of iterations has been exceeded.,512,True,30
+1,4D-E,2024111102,naiveRL,0,True,Optimization terminated successfully.,192,True,58
+1,4D-E,2024111102,naiveRL,1,True,Optimization terminated successfully.,192,True,31
+1,4D-NE,2025052202,naiveRL,0,True,Optimization terminated successfully.,192,True,35
+1,4D-NE,2025052202,naiveRL,1,True,Optimization terminated successfully.,128,True,32
+1,3D,2024111102,fRL-decay,0,False,Maximum number of iterations has been exceeded.,512,True,78
+1,3D,2024111102,fRL-decay,1,False,Maximum number of iterations has been exceeded.,512,False,128
+1,4D-NE,2025052001,fRL-decay,0,True,Optimization terminated successfully.,480,False,128
+1,4D-NE,2025052001,fRL-decay,1,True,Optimization terminated successfully.,384,False,128
+2,Task2,26051101,naiveRL,0,True,Optimization terminated successfully.,192,True,87
+2,Task2,26051101,naiveRL,1,True,Optimization terminated successfully.,192,True,32
+1,4D-NE,2025031801,naiveRL,0,False,Maximum number of iterations has been exceeded.,512,True,76
+1,4D-NE,2025031801,naiveRL,1,True,Optimization terminated successfully.,384,True,62
+1,3D,2024111101,naiveRL,0,True,Optimization terminated successfully.,288,True,31
+1,3D,2024111101,naiveRL,1,True,Optimization terminated successfully.,224,True,35
+1,4D-NE,2024110301,fRL-decay,0,False,Maximum number of iterations has been exceeded.,512,True,82
+1,4D-NE,2024110301,fRL-decay,1,False,Maximum number of iterations has been exceeded.,512,False,128
+1,3D,2024111402,fRL-decay,0,False,Maximum number of iterations has been exceeded.,512,False,128
+1,3D,2024111402,fRL-decay,1,False,Maximum number of iterations has been exceeded.,512,True,117
+1,4D-NE,2025052203,naiveRL,0,False,Maximum number of iterations has been exceeded.,512,True,33
+1,4D-NE,2025052203,naiveRL,1,True,Optimization terminated successfully.,512,True,28
+2,Task2,26051301,fRL-decay,0,True,Optimization terminated successfully.,624,False,180
+2,Task2,26051301,fRL-decay,1,True,Optimization terminated successfully.,624,True,126
+1,3D,2025062101,naiveRL,0,True,Optimization terminated successfully.,448,True,32
+1,3D,2025062101,naiveRL,1,False,Maximum number of iterations has been exceeded.,512,True,64
+1,3D,2025061901,naiveRL,0,False,Maximum number of iterations has been exceeded.,512,True,65
+1,3D,2025061901,naiveRL,1,False,Maximum number of iterations has been exceeded.,512,True,78
+1,3D,2024110701,fRL-decay,0,False,Maximum number of iterations has been exceeded.,512,False,128
+1,3D,2024110701,fRL-decay,1,False,Maximum number of iterations has been exceeded.,512,True,81
+2,Task2,26062201,naiveRL,0,True,Optimization terminated successfully.,768,True,29
+2,Task2,26062201,naiveRL,1,True,Optimization terminated successfully.,816,True,29
+1,4D-E,2024103101,naiveRL,0,True,Optimization terminated successfully.,288,True,31
+1,4D-E,2024103101,naiveRL,1,False,Maximum number of iterations has been exceeded.,512,True,35
+2,Task2,26052202,naiveRL,0,True,Optimization terminated successfully.,672,True,33
+2,Task2,26052202,naiveRL,1,True,Optimization terminated successfully.,480,True,33
+1,4D-NE,2024102506,fRL-decay,0,False,Maximum number of iterations has been exceeded.,512,True,120
+1,4D-NE,2024102506,fRL-decay,1,False,Maximum number of iterations has been exceeded.,512,False,128
+2,Task2,26060302,fRL-decay,0,True,Optimization terminated successfully.,816,True,150
+2,Task2,26060302,fRL-decay,1,True,Optimization terminated successfully.,816,True,107
+1,4D-NE,2024110201,fRL-decay,0,False,Maximum number of iterations has been exceeded.,512,False,128
+1,4D-NE,2024110201,fRL-decay,1,False,Maximum number of iterations has been exceeded.,512,False,128
+2,Task2,26051501,fRL-decay,0,True,Optimization terminated successfully.,912,True,164
+2,Task2,26051501,fRL-decay,1,True,Optimization terminated successfully.,912,True,120
+1,4D-E,2024110401,naiveRL,0,True,Optimization terminated successfully.,256,True,28
+1,4D-E,2024110401,naiveRL,1,True,Optimization terminated successfully.,256,True,34
+2,Task2,26061402,fRL-decay,0,True,Optimization terminated successfully.,672,True,125
+2,Task2,26061402,fRL-decay,1,True,Optimization terminated successfully.,768,True,84
+1,4D-NE,2024102506,naiveRL,0,False,Maximum number of iterations has been exceeded.,512,True,28
+1,4D-NE,2024102506,naiveRL,1,True,Optimization terminated successfully.,448,True,59
+1,4D-E,2025061901,fRL-decay,0,False,Maximum number of iterations has been exceeded.,512,False,128
+1,4D-E,2025061901,fRL-decay,1,False,Maximum number of iterations has been exceeded.,512,False,128
+1,3D,2024103103,fRL-decay,0,False,Maximum number of iterations has been exceeded.,512,False,128
+1,3D,2024103103,fRL-decay,1,True,Optimization terminated successfully.,512,False,128
+1,4D-NE,2025061801,naiveRL,0,True,Optimization terminated successfully.,416,True,29
+1,4D-NE,2025061801,naiveRL,1,True,Optimization terminated successfully.,480,True,30
+1,4D-NE,2024103002,naiveRL,0,True,Optimization terminated successfully.,480,True,28
+1,4D-NE,2024103002,naiveRL,1,False,Maximum number of iterations has been exceeded.,512,True,64
+1,4D-E,2024102401,fRL-decay,0,False,Maximum number of iterations has been exceeded.,512,False,128
+1,4D-E,2024102401,fRL-decay,1,False,Maximum number of iterations has been exceeded.,512,False,128
+1,4D-NE,2024102701,naiveRL,0,True,Optimization terminated successfully.,480,True,32
+1,4D-NE,2024102701,naiveRL,1,True,Optimization terminated successfully.,512,True,28
+2,Task2,26050701,naiveRL,0,True,Optimization terminated successfully.,240,True,34
+2,Task2,26050701,naiveRL,1,True,Optimization terminated successfully.,192,True,31
+1,3D,2024110502,naiveRL,0,True,Optimization terminated successfully.,416,True,30
+1,3D,2024110502,naiveRL,1,True,Optimization terminated successfully.,448,True,34
+1,3D,2024103104,fRL-decay,0,True,Optimization terminated successfully.,480,False,128
+1,3D,2024103104,fRL-decay,1,False,Maximum number of iterations has been exceeded.,512,True,122
+1,3D,2025052204,naiveRL,0,True,Optimization terminated successfully.,416,True,68
+1,3D,2025052204,naiveRL,1,True,Optimization terminated successfully.,512,True,28
+1,4D-NE,2025062001,naiveRL,0,True,Optimization terminated successfully.,448,True,25
+1,4D-NE,2025062001,naiveRL,1,True,Optimization terminated successfully.,448,True,28
+2,Task2,26060403,naiveRL,0,True,Optimization terminated successfully.,240,True,147
+2,Task2,26060403,naiveRL,1,True,Optimization terminated successfully.,288,True,144
+1,3D,2024102804,naiveRL,0,True,Optimization terminated successfully.,416,True,30
+1,3D,2024102804,naiveRL,1,True,Optimization terminated successfully.,352,True,30
+2,Task2,26062701,fRL-decay,0,True,Optimization terminated successfully.,288,True,120
+2,Task2,26062701,fRL-decay,1,True,Optimization terminated successfully.,192,True,54
+2,Task2,26061102,fRL-decay,0,True,Optimization terminated successfully.,768,True,110
+2,Task2,26061102,fRL-decay,1,True,Optimization terminated successfully.,816,True,120
+1,4D-E,2025062301,fRL-decay,0,True,Optimization terminated successfully.,480,False,128
+1,4D-E,2025062301,fRL-decay,1,False,Maximum number of iterations has been exceeded.,512,False,128
+1,3D,2025051403,fRL-decay,0,False,Maximum number of iterations has been exceeded.,512,True,77
+1,3D,2025051403,fRL-decay,1,False,Maximum number of iterations has been exceeded.,512,True,86
+2,Task2,26052202,fRL-decay,0,True,Optimization terminated successfully.,1584,True,95
+2,Task2,26052202,fRL-decay,1,True,Optimization terminated successfully.,720,False,180
+1,3D,2024102604,fRL-decay,0,False,Maximum number of iterations has been exceeded.,512,True,85
+1,3D,2024102604,fRL-decay,1,False,Maximum number of iterations has been exceeded.,512,True,82
+2,Task2,26060405,fRL-decay,0,True,Optimization terminated successfully.,1008,True,136
+2,Task2,26060405,fRL-decay,1,True,Optimization terminated successfully.,768,True,121
+1,3D,2024110704,fRL-decay,0,True,Optimization terminated successfully.,480,False,128
+1,3D,2024110704,fRL-decay,1,False,Maximum number of iterations has been exceeded.,512,True,81
+1,4D-NE,2024103003,fRL-decay,0,True,Optimization terminated successfully.,256,True,75
+1,4D-NE,2024103003,fRL-decay,1,True,Optimization terminated successfully.,320,False,128
+1,3D,2024102401,naiveRL,0,True,Optimization terminated successfully.,416,True,28
+1,3D,2024102401,naiveRL,1,False,Maximum number of iterations has been exceeded.,512,True,30
+1,4D-NE,2025051701,fRL-decay,0,False,Maximum number of iterations has been exceeded.,512,False,128
+1,4D-NE,2025051701,fRL-decay,1,False,Maximum number of iterations has been exceeded.,512,False,128
+1,4D-NE,2024102301,fRL-decay,0,False,Maximum number of iterations has been exceeded.,512,False,128
+1,4D-NE,2024102301,fRL-decay,1,False,Maximum number of iterations has been exceeded.,512,False,128
+2,Task2,26061401,naiveRL,0,True,Optimization terminated successfully.,240,True,34
+2,Task2,26061401,naiveRL,1,True,Optimization terminated successfully.,192,True,63
+1,3D,2024110803,fRL-decay,0,False,Maximum number of iterations has been exceeded.,512,True,76
+1,3D,2024110803,fRL-decay,1,False,Maximum number of iterations has been exceeded.,512,True,82
+1,4D-NE,2024101803,fRL-decay,0,False,Maximum number of iterations has been exceeded.,512,True,124
+1,4D-NE,2024101803,fRL-decay,1,False,Maximum number of iterations has been exceeded.,512,False,128
+1,3D,2024103101,naiveRL,0,False,Maximum number of iterations has been exceeded.,512,True,32
+1,3D,2024103101,naiveRL,1,False,Maximum number of iterations has been exceeded.,512,True,32
+2,Task2,26052102,naiveRL,0,True,Optimization terminated successfully.,240,True,32
+2,Task2,26052102,naiveRL,1,True,Optimization terminated successfully.,192,True,66
+1,3D,2024103102,fRL-decay,0,True,Optimization terminated successfully.,224,True,106
+1,3D,2024103102,fRL-decay,1,True,Optimization terminated successfully.,224,True,121
+1,4D-E,2024110701,fRL-decay,0,False,Maximum number of iterations has been exceeded.,512,False,128
+1,4D-E,2024110701,fRL-decay,1,False,Maximum number of iterations has been exceeded.,512,False,128
+1,4D-NE,2025061701,naiveRL,0,False,Maximum number of iterations has been exceeded.,512,True,68
+1,4D-NE,2025061701,naiveRL,1,True,Optimization terminated successfully.,512,True,27
+2,Task2,26062504,fRL-decay,0,True,Optimization terminated successfully.,1344,True,78
+2,Task2,26062504,fRL-decay,1,True,Optimization terminated successfully.,1104,True,85
+2,Task2,26052001,fRL-decay,0,True,Optimization terminated successfully.,1296,True,92
+2,Task2,26052001,fRL-decay,1,True,Optimization terminated successfully.,1056,True,82
+1,3D,2025062301,fRL-decay,0,False,Maximum number of iterations has been exceeded.,512,True,79
+1,3D,2025062301,fRL-decay,1,False,Maximum number of iterations has been exceeded.,512,False,128
+1,4D-NE,2024102504,naiveRL,0,True,Optimization terminated successfully.,480,True,30
+1,4D-NE,2024102504,naiveRL,1,True,Optimization terminated successfully.,448,True,28
+1,3D,2025052304,naiveRL,0,True,Optimization terminated successfully.,416,True,33
+1,3D,2025052304,naiveRL,1,True,Optimization terminated successfully.,512,True,34
+1,4D-E,2025052304,naiveRL,0,True,Optimization terminated successfully.,448,True,33
+1,4D-E,2025052304,naiveRL,1,False,Maximum number of iterations has been exceeded.,512,True,29
+1,3D,2024102202,naiveRL,0,True,Optimization terminated successfully.,352,True,74
+1,3D,2024102202,naiveRL,1,False,Maximum number of iterations has been exceeded.,512,True,27
+1,3D,2024102802,fRL-decay,0,False,Maximum number of iterations has been exceeded.,512,False,128
+1,3D,2024102802,fRL-decay,1,True,Optimization terminated successfully.,448,True,109
+1,4D-NE,2024111301,fRL-decay,0,False,Maximum number of iterations has been exceeded.,512,True,89
+1,4D-NE,2024111301,fRL-decay,1,True,Optimization terminated successfully.,320,False,128
+1,3D,2025062102,naiveRL,0,True,Optimization terminated successfully.,160,True,48
+1,3D,2025062102,naiveRL,1,True,Optimization terminated successfully.,160,True,48
+1,3D,2024102801,fRL-decay,0,False,Maximum number of iterations has been exceeded.,512,False,128
+1,3D,2024102801,fRL-decay,1,False,Maximum number of iterations has been exceeded.,512,False,128
+1,4D-E,2024111402,fRL-decay,0,False,Maximum number of iterations has been exceeded.,512,False,128
+1,4D-E,2024111402,fRL-decay,1,False,Maximum number of iterations has been exceeded.,512,False,128
+2,Task2,26060802,naiveRL,0,True,Optimization terminated successfully.,624,True,31
+2,Task2,26060802,naiveRL,1,True,Optimization terminated successfully.,672,True,78
+1,3D,2024111401,naiveRL,0,False,Maximum number of iterations has been exceeded.,512,False,128
+1,3D,2024111401,naiveRL,1,False,Maximum number of iterations has been exceeded.,512,True,30
+2,Task2,26051502,fRL-decay,0,True,Optimization terminated successfully.,1104,True,150
+2,Task2,26051502,fRL-decay,1,True,Optimization terminated successfully.,1728,True,107
+2,Task2,26061501,fRL-decay,0,True,Optimization terminated successfully.,1152,True,103
+2,Task2,26061501,fRL-decay,1,True,Optimization terminated successfully.,1392,False,180
+1,3D,2024102803,fRL-decay,0,False,Maximum number of iterations has been exceeded.,512,True,121
+1,3D,2024102803,fRL-decay,1,False,Maximum number of iterations has been exceeded.,512,True,106
+2,Task2,26051502,naiveRL,0,True,Optimization terminated successfully.,144,True,43
+2,Task2,26051502,naiveRL,1,True,Optimization terminated successfully.,144,True,47
+1,3D,2024102605,naiveRL,0,True,Optimization terminated successfully.,224,True,36
+1,3D,2024102605,naiveRL,1,True,Optimization terminated successfully.,256,True,62
+2,Task2,26062701,naiveRL,0,True,Optimization terminated successfully.,528,True,109
+2,Task2,26062701,naiveRL,1,True,Optimization terminated successfully.,480,True,119
+1,4D-E,2024102603,naiveRL,0,True,Optimization terminated successfully.,416,True,30
+1,4D-E,2024102603,naiveRL,1,True,Optimization terminated successfully.,384,True,71
+1,3D,2024103102,naiveRL,0,True,Optimization terminated successfully.,160,True,31
+1,3D,2024103102,naiveRL,1,True,Optimization terminated successfully.,288,True,28
+1,4D-NE,2024111601,fRL-decay,0,False,Maximum number of iterations has been exceeded.,512,False,128
+1,4D-NE,2024111601,fRL-decay,1,False,Maximum number of iterations has been exceeded.,512,False,128
+1,4D-E,2025052302,fRL-decay,0,True,Optimization terminated successfully.,512,True,50
+1,4D-E,2025052302,fRL-decay,1,True,Optimization terminated successfully.,384,True,115
+1,4D-NE,2024102505,fRL-decay,0,False,Maximum number of iterations has been exceeded.,512,False,128
+1,4D-NE,2024102505,fRL-decay,1,True,Optimization terminated successfully.,480,False,128
+1,4D-E,2024111103,naiveRL,0,True,Optimization terminated successfully.,416,True,29
+1,4D-E,2024111103,naiveRL,1,True,Optimization terminated successfully.,384,True,27
+2,Task2,26060901,fRL-decay,0,True,Optimization terminated successfully.,240,True,136
+2,Task2,26060901,fRL-decay,1,True,Optimization terminated successfully.,288,True,36
+2,Task2,26051503,fRL-decay,0,True,Optimization terminated successfully.,816,False,180
+2,Task2,26051503,fRL-decay,1,True,Optimization terminated successfully.,672,True,92
+1,4D-NE,2025061801,fRL-decay,0,False,Maximum number of iterations has been exceeded.,512,True,94
+1,4D-NE,2025061801,fRL-decay,1,False,Maximum number of iterations has been exceeded.,512,False,128
+1,3D,2024111402,naiveRL,0,True,Optimization terminated successfully.,416,True,32
+1,3D,2024111402,naiveRL,1,True,Optimization terminated successfully.,512,True,29
+2,Task2,26060402,fRL-decay,0,True,Optimization terminated successfully.,912,True,94
+2,Task2,26060402,fRL-decay,1,True,Optimization terminated successfully.,816,True,128
+1,4D-NE,2024102501,fRL-decay,0,False,Maximum number of iterations has been exceeded.,512,False,128
+1,4D-NE,2024102501,fRL-decay,1,True,Optimization terminated successfully.,448,True,96
+1,3D,2025062002,naiveRL,0,True,Optimization terminated successfully.,320,True,35
+1,3D,2025062002,naiveRL,1,False,Maximum number of iterations has been exceeded.,512,True,32
+2,Task2,26051103,naiveRL,0,True,Optimization terminated successfully.,240,True,31
+2,Task2,26051103,naiveRL,1,True,Optimization terminated successfully.,240,True,34
+2,Task2,26051101,fRL-decay,0,False,Maximum number of iterations has been exceeded.,1968,True,83
+2,Task2,26051101,fRL-decay,1,True,Optimization terminated successfully.,1920,False,180

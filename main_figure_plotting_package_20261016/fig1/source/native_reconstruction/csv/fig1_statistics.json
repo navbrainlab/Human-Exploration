@@ -1,0 +1,102 @@
+{
+  "perfect_fisher": {
+    "p": 0.031850093365493055,
+    "odds_ratio": 2.449760765550239
+  },
+  "personal_best_mwu": {
+    "p": 0.020714828307657238,
+    "U": 1016.0,
+    "n_a": 51,
+    "n_b": 54
+  },
+  "perfect_phase_tests": {
+    "correction": "Holm across the two displayed comparisons",
+    "comparisons": [
+      {
+        "phases": [
+          "P1",
+          "P2"
+        ],
+        "test": "two-sided exact McNemar",
+        "n_pairs": 51,
+        "discordant_lost": 5,
+        "discordant_gained": 20,
+        "rate_difference": 0.29411764705882354,
+        "p_raw": 0.004077315330505371,
+        "p_holm": 0.008154630661010742
+      },
+      {
+        "phases": [
+          "P2",
+          "P2-only"
+        ],
+        "test": "two-sided Fisher exact",
+        "n_a": 51,
+        "n_b": 54,
+        "odds_ratio": 2.449760765550239,
+        "rate_difference": 0.22004357298474947,
+        "p_raw": 0.031850093365493055,
+        "p_holm": 0.031850093365493055
+      }
+    ]
+  },
+  "completion_phase_tests": {
+    "estimand": "Actual first-full-score round, conditional on completion",
+    "correction": "Holm across the two displayed completion-time comparisons",
+    "noncompleters": "Missing completion time; not plotted or treated as successes",
+    "displayed_counts": [
+      17,
+      32,
+      22
+    ],
+    "comparisons": [
+      {
+        "phases": [
+          "P1",
+          "P2"
+        ],
+        "test": "two-sided paired Wilcoxon among both-phase completers",
+        "n_pairs": 12,
+        "W": 27.0,
+        "median_paired_difference": 2.5,
+        "paired_difference_definition": "4D round - 3D round",
+        "p_raw": 0.38037109375,
+        "p_holm": 0.38037109375
+      },
+      {
+        "phases": [
+          "P2",
+          "P2-only"
+        ],
+        "test": "two-sided Mann\u2013Whitney among completers",
+        "n_a": 32,
+        "n_b": 22,
+        "U": 261.0,
+        "mean_difference": -3.9573863636363633,
+        "p_raw": 0.11041262409208132,
+        "p_holm": 0.22082524818416263
+      }
+    ]
+  },
+  "task2_perfect_fisher": {
+    "test": "two-sided Fisher exact",
+    "n_a": 40,
+    "n_b": 40,
+    "n_full_a": 18,
+    "n_full_b": 12,
+    "p_raw": 0.24806112140557737,
+    "odds_ratio": 1.9090909090909092,
+    "displayed": true,
+    "correction": "single exploratory comparison; no adjustment"
+  },
+  "task2_completion_mwu": {
+    "test": "two-sided Mann\u2013Whitney among completers",
+    "n_a": 18,
+    "n_b": 12,
+    "U": 82.5,
+    "p_raw": 0.28947344669587405,
+    "displayed": true,
+    "correction": "single exploratory comparison; no adjustment",
+    "estimand": "actual first score_noisy == 100 trial among completers"
+  }
+}

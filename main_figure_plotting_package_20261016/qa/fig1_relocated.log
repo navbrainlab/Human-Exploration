@@ -1,0 +1,99 @@
+{
+  "status": "PASS",
+  "spacing": {
+    "f": {
+      "status": "PASS",
+      "before": {
+        "box_to_y_spine_mm": 3.683125000000006,
+        "ylabel_to_box_mm": 8.696097222222232,
+        "xlim": [
+          -0.5,
+          2.5
+        ],
+        "box_widths_mm": [
+          4.949999999999991,
+          4.949999999999991,
+          4.950000000000001
+        ],
+        "left_spine_position": [
+          "outward",
+          5.0
+        ]
+      },
+      "after": {
+        "box_to_y_spine_mm": 3.683125000000006,
+        "ylabel_to_box_mm": 8.696097222222232,
+        "xlim": [
+          -0.5,
+          2.5
+        ],
+        "box_widths_mm": [
+          4.949999999999991,
+          4.949999999999991,
+          4.950000000000001
+        ],
+        "left_spine_position": [
+          "outward",
+          5.0
+        ]
+      },
+      "categorical_view_translation": 0.0,
+      "target_box_to_y_spine_mm": 3.5,
+      "soft_ylabel_target_mm": [
+        6,
+        12
+      ],
+      "scope": "Categorical display-only translation; data/category positions, intervals and mark widths retained"
+    },
+    "h": {
+      "status": "PASS",
+      "before": {
+        "box_to_y_spine_mm": 8.798124999999999,
+        "ylabel_to_box_mm": 13.811097222222214,
+        "xlim": [
+          -0.5,
+          1.5
+        ],
+        "box_widths_mm": [
+          4.95000000000001,
+          4.95000000000001
+        ],
+        "left_spine_position": [
+          "outward",
+          5.0
+        ]
+      },
+      "after": {
+        "box_to_y_spine_mm": 3.4999999999999933,
+        "ylabel_to_box_mm": 8.51297222222221,
+        "xlim": [
+          -0.12020609318996434,
+          1.8797939068100358
+        ],
+        "box_widths_mm": [
+          4.95000000000001,
+          4.95000000000001
+        ],
+        "left_spine_position": [
+          "outward",
+          5.0
+        ]
+      },
+      "categorical_view_translation": 0.37979390681003566,
+      "target_box_to_y_spine_mm": 3.5,
+      "soft_ylabel_target_mm": [
+        6,
+        12
+      ],
+      "scope": "Categorical display-only translation; data/category positions, intervals and mark widths retained"
+    }
+  },
+  "fonts": [
+    5.0,
+    6.0,
+    8.0
+  ]
+}
+PASS: a/b and lower results match approved sources pixel-for-pixel; original source files unchanged
+/tmp/mini_dg_independent_fig1_h7c2jln1/fig1/output/fig1.png
+PASS: identical pixels; original project reads denied

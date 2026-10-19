@@ -1,0 +1,8 @@
+task,baseline_rank,comparison_rank,n_units,n_nonzero_differences,statistic,p_raw,p_fdr_bh,alternative,zero_method,correction_family,stars
+1,1,2,105,87,2041,0.29533378772192376,0.29533378772192376,greater,wilcox,Task 1: 3 later ranks vs rank 1,
+1,1,3,105,83,2488,0.00035824650630578793,0.00053736975945868192,greater,wilcox,Task 1: 3 later ranks vs rank 1,***
+1,1,4,105,94,4000,1.3113998294860378e-11,3.9341994884581135e-11,greater,wilcox,Task 1: 3 later ranks vs rank 1,***
+2,1,2,80,62,1255.5,0.02511552486267201,0.033487366483562681,greater,wilcox,Task 2: 4 later ranks vs rank 1,*
+2,1,3,80,60,1036.5,0.18544577676879742,0.18544577676879742,greater,wilcox,Task 2: 4 later ranks vs rank 1,
+2,1,4,80,66,1849.5,9.9712684935072547e-07,1.9942536987014509e-06,greater,wilcox,Task 2: 4 later ranks vs rank 1,***
+2,1,5,80,76,2802,2.0612569165618101e-12,8.2450276662472404e-12,greater,wilcox,Task 2: 4 later ranks vs rank 1,***

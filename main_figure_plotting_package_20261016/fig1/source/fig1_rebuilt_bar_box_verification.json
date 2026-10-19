@@ -1,0 +1,109 @@
+{
+  "status": "PASS_source_backed_compact_fig1",
+  "dpi": [
+    599.9988,
+    599.9988
+  ],
+  "pixel_dimensions": [
+    4251,
+    4410
+  ],
+  "nominal_font_sizes_pt": [
+    5.0,
+    6.0,
+    8.0
+  ],
+  "visible_text_count": 49,
+  "text_inside_canvas": true,
+  "measured_width_mm": 180.0,
+  "panel_alignment": "PASS",
+  "sha256": "78a124dd0d36466d17bfa9392a4a667b3d0c628007a2b6089d41896158c32266",
+  "public_panel_map": {
+    "a": [
+      "a",
+      "c"
+    ],
+    "b": [
+      "b",
+      "d"
+    ],
+    "c": [
+      "e",
+      "g"
+    ],
+    "e": [
+      "h",
+      "j"
+    ]
+  },
+  "display_panel_map": {
+    "a": "a",
+    "b": "b",
+    "c": "a",
+    "d": "b",
+    "e": "c",
+    "f": "c",
+    "g": "e",
+    "h": "e"
+  },
+  "public_panel_letters": [
+    "a",
+    "b",
+    "c",
+    "e"
+  ],
+  "nominal_canvas_mm": [
+    180,
+    186.696
+  ],
+  "actual_canvas_mm": [
+    180,
+    186.696
+  ],
+  "source_typography": "PPTX typography is preserved by user request; native 5/6/8-pt audit covers only surrounding figure and quantitative panels",
+  "source_font_substitutions": {
+    "Calibri": "Carlito (metric compatible)",
+    "Calibri Light": "Carlito",
+    "Arial": "Liberation Sans (metric compatible)",
+    "-apple-system": "Carlito"
+  },
+  "source_data_and_tests_unchanged": true,
+  "plot_input_hashes": {
+    "fig2_task1_human_random_statistics.csv": "546c237ad626db93ecd60d8bf06e3d2ea57050d6f0dc3e16dc2a3fc7fc21cab9",
+    "fig1_task1_learning_extended.csv": "f0f625238ba4a9434e3c74d6c85fffc76542f87808e30c1d15dfb473e87e8569",
+    "fig1_task1_fullscore_time.csv": "24820a20895bfa7b22f3b1f3cf391fdaa2b04aca6c625f17e90f7879bb810993",
+    "fig1_learning_display.csv": "44aaa8080dbafd93bee615c612fa703597e487da9d5e02d702a80e9d30024a61",
+    "fig1_statistics.json": "dadcb43ad7f8427209e72f0f382d7c161250359111f2f10c05b346e36b09d8da",
+    "fig2_task1_human_random_subject.csv": "3e1ea4d4a32fcda06b7853b182b9150eecb706ba88c8bfcee22a8b0d84d4f9b5",
+    "fig1_task1_learning_clusters.csv": "8e323a6190ae4f61c925c7691d4f3b64d66295a28b1d8abb878f2bbe3a2f42cd",
+    "fig1_risk_differences.csv": "3200fcb77c3ddfa0b7179c7cbfad8675f91fd838821936078e5ccda2b5c4b985",
+    "fig1_task2_observed_scores.csv": "b0db295f830bd65451a8236bbc73dbebf8414e0c03d92b451b6014b67f673b07",
+    "fig1_reference_personal_best.csv": "b4068728965e20ea9c03d92034250fc357f0d1a9048445eacabcfc049254efcb",
+    "fig2a_clusters.csv": "fcc14ff7fed9e85cd58fe1fb6bef721bb3b76feba85ef5c5be4c4a1f28fdce32",
+    "fig1_task1_learning.csv": "d2e0abca7ac0fa171f486fed380152e3c9abca78879b691e8939358b2f0ac222",
+    "fig2_task1_enrichment_trials.csv": "733c24bed4becaed33880d628223fc2befb37cb5a7c0a97350e98bf57b3e7d71",
+    "fig1_all_cohort_statistics.json": "000f3173dbb79f25038dd4e3c7fdf6300a5e2bc3a0f898f62fabd874517e266d",
+    "fig1_task2_learning_extended.csv": "b60240f6f9b8d3dffa736962afd31449fbff859db850faa7cd0d95492e8dafcb",
+    "fig2_task2_term_frequency_statistics.csv": "a5d5f5bc3e50893c57be8e700064f28261b755f501347e99ee9903a42bf5d40e",
+    "fig1_task1_learning_trial_statistics.csv": "3ea2f04cc20a52395f627bc594f85ee451ac01e71d83a4fcf61aea58aea7e933",
+    "fig1_task1_personal_best.csv": "928cdce84e31784563d90dbe0bcaf42294086852c685cd5b91c0c8b45fe09a73",
+    "fig2_mode_enrichment_24bins.csv": "4ac06da262ca6d345f8dd1f1ee42978b8a76678c7ec43429aaecbe690515d71f",
+    "fig2_task2_term_frequency_subject.csv": "102ae09f5e566d10c64774f6c5077245733bd700bbba78aa029f0394c8b50272",
+    "fig2_task2_enrichment_available79.csv": "d52c5787c9b538a0b0a7cfac7ba54eecd5c3dcbfc4224e6ee4d20832744265e1",
+    "fig2_task1_identification_available_surveys.csv": "bf68cda8311a67d542e329c32034c6f553371de215a9ae5946f0459664669687",
+    "fig1_reference_panel_statistics.json": "2c514eb1b0ebd04be040576e1bad05e3076062d8e0dc73f91c185dc3dc0c101f",
+    "fig1_all_cohort_cumulative.csv": "a4f47f2845dcfc5b42d9494cea46f6c05572221bebb085329ae689d8b7bd527f",
+    "fig1_task2_fullscore_time.csv": "28795aa3437b31143af568a2f34f6133c3d2eb1f08a10466d6523d49d91cd830",
+    "fig2_task2_balanced_correct_evidence.csv": "6647e74a8393c0bbd7e9fa0a461a96d4ef43065813920df9128c9d797554c9cd",
+    "fig1_task2_learning.csv": "56968f2fb5591d1942fded6ddb6118497ec69588d8c7324893a4de64a0ab2079",
+    "fig1_task1_perfect_rate.csv": "16e5adac52e7b6f2e178f97073c21caacfa74ab0d2b75c2b1ca3f155ddaf8ead",
+    "fig1_task2_perfect_rate.csv": "b073ed7a83496d917124e43f1577d6bb1319f2ff506f345e9cdefdc4f525fe9e"
+  },
+  "renderer_sha256": "014667943614ed7fab56267d70536c5dee9538c97364cdb4341edb4710715ba4",
+  "raster_ink_margins_mm": [
+    3.0903333333333336,
+    3.0889999999999986
+  ],
+  "current_caption": "captions_and_methods_compact.md",
+  "moved_panels": "supplementary_figure/figS1_fullscore_rates_20261013.png"
+}

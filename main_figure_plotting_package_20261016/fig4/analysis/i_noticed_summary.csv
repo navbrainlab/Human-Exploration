@@ -1,0 +1,9 @@
+condition,phase,stage_order,n,mean,sem
+Observation,Post-observation,1,40,6.6,0.478780502141398
+DIS-blocked,Post-observation,1,40,7.225,0.3660031875999625
+Observation,Early,2,40,9.15,0.6938835341571084
+DIS-blocked,Early,2,40,10.3,0.7409280389986325
+Observation,Mid,3,40,7.125,0.6804857804803105
+DIS-blocked,Mid,3,40,10.225,0.7824087560466468
+Observation,Late,4,40,5.575,0.7406576253227384
+DIS-blocked,Late,4,40,9.3,0.9891721480417545

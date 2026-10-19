@@ -1,0 +1,116 @@
+{
+  "status": "PASS",
+  "text_collisions": [],
+  "labels_outside_boxes": [],
+  "arrow_text_intersections": [],
+  "bar_text_intersections": [],
+  "nominal_font_sizes_pt": [
+    7.0
+  ],
+  "physical_size_mm": [
+    180.0,
+    49.0
+  ],
+  "illustrative_weights_are_data": false,
+  "illustrative_weight_vector": [
+    0.72,
+    0.18,
+    0.1
+  ],
+  "illustrative_action_order": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "illustrative_action_is_dis": true,
+  "illustrative_stimulus_order": [
+    0,
+    4,
+    8,
+    5,
+    6,
+    1,
+    7,
+    2,
+    3
+  ],
+  "illustrative_stimulus_is_dis": false,
+  "action_row_color_counts": [
+    1,
+    1,
+    1
+  ],
+  "stimulus_row_color_counts": [
+    3,
+    3,
+    3
+  ],
+  "illustrative_tile_features": [
+    [
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      2,
+      2
+    ],
+    [
+      1,
+      3,
+      3
+    ],
+    [
+      2,
+      1,
+      2
+    ],
+    [
+      2,
+      2,
+      3
+    ],
+    [
+      2,
+      3,
+      1
+    ],
+    [
+      3,
+      1,
+      3
+    ],
+    [
+      3,
+      2,
+      1
+    ],
+    [
+      3,
+      3,
+      2
+    ]
+  ],
+  "illustrative_action_is_data": false,
+  "layout_reference": "source_packages/20261015_before_editorial_layout: restored boxes and arrows",
+  "attention_inputs": [
+    "dimension uncertainty vector U_t",
+    "attention temperature tau_t"
+  ],
+  "displayed_weight_relation": "w_d,t proportional to softmax_d(U_vector,t / tau_t)",
+  "schematic_omissions": [
+    "previous-attention inertia",
+    "uniform dimension lapse",
+    "Gumbel dimension shocks"
+  ],
+  "priority_temperature": 1.0,
+  "model_changed": false,
+  "scope": "Native Matplotlib geometry and PNG visual QA; no PDF audit."
+}

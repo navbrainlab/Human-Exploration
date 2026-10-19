@@ -1,0 +1,11 @@
+{
+  "python": "3.11.5 (main, Sep 11 2023, 13:54:46) [GCC 11.2.0]",
+  "platform": "Linux-6.8.0-138-generic-x86_64-with-glibc2.35",
+  "packages": {
+    "matplotlib": "3.7.2",
+    "numpy": "1.24.3",
+    "pandas": "2.0.3",
+    "Pillow": "9.4.0",
+    "scipy": "1.11.1"
+  }
+}
