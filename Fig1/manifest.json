@@ -1,0 +1,37 @@
+{
+  "figure": 1,
+  "title_zh": "多维学习任务",
+  "reference_png": {
+    "file": "fig1_multidimensional_tasks.png",
+    "file_sha256": "f86e431b63e98e7963fa3ce08f07c57aaa24261b9d53a0ecd5b122be917bac22",
+    "rgb_sha256": "6529c164b2e3a8a527756bc6bbf13aea858f693d882b2be196a4f5692efa7bb4",
+    "size_px": [
+      4960,
+      7015
+    ],
+    "mode": "RGB",
+    "dpi": 600
+  },
+  "panels": {
+    "a": "current Fig.1a",
+    "b": "current Fig.1b",
+    "c": "current Fig.1c, Task 1 learning curves: EXP+ 3D, EXP+ 4D and EXP− 4D",
+    "d": "current Fig.1e, Task 2 learning curves: Obs and NObs"
+  },
+  "input_sha256": {
+    "data/fonts/Arial.TTF": "35c0f3559d8db569e36c31095b8a60d441643d95f59139de40e23fada819b833",
+    "data/fonts/Arialbd.TTF": "4044aa6b5bebbc36980206b45b0aaaaa5681552a48bcadb41746d5d1d71fd7b4",
+    "data/fonts/Arialbi.TTF": "2f371cd9d96b3ac544519d85c16dc43ceacdfcea35090ee8ddf3ec5857c50328",
+    "data/fonts/Ariali.TTF": "70ade233175a6a6675e4501461af9326e6f78b1ffdf787ca0da5ab0fc8c9cfd6",
+    "data/main_figure/fig1_feedback_only_shifted_titles_20261104/native/bottom.pkl.gz": "24beafcf82a193aeb9e3e9b1d062b87000aee7449aa663ea6f359bc7a4bd9904",
+    "data/main_figure/fig1_feedback_only_shifted_titles_20261104/native/top.pkl.gz": "9cef62f2bc20ad821cebdb7b1743d047f8fb889611f588a7a24b5d07aa09da99",
+    "data/main_figure/fig1_feedback_only_shifted_titles_20261104/rendering.json": "d9cc5a5ddddb65f90cb1e32c8a05c19c1f180846b685c6f6a563886535e2bac4"
+  },
+  "original_layout_sha256": {
+    "main_figure/fig1_feedback_only_shifted_titles_20261104/rendering.json": "d9cc5a5ddddb65f90cb1e32c8a05c19c1f180846b685c6f6a563886535e2bac4"
+  },
+  "original_code_sha256": {
+    "narrative_layout_20261113/code/render_figures.py": "88205299d91918c85d8433b334391d57b9b7493830688f272344e91938c531ba",
+    "support/code/render_current.py": "1b7ea718a7039c29fd625ce2128447bc04ddc1173afc397631d74ea3180cfea0"
+  }
+}

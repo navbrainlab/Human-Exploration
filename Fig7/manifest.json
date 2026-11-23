@@ -1,0 +1,51 @@
+{
+  "figure": 7,
+  "title_zh": "计算模型与参考应用",
+  "reference_png": {
+    "file": "fig7_computational_account_and_reference_application.png",
+    "file_sha256": "096677888bd4712a2b16b8cf77e6de7609467b1af6aafd589ae3566033804d7f",
+    "rgb_sha256": "a6873c82095b308a1b6f6ab7eab2c86cb9fea6943c7d1a86823b9891ccecf219",
+    "size_px": [
+      4960,
+      7015
+    ],
+    "mode": "RGB",
+    "dpi": 600
+  },
+  "panels": {
+    "a": "current Fig.6a",
+    "b": "current Fig.6b",
+    "c": "current Fig.6c",
+    "d": "current Fig.6d",
+    "e": "current Fig.6e",
+    "f": "current Fig.6f",
+    "g": "current Fig.6g",
+    "h": "current Fig.6h",
+    "i": "current Fig.6i"
+  },
+  "input_sha256": {
+    "data/fonts/Arial.TTF": "35c0f3559d8db569e36c31095b8a60d441643d95f59139de40e23fada819b833",
+    "data/fonts/Arialbd.TTF": "4044aa6b5bebbc36980206b45b0aaaaa5681552a48bcadb41746d5d1d71fd7b4",
+    "data/fonts/Arialbi.TTF": "2f371cd9d96b3ac544519d85c16dc43ceacdfcea35090ee8ddf3ec5857c50328",
+    "data/fonts/Ariali.TTF": "70ade233175a6a6675e4501461af9326e6f78b1ffdf787ca0da5ab0fc8c9cfd6",
+    "data/main_figure/fig6_f_from_functional_backgrounds_20261103/native/a.pkl.gz": "05dff95a4dd020ef3ed0163493f218d532cf7e9658e699146b827258e3dd6fe1",
+    "data/main_figure/fig6_f_from_functional_backgrounds_20261103/native/b.pkl.gz": "01183218fa384154fb27efb2ce9066dc68b328a6f3f95494c9e1536d490abe59",
+    "data/main_figure/fig6_f_from_functional_backgrounds_20261103/native/c.pkl.gz": "f2d1645c916f93fc632d26d8185e4479491069eae1c673b595c376786bf3d93e",
+    "data/main_figure/fig6_f_from_functional_backgrounds_20261103/native/d.pkl.gz": "365561b7039525205e335d79a78cb4932659a5bb446c049f6344a2f71d7fa71f",
+    "data/main_figure/fig6_f_from_functional_backgrounds_20261103/native/e.pkl.gz": "5a17ef936d07dcc07a724163d6bb00a9951b6bdbac634d1bc898091d073fbc2c",
+    "data/main_figure/fig6_f_from_functional_backgrounds_20261103/native/f.pkl.gz": "8273f36eaef1c23b9bea5aa533cdff3fbcd20a155649bbdfee4dc29c0fe3f8b8",
+    "data/main_figure/fig6_f_from_functional_backgrounds_20261103/native/g1.pkl.gz": "1a453f01bafc8d3782407bab63d1ca787414bf1e517759dec4faa4bd1dd152db",
+    "data/main_figure/fig6_f_from_functional_backgrounds_20261103/native/g2.pkl.gz": "eef20b075149ee4e2c4e833330bd2077cfa3fee4f86a0a1ae6ae494e79ff80fd",
+    "data/main_figure/fig6_f_from_functional_backgrounds_20261103/native/gshared.pkl.gz": "432802fe7a4e8505844d0abddf3a9c269248b5ed7908eef745fc9249f6435cf5",
+    "data/main_figure/fig6_f_from_functional_backgrounds_20261103/native/h.pkl.gz": "09d22d3c78e52133ce63fb1d72f423071d428de6fb72d74a07714709104a67c0",
+    "data/main_figure/fig6_f_from_functional_backgrounds_20261103/native/i.pkl.gz": "bde4d2de4f9d15e2abd745d4b91be2d6f47e7d9acccf35b0c1f65c6acbbf255a",
+    "data/main_figure/fig6_f_from_functional_backgrounds_20261103/rendering.json": "b29ce8cea25581a332246c4345b472e597086891c4f042d3c36540ab76c9dbde"
+  },
+  "original_layout_sha256": {
+    "main_figure/fig6_f_from_functional_backgrounds_20261103/rendering.json": "b29ce8cea25581a332246c4345b472e597086891c4f042d3c36540ab76c9dbde"
+  },
+  "original_code_sha256": {
+    "narrative_layout_20261113/code/render_figures.py": "88205299d91918c85d8433b334391d57b9b7493830688f272344e91938c531ba",
+    "support/code/render_current.py": "1b7ea718a7039c29fd625ce2128447bc04ddc1173afc397631d74ea3180cfea0"
+  }
+}

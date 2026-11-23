@@ -1,0 +1,29 @@
+{
+  "schema": 1,
+  "source_kind": "frozen native Matplotlib plotting objects; original data and layout",
+  "output_name": "fig2_F2S2_mean_sem_20261101.png",
+  "output_sha256": "06ba6b3fab883b4f459ef80c5ce6693f6b558f7df5323f5c422cb5b79fceb76e",
+  "shape_pixels": [
+    7015,
+    4960,
+    3
+  ],
+  "dpi": 600,
+  "mode": "RGB",
+  "parts": {
+    "full": {
+      "path": "native/full.pkl.gz",
+      "sha256": "9d4e2f2d089b8881788e75dbe314c5741fac36d76546eb050119699bd7fa40f8"
+    }
+  },
+  "composition": [
+    {
+      "part": "full",
+      "offset_xy_pixels": [
+        354,
+        1500
+      ]
+    }
+  ],
+  "migration_manifest": "Data mining/vis_result/results/DGEM/fig/publication/discarded_figures/migration_20261109_publication_cleanup/manifest.json"
+}

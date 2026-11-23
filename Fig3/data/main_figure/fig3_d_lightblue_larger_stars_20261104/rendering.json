@@ -1,0 +1,51 @@
+{
+  "schema": 1,
+  "source_kind": "frozen native Matplotlib plotting objects; original data and layout",
+  "output_name": "fig3_d_lightblue_larger_stars_20261104.png",
+  "output_sha256": "605bef8734e369c8b98bb29b54186c45fde102991f82a9ac75001907770ce900",
+  "shape_pixels": [
+    7015,
+    4960,
+    3
+  ],
+  "dpi": 600,
+  "mode": "RGB",
+  "parts": {
+    "abc__full": {
+      "path": "native/abc__full.pkl.gz",
+      "sha256": "fc86a0b0aeaaccd078d617c3c153e880eafe39f70e939cc6744522877dd06246"
+    },
+    "def__full": {
+      "path": "native/def__full.pkl.gz",
+      "sha256": "e833d6c71ee26054d91d3fe3a37a19e42bea8326a9c557c18a11385d5907cc79"
+    },
+    "g__full": {
+      "path": "native/g__full.pkl.gz",
+      "sha256": "4779700d7aa0f660c7fb56c69aae87bc2316ff5737858ac894ffbf2686fa8ea4"
+    }
+  },
+  "composition": [
+    {
+      "part": "abc__full",
+      "offset_xy_pixels": [
+        354,
+        1500
+      ]
+    },
+    {
+      "part": "def__full",
+      "offset_xy_pixels": [
+        354,
+        1462
+      ]
+    },
+    {
+      "part": "g__full",
+      "offset_xy_pixels": [
+        425,
+        1441
+      ]
+    }
+  ],
+  "migration_manifest": "Data mining/vis_result/results/DGEM/fig/publication/discarded_figures/migration_20261109_publication_cleanup/manifest.json"
+}

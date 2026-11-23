@@ -1,0 +1,41 @@
+{
+  "figure": 3,
+  "title_zh": "探索特性",
+  "reference_png": {
+    "file": "fig3_exploratory_properties.png",
+    "file_sha256": "bdccc76b8e96b0b16266b49469b9805809f09f9ef3f5f61632b897898501aaaa",
+    "rgb_sha256": "e0f93060a7395cc23ce73590dc1c334f2d78057996b64b068c8eb7057fc496a7",
+    "size_px": [
+      4960,
+      7015
+    ],
+    "mode": "RGB",
+    "dpi": 600
+  },
+  "panels": {
+    "a": "current Fig.3a",
+    "b": "current Fig.3b",
+    "c": "current Fig.3c",
+    "d": "current Fig.3d",
+    "e": "current Fig.3e",
+    "f": "current Fig.3f",
+    "g": "current Fig.3g"
+  },
+  "input_sha256": {
+    "data/fonts/Arial.TTF": "35c0f3559d8db569e36c31095b8a60d441643d95f59139de40e23fada819b833",
+    "data/fonts/Arialbd.TTF": "4044aa6b5bebbc36980206b45b0aaaaa5681552a48bcadb41746d5d1d71fd7b4",
+    "data/fonts/Arialbi.TTF": "2f371cd9d96b3ac544519d85c16dc43ceacdfcea35090ee8ddf3ec5857c50328",
+    "data/fonts/Ariali.TTF": "70ade233175a6a6675e4501461af9326e6f78b1ffdf787ca0da5ab0fc8c9cfd6",
+    "data/main_figure/fig3_d_lightblue_larger_stars_20261104/native/abc__full.pkl.gz": "fc86a0b0aeaaccd078d617c3c153e880eafe39f70e939cc6744522877dd06246",
+    "data/main_figure/fig3_d_lightblue_larger_stars_20261104/native/def__full.pkl.gz": "e833d6c71ee26054d91d3fe3a37a19e42bea8326a9c557c18a11385d5907cc79",
+    "data/main_figure/fig3_d_lightblue_larger_stars_20261104/native/g__full.pkl.gz": "4779700d7aa0f660c7fb56c69aae87bc2316ff5737858ac894ffbf2686fa8ea4",
+    "data/main_figure/fig3_d_lightblue_larger_stars_20261104/rendering.json": "105d24ed7f4980320105c4a0f7bd18d85be9c863a51bb11fbc9877fb347a5337"
+  },
+  "original_layout_sha256": {
+    "main_figure/fig3_d_lightblue_larger_stars_20261104/rendering.json": "105d24ed7f4980320105c4a0f7bd18d85be9c863a51bb11fbc9877fb347a5337"
+  },
+  "original_code_sha256": {
+    "narrative_layout_20261113/code/render_figures.py": "88205299d91918c85d8433b334391d57b9b7493830688f272344e91938c531ba",
+    "support/code/render_current.py": "1b7ea718a7039c29fd625ce2128447bc04ddc1173afc397631d74ea3180cfea0"
+  }
+}

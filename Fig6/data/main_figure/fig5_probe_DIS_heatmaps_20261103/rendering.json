@@ -1,0 +1,76 @@
+{
+  "schema": 1,
+  "source_kind": "frozen native Matplotlib plotting objects; original data and layout",
+  "output_name": "fig5_probe_DIS_heatmaps_20261103.png",
+  "output_sha256": "00e33d2b84fb80e216bf6b00430f9be8f1d3fd62b4b7117988bad9f90255d697",
+  "shape_pixels": [
+    7015,
+    4960,
+    3
+  ],
+  "dpi": 600,
+  "mode": "RGB",
+  "parts": {
+    "hij": {
+      "path": "native/hij.pkl.gz",
+      "sha256": "11b09f20e52f8e7a9a984b46a4928f55d9cf423bded25292468c1b4264fbdf5e"
+    },
+    "hi_heatmaps": {
+      "path": "native/hi_heatmaps.pkl.gz",
+      "sha256": "b3a267992958d0a0410b343760a6a43ede185601a910e77ade5713700508e812"
+    },
+    "modality_icon_overlay": {
+      "path": "native/modality_icon_overlay.pkl.gz",
+      "sha256": "c29e07cd9b75c0967a4e05fb59e2f1112c89b99ed26b2069d5bdeea6f4fa344b"
+    }
+  },
+  "composition": [
+    {
+      "part": "hij",
+      "crop_xy_pixels": [
+        2897,
+        3033,
+        3868,
+        3863
+      ],
+      "offset_xy_pixels": [
+        3039,
+        4798
+      ],
+      "panel": "i"
+    },
+    {
+      "part": "hi_heatmaps",
+      "offset_xy_pixels": [
+        0,
+        -35
+      ],
+      "role": "Joint panel h: Obs/NObs heatmaps; no cell numerals; right count scale"
+    },
+    {
+      "part": "modality_icon_overlay",
+      "offset_xy_pixels": [
+        0,
+        0
+      ],
+      "role": "Upper a–d icons/letters, exact original coordinates",
+      "crop_y_pixels": [
+        0,
+        3635
+      ]
+    },
+    {
+      "part": "modality_icon_overlay",
+      "offset_xy_pixels": [
+        0,
+        3600
+      ],
+      "role": "e and lower-row icons/letters, rigid upward translation",
+      "crop_y_pixels": [
+        3635,
+        7015
+      ]
+    }
+  ],
+  "migration_manifest": "Data mining/vis_result/results/DGEM/fig/publication/discarded_figures/migration_20261109_publication_cleanup/manifest.json"
+}

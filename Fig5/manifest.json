@@ -1,0 +1,39 @@
+{
+  "figure": 5,
+  "title_zh": "DIS 与学习表现",
+  "reference_png": {
+    "file": "fig5_sampling_and_learning.png",
+    "file_sha256": "69c76c98f1e915bc380da4ac863ffbcbc70e5edc067a037988efe16876415f7c",
+    "rgb_sha256": "67ffd5cb9571763090b8d277811cd60bc20a602f7c0267deec038a238923e576",
+    "size_px": [
+      4960,
+      7015
+    ],
+    "mode": "RGB",
+    "dpi": 600
+  },
+  "panels": {
+    "a": "current Fig.4a",
+    "b": "current Fig.4b",
+    "c": "current Fig.4g",
+    "d": "current Fig.4h",
+    "e": "current Fig.4i"
+  },
+  "input_sha256": {
+    "data/fonts/Arial.TTF": "35c0f3559d8db569e36c31095b8a60d441643d95f59139de40e23fada819b833",
+    "data/fonts/Arialbd.TTF": "4044aa6b5bebbc36980206b45b0aaaaa5681552a48bcadb41746d5d1d71fd7b4",
+    "data/fonts/Arialbi.TTF": "2f371cd9d96b3ac544519d85c16dc43ceacdfcea35090ee8ddf3ec5857c50328",
+    "data/fonts/Ariali.TTF": "70ade233175a6a6675e4501461af9326e6f78b1ffdf787ca0da5ab0fc8c9cfd6",
+    "data/main_figure/fig4_nhb_convergent_transfer_compact_rows_20261027/native/ab__upper.pkl.gz": "6226919626c6dcc1e6d1cf2656aaea96143061a99540078db6529314457ebd66",
+    "data/main_figure/fig4_nhb_convergent_transfer_compact_rows_20261027/native/g__g.pkl.gz": "e8b8694394b602eeaad4163b06e0c3009e83b5b96f0a77390d9fdb6162ea0422",
+    "data/main_figure/fig4_nhb_convergent_transfer_compact_rows_20261027/native/hi__hi.pkl.gz": "2b5189a4965ac6431c38d816ec274810af3eef1207e10f662bb05b10c1373d4b",
+    "data/main_figure/fig4_nhb_convergent_transfer_compact_rows_20261027/rendering.json": "4801d25dcdd26a929ba0d3a9b9effd3a854ffbf5c5a3f71236ca07da225797f7"
+  },
+  "original_layout_sha256": {
+    "main_figure/fig4_nhb_convergent_transfer_compact_rows_20261027/rendering.json": "e36f739ccfff67df3011ff14688cdf369878728820d7caec12f2364eb3657139"
+  },
+  "original_code_sha256": {
+    "narrative_layout_20261113/code/render_figures.py": "88205299d91918c85d8433b334391d57b9b7493830688f272344e91938c531ba",
+    "support/code/render_current.py": "1b7ea718a7039c29fd625ce2128447bc04ddc1173afc397631d74ea3180cfea0"
+  }
+}

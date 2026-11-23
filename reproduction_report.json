@@ -1,0 +1,133 @@
+{
+  "status": "PASS",
+  "checks": {
+    "zip_extracted": true,
+    "linux_x86_64_conda_lock_tested_in_new_environment": true,
+    "one_extracted_figure_directory_visible_per_render": true,
+    "home_project_and_local_font_directories_hidden": true,
+    "network_disabled_during_renders": true,
+    "all_figures_pixel_exact": true,
+    "all_figures_png_bytes_exact": true
+  },
+  "figures": {
+    "Fig1": {
+      "figure": 1,
+      "file": "fig1_multidimensional_tasks.png",
+      "file_sha256": "f86e431b63e98e7963fa3ce08f07c57aaa24261b9d53a0ecd5b122be917bac22",
+      "rgb_sha256": "6529c164b2e3a8a527756bc6bbf13aea858f693d882b2be196a4f5692efa7bb4",
+      "mode": "RGB",
+      "size_px": [
+        4960,
+        7015
+      ],
+      "dpi": [
+        599.9988,
+        599.9988
+      ],
+      "pixels_match_reference": true,
+      "file_matches_reference": true
+    },
+    "Fig2": {
+      "figure": 2,
+      "file": "fig2_dimensional_sampling_pattern.png",
+      "file_sha256": "3df57686f4c64201ccf1ca275da3383136dc5b808292e15d96ef5ee12373ec67",
+      "rgb_sha256": "930d530782e072041708703343e866f5253129b1d11f866f091003fbd5d20e95",
+      "mode": "RGB",
+      "size_px": [
+        4960,
+        7015
+      ],
+      "dpi": [
+        599.9988,
+        599.9988
+      ],
+      "pixels_match_reference": true,
+      "file_matches_reference": true
+    },
+    "Fig3": {
+      "figure": 3,
+      "file": "fig3_exploratory_properties.png",
+      "file_sha256": "bdccc76b8e96b0b16266b49469b9805809f09f9ef3f5f61632b897898501aaaa",
+      "rgb_sha256": "e0f93060a7395cc23ce73590dc1c334f2d78057996b64b068c8eb7057fc496a7",
+      "mode": "RGB",
+      "size_px": [
+        4960,
+        7015
+      ],
+      "dpi": [
+        599.9988,
+        599.9988
+      ],
+      "pixels_match_reference": true,
+      "file_matches_reference": true
+    },
+    "Fig4": {
+      "figure": 4,
+      "file": "fig4_visual_sampling_and_dimension_awareness.png",
+      "file_sha256": "f7da999f551068165e1e810de862c8f825191d597591e4ff91ca33be53655925",
+      "rgb_sha256": "009957e357e785dc81e6aa4161e174edf98e7d6e417a2553cf5d1b3e914c95cd",
+      "mode": "RGB",
+      "size_px": [
+        4960,
+        7015
+      ],
+      "dpi": [
+        599.9988,
+        599.9988
+      ],
+      "pixels_match_reference": true,
+      "file_matches_reference": true
+    },
+    "Fig5": {
+      "figure": 5,
+      "file": "fig5_sampling_and_learning.png",
+      "file_sha256": "69c76c98f1e915bc380da4ac863ffbcbc70e5edc067a037988efe16876415f7c",
+      "rgb_sha256": "67ffd5cb9571763090b8d277811cd60bc20a602f7c0267deec038a238923e576",
+      "mode": "RGB",
+      "size_px": [
+        4960,
+        7015
+      ],
+      "dpi": [
+        599.9988,
+        599.9988
+      ],
+      "pixels_match_reference": true,
+      "file_matches_reference": true
+    },
+    "Fig6": {
+      "figure": 6,
+      "file": "fig6_experience_and_sampling.png",
+      "file_sha256": "efb063a0bc6a9e1f7d58c162317e015540e5b19ef5bd5a245fdfcb79e7a6bba6",
+      "rgb_sha256": "68f0d0097da2a96a7a3541ccfe61e3a75966b9e5d0e9b293aa6ce8844e46fb8e",
+      "mode": "RGB",
+      "size_px": [
+        4960,
+        7015
+      ],
+      "dpi": [
+        599.9988,
+        599.9988
+      ],
+      "pixels_match_reference": true,
+      "file_matches_reference": true
+    },
+    "Fig7": {
+      "figure": 7,
+      "file": "fig7_computational_account_and_reference_application.png",
+      "file_sha256": "096677888bd4712a2b16b8cf77e6de7609467b1af6aafd589ae3566033804d7f",
+      "rgb_sha256": "a6873c82095b308a1b6f6ab7eab2c86cb9fea6943c7d1a86823b9891ccecf219",
+      "mode": "RGB",
+      "size_px": [
+        4960,
+        7015
+      ],
+      "dpi": [
+        599.9988,
+        599.9988
+      ],
+      "pixels_match_reference": true,
+      "file_matches_reference": true
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "figure": 4,
+  "title_zh": "视觉采样与维度识别",
+  "reference_png": {
+    "file": "fig4_visual_sampling_and_dimension_awareness.png",
+    "file_sha256": "f7da999f551068165e1e810de862c8f825191d597591e4ff91ca33be53655925",
+    "rgb_sha256": "009957e357e785dc81e6aa4161e174edf98e7d6e417a2553cf5d1b3e914c95cd",
+    "size_px": [
+      4960,
+      7015
+    ],
+    "mode": "RGB",
+    "dpi": 600
+  },
+  "panels": {
+    "a": "current Fig.5c",
+    "b": "current Fig.5d",
+    "c": "current Fig.5e",
+    "d": "current Fig.5f",
+    "e": "current Fig.5g",
+    "f": "current Fig.5a",
+    "g": "current Fig.5b"
+  },
+  "input_sha256": {
+    "data/fonts/Arial.TTF": "35c0f3559d8db569e36c31095b8a60d441643d95f59139de40e23fada819b833",
+    "data/fonts/Arialbd.TTF": "4044aa6b5bebbc36980206b45b0aaaaa5681552a48bcadb41746d5d1d71fd7b4",
+    "data/fonts/Arialbi.TTF": "2f371cd9d96b3ac544519d85c16dc43ceacdfcea35090ee8ddf3ec5857c50328",
+    "data/fonts/Ariali.TTF": "70ade233175a6a6675e4501461af9326e6f78b1ffdf787ca0da5ab0fc8c9cfd6",
+    "data/main_figure/fig5_probe_DIS_heatmaps_20261103/native/a.pkl.gz": "b18a64fbc8bdf04ad2fd0297d58b25f0828aea56703ba859579761e6f9fa5d09",
+    "data/main_figure/fig5_probe_DIS_heatmaps_20261103/native/b_base.pkl.gz": "628b9da4dd65986ef0fe1bc3bf4f121f3a9c3dd82a51c807dc0ec3d8e70630db",
+    "data/main_figure/fig5_probe_DIS_heatmaps_20261103/native/b_clouds.pkl.gz": "e666b995fa4d1692d3e35fab9fd1c9fadf9184e49b2a09c98c68eb08edf3e88d",
+    "data/main_figure/fig5_probe_DIS_heatmaps_20261103/native/b_stats.pkl.gz": "9fc2968506c1fa33910a64b82305f56a1837cd20174a3e39df13714bcec80a41",
+    "data/main_figure/fig5_probe_DIS_heatmaps_20261103/native/c.pkl.gz": "3e94720d1ed55ffa9da7aee246e8c5e61d5d12c61c3acaa2e240c23abc9cae55",
+    "data/main_figure/fig5_probe_DIS_heatmaps_20261103/native/d.pkl.gz": "4723cbd46a5f278c746b32fe88c2c203f1b94d21caf42028a99c7d4cd950d34a",
+    "data/main_figure/fig5_probe_DIS_heatmaps_20261103/native/efg.pkl.gz": "bb239ac979e91470323f228c36fe642f728e36c1a0af7857d44a68d54a9faa1a",
+    "data/main_figure/fig5_probe_DIS_heatmaps_20261103/native/hi_heatmaps.pkl.gz": "b3a267992958d0a0410b343760a6a43ede185601a910e77ade5713700508e812",
+    "data/main_figure/fig5_probe_DIS_heatmaps_20261103/native/hij.pkl.gz": "11b09f20e52f8e7a9a984b46a4928f55d9cf423bded25292468c1b4264fbdf5e",
+    "data/main_figure/fig5_probe_DIS_heatmaps_20261103/native/modality_icon_overlay.pkl.gz": "c29e07cd9b75c0967a4e05fb59e2f1112c89b99ed26b2069d5bdeea6f4fa344b",
+    "data/main_figure/fig5_probe_DIS_heatmaps_20261103/rendering.json": "bbaaa44d49ca1f7839a71bcb16120cc18285ec7fedbbec4b3570b3a8de6bc407"
+  },
+  "original_layout_sha256": {
+    "main_figure/fig5_probe_DIS_heatmaps_20261103/rendering.json": "bbaaa44d49ca1f7839a71bcb16120cc18285ec7fedbbec4b3570b3a8de6bc407"
+  },
+  "original_code_sha256": {
+    "narrative_layout_20261113/code/render_figures.py": "88205299d91918c85d8433b334391d57b9b7493830688f272344e91938c531ba",
+    "support/code/render_current.py": "1b7ea718a7039c29fd625ce2128447bc04ddc1173afc397631d74ea3180cfea0"
+  }
+}

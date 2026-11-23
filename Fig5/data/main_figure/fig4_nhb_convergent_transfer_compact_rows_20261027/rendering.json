@@ -1,0 +1,51 @@
+{
+  "schema": 1,
+  "source_kind": "frozen native Matplotlib plotting objects; original data and layout",
+  "output_name": "fig4_nhb_convergent_transfer_compact_rows_20261027.png",
+  "output_sha256": "dca07baaaaad143bb15ad6afe6970d6cc01757fdc1468ee9609c511e485eaf3e",
+  "shape_pixels": [
+    7015,
+    4960,
+    3
+  ],
+  "dpi": 600,
+  "mode": "RGB",
+  "parts": {
+    "ab__upper": {
+      "path": "native/ab__upper.pkl.gz",
+      "sha256": "6226919626c6dcc1e6d1cf2656aaea96143061a99540078db6529314457ebd66"
+    },
+    "g__g": {
+      "path": "native/g__g.pkl.gz",
+      "sha256": "e8b8694394b602eeaad4163b06e0c3009e83b5b96f0a77390d9fdb6162ea0422"
+    },
+    "hi__hi": {
+      "path": "native/hi__hi.pkl.gz",
+      "sha256": "2b5189a4965ac6431c38d816ec274810af3eef1207e10f662bb05b10c1373d4b"
+    }
+  },
+  "composition": [
+    {
+      "part": "ab__upper",
+      "offset_xy_pixels": [
+        354,
+        1548
+      ]
+    },
+    {
+      "part": "g__g",
+      "offset_xy_pixels": [
+        496,
+        1335
+      ]
+    },
+    {
+      "part": "hi__hi",
+      "offset_xy_pixels": [
+        354,
+        1665
+      ]
+    }
+  ],
+  "migration_manifest": "Data mining/vis_result/results/DGEM/fig/publication/discarded_figures/migration_20261109_publication_cleanup/manifest.json"
+}

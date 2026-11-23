@@ -1,0 +1,39 @@
+{
+  "figure": 2,
+  "title_zh": "维度隔离式采样",
+  "reference_png": {
+    "file": "fig2_dimensional_sampling_pattern.png",
+    "file_sha256": "3df57686f4c64201ccf1ca275da3383136dc5b808292e15d96ef5ee12373ec67",
+    "rgb_sha256": "930d530782e072041708703343e866f5253129b1d11f866f091003fbd5d20e95",
+    "size_px": [
+      4960,
+      7015
+    ],
+    "mode": "RGB",
+    "dpi": 600
+  },
+  "panels": {
+    "a": "current Fig.2a",
+    "b": "current Fig.2b",
+    "c": "current Fig.2c",
+    "d": "current Fig.2d",
+    "e": "current Fig.2e",
+    "f": "current Fig.2f",
+    "g": "current Fig.2g"
+  },
+  "input_sha256": {
+    "data/fonts/Arial.TTF": "35c0f3559d8db569e36c31095b8a60d441643d95f59139de40e23fada819b833",
+    "data/fonts/Arialbd.TTF": "4044aa6b5bebbc36980206b45b0aaaaa5681552a48bcadb41746d5d1d71fd7b4",
+    "data/fonts/Arialbi.TTF": "2f371cd9d96b3ac544519d85c16dc43ceacdfcea35090ee8ddf3ec5857c50328",
+    "data/fonts/Ariali.TTF": "70ade233175a6a6675e4501461af9326e6f78b1ffdf787ca0da5ab0fc8c9cfd6",
+    "data/main_figure/fig2_F2S2_mean_sem_20261101/native/full.pkl.gz": "9d4e2f2d089b8881788e75dbe314c5741fac36d76546eb050119699bd7fa40f8",
+    "data/main_figure/fig2_F2S2_mean_sem_20261101/rendering.json": "91a065035edd3854d85d27e03832233ed188006f9a42bb290c6c193fb47f7fe4"
+  },
+  "original_layout_sha256": {
+    "main_figure/fig2_F2S2_mean_sem_20261101/rendering.json": "91a065035edd3854d85d27e03832233ed188006f9a42bb290c6c193fb47f7fe4"
+  },
+  "original_code_sha256": {
+    "narrative_layout_20261113/code/render_figures.py": "88205299d91918c85d8433b334391d57b9b7493830688f272344e91938c531ba",
+    "support/code/render_current.py": "1b7ea718a7039c29fd625ce2128447bc04ddc1173afc397631d74ea3180cfea0"
+  }
+}

@@ -1,0 +1,188 @@
+{
+  "schema": 1,
+  "source_kind": "frozen native Matplotlib plotting objects; original data and layout",
+  "output_name": "fig5_probe_DIS_heatmaps_20261103.png",
+  "output_sha256": "00e33d2b84fb80e216bf6b00430f9be8f1d3fd62b4b7117988bad9f90255d697",
+  "shape_pixels": [
+    7015,
+    4960,
+    3
+  ],
+  "dpi": 600,
+  "mode": "RGB",
+  "parts": {
+    "a": {
+      "path": "native/a.pkl.gz",
+      "sha256": "b18a64fbc8bdf04ad2fd0297d58b25f0828aea56703ba859579761e6f9fa5d09"
+    },
+    "c": {
+      "path": "native/c.pkl.gz",
+      "sha256": "3e94720d1ed55ffa9da7aee246e8c5e61d5d12c61c3acaa2e240c23abc9cae55"
+    },
+    "d": {
+      "path": "native/d.pkl.gz",
+      "sha256": "4723cbd46a5f278c746b32fe88c2c203f1b94d21caf42028a99c7d4cd950d34a"
+    },
+    "efg": {
+      "path": "native/efg.pkl.gz",
+      "sha256": "bb239ac979e91470323f228c36fe642f728e36c1a0af7857d44a68d54a9faa1a"
+    },
+    "hij": {
+      "path": "native/hij.pkl.gz",
+      "sha256": "11b09f20e52f8e7a9a984b46a4928f55d9cf423bded25292468c1b4264fbdf5e"
+    },
+    "b_base": {
+      "path": "native/b_base.pkl.gz",
+      "sha256": "628b9da4dd65986ef0fe1bc3bf4f121f3a9c3dd82a51c807dc0ec3d8e70630db"
+    },
+    "b_clouds": {
+      "path": "native/b_clouds.pkl.gz",
+      "sha256": "e666b995fa4d1692d3e35fab9fd1c9fadf9184e49b2a09c98c68eb08edf3e88d"
+    },
+    "b_stats": {
+      "path": "native/b_stats.pkl.gz",
+      "sha256": "9fc2968506c1fa33910a64b82305f56a1837cd20174a3e39df13714bcec80a41"
+    },
+    "modality_icon_overlay": {
+      "path": "native/modality_icon_overlay.pkl.gz",
+      "sha256": "c29e07cd9b75c0967a4e05fb59e2f1112c89b99ed26b2069d5bdeea6f4fa344b"
+    },
+    "hi_heatmaps": {
+      "path": "native/hi_heatmaps.pkl.gz",
+      "sha256": "b3a267992958d0a0410b343760a6a43ede185601a910e77ade5713700508e812"
+    }
+  },
+  "composition": [
+    {
+      "part": "a",
+      "offset_xy_pixels": [
+        -70,
+        1510
+      ]
+    },
+    {
+      "part": "b_base",
+      "offset_xy_pixels": [
+        1606,
+        1490
+      ]
+    },
+    {
+      "part": "b_clouds",
+      "offset_xy_pixels": [
+        1528,
+        1490
+      ]
+    },
+    {
+      "part": "c",
+      "offset_xy_pixels": [
+        362,
+        1515
+      ]
+    },
+    {
+      "part": "d",
+      "offset_xy_pixels": [
+        341,
+        1515
+      ]
+    },
+    {
+      "part": "b_stats",
+      "offset_xy_pixels": [
+        1606,
+        1490
+      ]
+    },
+    {
+      "part": "efg",
+      "crop_xy_pixels": [
+        471,
+        2156,
+        1491,
+        2974
+      ],
+      "offset_xy_pixels": [
+        915,
+        3748
+      ],
+      "panel": "e"
+    },
+    {
+      "part": "efg",
+      "crop_xy_pixels": [
+        1636,
+        2156,
+        2696,
+        2974
+      ],
+      "offset_xy_pixels": [
+        1929,
+        3748
+      ],
+      "panel": "f"
+    },
+    {
+      "part": "efg",
+      "crop_xy_pixels": [
+        2936,
+        2134,
+        3901,
+        2974
+      ],
+      "offset_xy_pixels": [
+        3078,
+        3726
+      ],
+      "panel": "g"
+    },
+    {
+      "part": "hij",
+      "crop_xy_pixels": [
+        2897,
+        3033,
+        3868,
+        3863
+      ],
+      "offset_xy_pixels": [
+        3039,
+        4798
+      ],
+      "panel": "i"
+    },
+    {
+      "part": "hi_heatmaps",
+      "offset_xy_pixels": [
+        0,
+        -35
+      ],
+      "role": "Joint panel h: Obs/NObs heatmaps; no cell numerals; right count scale"
+    },
+    {
+      "part": "modality_icon_overlay",
+      "offset_xy_pixels": [
+        0,
+        0
+      ],
+      "role": "Upper a–d icons/letters, exact original coordinates",
+      "crop_y_pixels": [
+        0,
+        3635
+      ]
+    },
+    {
+      "part": "modality_icon_overlay",
+      "offset_xy_pixels": [
+        0,
+        3600
+      ],
+      "role": "e and lower-row icons/letters, rigid upward translation",
+      "crop_y_pixels": [
+        3635,
+        7015
+      ]
+    }
+  ],
+  "migration_manifest": "Data mining/vis_result/results/DGEM/fig/publication/discarded_figures/migration_20261109_publication_cleanup/manifest.json"
+}

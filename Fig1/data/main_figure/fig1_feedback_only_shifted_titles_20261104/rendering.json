@@ -1,0 +1,40 @@
+{
+  "schema": 1,
+  "source_kind": "frozen native Matplotlib plotting objects; original data and layout",
+  "output_name": "fig1_feedback_only_shifted_titles_20261104.png",
+  "output_sha256": "43b43e31884850a4a71def5762c3c8114ab23d64897c2f766b5d72ec2ada6869",
+  "shape_pixels": [
+    7015,
+    4960,
+    3
+  ],
+  "dpi": 600,
+  "mode": "RGB",
+  "parts": {
+    "top": {
+      "path": "native/top.pkl.gz",
+      "sha256": "9cef62f2bc20ad821cebdb7b1743d047f8fb889611f588a7a24b5d07aa09da99"
+    },
+    "bottom": {
+      "path": "native/bottom.pkl.gz",
+      "sha256": "24beafcf82a193aeb9e3e9b1d062b87000aee7449aa663ea6f359bc7a4bd9904"
+    }
+  },
+  "composition": [
+    {
+      "part": "top",
+      "offset_xy_pixels": [
+        354,
+        2010
+      ]
+    },
+    {
+      "part": "bottom",
+      "offset_xy_pixels": [
+        354,
+        3620
+      ]
+    }
+  ],
+  "migration_manifest": "Data mining/vis_result/results/DGEM/fig/publication/discarded_figures/migration_20261109_publication_cleanup/manifest.json"
+}
